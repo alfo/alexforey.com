@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+	
+	<!-- 
+
+		   _   _           ___                 
+		  /_\ | |_____ __ | __|__ _ _ ___ _  _ 
+		 / _ \| / -_) \ / | _/ _ \ '_/ -_) || |
+		/_/ \_\_\___/_\_\ |_|\___/_| \___|\_, |
+		                                  |__/ 
+
+	-->
+
+	<html>
+
+		<head>
+
+			<title>Alex Forey's Website</title>
+
+			<meta name="description" content="The Website of a 15 year old interested in filmmaking, photography, the web, coding, technical theatre and making things.">
+ 			<meta name="author" content="Alex Forey">
+
+			<link rel="stylesheet" type="text/css" href="/css/style.css">
+			<link rel="shortcut icon" href="http://28.media.tumblr.com/avatar_6187ac9a2b35_16.png">
+
+			<script src="/js/libs.js"></script>
+			<script src="/js/app.js"></script>
+
+		</head>
+
+		<body>
+
+			<section class="header fullwidth">
+				<header class="container">
+					<nav>
+						<ul>
+							<li><a href="http://alexforey.com/portfolio">Portfolio</a></li>
+							<li><a href="http://newfangled.me/">Blog</a></li>
+							<li id="home"><a href="http://alexforey.com/">Alex Forey</a></li>
+							<li><a href="http://photos.alexforey.com">Photos</a></li>
+							<li><a href="http://alexforey.com/about">About</a></li>
+						</ul>
+					</nav>
+					<div class="clear"></div>
+				</header>
+			</section>
+			
+			<section class="fullwidth dark">
+				<div class="container">
+					
+					<div class="heading black">
+						<h1>Photos</h1>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Begin Tumblr -->
+			
+			<section class="fullwidth photos">
+				<div class="container">
+					
+					{block:Posts}
+					
+						{block:Photo}
+						
+							<div class="photo">
+							
+								<div class="photo-header">
+									<h2>{TimeAgo}</h2>
+								</div>
+								
+								<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}">
+								
+								{block:Caption}
+									<p class="caption">{Caption}</p>
+								{/block:Caption}
+							
+								{block:Exif}
+									<div class="exif">
+			                            <ul>
+			                                {block:Camera}
+			                                    <li>Camera: {Camera}</li>
+			                                {/block:Camera}
+			                                {block:Aperture}
+			                                    <li>Aperture: {Aperture}</li>
+			                                {/block:Aperture}
+			                                {block:Exposure}
+			                                    <li>Exposure: {Exposure}</li>
+			                                {/block:Exposure}
+			                                {block:FocalLength}
+			                                    <li>Focal Length: {FocalLength}</li>
+			                                {/block:FocalLength}
+			                            </ul>
+									</div>
+		                        {/block:Exif}
+							
+							</div>
+						
+						{/block:Photo}
+						
+					{/block:Posts}
+			
+				</div>
+			</section>
+			
+			<section class="fullwidth dark">
+				<div class="container">
+					{block:Pagination}
+						<div class="pagination">
+							{block:PreviousPage}
+								<a href="{PreviousPage}" id="previous">Previous Page</a>
+							{/block:PreviousPage}
+							<h2>View More</h2>
+							{block:NextPage}
+								<a href="{NextPage}" id="next">Next Page</a>
+							{/block:NextPage}
+						</div>
+						<div class="clear"></div>
+					{/block:Pagination}
+				</div>
+			</section>
+			
+			<!-- End Tumblr -->
+			
+			<section  class="fullwidth dark-grey flat footer inset">
+				<div class="container">
+					<footer>
+						<div class="info">
+							<p><span>Designed by Alex Forey with Coda 2, Powered by Tumblr</span></p>
+							<p>&copy; Alex Forey 2011 - <?php echo date('Y'); ?></p>
+						</div>
+					</footer>
+				</div>
+			</section>
+
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-28573924-1']);
+			_gaq.push(['_setDomainName', 'alexforey.com']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+		
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</body>
+</html>

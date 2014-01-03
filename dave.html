@@ -1,0 +1,39 @@
+<style>
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+	body {
+		background: url(http://fc01.deviantart.net/fs70/i/2011/095/d/d/hal_9000_by__kol-d1bahp7.png);
+		background-size: cover;
+		background-position: center center;
+	}
+	
+	h1, h2 {
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		margin-top: 60px;
+		color: white;
+	}
+	
+	h2 {
+		width: 100%;
+		position: fixed;
+		bottom: 20px;
+	}
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="dave.js"></script>
+<script>
+
+	document.addEventListener('DOMContentLoaded',function(){
+		speak("I'm sorry Dave. I'm afraid I can't do that. This content is not licensed for educational purposes", {
+			amplitude: 100,
+			wordgap: 1,
+			pitch: 50,
+			speed: 125 });
+	});
+
+</script>
+
+<h1>I'm sorry Dave, I'm afraid I can't do that</h1>
+<h2>This content is not licensed for educational purposes</h2>
+
+<div id="audio"></div>
