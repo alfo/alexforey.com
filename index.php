@@ -1,6 +1,6 @@
 <?php include 'design/h.php'; ?>
 
-<section class="fullwidth dark" id="front-feature">
+<section class="fullwidth dark flushbottom">
 	<div class="container">
 	
 		<div class="heading">
@@ -8,7 +8,17 @@
 				<small>Getting Excited and Making Things since 1997</small>
 			</h1>
 		</div>
-		
+	</div>
+</section>
+<section class="fullwidth flushbottom red netawards">
+	<div class="container">
+		<div class="netawards">
+			<p>I've been nominated for a Net Award! It'd make my day if you <a href="https://thenetawards.com/vote/talent/alex-forey/">voted for me</a>.</p>
+		</div>
+	</div>
+</section>
+<section class="fullwidth dark" id="front-feature">
+	<div class="container">
 		<div class="featured-project video fitvid">
 			<iframe src="http://player.vimeo.com/video/83308624?title=0&amp;byline=0&amp;portrait=0&amp;color=da594c" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
@@ -90,6 +100,8 @@
 <section class="fullwidth red info">
 	<div class="container">
 		<p>I'm interested in making websites. In fact the one you're looking at now was made by me, with only Coda 2 for the code and Photoshop for the images and sprites.</p>
+		<p>I'm a collector of things. I keep <a href="http://watched.alexforey.com">a log</a> of all the films I've watched, I use <a href="http://www.last.fm/user/alexforey">Last FM</a> to keep track of my favourite music, and I collect and save interesting articles and videos into my <a href="https://markpond.com/u/alex">Markpond account</a>, most of which are saved to disk in case the original goes offline.</p>
+		<p>I'm also a creator of things. I love photography, and currently have around 1,200 photos on my <a href="http://www.flickr.com/photos/alexforey">Flickr account</a> and 7000 more in my Lightroom archive. I make films, which all go on my <a href="https://vimeo.com/alexforey/videos/all/sort:date">Vimeo page</a>. In my spare time I also contribute to open-source projects and put up my own source code on <a href="https://github.com/alfo">GitHub</a>.
 		<p>I like the idea of things integrating with each other, and this is one of my main uses of the internet. I use <a href="http://ifttt.com">If This Then That</a> a lot to help me achieve this. Here's how just a little bit of my internet works: I take photos using Instagram or Flickr, depending on their privacy policies and my mood at any given time. Those are then sent to Flickr automatically, and every photo on my Flickr ends up on my Tumblr-run photos.alexforey.com. But that's only the tip of the iceberg. My GitHub account <a href="https:/twitter.com/alex_commits">tweets</a>, and my Pocket articles are auto-saved into my <a href="https://markpond.com/u/alex">Markpond account</a> when I've finished reading them.</p> 
 		<p>If you're interested in how this site works, then keep reading. All the files are hosted on my own (shared) server, but the subdomain photos.alexforey.com is hosted with Tumblr, with a custom designed theme to work with the CSS files on my server. My CSS is actually SASS, which allows me to use variables for colours and fonts in my stylesheet, and nesting that means I can write more precise styles more quickly, to keep everything organised.</p>
 	</div>

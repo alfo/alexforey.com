@@ -74,9 +74,12 @@ p {
   font-smoothing: antialiased; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  border-bottom: 1px dashed #fffffa;
+  color: #fffffa; }
   a:hover {
-    color: #42c1d5; }
+    color: #fffffa;
+    border-bottom: none; }
 
 hr {
   display: block;
@@ -177,7 +180,8 @@ header nav {
     .fullwidth.red p {
       color: #fffffa; }
       .fullwidth.red p a {
-        color: #393939; }
+        border-bottom: 1px dashed #fffffa;
+        color: #fffffa; }
   .fullwidth.info p {
     margin-bottom: 20px; }
     .fullwidth.info p:last-child {
@@ -307,6 +311,11 @@ footer .info {
     margin: 0px 0px 10px 0px; }
     footer .info p span {
       color: #fffffa; }
+
+section.netawards {
+  padding: 25px 0;
+  text-align: center;
+  margin-top: -25px; }
 
 /* Portfolio */
 .portfolio ul {

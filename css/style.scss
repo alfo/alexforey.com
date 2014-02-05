@@ -107,9 +107,8 @@ p {
 
 a {
 	text-decoration: none;
-	&:hover {
-		color: $hoverhighlight;
-	}
+	border-bottom: 1px dashed $backgroundColor;
+	color: $backgroundColor;
 }
 
 hr {
@@ -260,7 +259,8 @@ hr {
 				color: $backgroundColor;
 				
 				a {
-					color: $darkColor;
+					border-bottom: 1px dashed $backgroundColor;
+					color: $backgroundColor;
 				}
 			}
 		}
@@ -471,6 +471,12 @@ hr {
 			}
 			
 		}
+	}
+	
+	section.netawards {
+			padding: 25px 0;
+			text-align: center;
+			margin-top: -25px;
 	}
 	
 	/* Portfolio */
