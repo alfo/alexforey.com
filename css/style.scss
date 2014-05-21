@@ -95,6 +95,8 @@ h4 {
 	line-height: 25px;
 }
 
+a { text-decoration: none;}
+
 p {
 	color: $textColor;
 	line-height: 24px;
@@ -103,13 +105,14 @@ p {
 	-ms-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	
+	a {
+		text-decoration: none;
+		border-bottom: 1px dashed $darkColor;
+		color: $darkColor;
+	}
 }
 
-a {
-	text-decoration: none;
-	border-bottom: 1px dashed $backgroundColor;
-	color: $backgroundColor;
-}
 
 hr {
 	display: block;
@@ -158,6 +161,11 @@ hr {
 	}
 	
 	header {
+	
+		a {
+			border-bottom: none;
+		}
+		
 		nav {
 			display: block;
 			float: left;
@@ -255,10 +263,12 @@ hr {
 			background: url(/img/bg.png) repeat top left $highlight;
 			color: $backgroundColor;
 			
+			
 			p {
 				color: $backgroundColor;
 				
 				a {
+					text-decoration: none;
 					border-bottom: 1px dashed $backgroundColor;
 					color: $backgroundColor;
 				}

@@ -64,6 +64,9 @@ h4 {
   font-size: 20px;
   line-height: 25px; }
 
+a {
+  text-decoration: none; }
+
 p {
   color: #838383;
   line-height: 24px;
@@ -72,14 +75,10 @@ p {
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased; }
-
-a {
-  text-decoration: none;
-  border-bottom: 1px dashed #fffffa;
-  color: #fffffa; }
-  a:hover {
-    color: #fffffa;
-    border-bottom: none; }
+  p a {
+    text-decoration: none;
+    border-bottom: 1px dashed #393939;
+    color: #393939; }
 
 hr {
   display: block;
@@ -116,6 +115,8 @@ hr {
 .header.fullwidth {
   padding: 0; }
 
+header a {
+  border-bottom: none; }
 header nav {
   display: block;
   float: left;
@@ -180,6 +181,7 @@ header nav {
     .fullwidth.red p {
       color: #fffffa; }
       .fullwidth.red p a {
+        text-decoration: none;
         border-bottom: 1px dashed #fffffa;
         color: #fffffa; }
   .fullwidth.info p {

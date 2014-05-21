@@ -1,6 +1,6 @@
 <?php include 'design/h.php'; ?>
 
-<section class="fullwidth dark flushbottom">
+<section class="fullwidth dark flushbottom" id="front-feature">>
 	<div class="container">
 	
 		<div class="heading">
@@ -8,17 +8,7 @@
 				<small>Getting Excited and Making Things since 1997</small>
 			</h1>
 		</div>
-	</div>
-</section>
-<section class="fullwidth flushbottom red netawards">
-	<div class="container">
-		<div class="netawards">
-			<p>I've been nominated for a Net Award! It'd make my day if you <a href="https://thenetawards.com/vote/talent/alex-forey/">voted for me</a>.</p>
-		</div>
-	</div>
-</section>
-<section class="fullwidth dark" id="front-feature">
-	<div class="container">
+
 		<div class="featured-project video fitvid">
 			<iframe src="http://player.vimeo.com/video/83308624?title=0&amp;byline=0&amp;portrait=0&amp;color=da594c" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
