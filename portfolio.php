@@ -24,13 +24,13 @@
 	<div class="container">
 		<div class="portfolio-categories">
 			<ul>
-				<li><a href="#" data-filter="web">Websites</a></li>
-				<li><a href="#" data-filter="littleprinter">Little Printer</a></li>
-				<li><a href="#" data-filter="commercial">Commercial</a></li>
-				<li><a href="#" data-filter="timelapse">Timelapse</a></li>
-				<li><a href="#" data-filter="short">Shorts</a></li>
-				<li><a href="#" data-filter="techtheatre">Theatre</a></li>
-				<li><a href="#" data-filter="diy">DIY</a></li>
+			
+				<li><a href="#" data-filter="video">Video</a>
+				<li><a href="#" data-filter="hardware">Hardware</a>
+				<li><a href="#" data-filter="code">Code</a>
+				<li><a href="#" data-filter="web">Websites</a>
+				<li><a href="#" data-filter="theatre">Theatre</a>
+
 			</ul>
 			
 			<hr class="double" />
@@ -38,7 +38,7 @@
 		
 		<div class="porfolio-grid">
 		
-			<div class="project web littleprinter">
+			<div class="project code">
 				<a class="image" href="http://remote.bergcloud.com/publications/347">
 					<img src="/img/portfolio/no-context.jpg">
 					<div class="overlay"></div>
@@ -47,7 +47,7 @@
 				<p>For some comic relief, and having just bought a Little Printer, I decided that it would be fun to make a publication that took a top post from <a href="http://www.reddit.com/r/nocontext">/r/nocontext</a> every day. Source on <a href="https://github.com/alfo/NoContext">GitHub</a>.</p>
 			</div>
 		
-			<div class="project web littleprinter">
+			<div class="project code">
 				<a class="image" href="http://little-commits.alfo.im/">
 					<img src="/img/portfolio/little-commits.jpg">
 					<div class="overlay"></div>
@@ -56,7 +56,7 @@
 				<p>I made a Little Printer publication that allows you to subscribe to a print-out that arrives every time someone pushes to one of your repositories. Source on <a href="https://github.com/alfo/littlecommits">GitHub</a>.
 			</div>
 		
-			<div class="project web">
+			<div class="project web code">
 				<div class="image">
 					<img src="/img/portfolio/firefly-maps.jpg">
 				</div>
@@ -64,7 +64,7 @@
 				<p>I worked with Firefly on an internal project to create a system that allowed their team to create dynamic maps of specific subsets of their clients. Useful for planning trips to their schools and giving a visual overview of their clients.</p>
 			</div>
 			
-			<div class="project short">
+			<div class="project video">
 				<a class="image" href="https://vimeo.com/73328773">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/zermatt.jpg">
@@ -73,7 +73,7 @@
 				<p>I made a short film about my holiday in Zermatt including some of my first attempts at astrotimelapse and some Steadicam work.</p>
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<a class="image" href="https://vimeo.com/articheck/tour">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/articheck-tour.jpg">
@@ -82,7 +82,7 @@
 				<p>I edited a screenshot tour of the Articheck app, and placed it on a 3D model iPhone with music and titles.</p>
 			</div>
 			
-			<div class="project web commercial">
+			<div class="project web code">
 				<a class="image" href="https://www.outdooradvertisingdirectory.com">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/odad.jpg">
@@ -91,7 +91,7 @@
 				<p>I developed the back end and designed the front end of The Outdoor Advertising Directory, a database of real adverts with a payment system powered by Stripe.</p>
 			</div>
 			
-			<div class="project web littleprinter">
+			<div class="project web code">
 				<a href="http://fireflysolutions.co.uk/blog/the-firefly-little-printer-publication" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/firefly-lp.jpg">
@@ -100,7 +100,7 @@
 				<p>After seeing what I'd done with the Little Printer, Firefly asked me to make one for their task system, meaning you can get your homework (set through their system online) printed out for you after you get home from school every day.</p>
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<div class="image">
 					<img src="/img/portfolio/sps-summer.jpg">
 				</div>
@@ -108,7 +108,7 @@
 				<p>I filmed and produced DVDs for St. Paul's School's three summer events - Junior and Senior Prize-giving and the Leavers' Ceremony, at a total of 69 DVDs.</p>
 			</div>
 			
-			<div class="project short">
+			<div class="project video">
 				<a class="image" href="https://vimeo.com/69827193">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/fencing.jpg">
@@ -117,7 +117,7 @@
 				<p>I DP'd and edited this advert for my school's fencing club.</p>
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<a href="http://vimeo.com/65402120" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/fruush.jpg">
@@ -126,7 +126,7 @@
 				<p>I directed, shot, edited and produced an advert for Fruush, a Young Enterprise product.</p>
 			</div>
 		
-			<div class="project timelapse">
+			<div class="project video">
 				<a href="https://vimeo.com/61025267" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/berg-hack.jpg">
@@ -135,7 +135,7 @@
 				<p>I attended BERG's second hack day, and took a timelapse of it along the way.</p>
 			</div>
 		
-			<div class="project commercial timelapse">
+			<div class="project video">
 				<a href="http://www.tedxsps.com/#!videos/c24jv" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/tedxsps.jpg">
@@ -144,7 +144,7 @@
 				<p>I manned the primary camera for the filming of the TEDxSPS events that took part in my school. I also made a <a href="https://vimeo.com/59755662">timelapse</a> of the set-up.</p>
 			</div>
 		
-			<div class="project short">
+			<div class="project video">
 				<a href="http://vimeo.com/cinematicmob/perception" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/perception.jpg">
@@ -154,7 +154,7 @@
 			</div>
 		
 			
-			<div class="project short timelapse techtheatre">
+			<div class="project video theatre">
 				<a href="http://vimeo.com/55469257" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/clubdrama2012.jpg">
@@ -163,7 +163,7 @@
 				<p>The same as last year, except this time I headed up the video. We used two 600Ds (mine and <a href="http://amosjackson.com">Amos'</a>) and we edited it on my laptop over the afternoon. I lit the studio with some ARRIs and we used the school's FS100 to shoot the soundbites.</p>
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<a href="http://www.thishappened.org/events/london-13" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/thishappened2.png">
@@ -172,7 +172,7 @@
 				<p>I also filmed the talks for This Happened #13, with help from <a href="http://amosjackson.com">Amos Jackson</a>, this time using three cameras - two 600Ds and on XH A1.</p>
 			</div>
 			
-			<div class="project web littleprinter">
+			<div class="project video">
 				<a href="http://little.alexforey.com/onthisday.php" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/onthisday.jpg">
@@ -181,7 +181,7 @@
 				<p>After making a Little Printer Publication for Markpond, I couldn't stop myself making another. The biggest thing that seemed to be missing from the lineup was an "On This Day"-style publication, and the next thing I knew it had over 300 subscribers.</p>
 			</div>
 			
-			<div class="project web littleprinter">
+			<div class="project web code">
 				<a href="http://markpond.com" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/markpond.jpg">
@@ -198,7 +198,7 @@
 				<p>I did a week of internship at <a href="http://fireflysolutions.co.uk">Firefly Solutions</a>, testing out their iPad app and writing documentation for their API.</p>
 			</div>
 			
-			<div class="project diy">
+			<div class="project hardware">
 				<a href="http://newfangled.me/diy-home-server" class="image">
 					<div class="overlay"></div>
 					<img src="http://newfangled.me/images/diy-server-3.jpg">
@@ -207,7 +207,7 @@
 				<p>I built a small home web, FTP and media server in a few hours using an old broken HP Media Centre desktop from 2004.</p>
 			</div>
 			
-			<div class="project short bts">
+			<div class="project video">
 				<a href="http://vimeo.com/42799084" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/sps-leavers.jpg">
@@ -216,7 +216,7 @@
 				<p>Although I wasn't in the class that was leaving, I helped to make this commemorative video. I also made a full-length behind-the-scenes video of it.</p>
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<a href="http://www.thishappened.org/events/london-12" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/thishappened1.jpg">
@@ -225,7 +225,7 @@
 				<p>I filmed the talks for This Happened #12, with help from <a href="http://amosjackson.com">Amos Jackson</a>, for <a href="http://designswarm.com">Alexandra Deschamps-Sonsino</a>.</p>
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<a href="http://www.youtube.com/watch?v=54XnHmr_DUY" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/flavourz.png">
@@ -234,7 +234,7 @@
 				<p>I was the director of photography. It's very cheesy, I know. But at least the footage was decent. <a href='http://flavourzpencils.com' target='_blank'>Their site</a>.</p>
 			</div>
 			
-			<div class="project timelapse">
+			<div class="project video">
 				<a href="http://vimeo.com/alexforey/tfl" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/tfl.jpg">
@@ -243,7 +243,7 @@
 				<p>This was the big one really - I spent over a month shooting and editing it. Shot in and around the centre of London and edited in Premiere Pro.</p>
 			</div>
 			
-			<div class="project timelapse">
+			<div class="project video">
 				<a href="http://vimeo.com/alexforey/clouds" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/clouds.jpg">
@@ -261,7 +261,7 @@
 				<p>I got interested in the Internet of Things and start my own IoT online data storage service.</p>
 			</div>
 			
-			<div class="project techtheatre timelapse">
+			<div class="project theatre video">
 				<a href="http://vimeo.com/alexforey/lie" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/lie.jpg">
@@ -270,7 +270,7 @@
 				<p>I was one of the two live cameramen on this studio show. That's my feed on the screen in the background of the photo, which was taken by <a href="http://edwardconder.co.uk">Edward Conder</a>. Click it to watch the timelapse I also took.</p>
 			</div>
 		
-			<div class="project timelapse slowmo">
+			<div class="project video">
 				<a href="http://vimeo.com/alexforey/bath" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/bath.jpg">
@@ -279,7 +279,7 @@
 				<p>Shot during my family's weekend in Bath. Includes my first attempt at HDR timelapse and slow motion.</p>
 			</div>
 			
-			<div class="project timelapse">
+			<div class="project video">
 				<a href="southbank" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/southbank.jpg">
@@ -288,7 +288,7 @@
 				<p>The first of my timelapses, taken over the course of around 5 hours on London's South Bank.</p>
 			</div>
 			
-			<div class="project short timelapse">
+			<div class="project video">
 				<a href="https://vimeo.com/33740480" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/clubdrama2011.jpg">
@@ -297,7 +297,7 @@
 				<p>Every year at our school there is a day devoted to drama, where eight productions compete to win a competition. I helped a make this video, which is shot during the morning and lunch, edited in the afternoon and shown just after the end of school. It's always a lot of fun, and a good exercise as a filmmaker to get something started and finished quickly.</p>	
 			</div>
 			
-			<div class="project techtheatre">
+			<div class="project theatre">
 				<div class="image">
 					<img src="/img/portfolio/romeo.jpg">
 				</div>
@@ -305,7 +305,7 @@
 				<p>27 hours in 6 days in 1 theatre. Fun fact: on the opening night I had to stand behind a set piece and hold it up for the dying scene because it hadn't been hooked in properly. The audience could hear me breathe. This image was created by <a href="http://direthoughts.com">Henry Dyer</a> and not condoned by the director.</p>	
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<div class="image">
 					<img src="/img/portfolio/smike2.jpg">
 				</div>
@@ -313,7 +313,7 @@
 				<p>This time a school play called Smike, and only using 4 cameras, but over 100 DVDs, burned on some iMacs and MacBook Pros.</p>	
 			</div>
 			
-			<div class="project commercial">
+			<div class="project video">
 				<div class="image">
 					<img src="/img/portfolio/billybudd.jpg">
 				</div>
@@ -321,7 +321,7 @@
 				<p>One of our school's studio shows, shot on an XH A1 and a DSLR(!).</p>	
 			</div>
 		
-			<div class="project short">
+			<div class="project video">
 				<a class="image" href="http://www.youtube.com/watch?v=YWFnXteggq0">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/corpseandcrucifix.png">
@@ -330,7 +330,7 @@
 				<p>A short film I made on a summer film camp with <a href="http://dreamcatchermedia.co.uk">Dream Catcher Media</a>. From idea to finished product in a week, shot in a day, and edited in four hours.</p>	
 			</div>
 			
-			<div class="project short">
+			<div class="project video">
 				<a class="image" href="http://vimeo.com/26567518">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/hostages.png">
@@ -339,7 +339,7 @@
 				<p>A short test film I made to see how many visual effects I could fit into two minutes. Shot in a day, edited over two weeks.</p>	
 			</div>
 			
-			<div class="project techtheatre">
+			<div class="project theatre">
 				<div class="image" href="#">
 					<img src="/img/portfolio/comingsoon.png">
 				</div>
@@ -347,7 +347,7 @@
 				<p>For my last prep school show, I designed and operated moving lights for a dance piece that was being put on. I used three old <a href="http://www.martin.com/product/product.asp?product=mac250plus">Martin Mac 250s</a> - two above the audience and one on the stage. I also used my LED Parcans, as well as some <a href="http://en.wikipedia.org/wiki/Color_scroller">DMX Colour Scrollers</a>.</p>
 			</div>
 			
-			<div class="project techtheatre">
+			<div class="project theatre">
 				<div class="image" href="#">
 					<img src="/img/portfolio/secondyrplay2.jpg">
 				</div>
@@ -355,7 +355,7 @@
 				<p>As part of my school's annual short play writing competition, again. We used a small waterproof LED to create a glow in the bowl, and a tiny machine that turned the water in the bowl into fog.</p>
 			</div>
 		
-			<div class="project commercial">
+			<div class="project video">
 				<div class="image" href="#">
 					<img src="/img/portfolio/ratz.jpg">
 				</div>
@@ -363,7 +363,7 @@
 				<p>Produced more than 50 DVDs of the school play, using 5 cameras. Two manned cameras, one on each side of the proscenium arch, and one at the end of the thrust.</p>
 			</div>
 		
-			<div class="project techtheatre">
+			<div class="project theatre">
 				<div class="image" href="#">
 					<img src="/img/portfolio/baronbolligrew.jpg">
 				</div>
@@ -371,7 +371,7 @@
 				<p>Using two fog machines, a hazer and a huge dry ice cooler. Look at all that low lying smoke!</p>
 			</div>
 		
-			<div class="project techtheatre">
+			<div class="project theatre">
 				<div class="image" href="#">
 					<img src="/img/portfolio/secondyrplay.jpg">
 				</div>
@@ -379,7 +379,7 @@
 				<p>As part of my school's annual short play writing competition.</p>
 			</div>
 			
-			<div class="project techtheatre">
+			<div class="project theatre">
 				<div class="image" href="#">
 					<img src="/img/portfolio/drake.jpg">
 				</div>
@@ -387,7 +387,7 @@
 				<p>See the shadow on the stairs there? Yep, that's me.</p>
 			</div>
 			
-			<div class="project techtheatre">
+			<div class="project theatre">
 				<div class="image"><img src="/img/portfolio/ernie.jpg"></div>
 				<h4>Lighting for Ernie</h4><time>April 2009</time>
 				<p>My first technical theatre roll, run with an ETC Express.</p>

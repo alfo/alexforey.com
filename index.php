@@ -1,6 +1,6 @@
 <?php include 'design/h.php'; ?>
 
-<section class="fullwidth dark flushbottom" id="front-feature">>
+<section class="fullwidth dark flushbottom" id="front-feature">
 	<div class="container">
 	
 		<div class="heading">
@@ -29,7 +29,7 @@
 	
 		<div class="heading">
 			<h1>I make things</h1>
-			<p>I make short films, take photos, make timelapses, design and develop websites, make Little Printer Publications and film live events.</p>
+			<p>I make short films, design and develop websites, take photos, make timelapses and Little Printer Publications and film live events.</p>
 		</div>
 	
 		<div id="somelinks">
