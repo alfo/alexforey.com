@@ -1,4 +1,4 @@
-<?php include 'design/h.php'; ?>
+<?php $title = 'Home'; include 'design/h.php'; ?>
 
 <section class="fullwidth dark flushbottom" id="front-feature">
 	<div class="container">
@@ -34,46 +34,46 @@
 	
 		<div id="somelinks">
 			
+			<a class="work-section" href="/portfolio#video">
+				<div class="icon" id="video"></div>
+				<h2>Video</h2>
+				<p>I produce a lot of video content in the form of short films, timelapses and event videos. I've released several no-budget narratives, and I've in varying stages of production on four more.</p>
+				
+				<div class="arrow-btn white">
+					<div class="arrow left"><span></span></div>
+					<span class="text">Take a look</span>
+					<div class="arrow right"><span></span></div>
+				</div>
+			</a>
+			
+			<a class="work-section" href="/portfolio#code">
+				<div class="icon" id="code"></div>
+				<h2>Code</h2>
+				<p>I've started and contributed to many open source projects, varying from Ruby Gems to PHP frameworks and websites to embedded firmware projects.</p>
+				
+				<div class="arrow-btn white">
+					<div class="arrow left"><span></span></div>
+					<span class="text">Take a look</span>
+					<div class="arrow right"><span></span></div>
+				</div>
+			</a>
+			
+			<a class="work-section" href="/portfolio#hardware">
+				<div class="icon" id="hardware"></div>
+				<h2>Hardware</h2>
+				<p>I design hardware and circuit boards to solve problems I've encountered. I can use CAD and CAM to laser-cut, 3D print, and fabricate PCBs, with most of my projects involving Arduino.</p>
+				
+				<div class="arrow-btn white">
+					<div class="arrow left"><span></span></div>
+					<span class="text">Take a look</span>
+					<div class="arrow right"><span></span></div>
+				</div>
+			</a>
+			
 			<a class="work-section" href="https://markpond.com">
 				<div class="icon" id="markpond"></div>
 				<h2>Markpond</h2>
-				<p>A bookmarking website with offline archiving, a Little Printer publication and much more; written in Ruby on Rails.</p>
-				
-				<div class="arrow-btn white">
-					<div class="arrow left"><span></span></div>
-					<span class="text">Take a look</span>
-					<div class="arrow right"><span></span></div>
-				</div>
-			</a>
-			
-			<a class="work-section" href="http://films.alexforey.com">
-				<div class="icon" id="cinematicmob"></div>
-				<h2>Cinematic Mob</h2>
-				<p>I direct and shoot short films with little or no budget for fun. My most recent film, <em>Perception</em>, was released recently.</p>
-				
-				<div class="arrow-btn white">
-					<div class="arrow left"><span></span></div>
-					<span class="text">Take a look</span>
-					<div class="arrow right"><span></span></div>
-				</div>
-			</a>
-			
-			<a class="work-section" href="http://shwiing.co">
-				<div class="icon" id="shwiing"></div>
-				<h2>Shwiing</h2>
-				<p>A simple way for your Arduino to store data in the cloud, written in PHP and interfacing with Twitter.</p>
-				
-				<div class="arrow-btn white">
-					<div class="arrow left"><span></span></div>
-					<span class="text">Take a look</span>
-					<div class="arrow right"><span></span></div>
-				</div>
-			</a>
-			
-			<a class="work-section" href="http://infinitevideo.co.uk">
-				<div class="icon" id="infinitevideo"></div>
-				<h2>Infinite Video</h2>
-				<p>My production company, filming live events and producing DVDs for school plays.</p>
+				<p>A one-off project - a bookmarking website with offline archiving, a Little Printer publication and much more - written in Ruby on Rails, with a variety of stacks including Solr and job queues.</p>
 				
 				<div class="arrow-btn white">
 					<div class="arrow left"><span></span></div>

@@ -14,7 +14,7 @@
 
 		<head>
 
-			<title>Alex Forey's Website</title>
+			<title><?php echo $title; ?> | Alex Forey's Website</title>
 
 			<meta name="description" content="The Website of a 16 year old interested in filmmaking, photography, the web, coding, technical theatre and making things.">
  			<meta name="author" content="Alex Forey">

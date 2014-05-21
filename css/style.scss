@@ -110,6 +110,7 @@ p {
 		text-decoration: none;
 		border-bottom: 1px dashed $darkColor;
 		color: $darkColor;
+		
 	}
 }
 
@@ -351,22 +352,26 @@ hr {
 		
 		.icon {
 			background-repeat: no-repeat;
-			background-image: url(/img/front-page-work.png);
+			
 			display: inline-block;
 			width: 128px;
 			height: 128px;
 			margin-bottom: 25px;
 			
-			&#cinematicmob {
-				background-position: -128px 0px;
+			&#video {
+				background-image: url(/img/video.svg);
 			}
 			
-			&#shwiing {
-				background-position: -256px 0px;
+			&#code {
+				background-image: url(/img/code.svg);
 			}
 			
-			&#infinitevideo {
-				background-position: -384px 0px;
+			&#hardware {
+				background-image: url(/img/hardware.svg);
+			}
+			
+			&#markpond {
+				background-image: url(/img/markpond.svg);
 			}
 		}
 		
@@ -477,6 +482,11 @@ hr {
 				
 				span {
 					color: $backgroundColor;
+				}
+				
+				a {
+					color: $backgroundColor;
+					border-bottom: 1px solid $backgroundColor;
 				}
 			}
 			

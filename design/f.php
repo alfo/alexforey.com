@@ -2,7 +2,7 @@
 			<div class="container">
 				<footer>
 					<div class="info">
-						<p><span>Designed by Alex Forey with Coda 2</span></p>
+						<p><span>Designed by Alex Forey | Source on <a href="https://github.com/alfo/alexforey.com">GitHub</a></span></p>
 						<p>&copy; Alex Forey 2011 - <?php echo date('Y'); ?></p>
 					</div>
 				</footer>
