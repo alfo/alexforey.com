@@ -395,6 +395,7 @@ section.netawards {
       width: 100%;
       height: 100%;
       background: url(/img/view-project.png) center center no-repeat rgba(218, 89, 76, 0.75);
+      background-size: 80px 80px;
       -webkit-transition: opacity 0.25s ease-in-out;
       -moz-transition: opacity 0.25s ease-in-out;
       -ms-transition: opacity 0.25s ease-in-out;
