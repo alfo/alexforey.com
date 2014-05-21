@@ -30,6 +30,7 @@ $(document).ready(function(){
 	addRight();
 	$(".fitvid").fitVids();
 	
+	
 	$(".work-section").mouseover(function() {
 		$(this).find(".arrow-btn").addClass("hover");
 	});
@@ -50,4 +51,16 @@ $(document).ready(function(){
 		}
 		return false;
 	});
+	
+	if(window.location.hash) {
+	
+		var hash = window.location.hash.substring(1);
+		selector = ".portfolio-categories ul li a[data-filter='" + hash + "']"
+		
+		if ($(selector).length) {
+			$(selector).trigger('click');
+			var top = $('#portfolio-list').position().top;
+			$(window).scrollTop(top);
+		}
+	}
 });

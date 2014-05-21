@@ -1,4 +1,4 @@
-<?php include 'design/h.php'; ?>
+<?php $title = 'Portfolio'; include 'design/h.php'; ?>
 
 <section class="fullwidth portfolio dark">
 	<div class="container">
@@ -20,14 +20,14 @@
 		</div>
 </section>
 
-<section class="fullwidth portfolio">
+<section class="fullwidth portfolio" id="portfolio-list">
 	<div class="container">
 		<div class="portfolio-categories">
 			<ul>
 			
 				<li><a href="#" data-filter="video">Video</a>
-				<li><a href="#" data-filter="hardware">Hardware</a>
 				<li><a href="#" data-filter="code">Code</a>
+				<li><a href="#" data-filter="hardware">Hardware</a>
 				<li><a href="#" data-filter="web">Websites</a>
 				<li><a href="#" data-filter="theatre">Theatre</a>
 
@@ -37,6 +37,66 @@
 		</div>
 		
 		<div class="porfolio-grid">
+		
+			<div class="project hardware">
+				<a class="image" href="http://www.thingiverse.com/thing:330031">
+					<img src="/img/portfolio/atomos-evf.jpg">
+					<div class="overlay"></div>
+				</a>
+				<h4>Atomos Ninja 2 EVF</h4><time>May 2014</time>
+				<p>While filming Polaroid, I found the screen of the Ninja 2 too shiny to see properly outside, so I designed and 3D-printed an eyepiece for it. You can download and modify it from the Thingiverse page, under a CC-BY-SA license.</p>
+			</div>
+			
+			<div class="project code">
+				<a class="image" href="http://newfangled.me/arpm/">
+					<img src="/img/portfolio/arpm.svg">
+					<div class="overlay"></div>
+				</a>
+				<h4>Arduino Package Manager</h4><time>April 2014</time>
+				<p>I wrote an Arduino package manager in Ruby based off Git to allow easy installation of libraries, and automatic installation of a all a project's dependencies, much like Bundler.</p>
+			</div>
+			
+			<div class="project code">
+				<a class="image" href="https://github.com/alfo/bergcloud">
+					<img src="/img/portfolio/bergcloud.jpg">
+					<div class="overlay"></div>
+				</a>
+				<h4>BERGCloud API Ruby Gem</h4><time>April 2014</time>
+				<p>When BERG released their new cloud API, I couldn't wait to start using it in Wake, a project that'll be released soon-ish. It was a pain to make requests manually, however, so I wrote a gem for it.</p>
+			</div>
+			
+			<div class="project video">
+				<a class="image" href="https://vimeo.com/album/2850719">
+					<img src="/img/portfolio/firefly-asia-2014.jpg">
+					<div class="overlay"></div>
+				</a>
+				<h4>Firefly Asia Conference</h4><time>April 2014</time>
+				<p>Firefly asked me to edit the raw footage from their Asia Conference into 12 videos, ranging from 15 minutes to an hour an 15 minutes, some of which are available on Vimeo.</p>
+			</div>
+			
+			<div class="project theatre video photo">
+				<div class="image" href="#">
+					<img src="/img/portfolio/the-seagull.jpg">
+				</div>
+				<h4>The Seagull</h4><time>March 2014</time>
+				<p>Another school play, another set of photos and video production - this time for a new adaptation of Chekov's <em>The Seagull</em>.</p>
+			</div>
+			
+			<div class="project theatre video">
+				<div class="image" href="#">
+					<img src="/img/portfolio/clubdrama2013.jpg">
+				</div>
+				<h4>Club Drama 2013</h4><time>December 2013</time>
+				<p>Once again I was involved with Club Drama, my school's student-run drama competition. This time, however, I filmed all eight shows, editing them live, and produced DVDs.</p>
+			</div>
+			
+			<div class="project theatre video photo">
+				<div class="image" href="#">
+					<img src="/img/portfolio/julius-caesar.jpg">
+				</div>
+				<h4>Julius Caesar</h4><time>December 2013</time>
+				<p>I took photos during the dress rehearsal for the school posters and archives, and filmed the play for DVD production.</p>
+			</div>
 		
 			<div class="project code">
 				<a class="image" href="http://remote.bergcloud.com/publications/347">
@@ -54,6 +114,15 @@
 				</a>
 				<h4>Little Commits</h4><time>November 2013</time>
 				<p>I made a Little Printer publication that allows you to subscribe to a print-out that arrives every time someone pushes to one of your repositories. Source on <a href="https://github.com/alfo/littlecommits">GitHub</a>.
+			</div>
+			
+			<div class="project video">
+				<a class="image" href="http://vimeo.com/alexforey/after-school">
+					<img src="/img/portfolio/after-school.jpg">
+					<div class="overlay"></div>
+				</a>
+				<h4>After School</h4><time>October 2013</time>
+				<p>I made a short horror film trailer for my school's competition in which it came second and the <a href="http://shortshortsfilmfestival.com">Short Shorts</a> festival in which it won second in Sound Design and third in Best Director.</p>
 			</div>
 		
 			<div class="project web code">
@@ -153,6 +222,14 @@
 				<p>My biggest short film so far, with a cast of six, a crew of around ten, shot over four days and edited over three months.</p>
 			</div>
 		
+			<div class="project code">
+				<a href="https://github.com/alfo/php-littleprinter" class="image">
+					<div class="overlay"></div>
+					<img src="/img/portfolio/php-littleprinter.jpg">
+				</a>
+				<h4>php-littleprinter</h4><time>December 2012</time>
+				<p>I wrote a little framework for making Little Printer publications easier to write in PHP.</p>
+			</div>
 			
 			<div class="project video theatre">
 				<a href="http://vimeo.com/55469257" class="image">
@@ -172,7 +249,7 @@
 				<p>I also filmed the talks for This Happened #13, with help from <a href="http://amosjackson.com">Amos Jackson</a>, this time using three cameras - two 600Ds and on XH A1.</p>
 			</div>
 			
-			<div class="project video">
+			<div class="project code">
 				<a href="http://little.alexforey.com/onthisday.php" class="image">
 					<div class="overlay"></div>
 					<img src="/img/portfolio/onthisday.jpg">
