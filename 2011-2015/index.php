@@ -37,7 +37,7 @@
 			<a class="work-section" href="/portfolio#video">
 				<div class="icon" id="video"></div>
 				<h2>Video</h2>
-				<p>I produce a lot of video content in the form of short films, timelapses and event videos. I've released several no-budget narratives, and I've in varying stages of production on four more.</p>
+				<p>I produce a lot of video content in the form of short films, timelapses and event videos. I've recently released Polaroid, a no-budget narrative short film.</p>
 				
 				<div class="arrow-btn white">
 					<div class="arrow left"><span></span></div>
