@@ -333,6 +333,30 @@ header {
   }
 }
 
+.project {
+  width: 50%;
+  margin-top: 50px;
+  float: left;
+
+  &:nth-child(even) {
+    padding-left: 10px;
+  }
+
+  &:nth-child(odd) {
+    padding-right: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    border-top: 4px solid $highlight;
+    padding-top: 10px;
+    margin-top: 6px;
+  }
+}
+
 footer {
   background: $footer;
   padding-top: 25px;
