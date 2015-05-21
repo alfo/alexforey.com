@@ -44,7 +44,7 @@
 
         <nav>
           <ul>
-            <li><a href="http://alexforey.com/#portfolio">Portfolio</a></li>
+            <li><a href="http://alexforey.com/#portfolio" id="portfolio_link">Portfolio</a></li>
             <li><a href="http://newfangled.me/">Blog</a></li>
             <li><a href="http://alexforey.com/about">About</a></li>
             <li><a href="http://photos.alexforey.com">Photos</a></li>

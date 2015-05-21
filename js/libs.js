@@ -63,15 +63,13 @@
 
 }());
 
-/* Nice Removing */
+/* Nice Scrolling */
 
-Array.prototype.remove = function() {
-    var what, a = arguments, L = a.length, ax;
-    while (L && this.length) {
-        what = a[--L];
-        while ((ax = this.indexOf(what)) !== -1) {
-            this.splice(ax, 1);
-        }
+(function($) {
+    $.fn.goTo = function() {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top + 'px'
+        }, 'medium');
+        return this; // for chaining...
     }
-    return this;
-};
+})(jQuery);

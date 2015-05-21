@@ -19,6 +19,7 @@
 
 </section>
 
+<div id="portfolio" class="scroll_to_portfolio"></div>
 <section id="tiles">
 
   <div class="container">
