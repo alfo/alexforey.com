@@ -1,0 +1,29 @@
+{
+  "featured": 0,
+
+  "projects": [
+    {
+      "title": "Arduino ArtNet Node",
+      "date": "May 2015",
+      "image": "artnet.jpg",
+      "description": "An Arduino-based ethernet to DMX converted, allowing me to control entertainment lighting systems from my laptop",
+      "long_description": "An Arduino-based ethernet to DMX converted, allowing me to control entertainment lighting systems from my laptop, supporting 2 seperate addressable universes with 5-pin and 3-pin XLR output. Settings can be changed via a web UI, and the node has been tested as fully working with both ETC Nomad and QLC+.",
+      "link": "https://newfangled.me/city-of-angels"
+    },
+    {
+      "title": "Door Sign",
+      "date": "September 2014",
+      "image": "door-sign.jpg",
+      "description": "A sign for my bedroom door that shows what's currently happening in my calendar, based off a Spark Core and a £5 display from eBay.",
+      "link": "https://github.com/alfo/door-sign"
+    },
+
+    {
+      "title": "Atomos Ninja 2 EVF",
+      "date": "May 2014",
+      "image": "evf.jpg",
+      "description": "While filming Polaroid, I found the screen of the Ninja 2 too shiny to see properly outside, so I designed and 3D-printed an eyepiece for it. You can download and modify it from the Thingiverse page, under a CC-BY-SA license.",
+      "link": "http://www.thingiverse.com/thing:330031"
+    }
+  ]
+}
