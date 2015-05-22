@@ -20,7 +20,7 @@
     <?php if ($featured['video']) { ?>
 
       <div class="video fitvid project">
-        <?php echo $featured['video']; ?>
+        <iframe src="http://player.vimeo.com/video/<?php echo $featured['video']; ?>?title=0&amp;byline=0&amp;portrait=0&amp;color=ff6e6e" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
 
     <?php } else { ?>
@@ -33,7 +33,7 @@
 
     <div class="info">
       <h2><?php echo $featured['title']; ?></h2>
-      <p><?php echo $featured['description']; ?></p>
+      <p><?php echo nl2br($featured['long_description']); ?></p>
       <a class="readmore" href="<?php echo $featured['link']; ?>">Read More</a>
     </div>
 
@@ -54,6 +54,7 @@
       <img src="/imgs/portfolio/<?php echo $title, '/', $project['image']; ?>">
       <div class="info">
         <h1><?php echo $project['title']; ?></h1>
+        <h2><?php echo $project['role']; ?></h2>
         <time><?php echo $project['date']; ?></time>
         <p><?php echo nl2br($project['description']); ?></p>
         <?php if ($project['link']) { ?>

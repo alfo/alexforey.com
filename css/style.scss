@@ -3,7 +3,7 @@ $break-large: 820px;
 $highlight-text: white;
 $lowlight-text: #242424;
 $highlight: #f52323;
-$middlelight: rgba($highlight, 0.8);
+$middlelight: lighten($highlight, 20%);
 $lowlight: #ff6e6e;
 $middlelight-text: #C9C9C9;
 $opacity: 0.4;
@@ -362,10 +362,17 @@ header {
 }
 
 .projects {
+
+  margin-bottom: 50px;
+
   @media screen and (max-width: $break-large) and (min-width: $break-small) {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (max-width: $break-small) {
+    margin-bottom: 25px;
   }
 
   .project {
@@ -393,10 +400,15 @@ header {
       margin-bottom: 4px;
     }
 
-    time {
-      color: $middlelight-text;
+    h2, time {
       font-style: italic;
       font-weight: 100;
+      font-size: 16px;
+      display: inline;
+    }
+
+    time {
+      color: $middlelight-text;
     }
 
     p {

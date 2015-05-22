@@ -60,7 +60,7 @@ header.big { padding-bottom: 25px; }
   .tiles a:nth-child(4) { border-bottom: none; }
   .tiles a p { width: 80%; } }
 
-.elsewhere { width: 100%; background: rgba(245, 35, 35, 0.8); margin-top: 50px; padding: 20px 0; color: white; text-align: center; }
+.elsewhere { width: 100%; background: #f98585; margin-top: 50px; padding: 20px 0; color: white; text-align: center; }
 @media screen and (max-width: 820px) { .elsewhere { margin-top: 0; } }
 .elsewhere ul { list-style: none; margin-top: 20px; }
 @media screen and (max-width: 675px) { .elsewhere ul span { display: block; margin-bottom: 20px; } }
@@ -77,13 +77,16 @@ header.big { padding-bottom: 25px; }
 .elsewhere ul li a#lastfm { background-image: url(/imgs/lastfm.svg); }
 .elsewhere ul li a#mail { background-image: url(/imgs/mail.svg); }
 
+.projects { margin-bottom: 50px; }
 @media screen and (max-width: 820px) and (min-width: 675px) { .projects { width: 90%; margin-left: auto; margin-right: auto; } }
+@media screen and (max-width: 675px) { .projects { margin-bottom: 25px; } }
 .projects .project { width: 50%; margin-top: 50px; float: left; }
 .projects .project:nth-child(even) { padding-left: 10px; }
 .projects .project:nth-child(odd) { padding-right: 10px; clear: left; }
 .projects .project img { width: 100%; }
 .projects .project h1 { border-top: 4px solid #f52323; padding-top: 10px; margin-top: 6px; margin-bottom: 4px; }
-.projects .project time { color: #c9c9c9; font-style: italic; font-weight: 100; }
+.projects .project h2, .projects .project time { font-style: italic; font-weight: 100; font-size: 16px; display: inline; }
+.projects .project time { color: #c9c9c9; }
 .projects .project p { margin-top: 6px; margin-bottom: 10px; }
 @media screen and (max-width: 675px) { .projects .project { width: 100%; padding: 0 !important; }
   .projects .project .info { padding: 20px; } }
