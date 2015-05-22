@@ -1,7 +1,24 @@
 {
-  "featured": 0,
+  "featured": 2,
 
   "projects": [
+
+    {
+      "title": "Club Drama 2014",
+      "date": "December 2014",
+      "role": "Director, Editor",
+      "image": "clubdrama2014.jpg",
+      "description": "Another Club Drama video, about my school's short play competition. Shot and edited in under 8 hours in time to show at the judging ceremony."
+    },
+
+    {
+      "title": "Articheck App Demos",
+      "date": "October 2013 - March 2015",
+      "role": "Motion Graphics",
+      "image": "articheck.png",
+      "description": "I produced several videos for Articheck for their website to demonstrate a typical workflow to survey pieces of art using their app.\n\n&bullet; <a href='https://vimeo.com/123317717'>iPad (2015)</a>\n&bullet; <a href='https://vimeo.com/109465386'>iPhone Version 2 (2014)</a>\n&bullet; iPhone Version 1 (2013)"
+    },
+
     {
       "title": "Glass Envelope",
       "date": "June - August 2014",
@@ -14,10 +31,18 @@
     },
 
     {
+      "title": "This Happened",
+      "date": "2012 - Present",
+      "role": "Camera, Editor",
+      "image": "this-happened.png",
+      "description": "I film the <a href='http://www.thishappened.org/'>This Happened</a> series of talks about people's projects in interaction design, previously at the V&A and now at ustwo studios.\n\n&bullet; This Happened #20 - "
+    },
+
+    {
       "title": "School Event DVD Production",
       "date": "2011 - 2014",
       "image": "dvds.jpg",
-      "description": "I filmed and produced DVDs for the following school plays and events (number of DVDs in brackets):\n\n&bullet; Club Drama - 2014 (10)\n&bullet; Summer Ceremonies - 2014 (70)\n&bullet; The Seagull - 2014 (25)\n&bullet; Club Drama - 2013 (15)\n&bullet; Summer Ceremonies - 2013 (75)\n&bullet; Julius Caesar - 2013 (30)\n&bullet; Smike - 2014 (150)\n&bullet; Club Drama - 2014 (130)"
+      "description": "I filmed and produced DVDs for the following school plays and events (number of DVDs in brackets):\n\n&bullet; Club Drama - 2014 (10)\n&bullet; Summer Ceremonies - 2014 (70)\n&bullet; The Seagull - 2014 (25)\n&bullet; Club Drama - 2013 (15)\n&bullet; Summer Ceremonies - 2013 (75)\n&bullet; Julius Caesar - 2013 (30)\n&bullet; Smike - 2011 (150)\n&bullet; Ratz - 2011 (130)"
     },
 
     {
