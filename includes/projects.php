@@ -7,6 +7,7 @@
   fclose($file);
 
   $projects = json_decode($json, true);
+  $featured = $projects['projects'][$projects['featured']];
 
 ?>
 
@@ -16,13 +17,24 @@
       <h1>Alex's <?php echo $title; ?> Projects</h1>
     </header>
 
-    <div class="video fitvid project">
-      <iframe src="http://player.vimeo.com/video/115494621?title=0&amp;byline=0&amp;portrait=0&amp;color=da594c" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    </div>
+    <?php if ($featured['video']) { ?>
+
+      <div class="video fitvid project">
+        <?php echo $featured['video']; ?>
+      </div>
+
+    <?php } else { ?>
+
+      <div class="photo project">
+        <img src="/imgs/portfolio/<?php echo $title, '/', $featured['image']; ?>">
+      </div>
+
+    <?php } ?>
 
     <div class="info">
-      <h2>Project Title</h2>
-      <p>Some informational text to go here about each project.</p>
+      <h2><?php echo $featured['title']; ?></h2>
+      <p><?php echo $featured['description']; ?></p>
+      <a class="readmore" href="<?php echo $featured['link']; ?>">Read More</a>
     </div>
 
   </div>
@@ -35,7 +47,7 @@
 
     <?php
 
-      foreach($projects as $project) {
+      foreach($projects['projects'] as $project) {
         ?>
 
     <div class="project">
@@ -44,6 +56,9 @@
         <h1><?php echo $project['title']; ?></h1>
         <time><?php echo $project['date']; ?></time>
         <p><?php echo nl2br($project['description']); ?></p>
+        <?php if ($project['link']) { ?>
+          <a class="readmore" href="<?php echo $project['link']?>">Read More</a>
+        <?php } ?>
       </div>
     </div>
 

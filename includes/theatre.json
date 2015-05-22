@@ -1,18 +1,36 @@
-[
-  {
-    "title": "Test Project",
-    "date": "October 2014",
-    "image": "test.jpg",
-    "description": "Hello\nsomestuff\nmore"
-  },
-  {
-    "title": "Test Project 2",
-    "date": "October 2014",
-    "image": "test.jpg"
-  },
-  {
-    "title": "Test Project 3",
-    "date": "October 2014",
-    "image": "test.jpg"
-  }
-]
+{
+  "featured": 0,
+
+  "projects": [
+    {
+      "title": "City of Angels",
+      "date": "March 2015",
+      "derp": "<iframe src='http://player.vimeo.com/video/115494621?title=0&amp;byline=0&amp;portrait=0&amp;color=da594c' width='500' height='281' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
+      "image": "test.jpg",
+      "description": "Hello\nsomestuff\nmore",
+      "link": "https://newfangled.me/cityofangels"
+    },
+    {
+      "title": "A Gala Performance",
+      "date": "November 2014",
+      "image": "test.jpg",
+      "description": "Hello\nsomestuff",
+      "link": "https://newfangled.me/cityofangels"
+    },
+    {
+      "title": "What The Butler Saw",
+      "date": "February 2014",
+      "image": "test.jpg"
+    },
+    {
+      "title": "The Resistible Rise of Arturo Ui",
+      "date": "June 2012",
+      "image": "test.jpg"
+    },
+    {
+      "title": "Prep School Productions",
+      "date": "June 2012",
+      "image": "test.jpg"
+    }
+  ]
+}

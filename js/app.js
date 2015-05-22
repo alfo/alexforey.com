@@ -15,13 +15,15 @@ $(document).ready(function(){
 	});
 
 	if ($('.scroll_to_portfolio').length) {
+
 		$('#portfolio_link').click(function(e) {
 
-
 			$('.scroll_to_portfolio').goTo();
-			//alert('ya');
+
 			e.preventDefault();
+
 		});
+
 	}
 
 

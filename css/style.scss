@@ -52,6 +52,15 @@ section {
         margin-bottom: 12.5px;
       }
 
+      p {
+        margin-bottom: 12.5px;
+      }
+
+      a {
+        color: $highlight-text;
+        border-bottom-color: $highlight-text;
+      }
+
       @media screen and (max-width: $break-large) {
         width: 90%;
         margin-top: 0;
@@ -71,6 +80,10 @@ section {
       margin: 0 auto;
 
       margin-top: 50px;
+
+      img {
+        width: 100%;
+      }
 
       @media screen and (max-width: $break-large) {
         width: 90%;
@@ -388,6 +401,7 @@ header {
 
     p {
       margin-top: 6px;
+      margin-bottom: 10px;
     }
 
     @media screen and (max-width: $break-small) {
@@ -400,6 +414,24 @@ header {
     }
   }
 
+}
+
+a.readmore {
+
+  font-size: 110%;
+  position: relative;
+  color: $lowlight-text;
+  border-bottom: 1px solid $lowlight-text;
+  padding-right: 1px;
+
+  &:after {
+    font-size: 90%;
+    padding-left: 8px;
+    position: absolute;
+    top: 2px;
+    border-bottom: inherit;
+    content: "→";
+  }
 }
 
 footer {
