@@ -464,6 +464,21 @@ a.readmore {
   }
 }
 
+.about-me {
+  background: rgba(white, 0.8);
+  padding: 25px;
+  margin-top: 50px;
+
+  p {
+    color: $lowlight-text;
+    margin-bottom: 25px;
+    a {
+      color: $lowlight-text;
+      border-bottom: 1px solid $lowlight-text;
+    }
+  }
+}
+
 footer {
   background: $footer;
   padding-top: 25px;

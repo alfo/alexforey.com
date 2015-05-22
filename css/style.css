@@ -98,6 +98,10 @@ header.big { padding-bottom: 25px; }
 a.readmore { font-size: 110%; position: relative; color: #242424; border-bottom: 1px solid #242424; padding-right: 1px; }
 a.readmore:after { font-size: 90%; padding-left: 8px; position: absolute; top: 2px; border-bottom: inherit; content: "→"; }
 
+.about-me { background: rgba(255, 255, 255, 0.8); padding: 25px; margin-top: 50px; }
+.about-me p { color: #242424; margin-bottom: 25px; }
+.about-me p a { color: #242424; border-bottom: 1px solid #242424; }
+
 footer { background: #3b3b3b; padding-top: 25px; padding-bottom: 25px; }
 footer p { text-align: center; color: #c9c9c9; line-height: 50px; }
 footer p span { color: white; }
