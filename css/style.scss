@@ -59,7 +59,7 @@ section {
 
       a {
         color: $highlight-text;
-        border-bottom-color: $highlight-text;
+        border-bottom: 1px solid $highlight-text;
       }
 
       @media screen and (max-width: $break-large) {
