@@ -2,7 +2,8 @@
   {
     "title": "Test Project",
     "date": "October 2014",
-    "image": "test.jpg"
+    "image": "test.jpg",
+    "description": "Hello\nsomestuff\nmore"
   },
   {
     "title": "Test Project 2",

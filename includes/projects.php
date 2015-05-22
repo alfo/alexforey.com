@@ -12,11 +12,11 @@
 
   <div class="container">
 
-    <header class="big">
+    <header>
       <h1>Alex's <?php echo $title; ?> Projects</h1>
     </header>
 
-    <div class="video fitvid">
+    <div class="video fitvid project">
       <iframe src="http://player.vimeo.com/video/115494621?title=0&amp;byline=0&amp;portrait=0&amp;color=da594c" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
 
@@ -40,8 +40,11 @@
 
     <div class="project">
       <img src="/imgs/portfolio/<?php echo $title, '/', $project['image']; ?>">
-      <h1><?php echo $project['title']; ?></h1>
-
+      <div class="info">
+        <h1><?php echo $project['title']; ?></h1>
+        <time><?php echo $project['date']; ?></time>
+        <p><?php echo nl2br($project['description']); ?></p>
+      </div>
     </div>
 
         <?php

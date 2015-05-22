@@ -1,5 +1,5 @@
 $break-small: 675px;
-$break-large: 770px;
+$break-large: 820px;
 $highlight-text: white;
 $lowlight-text: #242424;
 $highlight: #f52323;
@@ -9,7 +9,7 @@ $middlelight-text: #C9C9C9;
 $opacity: 0.4;
 $footer: #3B3B3B;
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,100,400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,100,400,700,300italic);
 @font-face {
   font-family: 'brandon';
   src: url('/css/brandon.woff') format('woff');
@@ -44,26 +44,43 @@ section {
     min-height: 100vh;
     padding-bottom: 60px;
 
+    .info {
+      color: $highlight-text;
+      margin-top: 25px;
+
+      h2 {
+        margin-bottom: 12.5px;
+      }
+
+      @media screen and (max-width: $break-large) {
+        width: 90%;
+        margin-top: 0;
+        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
     @media screen and (max-width: $break-large) {
       min-height: 0;
       padding-bottom: 0;
     }
 
-    .video {
+    .video, .photo {
       width: 100%;
       margin: 0 auto;
-      padding-top: 60px;
+
+      margin-top: 50px;
 
       @media screen and (max-width: $break-large) {
         width: 90%;
-        margin-top: 50px;
         padding-bottom: 50px;
       }
 
       @media screen and (max-width: $break-small) {
         width: 100%;
-        margin-top: 0;
-        padding-bottom: 0;
+        margin-top: 25px;
+        padding-bottom: 25px;
       }
     }
   }
@@ -143,41 +160,40 @@ header {
     font-weight: 300;
   }
 
+  color: white;
+  padding-top: 30px;
+
+
+  h1 {
+    font-weight: 100;
+    font-size: 3em;
+  }
+
+  h2 {
+    font-weight: 100;
+    margin-top: 5px;
+  }
+
+  h3 {
+    margin-top: 30px;
+  }
+
   &.big {
+    padding-bottom: 25px;
+  }
 
-    color: white;
-    padding-top: 30px;
+  @media screen and (max-width: $break-large) {
+    padding-top: 20px;
+  }
 
-
+  @media screen and (max-width: $break-small) {
     h1 {
-      font-weight: 100;
-      font-size: 3em;
+      font-size: 2.5em;
     }
 
     h2 {
-      font-weight: 100;
-      margin-top: 5px;
+      font-size: 1em;
     }
-
-    h3 {
-      margin-top: 30px;
-    }
-
-    @media screen and (max-width: $break-large) {
-      padding-top: 20px;
-    }
-
-    @media screen and (max-width: $break-small) {
-      h1 {
-        font-size: 2.5em;
-      }
-
-      h2 {
-        font-size: 1em;
-      }
-    }
-
-
   }
 }
 
@@ -333,28 +349,58 @@ header {
   }
 }
 
-.project {
-  width: 50%;
-  margin-top: 50px;
-  float: left;
-
-  &:nth-child(even) {
-    padding-left: 10px;
+.projects {
+  @media screen and (max-width: $break-large) and (min-width: $break-small) {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  &:nth-child(odd) {
-    padding-right: 10px;
+  .project {
+    width: 50%;
+    margin-top: 50px;
+    float: left;
+
+    &:nth-child(even) {
+      padding-left: 10px;
+    }
+
+    &:nth-child(odd) {
+      padding-right: 10px;
+      clear: left;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h1 {
+      border-top: 4px solid $highlight;
+      padding-top: 10px;
+      margin-top: 6px;
+      margin-bottom: 4px;
+    }
+
+    time {
+      color: $middlelight-text;
+      font-style: italic;
+      font-weight: 100;
+    }
+
+    p {
+      margin-top: 6px;
+    }
+
+    @media screen and (max-width: $break-small) {
+      width: 100%;
+      padding: 0 !important;
+
+      .info {
+        padding: 20px;
+      }
+    }
   }
 
-  img {
-    width: 100%;
-  }
-
-  h1 {
-    border-top: 4px solid $highlight;
-    padding-top: 10px;
-    margin-top: 6px;
-  }
 }
 
 footer {
