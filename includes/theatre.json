@@ -5,32 +5,60 @@
     {
       "title": "City of Angels",
       "date": "March 2015",
-      "derp": "<iframe src='http://player.vimeo.com/video/115494621?title=0&amp;byline=0&amp;portrait=0&amp;color=da594c' width='500' height='281' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
-      "image": "test.jpg",
-      "description": "Hello\nsomestuff\nmore",
-      "link": "https://newfangled.me/cityofangels"
+      "role": "Lighting Designer, Operator",
+      "image": "city-of-angels.jpg",
+      "description": "The most technically challenging show I'd ever worked on, with nearly 200 cues, 130 lanterns, and all the possible dimmer channels.\n\nSamuel Pepys Theatre for SPS",
+      "long_description": "The most technically challenging show I'd ever worked on, with nearly 200 cues, 130 lanterns, and all the possible dimmer channels. I rigged the majority of the lanterns myself, erected 9 extra lighting bars, and ran 300 metres of TRS and Socapex.\n\nI also wrote an in-depth blog post describing my design process and some of the more technical details of the show.",
+      "link": "https://newfangled.me/city-of-angels"
+    },
+    {
+      "title": "Extopia Concert",
+      "date": "November 2014",
+      "role": "Lighting Designer, Operator",
+      "image": "extopia.jpg",
+      "description": "I designed and operated the lighting for a school concert, and hired in some moving lights and LED pars.\n\nSPS Milton Studio for Young Enterprise"
+    },
+    {
+      "title": "Locusts of Mars",
+      "date": "October 2014",
+      "role": "Sound & Projection Operator",
+      "image": "locusts.jpg",
+      "description": "A piece devised by the director and the cast exploring addiction and life on a council estate. 160 video cues and 20 sound cues, run from QLab on a Mac Pro.\n\nSPS Drama Studio 2 for SPS"
     },
     {
       "title": "A Gala Performance",
       "date": "November 2014",
-      "image": "test.jpg",
-      "description": "Hello\nsomestuff",
-      "link": "https://newfangled.me/cityofangels"
+      "role": "Sound Mixer, Electrician",
+      "image": "gala.png",
+      "description": "I mixed six radio mics and helped to rig lights for the epic four hour gala opening of SPS's new theatre.\n\nSamuel Pepys Theatre for SPS"
     },
     {
       "title": "What The Butler Saw",
+      "role": "Lighting Designer, Operator",
       "date": "February 2014",
-      "image": "test.jpg"
+      "image": "wtbs.png",
+      "description": "Orton's classic farce, staged in our black box studio. 18 dimmer channels, programmed on a Zero88 Jester.\n\nSPS Milton Studio for SPS"
     },
     {
       "title": "The Resistible Rise of Arturo Ui",
       "date": "June 2012",
-      "image": "test.jpg"
+      "role": "Lighting Operator, Programmer",
+      "image": "arturo-ui.png",
+      "description": "I programmed and operated this adaptation on our ETC Ion, including several complicated moving light effects that tracked the rotation of a revolve on stage.\n\nSPS Theatre for SPS"
+    },
+    {
+      "title": "Laid in Earth",
+      "role": "Live Camera Operator",
+      "date": "February 2012",
+      "image": "laid-in-earth.jpg",
+      "description": "I operated one of the two live cameras that were projected onto screens on the stage for this interprative dance take on Dido and Aeneas.\n\nSPS Milton Studio for SPS"
     },
     {
       "title": "Prep School Productions",
-      "date": "June 2012",
-      "image": "test.jpg"
+      "role": "Lighting Operator, Programmer, Spot Operator",
+      "date": "2009 - 2011",
+      "image": "drake.jpg",
+      "description": "I worked on about five or six productions at prep school, everything from programming our ETC Express to operating followspots for musicals.\n\nCC Theatre for Colet Court"
     }
   ]
 }
