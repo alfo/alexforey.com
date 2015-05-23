@@ -10,7 +10,7 @@ $middlelight-text: #C9C9C9;
 $opacity: 0.4;
 $footer: #3B3B3B;
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,100,400,700,300italic);
+@import url('//fonts.googleapis.com/css?family=Lato:300,100,400,700,300italic');
 @font-face {
   font-family: 'brandon';
   src: url('/css/brandon.woff') format('woff');
