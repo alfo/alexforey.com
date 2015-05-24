@@ -459,10 +459,7 @@ a.readmore {
   padding-right: 1px;
 
   &:after {
-    font-size: 90%;
     padding-left: 8px;
-    position: absolute;
-    top: 2px;
     border-bottom: inherit;
     content: "→";
   }
