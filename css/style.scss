@@ -86,6 +86,10 @@ section {
         width: 100%;
       }
 
+      &.fitvid {
+        text-align: center;
+      }
+
       @media screen and (max-width: $break-large) {
         width: 90%;
         padding-bottom: 25px;
