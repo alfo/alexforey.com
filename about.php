@@ -1,6 +1,11 @@
 <?php
   $title = 'About';
   include 'includes/header.php';
+
+  $tz  = new DateTimeZone('Europe/London');
+  $age = DateTime::createFromFormat('d/m/Y', '07/09/1997', $tz)
+       ->diff(new DateTime('now', $tz))
+       ->y;
 ?>
 
   <div class="container">
@@ -15,7 +20,7 @@
 
     <div class="container">
 
-      <p>Well, what can I say? You already know I'm 16... well. I live in London. I run a blog, <a href="http://newfangled.me" target="_blank">Newfangled Me</a> in which I talk about things that matter to my and some of my projects. It was started on 7th September 2011, which happened to be my birthday. Why? It makes it easier for me to remember the birthday of my blog.</p>
+      <p>Well, what can I say? You already know I'm <?php echo $age; ?>?... well. I live in London. I run a blog, <a href="http://newfangled.me" target="_blank">Newfangled Me</a> in which I talk about things that matter to my and some of my projects. It was started on 7th September 2011, which happened to be my birthday. Why? It makes it easier for me to remember the birthday of my blog.</p>
 
   		<p>I've been interested in Technical Theatre (lighting and sound design) since I was 8, and I've run lighting, sound and projection on multiple shows. I've always been interested in photography and how stuff works, and I've been interested in making films since I was around 10. I can teach myself new skills fairly easily.</p>
 
