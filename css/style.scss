@@ -4,13 +4,13 @@ $break-very-large: 1300px;
 $highlight-text: white;
 $lowlight-text: #242424;
 $highlight: #f52323;
-$middlelight: lighten($highlight, 20%);
+$middlelight: lighten($highlight, 10%);
 $lowlight: #ff6e6e;
 $middlelight-text: #C9C9C9;
 $opacity: 0.4;
 $footer: #3B3B3B;
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,100,400,700,300italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,100,400,300italic);
 @font-face {
   font-family: 'brandon';
   src: url('/css/brandon.woff') format('woff');
