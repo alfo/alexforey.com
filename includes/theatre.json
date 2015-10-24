@@ -1,13 +1,22 @@
 {
-  "featured": 1,
+  "featured": 0,
 
   "projects": [
+    {
+      "title": "Hiroshima: Crucible of Light",
+      "date": "September 2015",
+      "role": "Lighting Designer, Operator",
+      "image": "hiroshima.jpg",
+      "description": "A compact and yet complex piece centring around the destruction and human loss following the bombing of Hiroshima.\n\nSamuel Pepys Theatre for SPS",
+      "long_description": "A compact and yet complex piece centring around the destruction and human loss following the bombing of Hiroshima.\n\nSamuel Pepys Theatre for SPS",
+      "link": "https://newfangled.me/hiroshima"
+    },
     {
       "title": "The Piper of Hamlin",
       "date": "July 2015",
       "role": "Lighting Designer, Operator",
       "image": "piper-rose.jpg",
-      "description": "From nothing to a fully cued show in a single day, I designed and operated the lighting for this children's opera, directed by the founder of the National Youth Music Theatre.\n\nThe Rose Theatre for Creative Youth/NYMT",
+      "description": "From nothing to a fully cued show in a single day, I designed and operated the lighting under the supervision of Pat Krause for this children's opera, directed by the founder of the National Youth Music Theatre.\n\nThe Rose Theatre for Creative Youth/NYMT",
       "link": "http://www.konradbartelski.photography/NYMT-Gallery/The-Piper-of-Hamelin-July-6th-/"
     },
     {

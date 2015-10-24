@@ -34,7 +34,7 @@
 
       <a href="/theatre">
         <div id="theatre"></div>
-        <h2>Technical Theatre</h2>
+        <h2>Theatre</h2>
         <p>I'm a lighting designer and I have worked on over 30 productions in lighting, sound, and projection.</p>
 
       </a>

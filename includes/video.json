@@ -1,7 +1,16 @@
 {
-  "featured": 2,
+  "featured": 0,
 
   "projects": [
+    {
+      "title": "Rube Goldberg Machine",
+      "date": "June 2015",
+      "role": "Co-Director, Camera, Editor",
+      "image": "rubegoldberg.jpg",
+      "description": "I operated the camera and edited this video of my Physics class's post-exam project, set to 101 by Walla",
+      "long_description": "I operated the camera and edited this video of my Physics class's post-exam project, set to 101 by Walla",
+      "link": "https://vimeo.com/134294645"
+    },
 
     {
       "title": "Club Drama 2014",
@@ -36,7 +45,7 @@
       "date": "2012 - Present",
       "role": "Camera, Editor",
       "image": "this-happened.png",
-      "description": "I film the <a href='http://www.thishappened.org/'>This Happened</a> series of talks about people's projects in interaction design, previously at the V&A and now at ustwo studios.\n\n&bullet; This Happened #20 - "
+      "description": "I film the <a href='http://www.thishappened.org/'>This Happened</a> series of talks about people's projects in interaction design, previously at the V&A and now at ustwo studios.\n\n&bullet; This Happened #LDF15 - Camera, Edit\n&bullet; This Happened #22 - Camera, Edit\n&bullet; This Happened #21 - Camera\n&bullet; This Happened #LDF14 - Camera\n&bullet; This Happened #13 - Camera, Edit\n&bullet; This Happened #12 - Camera, Edit"
     },
 
     {
