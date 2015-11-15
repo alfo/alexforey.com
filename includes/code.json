@@ -4,6 +4,23 @@
   "projects": [
 
     {
+      "title": "Focus Mate App",
+      "date": "October 2015",
+      "image": "focus-mate.jpg",
+      "description": "My first Swift iOS App: Voice control for the most popular theatrical lighting consoles from your Apple Watch",
+      "long_description": "When working on shows by myself, I often found that it would be useful to be able to control the EOS series of consoles remotely. In the summer of 2015, ETC finalised their OSC specification, and a few months later I released my own voice-based remote to go with my Apple Watch.",
+      "link": "https://alexforey.com/focus-mate"
+    },
+
+    {
+      "title": "Black and White App",
+      "date": "October 2014 - February 2015",
+      "image": "black-and-white.jpg",
+      "description": "I released my school's main student-run magazine as an app for Apple Newsstand",
+      "link": "https://spsblackandwhite.com"
+    },
+
+    {
       "title": "Door Sign",
       "date": "September 2014",
       "image": "door-sign.jpg",
