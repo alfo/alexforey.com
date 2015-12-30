@@ -25,13 +25,6 @@
   <div class="container">
     <div class="tiles">
 
-      <a href="/video">
-        <div id="video"></div>
-        <h2>Video</h2>
-        <p>I produce a lot of video content in the form of short films, timelapses and event videos.</p>
-
-      </a>
-
       <a href="/theatre">
         <div id="theatre"></div>
         <h2>Theatre</h2>
@@ -43,6 +36,13 @@
         <div id="code"></div>
         <h2>Code</h2>
         <p>I've started and contributed to open source projects, like Ruby Gems, websites and firmware projects.</p>
+
+      </a>
+
+      <a href="/video">
+        <div id="video"></div>
+        <h2>Video</h2>
+        <p>I produce a lot of video content in the form of short films, timelapses and event videos.</p>
 
       </a>
 
