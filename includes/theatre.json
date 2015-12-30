@@ -2,6 +2,16 @@
   "featured": 0,
 
   "projects": [
+	
+	{
+		"title": "Henry V",
+		"date": "November - December 2015",
+		"role": "Lighting Designer",
+		"image": "henry-v.jpg",
+		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play.\n\nSamuel Pepys Theatre for SPS",
+		"long_description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play. It featured an ensemble cast who, along with the creative team, had a large input into the script and the creative vision of the play.\n\nUsing practically the entire lantern stock as well as some hired movers and Lustrs, I decided to go out with a bang. I even managed to pack 13 lanterns onto a 2.4m backlighting bar.",
+		"link": "http://newfangled.me/henry-v/"
+	},
     {
       "title": "Hiroshima: Crucible of Light",
       "date": "September 2015",
