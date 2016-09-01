@@ -8,7 +8,7 @@
     <header class="big">
       <h1>Hi, this is Alex Forey</h1>
       <h2>Getting Excited and Making Things Since 1997</h2>
-      <h3>I make short films, code, design lighting for theatre, and film live events</h3>
+      <h3>I design lighting for theatre, make short films, code and design hardware, and film live events</h3>
     </header>
 
     <div class="video fitvid">
