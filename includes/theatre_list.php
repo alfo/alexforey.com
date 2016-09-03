@@ -26,7 +26,7 @@
     <?php } else { ?>
 
       <div class="photo project">
-        <img src="/imgs/portfolio/<?php echo strtolower($title), '/', $featured['image']; ?>">
+        <img src="/imgs/portfolio/<?php echo strtolower($title), '/', $featured['id']; ?>-thumb.jpg">
       </div>
 
     <?php } ?>
@@ -51,22 +51,21 @@
         ?>
 
     <div class="project">
-      <img src="/imgs/portfolio/<?php echo strtolower($title), '/', $project['image']; ?>">
+      <img src="/imgs/portfolio/<?php echo strtolower($title), '/', $project['id']; ?>-thumb.jpg">
       <div class="info">
         <h1><?php echo $project['title']; ?></h1>
         <h2><?php echo $project['role']; ?></h2>
         <time><?php echo $project['date']; ?></time>
-        <p><?php echo nl2br($project['description']); ?></p>
-        <?php if ($project['link']) { ?>
-          <a class="readmore" href="<?php echo $project['link']?>">Read More</a>
-        <?php } ?>
+        <p class="description"><?php echo nl2br($project['description']); ?></p>
+        <p><?php echo $project['venue']; ?></p>
+        <a class="readmore" href="?id=<?php echo $project['id']?>">View</a>
       </div>
     </div>
 
-        <?php
+    <?php
       }
-
     ?>
+
     <div class="clear"></div>
   </div>
 </section>
