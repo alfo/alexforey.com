@@ -54,6 +54,15 @@
 
       </div>
 
+
+      <?php if ($project['press']) { ?>
+        <div class="press">
+        <?php foreach ($project['press'] as $quote => $pub) { ?>
+          <blockquote><?php echo $quote; ?> <small>— <?php echo $pub; ?></small></blockquote>
+      <?php  } ?>
+        </div>
+      <?php } ?>
+
       <?php if ($project['paperwork']) { ?>
         <a class="button" id="plots" href="/plots/<?php echo $project['id']; ?>.zip">View Plots</a>
       <?php } ?>
@@ -61,6 +70,7 @@
       <?php if ($project['link']) { ?>
         <a class="button" id="readmore" href="<?php echo $project['link']; ?>">Read More</a>
       <?php } ?>
+
 
       <p><?php echo nl2br($featured['long_description']); ?></p>
 

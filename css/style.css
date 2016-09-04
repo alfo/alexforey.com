@@ -22,6 +22,42 @@ body {
 a {
   text-decoration: none; }
 
+.press {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  .press blockquote {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    padding: 30px 50px 20px 60px;
+    max-width: 60%; }
+    .press blockquote:before, .press blockquote:after {
+      font-size: 200px;
+      opacity: 0.4;
+      line-height: 0;
+      position: absolute; }
+    .press blockquote:before {
+      content: "“";
+      top: 75px;
+      left: -10px; }
+    .press blockquote:after {
+      content: "”";
+      right: -5px;
+      bottom: 0px; }
+    .press blockquote small {
+      display: block;
+      margin-top: 20px;
+      padding-left: 20px; }
+  @media screen and (max-width: 675px) {
+    .press {
+      flex-wrap: wrap; }
+      .press blockquote {
+        min-width: 100%;
+        max-width: none; }
+        .press blockquote small {
+          padding-left: 0; } }
+
 .slider {
   display: relative; }
   .slider .image {

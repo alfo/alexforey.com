@@ -38,6 +38,61 @@ a {
   text-decoration: none;
 }
 
+.press {
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+
+  blockquote {
+
+    &:before, &:after {
+      font-size: 200px;
+      opacity: 0.4;
+      line-height: 0;
+      position: absolute;
+    }
+
+    &:before {
+      content: "“";
+      top: 75px;
+      left: -10px;
+    }
+
+    &:after {
+      content: "”";
+      right: -5px;
+      bottom: 0px;
+    }
+
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    padding: 30px 50px 20px 60px;
+    max-width: 60%;
+
+    small {
+      display: block;
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+  }
+
+  @media screen and (max-width: $break-small) {
+
+    flex-wrap: wrap;
+
+    blockquote {
+      min-width: 100%;
+      max-width: none;
+      small {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
 .slider {
   display: relative;
   .image {

@@ -27,6 +27,7 @@
     <meta name="description" content="The Website of a <?php echo $age; ?> year old interested in filmmaking, photography, the web, coding, technical theatre and making things.">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="shortcut icon" href="http://28.media.tumblr.com/avatar_6187ac9a2b35_16.png">

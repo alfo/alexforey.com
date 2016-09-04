@@ -9,33 +9,19 @@
   		"role": "Lighting Designer",
   		"id": "grey-matter-fringe",
       "image_credit": "Dan Staniforth and Claire Forey",
-  		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play",
-  		"link": "http://newfangled.me/henry-v/",
+  		"description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty",
       "people": {
         "Director": "Andrew Broughton",
         "Lighting Designer": "Alex Forey",
         "Sound Designer": "Amos Jackson",
         "Projection": "Tom Kell"
       },
+      "press": {
+        "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview",
+        "masterclass in technological creativity": "EdFringeReview"
+      },
       "venue": "C Venues Edinburgh",
       "bts_video": "",
-      "paperwork": true
-    },
-
-    {
-      "title": "Twelfth Night",
-  		"date": "August 2016",
-  		"role": "Lighting Designer",
-  		"id": "twelfth-night-fringe",
-      "image_credit": "xxx",
-  		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play.",
-  		"link": "http://newfangled.me/henry-v/",
-      "people": {
-        "Director": "Mary Tate",
-        "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Nobby"
-      },
-      "venue": "theSpace Edinburgh",
       "paperwork": true
     },
 
