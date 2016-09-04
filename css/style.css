@@ -325,6 +325,27 @@ header {
       .credits p {
         width: 50%; } }
 
+section#first .info h1, section#first .info h2, section#first .info h3 {
+  text-align: center; }
+section#first .info h2.venue {
+  font-size: 32px; }
+section#first .info h3.date {
+  font-size: 22px;
+  margin-top: -10px;
+  margin-bottom: 30px; }
+section#first .info a.paperwork-dl {
+  background: #3b3b3b;
+  text-decoration: none;
+  border-bottom: none;
+  padding: 8px 14px 10px 14px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px; }
+  section#first .info a.paperwork-dl:before {
+    content: "⬇";
+    padding-right: 10px;
+    font-size: 85%; }
+
 a.readmore {
   font-size: 110%;
   position: relative;

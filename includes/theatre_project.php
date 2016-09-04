@@ -29,11 +29,16 @@
 
     <div class="info">
 
+      <h2 class="venue"><?php echo $project['venue']; ?></h2>
+      <h3 class="date"><?php echo $project['date']; ?></h3>
+
       <?php if ($project['role'] !== "Lighting Designer") echo "<p class='role'>", $project['role'], "</p>"; ?>
 
       <div class="credits">
         <p><small>Director</small><?php echo $project['director']; ?></p>
-        <p><small>Designer</small><?php echo $project['designer']; ?></p>
+        <?php if (isset($project['designer'])) { ?>
+          <p><small>Designer</small><?php echo $project['designer']; ?></p>
+        <?php } ?>
         <p><small>Lighting Designer</small>
           <?php if ($project['role'] !== 'Lighting Designer') { ?>
             <?php echo $project['lighting_designer']; ?>
@@ -44,7 +49,7 @@
       </div>
 
       <?php if ($project['paperwork']) { ?>
-        <a class="paperwork-dl" href="/plots/<?php echo $project['id']; ?>.zip">Download Paperwork</a>
+        <a class="paperwork-dl" href="/plots/<?php echo $project['id']; ?>.zip">Download Plots</a>
       <?php } ?>
 
       <p><?php echo nl2br($featured['long_description']); ?></p>
