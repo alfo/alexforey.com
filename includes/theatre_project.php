@@ -14,31 +14,28 @@
 
   $project = array_shift(array_values($search));
 
-  $file_search = 'imgs/portfolio/theatre/' . $project['id'] . '-*.jpg';
-
-  $images = glob($file_search);
-
-  array_walk($images, 'pad');
-
-  function pad(&$input) {
-    $input = "/".$input;
-  }
-
-  // this is such trash
-  echo "<script> var images = ", json_encode($images), ";</script>";
+  $images = glob('imgs/portfolio/theatre/' . $project['id'] . '-*.jpg');
 
 ?>
 
   <div class="container">
-
     <header>
       <h1><?php echo $project['title']; ?></h1>
     </header>
+  </div>
 
-      <div class="photo project">
-        <img src="/imgs/portfolio/<?php echo 'theatre/', $project['id']; ?>-thumb.jpg">
-        <p class="photo-credit">Photos by <?php echo $project['image_credit']; ?></p>
-      </div>
+  <div class="photo project slider">
+
+    <ul>
+      <?php foreach ($images as $image) { ?>
+        <li><div class="image" style="background-image: url(/<?php echo $image; ?>)"></div></li>
+      <?php } ?>
+    </ul>
+  </div>
+
+  <div class="container">
+
+    <p class="photo-credit">Photos by <?php echo $project['image_credit']; ?></p>
 
     <div class="info">
 
@@ -71,3 +68,5 @@
   </div>
 
 </section>
+
+<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>

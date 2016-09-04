@@ -16,6 +16,9 @@ $footer: #3B3B3B;
   src: url('/css/brandon.woff') format('woff');
 }
 
+@import "unslider.css";
+@import "unslider-dots.css";
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -33,6 +36,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.slider .image {
+  width: 100vw;
+  height: 65vw;
+  background-size: cover;
+  background-position: center;
 }
 
 section {

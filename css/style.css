@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Lato:300,100,400,700,300italic);
+@import url(unslider.css);
+@import url(unslider-dots.css);
 @font-face {
   font-family: 'brandon';
   src: url("/css/brandon.woff") format("woff"); }
@@ -19,6 +21,12 @@ body {
 
 a {
   text-decoration: none; }
+
+.slider .image {
+  width: 100vw;
+  height: 65vw;
+  background-size: cover;
+  background-position: center; }
 
 section#first {
   background-color: #f52323;
