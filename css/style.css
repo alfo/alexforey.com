@@ -138,10 +138,12 @@ header {
     header {
       padding-top: 20px; } }
   @media screen and (max-width: 675px) {
-    header h1 {
-      font-size: 2.5em; }
-    header h2 {
-      font-size: 1em; } }
+    header {
+      padding-top: 0; }
+      header h1 {
+        font-size: 2.5em; }
+      header h2 {
+        font-size: 1em; } }
 
 .tiles {
   padding-top: 50px; }
@@ -308,22 +310,29 @@ header {
 
 .credits {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
   padding: 0 40px; }
   .credits p {
     display: inline;
     text-align: center;
-    font-size: 22px; }
+    font-size: 22px;
+    margin: auto;
+    min-width: 200px; }
     .credits p small {
       display: block;
       font-size: 16px; }
   @media screen and (max-width: 675px) {
     .credits {
-      flex-wrap: wrap;
       justify-content: space-around;
       padding: 0px; }
       .credits p {
-        width: 50%; } }
+        width: 50%;
+        min-width: 0;
+        font-size: 18px; }
+        .credits p small {
+          font-size: 14px; } }
 
 section#first .info h1, section#first .info h2, section#first .info h3 {
   text-align: center; }
@@ -333,18 +342,25 @@ section#first .info h3.date {
   font-size: 22px;
   margin-top: -10px;
   margin-bottom: 30px; }
-section#first .info a.paperwork-dl {
+section#first .info a.button {
   background: #3b3b3b;
   text-decoration: none;
   border-bottom: none;
   padding: 8px 14px 10px 14px;
   border-radius: 5px;
   float: right;
-  margin-top: 10px; }
-  section#first .info a.paperwork-dl:before {
-    content: "⬇";
+  margin-top: 10px;
+  margin-left: 10px; }
+  section#first .info a.button:before {
     padding-right: 10px;
     font-size: 85%; }
+  section#first .info a.button#plots:before {
+    content: "⬇"; }
+  section#first .info a.button#readmore:before {
+    content: "🌍"; }
+  @media screen and (max-width: 675px) {
+    section#first .info a.button#readmore {
+      float: left; } }
 
 a.readmore {
   font-size: 110%;

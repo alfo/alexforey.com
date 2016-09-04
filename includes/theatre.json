@@ -13,7 +13,7 @@
   		"link": "http://newfangled.me/henry-v/",
       "director": "Andrew Broughton",
       "sound_designer": "Amos Jackson",
-      "venue": "C Venues @ Edinburgh Fringe",
+      "venue": "C Venues Edinburgh",
       "bts_video": "",
       "paperwork": true
     },
@@ -28,7 +28,7 @@
   		"link": "http://newfangled.me/henry-v/",
       "director": "Mary Tate",
       "sound_designer": "Nobby x",
-      "venue": "theSpace @ Edinburgh Fringe",
+      "venue": "theSpace Edinburgh",
       "paperwork": true
     },
 
@@ -55,9 +55,12 @@
       "image_credit": "Fred Hill",
   		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play.\n\nSamuel Pepys Theatre for SPS",
   		"link": "http://newfangled.me/henry-v/",
-      "director": "Alex Kerr",
-      "designer": "Katy Mills",
-      "sound_designer": "Amos Jackson",
+      "people": {
+        "Director": "Alex Kerr",
+        "Designer": "Katy Mills",
+        "Lighting Designer": "Alex Forey",
+        "Sound Designer": "Amos Jackson"
+      },
       "venue": "Samuel Pepys Theatre",
       "paperwork": true
   	},

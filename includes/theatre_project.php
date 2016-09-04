@@ -35,21 +35,21 @@
       <?php if ($project['role'] !== "Lighting Designer") echo "<p class='role'>", $project['role'], "</p>"; ?>
 
       <div class="credits">
-        <p><small>Director</small><?php echo $project['director']; ?></p>
-        <?php if (isset($project['designer'])) { ?>
-          <p><small>Designer</small><?php echo $project['designer']; ?></p>
-        <?php } ?>
-        <p><small>Lighting Designer</small>
-          <?php if ($project['role'] !== 'Lighting Designer') { ?>
-            <?php echo $project['lighting_designer']; ?>
-          <?php } else { ?>
-            Alex Forey
-          <?php } ?>
-        <p><small>Sound Designer</small><?php echo $project['sound_designer']; ?></p>
+
+        <?php
+          foreach ($project['people'] as $title => $person) {
+            echo "<p><small>", $title, "</small>", $person, "</p>";
+          }
+        ?>
+
       </div>
 
       <?php if ($project['paperwork']) { ?>
-        <a class="paperwork-dl" href="/plots/<?php echo $project['id']; ?>.zip">Download Plots</a>
+        <a class="button" id="plots" href="/plots/<?php echo $project['id']; ?>.zip">View Plots</a>
+      <?php } ?>
+
+      <?php if ($project['link']) { ?>
+        <a class="button" id="readmore" href="<?php echo $project['link']; ?>">Read More</a>
       <?php } ?>
 
       <p><?php echo nl2br($featured['long_description']); ?></p>
