@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
-	$('.slider').unslider();
+	$('.slider').unslider({
+		infinite: true 
+	});
 
 	$(".fitvid").fitVids();
 

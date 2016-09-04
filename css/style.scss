@@ -38,11 +38,103 @@ a {
   text-decoration: none;
 }
 
-.slider .image {
-  width: 100vw;
-  height: 65vw;
-  background-size: cover;
-  background-position: center;
+.slider {
+  display: relative;
+  .image {
+    width: 100vw;
+    height: 66vw;
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.unslider {
+  position: relative;
+}
+
+.unslider-arrow {
+
+  $size: 64px;
+  $small-size: 48px;
+
+  width: $size;
+  height: $size;
+
+  position: absolute;
+
+  top: 50%;
+  right: -50px - $size/2;
+  left: auto;
+  margin-top: -($size/4);
+
+  overflow: hidden;
+
+  background: rgba(255, 255, 255 ,.2) no-repeat 50% 50%;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+  background-size: 7px 11px;
+
+  border-radius: 32px;
+  text-indent: -999em;
+
+  opacity: .8;
+  transition: opacity .2s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &.prev {
+    left: 50px - $size/2;
+    right: auto;
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  @media screen and (max-width: $break-small) {
+    width: $small-size;
+    height: $small-size;
+    right: -50px - $small-size/2;
+    margin-top: -($small-size / 4);
+
+    &.prev { left: 50px - $small-size/2; }
+  }
+
+}
+
+.unslider-nav {
+	margin-top: -40px;
+
+  @media screen and (max-width: $break-small) {
+    margin-top: -60px;
+  }
+}
+.unslider-nav ol {
+	list-style: none;
+	text-align: center;
+
+  li {
+  	display: inline-block;
+  	float: none;
+  	width: 6px;
+  	height: 6px;
+  	margin: 0 4px;
+  	padding: 3px;
+
+  	background: transparent;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	text-indent: -999em;
+  	border: 2px solid #fff;
+  	cursor: pointer;
+
+  	opacity: .4;
+
+    &.unslider-active {
+      background: #fff;
+    	cursor: default;
+    }
+  }
 }
 
 section {
