@@ -11,8 +11,12 @@
       "image_credit": "Dan Staniforth and Claire Forey",
   		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play",
   		"link": "http://newfangled.me/henry-v/",
-      "director": "Andrew Broughton",
-      "sound_designer": "Amos Jackson",
+      "people": {
+        "Director": "Andrew Broughton",
+        "Lighting Designer": "Alex Forey",
+        "Sound Designer": "Amos Jackson",
+        "Projection": "Tom Kell"
+      },
       "venue": "C Venues Edinburgh",
       "bts_video": "",
       "paperwork": true
@@ -26,8 +30,11 @@
       "image_credit": "xxx",
   		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play.",
   		"link": "http://newfangled.me/henry-v/",
-      "director": "Mary Tate",
-      "sound_designer": "Nobby x",
+      "people": {
+        "Director": "Mary Tate",
+        "Lighting Designer": "Alex Forey",
+        "Sound Designer": "Nobby"
+      },
       "venue": "theSpace Edinburgh",
       "paperwork": true
     },
@@ -40,8 +47,12 @@
       "image_credit": "Alex Forey",
   		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play.\n\nSamuel Pepys Theatre for SPS",
   		"link": "http://newfangled.me/henry-v/",
-      "director": "Andrew Broughton",
-      "sound_designer": "Amos Jackson",
+      "people": {
+        "Director": "Andrew Broughton",
+        "Lighting Designer": "Alex Forey",
+        "Sound Designer": "Amos Jackson",
+        "Projection": "Tom Kell"
+      },
       "venue": "Milton Studio",
       "bts_video": "",
       "paperwork": true
@@ -72,12 +83,14 @@
       "id": "hiroshima",
       "image_credit": "Nicholas Heymann",
       "description": "A compact and yet complex piece centring around the destruction and human loss following the bombing of Hiroshima.\n\nSamuel Pepys Theatre for SPS",
-      "link": "https://newfangled.me/hiroshima",
-      "director": "Edward Williams",
-      "sound_designer": "Amos Jackson",
-      "projection_designer": "Tom Kell",
+      "people": {
+        "Director": "Edward Williams",
+        "Lighting Designer": "Alex Forey",
+        "Sound Designer": "Amos Jackson",
+        "Projection Designer": "Tom Kell"
+      },
       "venue": "Samuel Pepys Theatre",
-      "paperwork": false
+      "paperwork": true
     },
     {
       "title": "The Piper of Hamelin",
@@ -86,15 +99,18 @@
       "id": "piper-of-hamelin",
       "image_credit": "<a href='http://konradbartelski.photography'>Konrad Bartelski</a>",
       "description": "From nothing to a fully cued show in a single day, I designed and operated the lighting under the supervision of Pat Krause for this children's opera, directed by the founder of the National Youth Music Theatre.\n\nThe Rose Theatre for Creative Youth/NYMT",
-      "director": "Jeremy James Taylor",
-      "sound_designer": "Amos Jackson",
+      "people": {
+        "Director": "Jeremy James Taylor",
+        "Lighting Designer": "Alex Forey",
+        "Sound Designer": "Amos Jackson"
+      },
       "venue": "The Rose Theatre, Kingston",
       "paperwork": false
     },
     {
       "title": "City of Angels",
       "date": "March 2015",
-      "role": "Associate Lighting Designer",
+      "role": "Lighting Designer",
       "id": "city-of-angels",
       "image_credit": "Fred Hill",
       "description": "The most technically challenging show I'd ever worked on, with nearly 200 cues, 130 lanterns, and all the possible dimmer channels.\n\nSamuel Pepys Theatre for SPS",

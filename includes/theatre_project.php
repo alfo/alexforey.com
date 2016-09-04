@@ -14,7 +14,8 @@
 
   $project = array_shift(array_values($search));
 
-  $images = glob('imgs/portfolio/theatre/' . $project['id'] . '-*.jpg');
+  $images = glob('imgs/portfolio/theatre/' . $project['id'] . '-?.jpg');
+  $images[] = 'imgs/portfolio/theatre/' . $project['id'] . '-thumb.jpg';
 
 ?>
 
