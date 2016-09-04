@@ -14,6 +14,19 @@
 
   $project = array_shift(array_values($search));
 
+  $file_search = 'imgs/portfolio/theatre/' . $project['id'] . '-*.jpg';
+
+  $images = glob($file_search);
+
+  array_walk($images, 'pad');
+
+  function pad(&$input) {
+    $input = "/".$input;
+  }
+
+  // this is such trash
+  echo "<script> var images = ", json_encode($images), ";</script>";
+
 ?>
 
   <div class="container">
@@ -30,9 +43,8 @@
     <div class="info">
 
       <h2 class="venue"><?php echo $project['venue']; ?></h2>
+      <?php if ($project['role'] !== "Lighting Designer") echo "<h3 class='role'>", $project['role'], "</h3>"; ?>
       <h3 class="date"><?php echo $project['date']; ?></h3>
-
-      <?php if ($project['role'] !== "Lighting Designer") echo "<p class='role'>", $project['role'], "</p>"; ?>
 
       <div class="credits">
 
