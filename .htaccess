@@ -3,6 +3,8 @@ DirectoryIndex index.php index.php building.php
 RewriteEngine on
 RewriteBase /
 
+RewriteRule ^theatre/([^/]*)$ /theatre.php?id=$1 [L]
+
 # remove .php; use THE_REQUEST to prevent infinite loops
 RewriteCond %{THE_REQUEST} ^GET\ (.*)\.php\ HTTP
 RewriteRule (.*)\.php$ $1 [R=301]
@@ -26,11 +28,3 @@ ErrorDocument 404 /404.php
 order allow,deny
 allow from all
 </Files>
-
-deny from 94.63.9.71
-deny from 184.82.186.109
-deny from 46.29.252.218
-deny from 184.91.50.43
-RewriteCond %{HTTP_HOST} ^dev\.alexforey\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.dev\.alexforey\.com$
-RewriteRule ^/?$ "http\:\/\/alex\.ntdll\.net" [R=301,L]

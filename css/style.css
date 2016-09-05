@@ -449,12 +449,21 @@ section#first .info h1, section#first .info h2, section#first .info h3 {
 section#first .info h2.venue {
   font-size: 32px;
   margin-bottom: 0px; }
+  @media screen and (max-width: 675px) {
+    section#first .info h2.venue {
+      font-size: 24px; } }
 section#first .info h3.role {
   font-size: 24px;
   margin-bottom: 5px; }
+  @media screen and (max-width: 675px) {
+    section#first .info h3.role {
+      font-size: 20px; } }
 section#first .info h3.date {
   font-size: 20px;
   margin-bottom: 30px; }
+  @media screen and (max-width: 675px) {
+    section#first .info h3.date {
+      font-size: 18px; } }
 section#first .info a.button {
   background: #3b3b3b;
   text-decoration: none;

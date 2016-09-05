@@ -671,13 +671,20 @@ section#first .info {
   h2.venue {
     font-size: 32px;
     margin-bottom: 0px;
+    @media screen and (max-width: $break-small) { font-size: 24px; }
   }
 
-  h3.role { font-size: 24px; margin-bottom: 5px; }
+  h3.role {
+    font-size: 24px;
+    margin-bottom: 5px;
+    @media screen and (max-width: $break-small) { font-size: 20px; }
+  }
 
   h3.date {
     font-size: 20px;
     margin-bottom: 30px;
+
+    @media screen and (max-width: $break-small) { font-size: 18px; }
   }
 
   a.button {

@@ -1,5 +1,5 @@
 {
-  "featured": 3,
+  "featured": 0,
 
   "projects": [
 
@@ -9,7 +9,7 @@
   		"role": "Lighting Designer",
   		"id": "grey-matter-fringe",
       "image_credit": "Dan Staniforth and Claire Forey",
-  		"description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty",
+  		"description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty, changing to a front-on space and repertory lighting rig.",
       "people": {
         "Director": "Andrew Broughton",
         "Lighting Designer": "Alex Forey",
@@ -17,8 +17,7 @@
         "Projection": "Tom Kell"
       },
       "press": {
-        "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview",
-        "masterclass in technological creativity": "EdFringeReview"
+        "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview"
       },
       "venue": "C Venues Edinburgh",
       "bts_video": "",
@@ -31,7 +30,7 @@
   		"role": "Lighting Designer",
   		"id": "grey-matter",
       "image_credit": "Alex Forey",
-  		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play.\n\nSamuel Pepys Theatre for SPS",
+  		"description": "A dark psychological drama involving a young offenders' institution devised by the cast and based on a scenario by Adrian Raine played in the round.",
   		"link": "http://newfangled.me/henry-v/",
       "people": {
         "Director": "Andrew Broughton",
@@ -50,7 +49,7 @@
   		"role": "Lighting Designer",
   		"id": "henry-v",
       "image_credit": "Fred Hill",
-  		"description": "A new adapted version of Henry V with an hour and a half running time, and my last main house school play.\n\nSamuel Pepys Theatre for SPS",
+  		"description": "A new adapted version of Henry V shortened to an hour and a half and employing physical theatre to create scale",
   		"link": "http://newfangled.me/henry-v/",
       "people": {
         "Director": "Alex Kerr",
@@ -68,7 +67,7 @@
       "role": "Lighting Designer",
       "id": "hiroshima",
       "image_credit": "Nicholas Heymann",
-      "description": "A compact and yet complex piece centring around the destruction and human loss following the bombing of Hiroshima.\n\nSamuel Pepys Theatre for SPS",
+      "description": "A compact and yet complex piece centring around the destruction and human loss following the bombing of Hiroshima.",
       "people": {
         "Director": "Edward Williams",
         "Lighting Designer": "Alex Forey",
@@ -84,7 +83,7 @@
       "role": "Lighting Designer",
       "id": "piper-of-hamelin",
       "image_credit": "<a href='http://konradbartelski.photography'>Konrad Bartelski</a>",
-      "description": "From nothing to a fully cued show in a single day, I designed and operated the lighting under the supervision of Pat Krause for this children's opera, directed by the founder of the National Youth Music Theatre.\n\nThe Rose Theatre for Creative Youth/NYMT",
+      "description": "A childrens' opera adaptation of the classic fairytale",
       "people": {
         "Director": "Jeremy James Taylor",
         "Lighting Designer": "Alex Forey",
@@ -99,7 +98,7 @@
       "role": "Lighting Designer",
       "id": "city-of-angels",
       "image_credit": "Fred Hill",
-      "description": "The most technically challenging show I'd ever worked on, with nearly 200 cues, 130 lanterns, and all the possible dimmer channels.\n\nSamuel Pepys Theatre for SPS",
+      "description": "A complex musical set simultaneously in a writer's study in Hollywood and inside the world of his noir detective screenplay",
       "link": "https://newfangled.me/city-of-angels",
       "people": {
         "Director": "Edward Williams",
