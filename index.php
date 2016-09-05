@@ -28,7 +28,7 @@
       <a href="/theatre">
         <div id="theatre"></div>
         <h2>Theatre</h2>
-        <p>I'm a lighting designer and I have worked on over 30 productions in lighting, sound, and projection.</p>
+        <p>I'm a lighting designer with experience on over 40 productions, also branching out into projection</p>
 
       </a>
 
@@ -49,7 +49,7 @@
       <a href="/hardware">
         <div id="hardware"></div>
         <h2>Hardware</h2>
-        <p>I 3D-print, laser-cut, solder, and tinker to fix problems I encounter mostly around my house.</p>
+        <p>I 3D-print, laser-cut, solder, and tinker to fix problems I encounter in my house and the theatre</p>
 
       </a>
 

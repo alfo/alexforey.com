@@ -34,7 +34,7 @@
     <div class="info">
       <h2><?php echo $featured['title']; ?></h2>
       <p><?php echo nl2br($featured['long_description']); ?></p>
-      <a class="readmore" href="/theatre/<?php echo $featured['id']; ?>">Read More</a>
+      <a class="readmore" href="/lighting/<?php echo $featured['id']; ?>">Read More</a>
     </div>
 
   </div>
@@ -58,7 +58,7 @@
         <time><?php echo $project['date']; ?></time>
         <p class="description"><?php echo nl2br($project['description']); ?></p>
         <p><?php echo $project['venue']; ?></p>
-        <a class="readmore" href="/theatre/<?php echo $project['id']?>">View</a>
+        <a class="readmore" href="/lighting/<?php echo $project['id']?>">View</a>
       </div>
     </div>
 
