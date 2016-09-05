@@ -54,7 +54,7 @@
       <?php } ?>
 
       <?php if ($project['paperwork']) { ?>
-        <a class="button" id="plots" href="/plots/<?php echo $project['id']; ?>.zip">View Plots</a>
+        <a class="button" id="plots" href="/plots/<?php echo substr($project['date'], -4), '/', $project['id']; ?>.zip">View Plots</a>
       <?php } ?>
 
       <?php if ($project['link']) { ?>
