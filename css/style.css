@@ -120,7 +120,8 @@ a {
   bottom: 40px; }
   @media screen and (max-width: 675px) {
     .unslider-nav {
-      bottom: 60px; } }
+      bottom: 60px;
+      margin-bottom: -60px; } }
 
 .contains-slider-with-caption .unslider-nav {
   bottom: 74px; }
@@ -428,14 +429,15 @@ header {
   color: white;
   font-size: 120%;
   text-align: right;
-  margin-top: 10px; }
+  margin-top: -10px; }
   .photo-credit a {
     color: inherit;
     text-decoration: underline; }
   @media screen and (max-width: 675px) {
     .photo-credit {
       margin-right: 20px;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px;
+      font-size: 100%; } }
 
 .credits {
   display: flex;

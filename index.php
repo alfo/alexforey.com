@@ -27,7 +27,7 @@
 
       <a href="/theatre">
         <div id="theatre"></div>
-        <h2>Theatre</h2>
+        <h2>Lighting Design</h2>
         <p>I'm a lighting designer with experience on over 40 productions, also branching out into projection</p>
 
       </a>
