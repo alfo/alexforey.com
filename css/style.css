@@ -498,7 +498,7 @@ section#first .info a.button {
     padding-right: 10px;
     font-size: 85%; }
   section#first .info a.button#plots:before {
-    content: "⬇"; }
+    content: "⬇️"; }
   section#first .info a.button#readmore:before {
     content: "🌍"; }
   @media screen and (max-width: 675px) {
