@@ -9,6 +9,5 @@
     include 'includes/theatre_list.php';
   }
 
-
   include 'includes/footer.php';
 ?>

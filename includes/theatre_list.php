@@ -1,13 +1,6 @@
 <?php
 
-  $filename = "includes/" . strtolower($title) . ".json";
-
-  $file = fopen($filename, "r");
-  $json = fread($file, filesize($filename));
-  fclose($file);
-
-  $projects = json_decode($json, true);
-  $featured = $projects['projects'][$projects['featured']];
+  $projects = getProjects($title);
 
 ?>
 
@@ -17,26 +10,24 @@
       <h1>Alex's <?php echo $title; ?> Projects</h1>
     </header>
 
-    <?php if ($featured['video']) { ?>
+  </div>
 
-      <div class="video fitvid project">
-        <iframe src="//player.vimeo.com/video/<?php echo $featured['video']; ?>?title=0&amp;byline=0&amp;portrait=0&amp;color=ff6e6e" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-      </div>
+  <div class="photo project slider slider-with-caption">
 
-    <?php } else { ?>
-
-      <div class="photo project">
-        <img src="/imgs/portfolio/<?php echo strtolower($title), '/', $featured['id']; ?>-thumb.jpg">
-      </div>
-
-    <?php } ?>
-
-    <div class="info">
-      <h2><?php echo $featured['title']; ?></h2>
-      <p><?php echo nl2br($featured['long_description']); ?></p>
-      <a class="readmore" href="/lighting/<?php echo $featured['id']; ?>">Read More</a>
-    </div>
-
+    <ul>
+      <?php foreach ($projects['featured'] as $id => $photo) {
+        $show = getProjectWithID($projects, $id);
+     ?>
+        <li>
+          <div class="image" style="background-image: url(/imgs/portfolio/theatre/<?php echo $id, '-', $photo; ?>.jpg)"></div>
+          <p class="caption">
+            <a href="/lighting/<?php echo $show['id']; ?>"><em><?php echo $show['title']; ?></em>,
+            <?php echo $show['venue']; ?>,
+            <?php echo $show['date']; ?></a>
+          </p>
+        </li>
+      <?php } ?>
+    </ul>
   </div>
 
 </section>

@@ -67,6 +67,18 @@ a {
     background-size: cover;
     background-position: center 20%;
     background-repeat: no-repeat; }
+  .slider .caption {
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px; }
+    .slider .caption a {
+      color: white; }
+    @media screen and (max-width: 675px) {
+      .slider .caption {
+        bottom: 0;
+        background: none; } }
 
 .unslider {
   position: relative; }
@@ -104,10 +116,17 @@ a {
         left: 26px; } }
 
 .unslider-nav {
-  margin-top: -40px; }
+  position: relative;
+  bottom: 40px; }
   @media screen and (max-width: 675px) {
     .unslider-nav {
-      margin-top: -60px; } }
+      bottom: 60px; } }
+
+.contains-slider-with-caption .unslider-nav {
+  bottom: 74px; }
+  @media screen and (max-width: 675px) {
+    .contains-slider-with-caption .unslider-nav {
+      bottom: 50px; } }
 
 .unslider-nav ol {
   list-style: none;

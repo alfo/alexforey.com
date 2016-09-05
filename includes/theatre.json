@@ -1,5 +1,12 @@
 {
-  "featured": 0,
+  "featured": {
+    "grey-matter-fringe": 5,
+    "grey-matter": 2,
+    "henry-v": 3,
+    "city-of-angels": 3,
+    "hiroshima": 2,
+    "piper-of-hamelin": 2
+  },
 
   "projects": [
 

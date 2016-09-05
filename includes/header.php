@@ -5,6 +5,26 @@
     ? ((date("Y") - 1997) - 1)
     : (date("Y") - 1997));
 
+  function getProjects($type) {
+    $filename = "includes/" . strtolower($type) . ".json";
+
+    $file = fopen($filename, "r");
+    $json = fread($file, filesize($filename));
+    fclose($file);
+
+    return json_decode($json, true);
+  }
+
+  function getProjectWithID($projects, $id) {
+
+
+    $search = array_filter($projects['projects'], function($ar) use($id) {
+      return ($ar['id'] == $id);
+    });
+
+    return array_shift(array_values($search));
+  }
+
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +37,7 @@
   /_/ \_\_\___/_\_\ |_|\___/_| \___|\_, |
                                     |__/
 
+yeah, I spent way too much time on that ASCII art.
 -->
 
 <html>
@@ -24,7 +45,7 @@
     <title><?php echo $title; ?> | Alex Forey's Website</title>
 
     <meta name="author" content="Alex Forey">
-    <meta name="description" content="The Website of a <?php echo $age; ?> year old interested in filmmaking, photography, the web, coding, technical theatre and making things.">
+    <meta name="description" content="The Website of a <?php echo $age; ?> year old interested in lighting design, filmmaking, photography, the web, coding, and making things.">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />

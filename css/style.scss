@@ -103,6 +103,18 @@ a {
     background-position: center 20%;
     background-repeat: no-repeat;
   }
+
+  .caption {
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+
+    a { color: white; }
+
+    @media screen and (max-width: $break-small) { bottom: 0; background: none; }
+  }
 }
 
 .unslider {
@@ -159,12 +171,21 @@ a {
 }
 
 .unslider-nav {
-	margin-top: -40px;
+	position: relative;
+  bottom: 40px;
 
   @media screen and (max-width: $break-small) {
-    margin-top: -60px;
+    bottom: 60px;
   }
 }
+
+.contains-slider-with-caption .unslider-nav {
+  bottom: 74px;
+  @media screen and (max-width: $break-small) {
+    bottom: 50px;
+  }
+}
+
 .unslider-nav ol {
 	list-style: none;
 	text-align: center;

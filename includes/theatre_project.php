@@ -1,18 +1,8 @@
 <?php
 
-  $filename = "includes/" . strtolower($title) . ".json";
+  $projects = getProjects($title);
 
-  $file = fopen($filename, "r");
-  $json = fread($file, filesize($filename));
-  fclose($file);
-
-  $projects = json_decode($json, true);
-
-  $search = array_filter($projects['projects'], function($ar) {
-    return ($ar['id'] == $_GET['id']);
-  });
-
-  $project = array_shift(array_values($search));
+  $project = getProjectWithID($projects, $_GET['id']);
 
   $images = glob('imgs/portfolio/theatre/' . $project['id'] . '-?.jpg');
   $images[] = 'imgs/portfolio/theatre/' . $project['id'] . '-thumb.jpg';

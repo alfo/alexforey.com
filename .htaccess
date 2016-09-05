@@ -9,7 +9,6 @@ RewriteRule ^lighting/([^/]*)$ /theatre.php?id=$1 [L]
 RewriteCond %{THE_REQUEST} ^GET\ (.*)\.php\ HTTP
 RewriteRule (.*)\.php$ $1 [R=301]
 
-
 # remove index
 RewriteRule (.*)/index$ $1/ [R=301]
 

@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$('.slider').unslider({
-		infinite: true 
+		infinite: true
 	});
 
 	$(".fitvid").fitVids();
@@ -27,6 +27,8 @@ $(document).ready(function(){
 		});
 
 	}
+
+	$('.slider-with-caption').parent().addClass('contains-slider-with-caption');
 
 
 });
