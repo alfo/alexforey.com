@@ -1,5 +1,6 @@
 {
   "featured": {
+    "quintessential": 2,
     "grey-matter-fringe": 5,
     "grey-matter": 2,
     "henry-v": 3,
@@ -11,12 +12,31 @@
   "projects": [
 
     {
+      "title": "Quint-Essential",
+      "date": "November 2016",
+      "role": "Associate Lighting Designer",
+      "id": "quintessential",
+      "image_credit": "Dave Morgan, Jane Hobson",
+      "description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty, changing to a front-on space and repertory lighting rig.",
+      "people": {
+        "Choreographer": "George Williamson",
+        "Choreographer": "Daniela Cardim",
+        "Choreographer": "Marcelino Sambé",
+        "Choreographer": "Kristen Mcnally",
+        "Lighting Designer": "Andrew Ellis",
+        "Set Designer": "Louie Whitemore"
+      },
+      "venue": "Peacock Theatre, Sadler's Wells",
+      "paperwork": false
+    },
+
+    {
       "title": "Grey Matter",
-  		"date": "August 2016",
-  		"role": "Lighting Designer",
-  		"id": "grey-matter-fringe",
+      "date": "August 2016",
+      "role": "Lighting Designer",
+      "id": "grey-matter-fringe",
       "image_credit": "Dan Staniforth and Claire Forey",
-  		"description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty, changing to a front-on space and repertory lighting rig.",
+      "description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty, changing to a front-on space and repertory lighting rig.",
       "people": {
         "Director": "Andrew Broughton",
         "Lighting Designer": "Alex Forey",
@@ -33,12 +53,12 @@
 
     {
       "title": "Grey Matter",
-  		"date": "February 2016",
-  		"role": "Lighting Designer",
-  		"id": "grey-matter",
+      "date": "February 2016",
+      "role": "Lighting Designer",
+      "id": "grey-matter",
       "image_credit": "Alex Forey",
-  		"description": "A dark psychological drama involving a young offenders' institution devised by the cast and based on a scenario by Adrian Raine played in the round.",
-  		"link": "http://newfangled.me/grey-matter/",
+      "description": "A dark psychological drama involving a young offenders' institution devised by the cast and based on a scenario by Adrian Raine played in the round.",
+      "link": "http://newfangled.me/grey-matter/",
       "people": {
         "Director": "Andrew Broughton",
         "Lighting Designer": "Alex Forey",
@@ -51,13 +71,13 @@
     },
 
     {
-  		"title": "Henry V",
-  		"date": "December 2015",
-  		"role": "Lighting Designer",
-  		"id": "henry-v",
+      "title": "Henry V",
+      "date": "December 2015",
+      "role": "Lighting Designer",
+      "id": "henry-v",
       "image_credit": "Fred Hill",
-  		"description": "A new adapted version of Henry V shortened to an hour and a half and employing physical theatre to create scale",
-  		"link": "http://newfangled.me/henry-v/",
+      "description": "A new adapted version of Henry V shortened to an hour and a half and employing physical theatre to create scale",
+      "link": "http://newfangled.me/henry-v/",
       "people": {
         "Director": "Alex Kerr",
         "Designer": "Katy Mills",
@@ -66,7 +86,7 @@
       },
       "venue": "Samuel Pepys Theatre",
       "paperwork": true
-  	},
+    },
 
     {
       "title": "Hiroshima: Crucible of Light",
