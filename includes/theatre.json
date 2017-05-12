@@ -1,5 +1,6 @@
 {
   "featured": {
+    "the-female-gaze": 1,
     "quintessential": 2,
     "grey-matter-fringe": 5,
     "grey-matter": 2,
@@ -10,6 +11,22 @@
   },
 
   "projects": [
+
+    {
+      "title": "The Female Gaze",
+      "date": "March 2017",
+      "role": "Lighting Designer",
+      "id": "the-female-gaze",
+      "image_credit": "<a href='http://www.lilyvetch.com'>Lily Vetch</a>",
+      "description": "A brand new feminist scratch night showcasing stories about sex and desire spanning the sexuality spectrum.",
+      "people": {
+        "Director": "Emily Warren",
+        "Director ": "Annabelle Rich et al.",
+        "Sound Designer": "Nikhil Vyas"
+      },
+      "venue": "Cockpit Theatre",
+      "paperwork": false
+    },
 
     {
       "title": "Quint-Essential",
