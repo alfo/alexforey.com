@@ -31,7 +31,7 @@
     <div class="info">
 
       <h2 class="venue"><?php echo $project['venue']; ?></h2>
-      <?php if ($project['role'] !== "Lighting Designer") echo "<h3 class='role'>", $project['role'], "</h3>"; ?>
+      <?php if ($project['role'] !== "Lighting Designer") echo "<h3 class='role'>", $project['role'], "</h3> <p class='system'>", $project['system'], "</p>"; ?>
       <h3 class="date"><?php echo $project['date']; ?></h3>
 
       <div class="credits">

@@ -439,6 +439,9 @@ header {
       margin-bottom: 20px;
       font-size: 100%; } }
 
+.system {
+  text-align: center; }
+
 .credits {
   display: flex;
   justify-content: space-around;

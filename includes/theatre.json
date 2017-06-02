@@ -11,7 +11,25 @@
   },
 
   "projects": [
-
+    {
+      "title": "City of Glass",
+      "date": "April 2017",
+      "role": "Chief of Projection (Lyric)",
+      "id": "city-of-glass",
+      "image_credit": "59 / Jonathan Keenan",
+      "description": "When reclusive crime writer Daniel Quinn receives a mysterious phone call from a man seeking a private detective in the middle of the night, he quickly and unwittingly becomes the protagonist in a real-life thriller of his own.",
+      "system": "d3 4x4pro and Panasonic Laser Projectors, linked to ETC EOS",
+      "people": {
+        "Director": "Leo Warner",
+        "Set Designer": "Jenny Melville",
+        "Video Designer": "Lysander Ashton",
+        "Lighting Designer": "Matt Daw",
+        "Sound Designer": "Gareth Fry",
+        "Composer": "Nick Powell",
+        "Movement Director": "Kim Brandstrup"
+      },
+      "venue": "59 Productions / Lyric Hammersmith"
+    },
     {
       "title": "The Female Gaze",
       "date": "March 2017",
@@ -24,7 +42,7 @@
         "Director ": "Annabelle Rich et al.",
         "Sound Designer": "Nikhil Vyas"
       },
-      "venue": "Cockpit Theatre",
+      "venue": "Rich Creative, Cockpit Theatre",
       "paperwork": false
     },
 
@@ -43,6 +61,7 @@
         "Lighting Designer": "Andrew Ellis",
         "Set Designer": "Louie Whitemore"
       },
+      "system": "ETC Gio",
       "venue": "Peacock Theatre, Sadler's Wells",
       "paperwork": false
     },
