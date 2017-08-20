@@ -1,6 +1,6 @@
 {
   "featured": {
-    "the-female-gaze": 1,
+    "the-female-gaze": 2,
     "quintessential": 2,
     "grey-matter-fringe": 5,
     "grey-matter": 2,
@@ -11,6 +11,21 @@
   },
 
   "projects": [
+    {
+      "title": "Babel",
+      "date": "July 2017",
+      "role": "Lighting Designer",
+      "id": "bable",
+      "description": "",
+      "people": {
+        "Director": "Edward Williams",
+        "Set Designer": "Dan Staniforth",
+        "Sound Designer": "Nic Heymann",
+        "Video Designer": "Kit Treadwell"
+      },
+      "paperwork": true,
+      "venue": "SPASM, Lyric Studio, Hammersmith",
+    },
     {
       "title": "City of Glass",
       "date": "April 2017",
@@ -28,6 +43,7 @@
         "Composer": "Nick Powell",
         "Movement Director": "Kim Brandstrup"
       },
+      "paperwork": false,
       "venue": "59 Productions / Lyric Hammersmith"
     },
     {
