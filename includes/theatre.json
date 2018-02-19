@@ -1,23 +1,39 @@
 {
   "featured": {
+    "into-the-woods": 2,
     "babel": 1,
     "the-female-gaze": 2,
-    "quintessential": 2,
-    "grey-matter-fringe": 5,
-    "grey-matter": 2,
-    "henry-v": 3,
-    "city-of-angels": 3,
+    "henry-v": 2,
     "hiroshima": 2,
+    "grey-matter": 2,
+    "grey-matter-fringe": 5,
+    "city-of-angels": 3,
     "piper-of-hamelin": 2
   },
 
   "projects": [
     {
+      "title": "Into The Woods",
+      "date": "February 2018",
+      "role": "Co-Lighting Designer",
+      "id": "into-the-woods",
+      "description": "A twisted re-imagining of Grimm's fairytales, exploring the light and dark sides of desire. Find out what happens to Little Red Riding Hood, Cinderella, Jack and others after they get their happily ever after.",
+      "people": {
+        "Director": "Olivia Burgin",
+        "Musical Director": "Alessandra Anderson-Lewis",
+        "Set Designer": "Arya Bhomick",
+        "Sound Designer": "Matthias Olson"
+      },
+      "paperwork": true,
+      "venue": "UCLMT, Shaw Theatre",
+      "image_credit": "Alex Forey"
+    },
+    {
       "title": "Babel",
       "date": "July 2017",
       "role": "Lighting Designer",
-      "id": "bable",
-      "description": "",
+      "id": "babel",
+      "description": "Patrick Neate's exciting text challenges the audience to reflect on the nature of language in the UK today. A kaleidoscope of sound and a cacophony of visual images generated through dance, movement and speech.",
       "people": {
         "Director": "Edward Williams",
         "Set Designer": "Dan Staniforth",
@@ -26,6 +42,7 @@
       },
       "paperwork": true,
       "venue": "SPASM, Lyric Studio, Hammersmith",
+	    "image_credit": "Alex Forey"
     },
     {
       "title": "City of Glass",
@@ -66,7 +83,7 @@
     {
       "title": "Quint-Essential",
       "date": "November 2016",
-      "role": "Associate Lighting Designer",
+      "role": "Associate Lighting Designer, Programmer",
       "id": "quintessential",
       "image_credit": "Dave Morgan, Jane Hobson",
       "description": "Five new contemporary ballets commisionned by New English Ballet Theatre for their annual gala, featuring 100 pixel-mapped pendants",
