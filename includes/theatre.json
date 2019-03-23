@@ -1,5 +1,6 @@
 {
   "featured": {
+    "rhapsody": 1,
     "polyeucte": 1,
     "into-the-woods": 2,
     "babel": 1,
@@ -13,6 +14,20 @@
   },
 
   "projects": [
+    {
+      "title": "Rhapsody",
+      "date": "January 2010",
+      "role": "Lighting Designer",
+      "id": "rhapsody",
+      "description": "A live music showcase of well known and loved songs reimagined and brought to life entirely by UCL Students, Rhapsody 2019 will be a celebration of the power and expression of music.",
+      "people": {
+        "Director": "Björn Franke",
+        "Co-Lighting Designer": "Cameron Pollaers"
+      },
+      "paperwork": false,
+      "venue": "Bloomsbury Theatre",
+      "image_credit": "Natalie Pound"
+    },
     {
       "title": "Polyeucte",
       "date": "March 2018",
