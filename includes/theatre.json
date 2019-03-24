@@ -15,14 +15,29 @@
 
   "projects": [
     {
+      "title": "Songs for a New World",
+      "date": "March 2019",
+      "role": "Lighting Designer",
+      "id": "sfanw",
+      "description": "Jason Robert Brown's iconic song cycle Songs For A New World takes a look at people on the brink of life’s biggest decisions, through a stunning blend of musical genres.",
+      "people": {
+        "Director": "Suriyah Rashid",
+        "Musical Director": "Natalie Pound"
+      },
+      "paperwork": false,
+      "venue": "Drayton Arms Theatre",
+      "image_credit": "Wen-yi Lee"
+    },
+    {
       "title": "Rhapsody",
-      "date": "January 2010",
+      "date": "January 2019",
       "role": "Lighting Designer",
       "id": "rhapsody",
       "description": "A live music showcase of well known and loved songs reimagined and brought to life entirely by UCL Students, Rhapsody 2019 will be a celebration of the power and expression of music.",
       "people": {
         "Director": "Björn Franke",
-        "Co-Lighting Designer": "Cameron Pollaers"
+        "Co-Lighting Designer": "Cameron Pollaers",
+        "Sound Designer": "Jenny Wark"
       },
       "paperwork": false,
       "venue": "Bloomsbury Theatre",
