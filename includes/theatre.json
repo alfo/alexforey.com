@@ -1,5 +1,6 @@
 {
   "featured": {
+    "libuse": 1,
     "rhapsody": 1,
     "sfanw": 1,
     "polyeucte": 1,
@@ -14,6 +15,23 @@
   },
 
   "projects": [
+    {
+      "title": "Libuše",
+      "date": "March 2019",
+      "role": "Lighting Designer",
+      "id": "libuse",
+      "description": "UCO reimagines Smetana's Bohemian queen and her medieval court in the modern-day city, where soaring skyscrapers promise glamour and wealth at a human cost. Born into a celebrated legal dynasty, Libuše is queen of the corporate world and obliged to assert herself as its leader.",
+      "people": {
+        "Director": "Cecilia Stinton",
+        "Conductor": "Charles Peebles",
+        "Designer": "Holly Muir",
+        "Costume": "Alžbeta Kurdelová",
+        "Choreographer": "Ester Rudhart"
+      },
+      "paperwork": false,
+      "venue": "Bloomsbury Theatre",
+      "image_credit": "Katie Edwards"
+    },
     {
       "title": "Songs for a New World",
       "date": "March 2019",
