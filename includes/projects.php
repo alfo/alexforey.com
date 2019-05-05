@@ -1,6 +1,6 @@
 <?php
 
-  $filename = "includes/" . strtolower($title) . ".json";
+  $filename = "includes/projects.json";
 
   $file = fopen($filename, "r");
   $json = fread($file, filesize($filename));

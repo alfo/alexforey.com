@@ -1,5 +1,5 @@
 <?php
-  $title = 'Hardware';
+  $title = 'Projects';
 
   include 'includes/header.php';
 
