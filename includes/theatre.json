@@ -90,7 +90,8 @@
       },
       "paperwork": true,
       "venue": "Shaw Theatre",
-      "image_credit": "Alex Forey"
+      "image_credit": "Alex Forey",
+      "videos": ["256867974"]
     },
     {
       "title": "Babel",
@@ -107,7 +108,7 @@
       "paperwork": true,
       "venue": "Lyric Studio, Hammersmith",
 	    "image_credit": "Alex Forey",
-      "bts_video": "247695309"
+      "videos": ["247695309"]
     },
     {
       "title": "City of Glass",
@@ -182,7 +183,7 @@
         "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview"
       },
       "venue": "C Venues Edinburgh",
-      "bts_video": "",
+      "videos": ["180773266"],
       "paperwork": true
     },
 
@@ -201,7 +202,7 @@
         "Projection": "Tom Kell"
       },
       "venue": "Milton Studio",
-      "bts_video": "",
+      "videos": ["158196727"],
       "paperwork": true
     },
 
@@ -220,7 +221,8 @@
         "Sound Designer": "Amos Jackson"
       },
       "venue": "Samuel Pepys Theatre",
-      "paperwork": true
+      "paperwork": true,
+      "videos": ["162275017"]
     },
 
     {

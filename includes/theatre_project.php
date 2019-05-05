@@ -65,11 +65,14 @@
 
       <div class="clear"></div>
 
-      <?php if ($project['bts_video']) { ?>
+      <?php if ($project['videos']) {
+        foreach ($project['videos'] as $video) {
+        ?>
         <div class="video fitvid">
-          <iframe src="//player.vimeo.com/video/<?php echo $project['bts_video']; ?>?title=1&amp;byline=0&amp;portrait=0&amp;color=f52323" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <iframe src="//player.vimeo.com/video/<?php echo $video; ?>?title=1&amp;byline=0&amp;portrait=0&amp;color=f52323" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
-      <?php } ?>
+
+      <?php } } ?>
 
     </div>
 
