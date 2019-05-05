@@ -39,6 +39,10 @@
 
   <div class="clear"></div>
 
+</section>
+
+<section class="dark">
+
   <div class="elsewhere">
 
     <h1>Elsewhere</h1>
