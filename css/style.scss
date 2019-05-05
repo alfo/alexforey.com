@@ -303,6 +303,10 @@ section {
   }
 }
 
+.nav-container {
+  background: #303030;
+}
+
 nav {
 
   display: block;
@@ -320,6 +324,7 @@ nav {
       width: 20%;
       float: left;
       margin-top: 15px;
+      margin-bottom: 10px;
       padding: 10px 0px;
       vertical-align: middle;
       text-transform: uppercase;
@@ -327,10 +332,20 @@ nav {
 
       a { color: white; text-decoration: none; }
 
-      &:nth-child(3), &:nth-child(4) {
+      &:nth-child(4), &:nth-child(5) {
         float: right;
-
       }
+
+      &#home {
+        background-image: url(/imgs/logo-small.png);
+        background-size: 90px 48px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 13px;
+
+        a { opacity: 0; }
+      }
+
     }
 
     @media screen and (max-width: $break-small) and (orientation: portrait) {
@@ -342,11 +357,11 @@ nav {
           float: none;
           width: 100%;
           text-align: center;
-          margin-top: 50px;
+          margin-top: 20px;
+          margin-bottom: 0;
+          background-size: 75px 40px;
         }
       }
-
-      background: rgba(white, 0.1);
     }
   }
 }

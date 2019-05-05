@@ -210,6 +210,9 @@ section#tiles {
     .container {
       max-width: 1000px; } }
 
+.nav-container {
+  background: #303030; }
+
 nav {
   display: block;
   float: left;
@@ -224,6 +227,7 @@ nav {
       width: 20%;
       float: left;
       margin-top: 15px;
+      margin-bottom: 10px;
       padding: 10px 0px;
       vertical-align: middle;
       text-transform: uppercase;
@@ -231,19 +235,27 @@ nav {
       nav ul li a {
         color: white;
         text-decoration: none; }
-      nav ul li:nth-child(3), nav ul li:nth-child(4) {
+      nav ul li:nth-child(4), nav ul li:nth-child(5) {
         float: right; }
+      nav ul li#home {
+        background-image: url(/imgs/logo-small.png);
+        background-size: 90px 48px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 13px; }
+        nav ul li#home a {
+          opacity: 0; }
     @media screen and (max-width: 675px) and (orientation: portrait) {
-      nav ul {
-        background: rgba(255, 255, 255, 0.1); }
-        nav ul li {
-          width: 25%;
-          font-size: 12px; }
-          nav ul li#home {
-            float: none;
-            width: 100%;
-            text-align: center;
-            margin-top: 50px; } }
+      nav ul li {
+        width: 25%;
+        font-size: 12px; }
+        nav ul li#home {
+          float: none;
+          width: 100%;
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 0;
+          background-size: 75px 40px; } }
 
 header {
   text-align: center;

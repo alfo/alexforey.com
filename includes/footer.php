@@ -9,6 +9,8 @@
 
     <script type="text/javascript">
 
+      // Google Analytics
+
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-28573924-1']);
       _gaq.push(['_setDomainName', 'alexforey.com']);
@@ -19,6 +21,12 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+
+      // Livereload but only in development
+
+      if (window.location.hostname == "alexforey.dev") {
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+      }
 
     </script>
 

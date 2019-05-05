@@ -71,18 +71,21 @@ yeah, I spent way too much time on that ASCII art.
 
     <section id="first">
 
-      <div class="container">
+      <div class="nav-container">
+        <div class="container">
 
-        <nav>
-          <ul>
-            <li><a href="http://alexforey.com/#portfolio" id="portfolio_link">Portfolio</a></li>
-            <li><a href="http://newfangled.me/">Blog</a></li>
-            <li><a href="http://alexforey.com/about">About</a></li>
-            <li><a href="http://photos.alexforey.com">Photos</a></li>
-            <li id="home"><a href="http://alexforey.com/">Alex Forey</a></li>
-          </ul>
-        </nav>
+          <nav>
+            <ul>
+              <li id="home"><a href="/">Alex Forey</a></li>
+              <li><a href="http://alexforey.com/#portfolio" id="portfolio_link">Lighting</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="http://newfangled.me/">Blog</a></li>
 
-        <div class="clear"></div>
+            </ul>
+          </nav>
 
+          <div class="clear"></div>
+
+        </div>
       </div>
