@@ -53,11 +53,11 @@ yeah, I spent way too much time on that ASCII art.
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <!-- All this fancy stuff for icons etc. -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon-16x16.png?v=2">
     <link rel="manifest" href="/site.webmanifest?v=2">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=2" color="#c71616">
+    <link rel="mask-icon" href="/imgs/safari-pinned-tab.svg?v=2" color="#c71616">
     <link rel="shortcut icon" href="/favicon.ico?v=2">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#000000">
