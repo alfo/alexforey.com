@@ -4,14 +4,6 @@
 
 ?>
 
-  <div class="container">
-
-    <header>
-      <h1>Alex's <?php echo $title; ?> Projects</h1>
-    </header>
-
-  </div>
-
   <div class="photo project slider slider-with-caption">
 
     <ul>
@@ -28,6 +20,12 @@
         </li>
       <?php } ?>
     </ul>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1>Lighting Design</h1>
+    </header>
   </div>
 
 </section>

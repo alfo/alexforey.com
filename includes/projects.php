@@ -13,8 +13,8 @@
 
   <div class="container">
 
-    <header>
-      <h1>Alex's <?php echo $title; ?> Projects</h1>
+    <header class="top-of-page">
+      <h1>Projects</h1>
     </header>
 
     <?php if ($featured['video']) { ?>

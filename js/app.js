@@ -21,18 +21,6 @@ $(document).ready(function(){
 		$(this).attr('href', href.replace('shitemail.', ''));
 	});
 
-	if ($('.scroll_to_portfolio').length) {
-
-		$('#portfolio_link').click(function(e) {
-
-			$('.scroll_to_portfolio').goTo();
-
-			e.preventDefault();
-
-		});
-
-	}
-
 	$('.slider-with-caption').parent().addClass('contains-slider-with-caption');
 
 

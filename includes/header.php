@@ -42,7 +42,7 @@ yeah, I spent way too much time on that ASCII art.
 
 <html>
   <head>
-    <title><?php echo $title; ?> | Alex Forey's Website</title>
+    <title><?php echo $title; ?> | Alex Forey Lighting Design</title>
 
     <meta name="author" content="Alex Forey">
     <meta name="description" content="The Website of a <?php echo $age; ?> year old interested in lighting design, filmmaking, photography, the web, coding, and making things.">
@@ -77,7 +77,7 @@ yeah, I spent way too much time on that ASCII art.
           <nav>
             <ul>
               <li id="home"><a href="/">Alex Forey</a></li>
-              <li><a href="http://alexforey.com/#portfolio" id="portfolio_link">Lighting</a></li>
+              <li><a href="/theatre">Lighting</a></li>
               <li><a href="/projects">Projects</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="http://newfangled.me/">Blog</a></li>

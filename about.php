@@ -10,7 +10,7 @@
 
   <div class="container">
 
-    <header>
+    <header class="top-of-page">
       <h1>About Me</h1>
     </header>
 
@@ -19,6 +19,8 @@
   <div class="about-me">
 
     <div class="container">
+
+      <img class="headshot" src="/imgs/headshot.jpg">
 
       <p>I'm an <?php echo $age; ?>-year-old student, lighting designer, filmmaker, and coder in London. Having finished studying Maths, Physics, and English Literature for A Level, and securing a deferred place at UCL for Computer Science, I am currently taking a gap year to get some further work experience in these areas, as well as earn some money and travel. The intersection of art and technology is where I am happiest, often creating new technologies to enhance my creative projects.</p>
 

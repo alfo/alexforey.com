@@ -9,11 +9,7 @@
 
 ?>
 
-  <div class="container">
-    <header>
-      <h1><?php echo $project['title']; ?></h1>
-    </header>
-  </div>
+
 
   <div class="photo project slider">
 
@@ -22,6 +18,12 @@
         <li><div class="image" style="background-image: url(/<?php echo $image; ?>)"></div></li>
       <?php } ?>
     </ul>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1><?php echo $project['title']; ?></h1>
+    </header>
   </div>
 
   <div class="container">
