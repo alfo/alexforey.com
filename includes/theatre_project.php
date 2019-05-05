@@ -21,14 +21,10 @@
   </div>
 
   <div class="container">
-    <header>
+
+    <header class="project-title">
       <h1><?php echo $project['title']; ?></h1>
     </header>
-  </div>
-
-  <div class="container">
-
-    <p class="photo-credit">Photos by <?php echo $project['image_credit']; ?></p>
 
     <div class="info">
 
@@ -55,6 +51,10 @@
         </div>
       <?php } ?>
 
+      <p class="description"><?php echo nl2br($project['description']); ?></p>
+
+      <p class="photo-credit">Photos by <?php echo $project['image_credit']; ?></p>
+
       <?php if ($project['paperwork']) { ?>
         <a class="button" id="plots" href="/plots/<?php echo substr($project['date'], -4), '/', $project['id']; ?>.zip">View Plots</a>
       <?php } ?>
@@ -63,8 +63,13 @@
         <a class="button" id="readmore" href="<?php echo $project['link']; ?>">Read More</a>
       <?php } ?>
 
+      <div class="clear"></div>
 
-      <p><?php echo nl2br($featured['long_description']); ?></p>
+      <?php if ($project['bts_video']) { ?>
+        <div class="video fitvid">
+          <iframe src="//player.vimeo.com/video/<?php echo $project['bts_video']; ?>?title=1&amp;byline=0&amp;portrait=0&amp;color=f52323" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+      <?php } ?>
 
     </div>
 

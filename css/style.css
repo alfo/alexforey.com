@@ -169,7 +169,6 @@ section#first {
     @media screen and (max-width: 850px) {
       section#first .info {
         width: 90%;
-        margin-top: 0;
         margin-left: auto;
         margin-right: auto; } }
   section#first .video, section#first .photo {
@@ -432,16 +431,14 @@ header {
 
 .photo-credit {
   color: white;
+  text-align: center;
   font-size: 120%;
-  text-align: right;
-  margin-top: -10px; }
+  margin-top: 20px; }
   .photo-credit a {
     color: inherit;
     text-decoration: underline; }
   @media screen and (max-width: 675px) {
     .photo-credit {
-      margin-right: 20px;
-      margin-bottom: 20px;
       font-size: 100%; } }
 
 .system {
@@ -493,12 +490,16 @@ section#first .info h3.date {
   @media screen and (max-width: 675px) {
     section#first .info h3.date {
       font-size: 18px; } }
+section#first .info p.description {
+  margin-top: 20px; }
+section#first .info .video {
+  margin-top: 50px; }
 section#first .info a.button {
   background: #1c1c1c;
   text-decoration: none;
   border-bottom: none;
   padding: 8px 14px 10px 14px;
-  border-radius: 5px;
+  border-bottom: 2px solid #f52323;
   float: right;
   margin-top: 10px;
   margin-left: 10px; }
@@ -511,7 +512,8 @@ section#first .info a.button {
     content: "🌍"; }
   @media screen and (max-width: 675px) {
     section#first .info a.button#readmore {
-      float: left; } }
+      float: left;
+      margin-left: 0; } }
 
 a.readmore {
   font-size: 110%;

@@ -246,7 +246,6 @@ section {
 
       @media screen and (max-width: $break-large) {
         width: 90%;
-        margin-top: 0;
         margin-left: auto;
         margin-right: auto;
       }
@@ -640,15 +639,13 @@ header {
 
 .photo-credit {
   color: white;
+  text-align: center;
   font-size: 120%;
-  text-align: right;
-  margin-top: -10px;
+  margin-top: 20px;
 
   a { color: inherit; text-decoration: underline; }
 
   @media screen and (max-width: $break-small) {
-    margin-right: 20px;
-    margin-bottom: 20px;
     font-size: 100%;
   }
 }
@@ -718,12 +715,20 @@ section#first .info {
     @media screen and (max-width: $break-small) { font-size: 18px; }
   }
 
+  p.description {
+    margin-top: 20px;
+  }
+
+  .video {
+    margin-top: 50px;
+  }
+
   a.button {
     background: $dark;
     text-decoration: none;
     border-bottom: none;
     padding: 8px 14px 10px 14px;
-    border-radius: 5px;
+    border-bottom: 2px solid $highlight;
     float: right;
     margin-top: 10px;
     margin-left: 10px;
@@ -742,7 +747,10 @@ section#first .info {
     }
 
     @media screen and (max-width: $break-small) {
-      &#readmore { float: left; }
+      &#readmore {
+        float: left;
+        margin-left: 0;
+      }
     }
   }
 }
