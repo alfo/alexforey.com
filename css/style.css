@@ -295,10 +295,8 @@ header {
     color: #242424;
     padding: 50px 0;
     position: relative; }
-    .tiles a:nth-child(1) {
-      border-right: 2px solid #1c1c1c; }
-    .tiles a:nth-child(3) {
-      border-right: 2px solid #1c1c1c; }
+    .tiles a:nth-child(odd) {
+      border-right: 2px solid #4f4f4f; }
     .tiles a div {
       width: 128px;
       height: 128px;
@@ -323,7 +321,7 @@ header {
         margin-left: 10%;
         border-bottom: 2px solid #1c1c1c;
         border-right: none !important; }
-        .tiles a:nth-child(2) {
+        .tiles a:last-child {
           border-bottom: none; }
         .tiles a p {
           width: 80%; } }
