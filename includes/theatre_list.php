@@ -11,7 +11,7 @@
         $show = getProjectWithID($projects, $id);
      ?>
         <li>
-          <div class="image" style="background-image: url(/imgs/portfolio/theatre/<?php echo $id, '-', $photo; ?>.jpg)"></div>
+          <div class="image" style="background-image: url(/imgs/portfolio/theatre-min/<?php echo $id, '-', $photo; ?>-min.jpg)"></div>
           <p class="caption">
             <a href="/lighting/<?php echo $show['id']; ?>"><em><?php echo $show['title']; ?></em>,
             <?php echo $show['venue']; ?>,
@@ -40,7 +40,7 @@
         ?>
 
     <div class="project">
-      <img src="/imgs/portfolio/<?php echo strtolower($title), '/', $project['id']; ?>-thumb.jpg">
+      <img src="/imgs/portfolio/theatre-min/<?php echo $project['id']; ?>-thumb-min.jpg">
       <div class="info">
         <h1><?php echo $project['title']; ?></h1>
         <h2><?php echo $project['role']; ?></h2>

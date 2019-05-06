@@ -4,8 +4,8 @@
 
   $project = getProjectWithID($projects, $_GET['id']);
 
-  $images = glob('imgs/portfolio/theatre/' . $project['id'] . '-?.jpg');
-  $images[] = 'imgs/portfolio/theatre/' . $project['id'] . '-thumb.jpg';
+  $images = glob('imgs/portfolio/theatre-min/' . $project['id'] . '-?-min.jpg');
+  $images[] = 'imgs/portfolio/theatre-min/' . $project['id'] . '-thumb-min.jpg';
 
 ?>
 
