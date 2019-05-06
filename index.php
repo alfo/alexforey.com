@@ -9,7 +9,7 @@
 
     <div class="container">
       <header>
-        <h3>Alex Forey is a lighting designer for theatre, musicals, and opera in London theatres and at the Edinburgh Fringe.</h3>
+        <h3>Alex Forey is a lighting designer for theatre, musicals, and opera in London, at the Edinburgh Fringe, and around the UK.</h3>
       </header>
     </div>
 

@@ -118,6 +118,7 @@ a {
 
 .unslider {
   position: relative;
+  scroll-snap-align: start;
 }
 
 .unslider-arrow {
@@ -225,6 +226,8 @@ section {
 
   &#first {
 
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
     padding-bottom: 60px;
 
     header {
