@@ -30,7 +30,9 @@
 
       <p>As associate lighting designer: <i>Quintessential</i> (Peacock Theatre, Sadler’s Wells), <i>Legally Blonde</i>, <i>The Drowsy Chaperone</i>, <i>RENT</i>, <i>The Pajama Game</i> (Pleasance Islington), <i>Modern Love</i> (Etcetera Theatre).</p>
 
-      <p>I studied Maths, Physics, and English Literature for A Level, and attended University College London for Computer Science before switching to theatre full-time. Since then, I have assisted Rob Halliday, Zoe Spurr, and Andrew Ellis on their designs for plays, musicals, and dance, both in London and on tour. I have worked as a casual electrician/operator at Wyndham’s Theatre, the Donmar Warehouse, Lyric Hammersmith, and Shakespeare’s Globe (where I operated the last ever performance with production lighting at the end of Emma Rice’s tenure).</p>
+      <p>I studied Maths, Physics, and English Literature for A Level, and attended University College London for Computer Science before switching to theatre full-time. Since then, I have assisted Andrew Ellis and others on their designs for plays, musicals, and dance, both in London and on tour. I have worked as a casual at Wyndham’s Theatre (board operator cover: <i>Red</i>, <i>The Height of the Storm</i>, <i>The Price</i>; followspot cover: Bill Bailey's <i>Larks in Transit</i>), the Donmar Warehouse, Lyric Hammersmith (Chief of Projection: <i>City of Glass</i>), and Shakespeare’s Globe (where I operated the last ever performance with production lighting at the end of Emma Rice’s tenure).</p>
+
+      <p>I own my own <a href="https://newfangled.me/eos-nomad-setup/">EOS Nomad 6K</a> system, and have worked as an assistant EOS trainer for ETC at their London office, alongside Declan Randall. I hold Level 3 certification in EOS, as well their two Expert level certifications.</p>
 
       <p>In my early years I made short films and worked as an event and corporate videographer to earn money for equipment, before a shadowing placement at the National Theatre convinced me that theatre was the path for me.</p>
 
