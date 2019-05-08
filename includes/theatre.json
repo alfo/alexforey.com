@@ -74,7 +74,10 @@
       },
       "paperwork": false,
       "venue": "Theatre Royal Stratford East",
-      "image_credit": "Teo Della Torre"
+      "image_credit": "Teo Della Torre",
+      "press": {
+        "strikingly lit by Alex Forey": "Yehuda Shapiro, Opera"
+      },
     },
     {
       "title": "Into The Woods",

@@ -37,15 +37,15 @@
   /_/ \_\_\___/_\_\ |_|\___/_| \___|\_, |
                                     |__/
 
-yeah, I spent way too much time on that ASCII art.
+yeah, I spent way too much time on that.
 -->
 
 <html>
   <head>
-    <title><?php echo $title; ?> | Alex Forey Lighting Design</title>
+    <title>Alex Forey's Website | <?php echo $title; ?></title>
 
     <meta name="author" content="Alex Forey">
-    <meta name="description" content="The Website of a <?php echo $age; ?> year old interested in lighting design, filmmaking, photography, the web, coding, and making things.">
+    <meta name="description" content="The website of a <?php echo $age; ?> year old lighting designer with wide-ranging interests in theatre, technology, photography, art, and literature. See photos of my designs, projects I've created, and find out more about me.">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
