@@ -1,5 +1,6 @@
 {
   "featured": {
+    "manifestos": 1,
     "libuse": 1,
     "rhapsody": 1,
     "sfanw": 1,
@@ -10,11 +11,25 @@
     "hiroshima": 2,
     "grey-matter": 2,
     "grey-matter-fringe": 5,
-    "city-of-angels": 3,
-    "piper-of-hamelin": 2
+    "city-of-angels": 3
   },
 
   "projects": [
+    {
+      "title": "Manifestos",
+      "date": "October 2020",
+      "role": "Lighting Designer",
+      "id": "manifestos",
+      "description": "A season of eight new devised works presented over two days by RADA's MA Lab graduating student body, shown and broadcast live as part of the Bloomsbury Festival. ",
+      "people": {
+        "Artistic Director": "Ian Morgan",
+        "Sound Designer": "Sammy Emmins",
+        "Video Designer": "Roberto Esquenazi"
+      },
+      "paperwork": false,
+      "venue": "RADA Studios",
+      "image_credit": "Susie Su / Alex Forey"
+    },
     {
       "title": "Libuše",
       "date": "March 2019",
