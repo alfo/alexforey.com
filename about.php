@@ -22,10 +22,10 @@
 
       <img class="headshot" src="/imgs/headshot.jpg">
 
-      <p>I'm an <?php echo $age; ?>-year-old lighting designer, associate, programmer, and technician. I have been working in professional theatre since 2016 across all scales of theatre, from 50-seat fringe venues to the West End. I am currently a second year student at the Royal Academy of Dramatic Art, where I started in September 2019.</p>
+      <p>I'm an <?php echo $age; ?>-year-old lighting designer, associate, programmer, and technician. I have been working in professional theatre since 2016 across all scales of theatre, from 50-seat fringe venues to the West End. I am currently a second year student at the Royal Academy of Dramatic Art, where I started in September 2019. My work while undertaking training can <a href="https://www.rada.ac.uk/profiles/alex-forey/" target="_blank">be seen here</a>.</p>
 
       <p>
-        My work as lighting designer includes: <i>Polyeucte</i> (Theatre Royal Stratford East), <i>Libuše</i>, <i>Rhapsody 2019</i>, <i>From Here To Eternity</i> (Bloomsbury Theatre), <i>Babel</i> (Lyric Hammersmith), <i>Into The Woods</i>, <i>Exhibition</i> (Shaw Theatre), <i>A Sexual Odyssey</i>, <i>Written on the Body</i> (Cockpit Theatre), <i>Songs for a New World</i> (Drayton Arms Theatre), <i>The Piper of Hamelin</i> (Rose Theatre Kingston), <i>Henry V</i>, <i>Hiroshima: Crucible of Light</i> (Samuel Pepys Theatre), <i>Grey Matter</i>, <i>Twelfth Night</i> (Edinburgh Fringe).
+        My work as lighting designer includes: <i>Polyeucte</i> (Theatre Royal Stratford East), <i>Libuše</i>, <i>Rhapsody 2019</i>, <i>From Here To Eternity</i> (Bloomsbury Theatre), <i>Babel</i> (Lyric Hammersmith), <i>Into The Woods</i>, <i>Exhibition</i> (Shaw Theatre), <i>A Sexual Odyssey</i>, <i>Written on the Body</i> (Cockpit Theatre), <i>Songs for a New World</i> (Drayton Arms Theatre), <i>The Piper of Hamelin</i> (Rose Theatre Kingston), <i>Manifestos</i> (Bloomsbury Festival, RADA Studios), <i>Henry V</i>, <i>Hiroshima: Crucible of Light</i> (Samuel Pepys Theatre), <i>Grey Matter</i>, <i>Twelfth Night</i> (Edinburgh Fringe).
       </p>
 
       <p>As associate lighting designer: <i>Quintessential</i> (LD Andrew Ellis, Peacock Theatre, Sadler’s Wells), <i>Legally Blonde</i>, <i>The Drowsy Chaperone</i>, <i>RENT</i>, <i>The Pajama Game</i> (LD Andrew Ellis, Pleasance Islington), <i>Modern Love</i> (Etcetera Theatre).</p>
