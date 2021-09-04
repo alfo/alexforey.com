@@ -1,5 +1,6 @@
 {
   "featured": {
+    "monster": 5,
     "libuse": 1,
     "rhapsody": 1,
     "polyeucte": 1,
@@ -15,6 +16,22 @@
   },
 
   "projects": [
+    {
+      "title": "Monster",
+      "date": "July 2021",
+      "role": "Lighting Designer",
+      "id": "monster",
+      "description": "Alone in the classroom, a battle of wills takes place. Award winning playwright Duncan Macmillan’s ‘Monster’ is a gripping and often difficult exploration into parenthood and where responsibility and blame lie.",
+      "people": {
+        "Director": "Dadiow Lin",
+        "Designer": "Isabel Walters",
+        "Sound Designer": "Ella Bloomfield",
+        "Movement": "Angela Gasparetto"
+      },
+      "paperwork": true,
+      "venue": "Gielgud Theatre, RADA",
+      "image_credit": "Alex Forey / Linda Carter"
+    },
     {
       "title": "Manifestos",
       "date": "October 2020",

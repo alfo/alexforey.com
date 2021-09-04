@@ -9,7 +9,7 @@
 
     <div class="container">
       <header>
-        <h3>Alex Forey is a lighting designer for theatre, musicals, and opera in London, at the Edinburgh Fringe, and around the UK.</h3>
+        <h3>Alex Forey is a lighting designer for theatre, musicals, opera, and dance, in London and around the UK.</h3>
       </header>
     </div>
 
@@ -23,15 +23,13 @@
       <a href="/theatre">
         <div id="theatre"></div>
         <h2>Lighting Design</h2>
-        <p>I'm a lighting designer with experience on over 40 productions, also branching out into projection</p>
-
+        <p>I'm a lighting designer with experience on a variety of levels of production</p>
       </a>
 
       <a href="/projects">
         <div id="hardware"></div>
         <h2>Projects</h2>
         <p>I create bespoke electronics and software projects for theatre and lighting control</p>
-
       </a>
 
     </div>
