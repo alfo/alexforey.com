@@ -1,6 +1,8 @@
 {
   "featured": {
+    "jc-rada": 1,
     "monster": 5,
+    "son-et-lumiere": 2,
     "libuse": 1,
     "rhapsody": 1,
     "polyeucte": 1,
@@ -11,11 +13,57 @@
     "henry-v": 2,
     "hiroshima": 2,
     "grey-matter": 2,
-    "grey-matter-fringe": 5,
-    "city-of-angels": 3
+    "grey-matter-fringe": 5
   },
 
   "projects": [
+    {
+      "title": "Julius Caesar",
+      "date": "December 2021",
+      "role": "Lighting Designer",
+      "id": "jc-rada",
+      "description": "When Julius Caesar returns to Rome triumphant from the wars, his republican friends decide his dictatorship must end. But, as a new force led by Mark Antony emerges, Caius Cassius persuades Marcus Brutus that the only way to end the Emperor's reign of power is through assassination. Shakespeare's tense drama of high politics and conspiracy amongst men in power is a classic introduction for young audiences.",
+      "people": {
+        "Director": "Che Walker",
+        "Designer": "Anita Gander",
+        "Sound Designer": "John Leonard"
+      },
+      "paperwork": false,
+      "venue": "Jerwood Vanbrugh Theatre, RADA",
+      "image_credit": "Linda Carter"
+    },
+    {
+      "title": "Son et Lumière",
+      "date": "November 2021",
+      "role": "Lighting Designer",
+      "id": "son-et-lumiere",
+      "description": "RADA's annual light show, this time bigger than ever. With over 110 moving lights, three Hog 4 consoles, and four kilometers of cable, this is a rare opportunity for the third year lighting students to take a break from theatre and create something visually stunning in a total of three days.",
+      "people": {
+        "Production Electrician": "Samuel Blakemore",
+        "Sound Designer": "Wilkie Morrison",
+        "Technical Manager": "Rosa Watson"
+      },
+      "paperwork": false,
+      "venue": "Jerwood Vanbrugh Theatre, RADA",
+      "image_credit": "Alex Forey",
+      "videos": ["ByWNYK_5QJc", "H31s7mlXork"]
+    },
+    {
+      "title": "Stop Kiss",
+      "date": "October 2021",
+      "role": "Lighting Designer",
+      "id": "stop-kiss",
+      "description": "A romantic, tender, and playful story entangled in violence, Stop Kiss weaves between: the reality and brutality of loving the 'wrong person'; the strength in the aftermath of being a woman in the 'wrong place at the wrong time'; and the sweet awkwardness of falling in love.",
+      "people": {
+        "Designer": "Sophie Firth",
+        "Sound Designer": "Daberechi Ukoha-Kalu",
+        "Movement": "Elizabeth Ballinger",
+        "Voice": "Esi Acquaah-Harrison"
+      },
+      "paperwork": false,
+      "venue": "GBS Theatre, RADA",
+      "image_credit": "Linda Carter"
+    },
     {
       "title": "Monster",
       "date": "July 2021",

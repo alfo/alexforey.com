@@ -69,7 +69,11 @@
         foreach ($project['videos'] as $video) {
         ?>
         <div class="video fitvid">
+          <?php if (is_numeric($video)) { ?>
           <iframe src="//player.vimeo.com/video/<?php echo $video; ?>?title=1&amp;byline=0&amp;portrait=0&amp;color=f52323" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <?php } else { ?>
+          <iframe src="//www.youtube.com/embed/<?php echo $video; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <?php } ?>
         </div>
 
       <?php } } ?>
