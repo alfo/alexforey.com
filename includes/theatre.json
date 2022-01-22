@@ -41,7 +41,8 @@
       "people": {
         "Production Electrician": "Samuel Blakemore",
         "Sound Designer": "Wilkie Morrison",
-        "Technical Manager": "Rosa Watson"
+        "Technical Manager": "Rosa Watson",
+        "Lighting Supplier": "Neg Earth"
       },
       "paperwork": false,
       "venue": "Jerwood Vanbrugh Theatre, RADA",
@@ -74,7 +75,8 @@
         "Director": "Dadiow Lin",
         "Designer": "Isabel Walters",
         "Sound Designer": "Ella Bloomfield",
-        "Movement": "Angela Gasparetto"
+        "Movement": "Angela Gasparetto",
+        "Lighting Supplier": "White Light"
       },
       "paperwork": true,
       "venue": "Gielgud Theatre, RADA",
@@ -106,7 +108,8 @@
         "Conductor": "Charles Peebles",
         "Designer": "Holly Muir",
         "Costume": "Alžbeta Kurdelová",
-        "Choreographer": "Ester Rudhart"
+        "Choreographer": "Ester Rudhart",
+        "Lighting Supplier": "White Light"
       },
       "paperwork": false,
       "venue": "Bloomsbury Theatre",
@@ -135,7 +138,8 @@
       "people": {
         "Director": "Björn Franke",
         "Co-Lighting Designer": "Cameron Pollaers",
-        "Sound Designer": "Jenny Wark"
+        "Sound Designer": "Jenny Wark",
+        "Lighting Supplier": "CEG Lighting"
       },
       "paperwork": false,
       "venue": "Bloomsbury Theatre",
@@ -150,7 +154,8 @@
       "people": {
         "Director": "Thomas Guthrie",
         "Conductor": "Charles Peebles",
-        "Designer": "Raphaé Memon"
+        "Designer": "Raphaé Memon",
+        "Lighting Supplier": "White Light"
       },
       "paperwork": false,
       "venue": "Theatre Royal Stratford East",
@@ -169,7 +174,8 @@
         "Director": "Olivia Burgin",
         "Musical Director": "Alessandra Anderson-Lewis",
         "Set Designer": "Arya Bhomick",
-        "Sound Designer": "Matthias Olson"
+        "Sound Designer": "Matthias Olson",
+        "Lighting Supplier": "White Light"
       },
       "paperwork": true,
       "venue": "Shaw Theatre",
@@ -186,7 +192,8 @@
         "Director": "Edward Williams",
         "Set Designer": "Dan Staniforth",
         "Sound Designer": "Nic Heymann",
-        "Video Designer": "Kit Treadwell"
+        "Video Designer": "Kit Treadwell",
+        "Lighting Supplier": "White Light"
       },
       "paperwork": true,
       "venue": "Lyric Studio, Hammersmith",
@@ -223,7 +230,8 @@
       "people": {
         "Director": "Emily Warren",
         "Director ": "Annabelle Rich et al.",
-        "Sound Designer": "Nikhil Vyas"
+        "Sound Designer": "Nikhil Vyas",
+        "Lighting Supplier": "White Light"
       },
       "venue": "Rich Creative, Cockpit Theatre",
       "paperwork": false
@@ -260,7 +268,8 @@
         "Director": "Andrew Broughton",
         "Lighting Designer": "Alex Forey",
         "Sound Designer": "Amos Jackson",
-        "Projection": "Tom Kell"
+        "Projection": "Tom Kell",
+        "Lighting Supplier": "White Light"
       },
       "press": {
         "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview"
@@ -282,7 +291,8 @@
         "Director": "Andrew Broughton",
         "Lighting Designer": "Alex Forey",
         "Sound Designer": "Amos Jackson",
-        "Projection": "Tom Kell"
+        "Projection": "Tom Kell",
+        "Special Thanks": "ETC Ltd"
       },
       "venue": "Milton Studio",
       "videos": ["158196727"],
@@ -301,7 +311,8 @@
         "Director": "Alex Kerr",
         "Designer": "Katy Mills",
         "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Amos Jackson"
+        "Sound Designer": "Amos Jackson",
+        "Lighting Supplier": "White Light"
       },
       "venue": "Samuel Pepys Theatre",
       "paperwork": true,
