@@ -1,5 +1,9 @@
 {
   "featured": {
+    "wca-three-sisters": 1,
+    "wca-electra": 2,
+    "wca-yerma": 1,
+    "wca-earnest": 1,
     "jc-rada": 1,
     "monster": 5,
     "son-et-lumiere": 2,
@@ -9,14 +13,67 @@
     "babel": 1,
     "manifestos": 1,
     "into-the-woods": 2,
-    "sfanw": 1,
     "henry-v": 2,
-    "hiroshima": 2,
-    "grey-matter": 2,
-    "grey-matter-fringe": 5
+    "grey-matter": 2
   },
 
   "projects": [
+    {
+      "title": "Yerma",
+      "date": "February 2022",
+      "role": "Lighting Designer",
+      "id": "wca-yerma",
+      "description": "This version of Yerma, written by Federico Garcia Lorca, is relocated to a village in Ghana",
+      "people": {
+        "Director": "Jessica Mensah",
+        "Designer": "Raffi Philcox & Peijia Luo"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Three Sisters",
+      "date": "February 2022",
+      "role": "Lighting Designer",
+      "id": "wca-three-sisters",
+      "description": "A new production highlighting the ways women in Three Sisters were trapped by the patriarchy and exploring how women remain restricted in the same ways today.",
+      "people": {
+        "Director": "Alessandra Davison",
+        "Designer": "Sonya Smullen & Jiayi Zhu"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "The Importance of Being Earnest",
+      "date": "February 2022",
+      "role": "Lighting Designer",
+      "id": "wca-earnest",
+      "description": "Samara Gannon directs a queer-lensed version of Oscar Wilde's The Importance of Being Ernest.",
+      "people": {
+        "Director": "Samara Gannon",
+        "Designer": "Fiona Wagstaff & George Zhou"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Electra",
+      "date": "February 2022",
+      "role": "Lighting Designer",
+      "id": "wca-electra",
+      "description": "Focusing on the psychological isolation and empowerment. This performance if Electra delves into strength of the main character and the fear of her words.",
+      "people": {
+        "Director": "Mo Korede",
+        "Designer": "Ieva Ievina & Eilyn Chung"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "image_credit": "Alex Forey"
+    },
     {
       "title": "Julius Caesar",
       "date": "December 2021",
