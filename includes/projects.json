@@ -4,6 +4,15 @@
   "projects": [
 
     {
+      "title": "GlowingSquare",
+      "date": "Summer 2020",
+      "image": "glowingsquare.jpg",
+      "description": "A purpose-built display based on a 64x32 LED matrix and an ESP32. The code can be easily adapted for other purposes, and includes code to fetch web requests, store config, etc.",
+      "long_description": "I have made three displays so far: one that shows the current London Tube departures for my local station with data from TfL, one that shows planes flying over my house with data from Flightradar24 based on this project, and one that shows network statistics for my Unifi-based home network.",
+      "link": "https://github.com/alfo/GlowingSquare"
+    },
+
+    {
       "title": "Focus Mate App",
       "date": "October 2015",
       "image": "focus-mate.jpg",
