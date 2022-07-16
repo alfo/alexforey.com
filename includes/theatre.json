@@ -1,29 +1,85 @@
 {
   "featured": {
+    "wca-killology": 1,
     "wca-three-sisters": 1,
+    "wca-mums": 5,
+    "monster": 5,
+    "wca-honey-badger": 1,
     "wca-electra": 2,
     "wca-yerma": 1,
-    "wca-earnest": 1,
-    "jc-rada": 1,
-    "monster": 5,
-    "son-et-lumiere": 2,
     "libuse": 1,
-    "rhapsody": 1,
+    "son-et-lumiere": 2,
     "polyeucte": 1,
+    "rhapsody": 1,
+    "wca-earnest": 1,
     "babel": 1,
     "manifestos": 1,
-    "into-the-woods": 2,
-    "henry-v": 2,
-    "grey-matter": 2
+    "into-the-woods": 2
   },
 
   "projects": [
+    {
+      "title": "Till Death Do We Part",
+      "date": "May/June 2022",
+      "role": "Lighting Designer",
+      "id": "wca-till-death",
+      "description": "",
+      "people": {
+        "Director": "Jodie Leigh Armstrong & Lara van Huyssteen",
+        "Writer": "Carmen Rivas Perez"
+      },
+      "paperwork": false,
+      "venue": "SnapFuse Theatre / Wimbledon College of Art",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Killology",
+      "date": "May/June 2022",
+      "role": "Lighting Designer",
+      "id": "wca-killology",
+      "description": "A controversial new gaming experience is inspiring a generation. In Killology, players are rewarded for torturing victims, scoring points for “creativity”. But Killology isn’t sick. In fact it’s marketed by its millionaire creator as a deeply moral experience.",
+      "people": {
+        "Directed & Performed By": "Tom Ashen, Gregg Martin, Kian O'Connell"
+      },
+      "paperwork": false,
+      "venue": "KMT Productions / Wimbledon College of Art",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Mums",
+      "date": "May/June 2022",
+      "role": "Lighting Designer",
+      "id": "wca-mums",
+      "description": "A poetic and delicate look into the state of grieving, following one family in their attempt to adjust to a new reality.",
+      "people": {
+        "Director": "Karola Kosecka",
+        "Co-Director": "Lavinia Grippa",
+        "Composer": "Arielle Zilkha"
+      },
+      "paperwork": false,
+      "venue": "Psychonaut Theatre / Wimbledon College of Art",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Honey Badger",
+      "date": "May/June 2022",
+      "role": "Lighting Designer",
+      "id": "wca-honey-badger",
+      "description": "Created and performed by Juraj Benko, the piece explores abusive parenthood and its impact on the life of an individual.",
+      "people": {
+        "Created and Performed by": "Juraj Benko",
+        "Composer": "Arielle Zilkha"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Art",
+      "image_credit": "Alex Forey"
+    },
     {
       "title": "Yerma",
       "date": "February 2022",
       "role": "Lighting Designer",
       "id": "wca-yerma",
-      "description": "This version of Yerma, written by Federico Garcia Lorca, is relocated to a village in Ghana",
+      "description": "This version of Yerma, the classic written by Federico Garcia Lorca, is relocated to a village in Ghana",
       "people": {
         "Director": "Jessica Mensah",
         "Designer": "Raffi Philcox & Peijia Luo"
