@@ -1,7 +1,8 @@
 {
   "featured": {
-    "wca-killology": 1,
     "wca-three-sisters": 1,
+    "wca-killology": 1,
+    "wca-network": 1,
     "wca-mums": 5,
     "monster": 5,
     "wca-honey-badger": 1,
@@ -18,6 +19,20 @@
   },
 
   "projects": [
+    {
+      "title": "Network/Recorder",
+      "date": "May/June 2022",
+      "role": "Lighting Designer",
+      "id": "wca-network",
+      "description": "Inspired by the screenplay ‘Network’ and the life of prescient civil rights activist Marion Stokes, this devised piece of ensemble theatre deals with the all-pervasive prevalence of 24-hour news questioning whose stories are captured and to what end.",
+      "people": {
+        "Director": "Stella Odunlami",
+        "Designer": "Hugo Aguirre"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Art",
+      "image_credit": "Alex Forey"
+    },
     {
       "title": "Till Death Do We Part",
       "date": "May/June 2022",
