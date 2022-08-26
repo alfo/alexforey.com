@@ -2,15 +2,16 @@
   "featured": {
     "wca-three-sisters": 1,
     "wca-killology": 1,
+    "ghislaine-gabler": 2,
     "wca-network": 1,
     "wca-mums": 5,
     "monster": 5,
-    "wca-honey-badger": 1,
     "wca-electra": 2,
     "wca-yerma": 1,
     "libuse": 1,
     "son-et-lumiere": 2,
     "polyeucte": 1,
+    "wca-honey-badger": 1,
     "rhapsody": 1,
     "wca-earnest": 1,
     "babel": 1,
@@ -19,6 +20,22 @@
   },
 
   "projects": [
+    {
+      "title": "Ghislaine/Gabler",
+      "date": "August 2022",
+      "role": "Lighting Designer",
+      "id": "ghislaine-gabler",
+      "description": "Why does a victim become a predator? In isolation, Ghislaine Maxwell maintains innocence whilst reliving the psychological abuse endured from her father. She unravels, fantasising that she is Hedda Gabler; both charismatic, beautiful and, above all, manipulative monsters in the female form.",
+      "people": {
+        "Writer and Director": "Kristin Winters",
+        "Sound Designer": "George Rigby",
+        "Composer": "Alexey Kochetkov",
+        "Producer": "Sam Dash"
+      },
+      "paperwork": false,
+      "venue": "The Coronet Theatre & Edinburgh Fringe",
+      "image_credit": "Alex Forey"
+    },
     {
       "title": "Network/Recorder",
       "date": "May/June 2022",
