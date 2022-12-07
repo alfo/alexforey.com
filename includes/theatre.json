@@ -1,5 +1,6 @@
 {
   "featured": {
+    "paddy-goes-to-petra": 1,
     "wca-three-sisters": 1,
     "wca-killology": 1,
     "ghislaine-gabler": 2,
@@ -20,6 +21,21 @@
   },
 
   "projects": [
+    {
+      "title": "Paddy Goes To Petra",
+      "date": "November 2022",
+      "role": "Lighting Designer",
+      "id": "paddy-goes-to-petra",
+      "description": "",
+      "people": {
+        "Writer and Director": "Áine Ryan",
+        "Designer": "Constance Comparot",
+        "Composer": "Eyal Arad"
+      },
+      "paperwork": false,
+      "venue": "The Brockley Jack",
+      "image_credit": "Steve Gregson"
+    },
     {
       "title": "Ghislaine/Gabler",
       "date": "August 2022",
