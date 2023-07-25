@@ -14,7 +14,7 @@
 
   </div>
 
-  <div class="press-quotes">
+  <div class="about-me">
 
     <div class="container">
 
@@ -25,6 +25,7 @@
           if ($project['press']) {
           ?>
 
+          <h1><?php echo $project['title']; ?></h1>
           <div class="press">
           <?php foreach ($project['press'] as $quote => $pub) { ?>
             <blockquote><?php echo $quote; ?> <small>— <?php echo $pub; ?></small></blockquote>
