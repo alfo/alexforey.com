@@ -27,9 +27,6 @@ a {
 }
 
 .press {
-  display: flex;
-  flex-wrap: flex;
-  justify-content: center;
   margin-top: 20px;
 }
 .press blockquote {
