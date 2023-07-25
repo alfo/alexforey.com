@@ -14,7 +14,7 @@
 
   </div>
 
-  <div class="about-me">
+  <div class="press-list">
 
     <div class="container">
 
