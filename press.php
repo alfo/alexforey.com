@@ -27,7 +27,7 @@
 
           <h1>
             <a href="/lighting/<?php echo $project['id']?>">
-              <?php echo $project['title']; ?> (<?php echo explode(' ', $project['date'])[0]; ?>)
+              <?php echo $project['title']; ?> (<?php echo explode(' ', $project['date'])[1]; ?>)
             </a>
           </h1>
           <div class="press">
