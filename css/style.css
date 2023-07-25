@@ -37,7 +37,6 @@ a {
   display: inline-block;
   font-size: 20px;
   padding: 30px 50px 20px 60px;
-  max-width: 60%;
 }
 .press blockquote:before, .press blockquote:after {
   font-size: 160px;
@@ -66,7 +65,6 @@ a {
   }
   .press blockquote {
     min-width: 100%;
-    max-width: none;
   }
   .press blockquote small {
     padding-left: 0;
