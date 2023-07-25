@@ -76,6 +76,7 @@ a {
 .press-list .press {
   display: block;
   width: 100%;
+  margin-bottom: 40px;
 }
 .press-list .press blockquote {
   max-width: 100%;
@@ -692,7 +693,6 @@ a {
 }
 
 a.readmore, .press a {
-  font-size: 110%;
   position: relative;
   padding-right: 1px;
 }
@@ -700,6 +700,10 @@ a.readmore:after, .press a:after {
   padding-left: 8px;
   border-bottom: inherit;
   content: "→";
+}
+
+a.readmore {
+  font-size: 110%;
 }
 
 .about-me, .press-list {
