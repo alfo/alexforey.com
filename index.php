@@ -43,18 +43,16 @@
 
   <div class="elsewhere">
 
-    <h1>Elsewhere</h1>
+    <h1>Contact</h1>
 
     <div class="container">
       <ul>
         <span>
+        <li><a id="mail" href="mailto:hello@.alexforey.com" title="Email"></a></li>
         <li><a id="twitter" href="https://twitter.com/alexforey" target="_blank" title="Twitter"></a></li>
-        <li><a id="instagram" href="https://instagram.com/alexforey/" target="_blank" title="Instagram"></a></li>
-        <li><a id="vimeo" href="https://vimeo.com/alexforey" target="_blank" title="Vimeo"></a></li>
         </span>
-        <li><a id="github" href="https://github.com/alfo" target="_blank" title="GitHub"></a></li>
-        <li><a id="lastfm" href="http://www.last.fm/user/alexforey" target="_blank" title="Last.fm"></a></li>
-        <li><a id="mail" href="mailto:hello@shitemail.alexforey.com" title="Email, you know, that really old fashioned bad electronic letter analogy"></a></li>
+        <li><a id="instagram" href="https://instagram.com/alexforeylighting/" target="_blank" title="Instagram"></a></li>
+        <li><a id="vimeo" href="https://vimeo.com/alexforey" target="_blank" title="Vimeo"></a></li>
       </ul>
     </div>
 
