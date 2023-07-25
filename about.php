@@ -50,10 +50,6 @@
 
   </div>
 
-</section>
-
-<section class="dark">
-
   <div class="elsewhere">
 
     <h1>Contact</h1>
