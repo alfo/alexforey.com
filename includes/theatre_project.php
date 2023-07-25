@@ -42,6 +42,7 @@
 
       </div>
 
+      <p class="description"><?php echo nl2br($project['description']); ?></p>
 
       <?php if ($project['press']) { ?>
         <div class="press">
@@ -50,8 +51,6 @@
       <?php  } ?>
         </div>
       <?php } ?>
-
-      <p class="description"><?php echo nl2br($project['description']); ?></p>
 
       <p class="photo-credit">Photos by <?php echo $project['image_credit']; ?></p>
 

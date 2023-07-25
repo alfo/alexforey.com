@@ -79,8 +79,8 @@ yeah, I spent way too much time on that.
               <li id="home"><a href="/">Alex Forey</a></li>
               <li><a href="/theatre">Lighting</a></li>
               <li><a href="/press">Press</a></li>
-              <li><a href="/projects">Projects</a></li>
               <li><a href="/about">About</a></li>
+              <li><a href="/projects">Projects</a></li>
             </ul>
           </nav>
 
