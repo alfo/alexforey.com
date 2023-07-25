@@ -23,12 +23,13 @@ a {
 
 .press {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px; }
   .press blockquote {
     position: relative;
     display: inline-block;
-    font-size: 24px;
+    font-size: 20px;
     padding: 30px 50px 20px 60px;
     max-width: 60%; }
     .press blockquote:before, .press blockquote:after {
