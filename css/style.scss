@@ -48,7 +48,7 @@ a {
   blockquote {
 
     &:before, &:after {
-      font-size: 200px;
+      font-size: 160px;
       opacity: 0.4;
       line-height: 0;
       position: absolute;
@@ -57,12 +57,12 @@ a {
     &:before {
       content: "“";
       top: 75px;
-      left: -10px;
+      left: 0px;
     }
 
     &:after {
       content: "”";
-      right: -5px;
+      right: 0px;
       bottom: 0px;
     }
 
@@ -90,6 +90,15 @@ a {
         padding-left: 0;
       }
     }
+  }
+}
+
+.press-list .press {
+  display: block;
+  width: 100%;
+
+  blockquote {
+    max-width: 100%;
   }
 }
 
@@ -133,9 +142,9 @@ a {
   position: absolute;
 
   top: 50%;
-  right: -50px - $size/2;
+  right: -50px - calc($size / 2);
   left: auto;
-  margin-top: -($size/4);
+  margin-top: - calc($size / 4);
 
   overflow: hidden;
 
@@ -154,7 +163,7 @@ a {
   }
 
   &.prev {
-    left: 50px - $size/2;
+    left: 50px - calc($size / 2);
     right: auto;
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
@@ -163,10 +172,10 @@ a {
   @media screen and (max-width: $break-small) {
     width: $small-size;
     height: $small-size;
-    right: -50px - $small-size/2;
-    margin-top: -($small-size / 4);
+    right: -50px - calc($small-size / 2);
+    margin-top: - calc($small-size / 4);
 
-    &.prev { left: 50px - $small-size/2; }
+    &.prev { left: 50px - calc($small-size / 2); }
   }
 
 }
@@ -771,7 +780,7 @@ a.readmore {
   }
 }
 
-.about-me {
+.about-me, .press-list {
   background: rgba(white, 0.8);
   padding: 25px;
   margin-top: 50px;
