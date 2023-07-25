@@ -1,37 +1,191 @@
 {
   "featured": {
+    "kitty-in-the-lane": 1,
+    "wca-purgatorio": 1,
+    "saint-hildegard": 1,
+    "wca-paradiso": 3,
+    "lovefool": 1,
+    "wca-oth": 2,
     "paddy-goes-to-petra": 1,
+    "good-day": 1,
     "wca-three-sisters": 1,
-    "wca-killology": 1,
     "ghislaine-gabler": 2,
-    "wca-network": 1,
-    "wca-mums": 5,
     "monster": 5,
     "wca-electra": 2,
     "wca-yerma": 1,
     "libuse": 1,
-    "son-et-lumiere": 2,
     "polyeucte": 1,
-    "wca-honey-badger": 1,
     "rhapsody": 1,
-    "wca-earnest": 1,
-    "babel": 1,
-    "manifestos": 1,
-    "into-the-woods": 2
+    "babel": 1
   },
 
   "projects": [
+    {
+      "title": "Post-Traumatic Growth in Penge",
+      "date": "May/June 2023",
+      "role": "Lighting Designer",
+      "id": "wca-purgatorio",
+      "description": "In the Purgatory of unresolved trauma, Marcelle breaks away from his usual cruxes in a bid to spend the time it takes to truly heal. Upon discovering Paradise in Penge, he realises it isn’t all it seems.",
+      "people": {
+        "Director": "Natasha Harrison",
+        "Writer": "Samuel Evans",
+        "Set & Costume Designer": "Anna Kezia Williams",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Chloe Astleford",
+        "Production Manager": "Paula Rivas",
+        "Set Builder & Flyman": "Fred Nobre",
+        "Dramaturgy Support": "Janka Ščepková",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Arts",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Eden",
+      "date": "May/June 2023",
+      "role": "Lighting Designer",
+      "id": "wca-paradiso",
+      "description": "The year is 2024 and the world as we know it is in perpetual crisis. Near Denver, Colorado, a radical movement has been building. Fuelled by a desire to finally take back control, a community redefining the rules has emerged. Will they change the world and at what cost?",
+      "people": {
+        "Director": "Shane Dempsey",
+        "Set & Costume Designer": "Anna Kezia Williams",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Chloe Astleford",
+        "Production Manager": "Paula Rivas",
+        "Set Builder & Flyman": "Fred Nobre",
+        "Dramaturgy Support": "Janka Ščepková",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Arts",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Oh The Horror!",
+      "date": "May/June 2023",
+      "role": "Lighting Designer",
+      "id": "wca-oth",
+      "description": "A bloodthirsty dissection artist, Sue Meetrop, escapes beyond the Realm of Television and into the Realm of Reality. Our heroes, the hosts of a popular podcast, their live advert partner and a listener of the show set off to find Meetrop and place her back within the confines of the screen.",
+      "people": {
+        "Created and Performed by": "innominate",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Chloe Astleford",
+        "Production Manager": "Paula Rivas",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Arts",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Air Time",
+      "date": "May/June 2023",
+      "role": "Lighting Designer",
+      "id": "wca-airtime",
+      "description": "What do you do when the world has already ended? 2 friends come to the surface for their government mandated 35 minutes of airtime and play a board game from before the collapse, talking about how times have changed.",
+      "people": {
+        "Created and Performed by": "Scratch That",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Chloe Astleford",
+        "Production Manager": "Paula Rivas",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "Wimbledon College of Arts",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Kitty in the Lane",
+      "date": "May 2023",
+      "role": "Lighting Designer",
+      "id": "kitty-in-the-lane",
+      "description": "Kitty waits alone in her kitchen. Her father is dying in the room next door. Kitty wishes he would just hurry up. Kitty wishes her boyfriend, late to accompany her to a local beauty pageant would hurry up too. Kitty in the Lane makes its London premiere with a fresh production at The Jack Studio Theatre after successful runs of the play in Ireland and the USA.",
+      "people": {
+        "Writer": "Áine Ryan",
+        "Director": "Jack Reardon",
+        "Set Design": "Constance Comparot",
+        "Sound Design": "Florence Hand",
+        "Technical Operator": "Scarlett Bryan"
+      },
+      "paperwork": false,
+      "venue": "The Brockley Jack",
+      "image_credit": "Eamonn Shanahan & Jake Bush"
+    },
+    {
+      "title": "Lovefool",
+      "date": "May 2023",
+      "role": "Lighting Designer",
+      "id": "lovefool",
+      "description": "A brutally honest, hilarious and heartbreaking one-woman show navigating the impossibly confusing gender dynamics of modern love. Grace, a young woman hungry for affection and looking for love in all the wrong places, is forced to discover what healthy (self) love might look like.",
+      "people": {
+        "Writer & Director": "Gintare Parulyte",
+        "Sound & Video Design": "David Gaspar",
+        "Dramaturgy": "Liv Morris",
+        "Assistant Director": "Sandra Kilian-Zazulak"
+      },
+      "paperwork": false,
+      "venue": "Coronet Theatre / Théâtre National du Luxembourg",
+      "image_credit": "Alex Brenner"
+    },
+    {
+      "title": "Good Day",
+      "date": "March 2023",
+      "role": "Lighting Designer",
+      "id": "good-day",
+      "description": "Zara lives in a perfect world. No poverty, no war. She’s even been implanted with an electronic chip that will extend her life forever. So, why does she want to end it all?To be allowed to die, Zara must debate her fate with an android therapist and overcome the human drive to survive. ‘Good Day’ is a new dark comedy that explores how we find meaning in our lives and asks whether immortality is really all it’s cracked up to be.",
+      "people": {
+        "Director": "Marlie Haco",
+        "Set & Costume Designer": "Justin Nardella",
+        "Video Designer": "Dan Light",
+        "Composer & Sound Designer": "Akos Lustyik",
+        "Stage Manager": "Ellie Carney",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "Network Theatre / Vault Festival",
+      "image_credit": "Jake Bush"
+    },
+    {
+      "title": "Hildegard von Bingen",
+      "date": "February 2023",
+      "role": "Lighting Designer",
+      "id": "saint-hildegard",
+      "description": "As a child, Hildegard Von Bingen began experiencing intense prophetic – and often apocalyptic – visions and communications with God. Suffering through chronic illness, she kept these hidden from those around her until her forties, fearing she would be branded a lunatic or, worse, a witch. This multigenerational female ensemble uses voice and movement in an physical opera to explore the span of a woman’s life, what it means to always live in fear, with wisdom, and if Hildegard ever felt truly free.",
+      "people": {
+        "Creator & Director": "Kristin Winters",
+        "Sound Designer": "Florence Hand",
+        "Composer & Musician": "David Cieri",
+        "Movement Director": "Gabrielle Moleta",
+        "Dramaturg": "Dr Katherine Hipkiss",
+        "Stage Manager": "Beth Cotton",
+        "Lighting Supplier": "White Light"
+      },
+      "press": {
+        "Lighting and sound is expertly mastered by Alex Forey and Florence Hand throughout the performance, in a way that gives light a voice, and gives sound a visual experience.": "<a href='https://www.thereviewshub.com/hildegard-von-bingen-vault-festival-london/'>The Reviews Hub</a>",
+        "Alex Forey’s lighting and Florence Hand’s sound combine to highly atmospheric effect, particularly in characterising Hildegard’s visions, at once something otherworldly yet viscerally terrifying as a seizure too": "<a href='https://oughttobeclowns.com/2023/02/review-hildegard-von-bingen-vault-festival.h…'>There Ought To Be Clowns</a>",
+        "Gorgeous lighting and creative sound. The lighting is absolutely stunning.": "<a href='https://www.broadwayworld.com/westend/article/Review-HILDEGARD-VON-BINGEN-VAULT-Festival-20230224'>Broadway World</a>",
+        "Hildegard Von Bingen is certainly ambitious, with exemplary sound and lighting design (by Florence Hand and Alex Forey).": "<a href='https://loureviews.blog/2023/02/23/vault-review-hildegard-von-bingen/'>LouReviews</a>"
+      },
+      "paperwork": false,
+      "venue": "Vault Festival",
+      "image_credit": "Alex Forey"
+    },
     {
       "title": "Paddy Goes To Petra",
       "date": "November 2022",
       "role": "Lighting Designer",
       "id": "paddy-goes-to-petra",
-      "description": "",
+      "description": "Rural Ireland meets the Middle East when Irish farmer Paddy's only son dies unexpectedly, and his lust for life vanishes. A trip to the ancient city of Petra encourages him to feel a fresh wonder for the world, develop new friendships and an exciting love affair...with himself. How much time can he really spend away from his wife, farm and responsibilities back in Ireland, however?",
       "people": {
         "Writer and Director": "Áine Ryan",
         "Designer": "Constance Comparot",
-        "Composer": "Eyal Arad"
+        "Composer": "Eyal Arad",
+        "Technical Operator": "Scarlett Bryan"
       },
+      "press": {
+        "Alex Forey sensitively lights all of this, further enhancing the changing moods": "<a href='https://broadwaybaby.com/shows/paddy-goes-to-petra/788500'>Broadway Baby</a>"
+      }
       "paperwork": false,
       "venue": "The Brockley Jack",
       "image_credit": "Steve Gregson"
@@ -60,10 +214,12 @@
       "description": "Inspired by the screenplay ‘Network’ and the life of prescient civil rights activist Marion Stokes, this devised piece of ensemble theatre deals with the all-pervasive prevalence of 24-hour news questioning whose stories are captured and to what end.",
       "people": {
         "Director": "Stella Odunlami",
-        "Designer": "Hugo Aguirre"
+        "Designer": "Hugo Aguirre",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Jamie Duddy"
       },
       "paperwork": false,
-      "venue": "Wimbledon College of Art",
+      "venue": "Wimbledon College of Arts",
       "image_credit": "Alex Forey"
     },
     {
@@ -74,10 +230,12 @@
       "description": "",
       "people": {
         "Director": "Jodie Leigh Armstrong & Lara van Huyssteen",
-        "Writer": "Carmen Rivas Perez"
+        "Writer": "Carmen Rivas Perez",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Jamie Duddy"
       },
       "paperwork": false,
-      "venue": "SnapFuse Theatre / Wimbledon College of Art",
+      "venue": "SnapFuse Theatre / Wimbledon College of Arts",
       "image_credit": "Alex Forey"
     },
     {
@@ -87,10 +245,12 @@
       "id": "wca-killology",
       "description": "A controversial new gaming experience is inspiring a generation. In Killology, players are rewarded for torturing victims, scoring points for “creativity”. But Killology isn’t sick. In fact it’s marketed by its millionaire creator as a deeply moral experience.",
       "people": {
-        "Directed & Performed By": "Tom Ashen, Gregg Martin, Kian O'Connell"
+        "Directed & Performed By": "Tom Ashen, Gregg Martin, Kian O'Connell",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Jamie Duddy"
       },
       "paperwork": false,
-      "venue": "KMT Productions / Wimbledon College of Art",
+      "venue": "KMT Productions / Wimbledon College of Arts",
       "image_credit": "Alex Forey"
     },
     {
@@ -102,10 +262,12 @@
       "people": {
         "Director": "Karola Kosecka",
         "Co-Director": "Lavinia Grippa",
-        "Composer": "Arielle Zilkha"
+        "Composer": "Arielle Zilkha",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Jamie Duddy"
       },
       "paperwork": false,
-      "venue": "Psychonaut Theatre / Wimbledon College of Art",
+      "venue": "Psychonaut Theatre / Wimbledon College of Arts",
       "image_credit": "Alex Forey"
     },
     {
@@ -116,10 +278,12 @@
       "description": "Created and performed by Juraj Benko, the piece explores abusive parenthood and its impact on the life of an individual.",
       "people": {
         "Created and Performed by": "Juraj Benko",
-        "Composer": "Arielle Zilkha"
+        "Composer": "Arielle Zilkha",
+        "Sound & Video": "Antonio Mellado Sanchez",
+        "Stage Manager": "Jamie Duddy"
       },
       "paperwork": false,
-      "venue": "Wimbledon College of Art",
+      "venue": "Wimbledon College of Arts",
       "image_credit": "Alex Forey"
     },
     {
@@ -133,7 +297,7 @@
         "Designer": "Raffi Philcox & Peijia Luo"
       },
       "paperwork": false,
-      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
       "image_credit": "Alex Forey"
     },
     {
@@ -147,7 +311,7 @@
         "Designer": "Sonya Smullen & Jiayi Zhu"
       },
       "paperwork": false,
-      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
       "image_credit": "Alex Forey"
     },
     {
@@ -161,7 +325,7 @@
         "Designer": "Fiona Wagstaff & George Zhou"
       },
       "paperwork": false,
-      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
       "image_credit": "Alex Forey"
     },
     {
@@ -175,7 +339,7 @@
         "Designer": "Ieva Ievina & Eilyn Chung"
       },
       "paperwork": false,
-      "venue": "Wimbledon College of Art & Lyric Hammersmith",
+      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
       "image_credit": "Alex Forey"
     },
     {
