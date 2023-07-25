@@ -765,12 +765,17 @@ section#first .info {
   }
 }
 
-a.readmore {
+a {
+
+  color: $lowlight-text;
+  border-bottom: 1px solid $lowlight-text;
+
+}
+
+a.readmore, .press a {
 
   font-size: 110%;
   position: relative;
-  color: $lowlight-text;
-  border-bottom: 1px solid $lowlight-text;
   padding-right: 1px;
 
   &:after {
@@ -790,10 +795,6 @@ a.readmore {
     margin-bottom: 25px;
     font-size: 18px;
     line-height: 1.3;
-    a {
-      color: $lowlight-text;
-      border-bottom: 1px solid $lowlight-text;
-    }
   }
 
   .headshot {

@@ -686,14 +686,17 @@ section#first .info a.button#readmore:before {
   }
 }
 
-a.readmore {
-  font-size: 110%;
-  position: relative;
+a {
   color: #242424;
   border-bottom: 1px solid #242424;
+}
+
+a.readmore, .press a {
+  font-size: 110%;
+  position: relative;
   padding-right: 1px;
 }
-a.readmore:after {
+a.readmore:after, .press a:after {
   padding-left: 8px;
   border-bottom: inherit;
   content: "→";
@@ -709,10 +712,6 @@ a.readmore:after {
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 1.3;
-}
-.about-me p a, .press-list p a {
-  color: #242424;
-  border-bottom: 1px solid #242424;
 }
 .about-me .headshot, .press-list .headshot {
   float: left;
