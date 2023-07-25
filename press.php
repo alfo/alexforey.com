@@ -25,7 +25,11 @@
           if ($project['press']) {
           ?>
 
-          <h1><a href="/lighting/<?php echo $project['id']?>"><?php echo $project['title']; ?></a></h1>
+          <h1>
+            <a href="/lighting/<?php echo $project['id']?>">
+              <?php echo $project['title']; ?> (<?php echo $project['date'].split(" ")[1]; ?>)
+            </a>
+          </h1>
           <div class="press">
           <?php foreach ($project['press'] as $quote => $pub) { ?>
             <blockquote><?php echo $quote; ?> <small>— <?php echo $pub; ?></small></blockquote>
