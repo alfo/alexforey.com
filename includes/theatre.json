@@ -21,6 +21,21 @@
 
   "projects": [
     {
+      "title": "Waiting for a Train at the Bus Stop",
+      "date": "July/August 2023",
+      "role": "Lighting Designer",
+      "id": "wfatatbs",
+      "description": "'17 minutes. That's how long it takes to die by train. I looked it up once'. Chilufya – you can call her Chili – doesn't know whether she is coming or going. Which makes perfect sense since her name literally means 'the lost one' and lost is exactly how she's felt most of her life. Struggling with low self-esteem and a waning sense of self, she finds herself being drawn into a dangerously controlling relationship. Interweaving spoken-word theatre with Zambian oral traditions this dark comedy is a solo show exploring coercive control.",
+      "people": {
+        "Writer and Director": "Mwansa Phiri",
+        "Sound Designer": "",
+        "Video Designer": "Virginie Taylor"
+      },
+      "paperwork": false,
+      "venue": "Streatham Space Project / Summerhall Edinburgh",
+      "image_credit": "Alex Forey"
+    },
+    {
       "title": "Post-Traumatic Growth in Penge",
       "date": "May/June 2023",
       "role": "Lighting Designer",
