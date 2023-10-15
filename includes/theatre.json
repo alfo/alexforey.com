@@ -21,6 +21,44 @@
 
   "projects": [
     {
+      "title": "The Island",
+      "date": "September 2023",
+      "role": "Lighting Designer",
+      "id": "the-island",
+      "description": "",
+      "people": {
+        "Director": "Jessica Lazar",
+        "Writer": "Juan Carlos Rubio",
+        "Translator": "Tim Gutteridge",
+        "Set Designer": "Sorcha Corcoran",
+        "Sound Designer": "Óðinn Örn Hilmarsson",
+        "Associate Set Designer & Costume Designer": "Olivia Davies",
+        "Stage Manager": "Elisa Pulido",
+        "Production Manager": "James Creighton-Goode"
+      },
+      "paperwork": false,
+      "venue": "Cervantes Theatre",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Battersea Bardot",
+      "date": "September 2023",
+      "role": "Lighting Designer",
+      "id": "battersea-bardot",
+      "description": "",
+      "people": {
+        "Director": "Elizabeth Huskisson",
+        "Writer": "Ewen Moore",
+        "Set & Costume Designer": "Emily Munt",
+        "Sound Designer": "Ilia Higgs",
+        "Musical Director": "Gaby Ball",
+        "Stage Manager": "Ryan Mulgrew"
+      },
+      "paperwork": false,
+      "venue": "New Wimbledon Theatre Studio",
+      "image_credit": "Alex Forey"
+    },
+    {
       "title": "Waiting for a Train at the Bus Stop",
       "date": "July/August 2023",
       "role": "Lighting Designer",
