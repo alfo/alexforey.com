@@ -1,5 +1,7 @@
 {
   "featured": {
+    "the-island": 1,
+    "battersea-bardot": 1,
     "kitty-in-the-lane": 1,
     "wca-purgatorio": 1,
     "saint-hildegard": 1,
@@ -12,9 +14,7 @@
     "ghislaine-gabler": 2,
     "monster": 5,
     "wca-electra": 2,
-    "wca-yerma": 1,
     "libuse": 1,
-    "polyeucte": 1,
     "rhapsody": 1,
     "babel": 1
   },
@@ -25,7 +25,7 @@
       "date": "September 2023",
       "role": "Lighting Designer",
       "id": "the-island",
-      "description": "",
+      "description": "THE ISLAND explores the conflict between who we are, and ‘who we ought to be’ in a haunting story about the fragility, and the resilience, of the human spirit.",
       "people": {
         "Director": "Jessica Lazar",
         "Writer": "Juan Carlos Rubio",
@@ -45,7 +45,7 @@
       "date": "September 2023",
       "role": "Lighting Designer",
       "id": "battersea-bardot",
-      "description": "",
+      "description": "A one-woman musical which explores the life of 1960s London film star Carol White (Cathy Come Home, Poor Cow) and the nightmares that female performers faced - and still face - in the world of entertainment.",
       "people": {
         "Director": "Elizabeth Huskisson",
         "Writer": "Ewen Moore",
