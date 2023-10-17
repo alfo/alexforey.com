@@ -38,7 +38,10 @@
       },
       "paperwork": false,
       "venue": "Cervantes Theatre",
-      "image_credit": "Alex Forey"
+      "image_credit": "Alex Forey",
+      "press": {
+        "This clinical atmosphere is further brought to ‘light’ with the symmetrical fluorescent tubes. The harsh lighting adds to the atmosphere, emphasising the location, and compelling the pair into introspection": "<a href='https://everything-theatre.co.uk/2023/09/review-the-island-cervantes-theatre/'>Everything Theatre</a>"
+      }
     },
     {
       "title": "Battersea Bardot",
