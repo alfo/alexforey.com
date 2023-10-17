@@ -56,7 +56,12 @@
       },
       "paperwork": false,
       "venue": "New Wimbledon Theatre Studio",
-      "image_credit": "Alex Forey"
+      "image_credit": "Alex Forey",
+      "press": {
+        "A good creative team, especially including lighting by Alex Forey which deserves a mention for its atmospheric and immersive qualities": "<a href='https://saltertonartsreview.com/2023/09/battersea-bardot-new-wimbledon-theatre-london/'>Salterton Arts Review</a>",
+        "Alex Forey’s lighting design also deserves particular praise for simple yet effective design that provides some of the most striking visuals in the show": "<a href='https://lostintheatreland.co.uk/battersea-bardot-review-new-wimbledon-studio/'>Lost in Theatreland</a>",
+        "stylish work by lighting designer Alex Forey": "<a href='https://www.timeandleisure.co.uk/things-to-do/battersea-bardot-review/'>Time and Leisure</a>"
+      }
     },
     {
       "title": "Waiting for a Train at the Bus Stop",
