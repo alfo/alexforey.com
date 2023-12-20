@@ -21,11 +21,77 @@
 
   "projects": [
     {
+      "title": "Sleeping Beauty",
+      "date": "November 2023",
+      "role": "Associate Lighting Designer, Programmer",
+      "id": "mercury-sb",
+      "description": "The magical world of Sleeping Beauty is brought to life in this spectacular, fun-filled, family pantomime, led by Mercury’s award winning duo Dale Superville and ‘the best Dame in the country’ (British Theatre) Antony Stuart-Hicks.",
+      "people": {
+        "Director": "Ryan McBryde",
+        "Writer": "Guy Unsworth",
+        "Designer": "Jasmine Swan",
+        "Set Designer": "Tina Torbey",
+        "Lighting Designer": "Matt Ladkin",
+        "Sound Designer": "Nico Menghini",
+        "Musical Director": "Paul Herbert",
+        "Choreographer": "Rosie Mather",
+        "Associate Director": "Chris Neels",
+        "Deputy Stage Manager": "Emilie Leger",
+        "Casting Directors": "Jenkins McShane CDG",
+        "Assistant Director": "Chani Merrell",
+        "Lighting Supplier": "Christie Lites"
+      },
+      "paperwork": false,
+      "venue": "Mercury Theatre",
+      "image_credit": "Pamela Raith"
+    },
+    {
+      "title": "The Realness",
+      "date": "November 2023",
+      "role": "Lighting Designer",
+      "id": "the-realness",
+      "description": "When some people won’t believe you’ve changed, and others don’t want to let you change, it isn’t easy to make a new start. Jay Johnson is fresh out of prison and determined never to go back, but for all his efforts to stay on track, he finds himself making a detour back in the wrong direction. Finally he’s faced with the hardest choice of his life and only then does he understand what he has to do to change things for real. The Realness has an upbeat score ranging from rap to reggae, gospel to grime.",
+      "people": {
+        "Director": "Maggie Norris",
+        "Book": "Maureen Chadwick & David Watson",
+        "Music & Lyrics": "Kath Gotts",
+        "Set Designer": "Tina Torbey",
+        "Sound Designer": "Julian Starr",
+        "Video Designer": "Mic Pool",
+        "Costume Designer": "Bertie Taylor-Smith",
+        "Musical Director": "Joey Hickman",
+        "Choreographer": "Fi Silverthorn",
+        "Associate Director": "Chris Neels",
+        "Stage Manager": "Laurel Marks",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "New Wimbledon Theatre Studio",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Seize the Cheese",
+      "date": "October 2023",
+      "role": "Lighting Designer",
+      "id": "seize-the-cheese",
+      "description": "In this uplifting comedy, loosely inspired by the world-famous cheese-rolling in Gloucestershire, people plummet down a deadly hill in pursuit of a speeding Double Gloucester cheese. Anarchic and hilarious, it’s the “English Book Of Mormon”, according to one critic. With sumptuous songs by Patrick Steed and Mike Stocks, it features gorgeous and unforgettable characters who all have their deeper reasons for risking life and limb for, er, cheese. After all, eventually in life, you have to leap!",
+      "people": {
+        "Director, Book & Lyrics, ": "Mike Stocks",
+        "Music": "Patrick Steed",
+        "Set Designer": "Raffi Philcox",
+        "Choreographer": "Kiren Virdee",
+        "Stage Manager": "George Gough"
+      },
+      "paperwork": false,
+      "venue": "New Wimbledon Theatre Studio",
+      "image_credit": "Alex Forey"
+    },
+    {
       "title": "The Island",
       "date": "September 2023",
       "role": "Lighting Designer",
       "id": "the-island",
-      "description": "THE ISLAND explores the conflict between who we are, and ‘who we ought to be’ in a haunting story about the fragility, and the resilience, of the human spirit.",
+      "description": "The Island explores the conflict between who we are, and ‘who we ought to be’ in a haunting story about the fragility, and the resilience, of the human spirit.",
       "people": {
         "Director": "Jessica Lazar",
         "Writer": "Juan Carlos Rubio",
