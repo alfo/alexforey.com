@@ -1,5 +1,7 @@
 {
   "featured": {
+    "the-realness": 1,
+    "seize-the-cheese": 1,
     "the-island": 1,
     "battersea-bardot": 1,
     "kitty-in-the-lane": 1,
@@ -25,7 +27,7 @@
       "date": "November 2023",
       "role": "Associate Lighting Designer, Programmer",
       "id": "mercury-sb",
-      "description": "The magical world of Sleeping Beauty is brought to life in this spectacular, fun-filled, family pantomime, led by Mercury’s award winning duo Dale Superville and ‘the best Dame in the country’ (British Theatre) Antony Stuart-Hicks.",
+      "description": "Carabosse tricks her niece into pricking her finger on a spinning wheel needle, cursing her to everlasting sleep. Only true love’s kiss can break the curse and wake the princess. Now it’s up to her friends, Fairy Fizz, Dame Maris Piper and Spud to find her Prince, defeat the evil Carabosse and save Luna! Will the curse be lifted? Will true love conquer all? Join us this Christmas on an unforgettable wintery adventure to find out!",
       "people": {
         "Director": "Ryan McBryde",
         "Writer": "Guy Unsworth",
@@ -66,7 +68,7 @@
         "Lighting Supplier": "White Light"
       },
       "paperwork": false,
-      "venue": "New Wimbledon Theatre Studio",
+      "venue": "The Big House Theatre Company",
       "image_credit": "Alex Forey"
     },
     {
@@ -80,7 +82,8 @@
         "Music": "Patrick Steed",
         "Set Designer": "Raffi Philcox",
         "Choreographer": "Kiren Virdee",
-        "Stage Manager": "George Gough"
+        "Stage Manager": "George Gough",
+        "Lighting Supplier": "White Light"
       },
       "paperwork": false,
       "venue": "New Wimbledon Theatre Studio",
@@ -100,7 +103,8 @@
         "Sound Designer": "Óðinn Örn Hilmarsson",
         "Associate Set Designer & Costume Designer": "Olivia Davies",
         "Stage Manager": "Elisa Pulido",
-        "Production Manager": "James Creighton-Goode"
+        "Production Manager": "James Creighton-Goode",
+        "Lighting Supplier": "White Light"
       },
       "paperwork": false,
       "venue": "Cervantes Theatre",
