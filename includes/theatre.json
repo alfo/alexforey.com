@@ -23,6 +23,25 @@
 
   "projects": [
     {
+      "title": "Hide and Seek",
+      "date": "March 2024",
+      "role": "Lighting Designer",
+      "id": "hide-and-seek",
+      "description": "",
+      "people": {
+        "Director and Translator": "Carlotta Brentan",
+        "Writer": "Tobia Rossi",
+        "Designer": "Constance Comparot",
+        "Composer": "Simone Manfredini",
+        "Dramaturg and Assistant Director": "Giada Prestinari",
+        "Stage Manager": "Fae Hochgemuth",
+        "Casting Director": "Laura Seaborn for HJB Casting"
+      },
+      "paperwork": false,
+      "venue": "Park Theatre",
+      "image_credit": "Mariano Gobbi"
+    },
+    {
       "title": "Sleeping Beauty",
       "date": "November 2023",
       "role": "Associate Lighting Designer, Programmer",
