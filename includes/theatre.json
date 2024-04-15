@@ -1,6 +1,7 @@
 {
   "featured": {
     "the-realness": 1,
+    "hide-and-seek": 1,
     "seize-the-cheese": 1,
     "the-island": 1,
     "battersea-bardot": 1,
@@ -27,7 +28,7 @@
       "date": "March 2024",
       "role": "Lighting Designer",
       "id": "hide-and-seek",
-      "description": "",
+      "description": "Hide and Seek is a moving and darkly entertaining play that pits two teenage boys against each other in the face of the contagious prejudice of their small Italian town. Gio, who has never felt accepted by anyone - not by parents, teachers or peers - decides to disappear and hide out in a secluded cave.",
       "people": {
         "Director and Translator": "Carlotta Brentan",
         "Writer": "Tobia Rossi",
