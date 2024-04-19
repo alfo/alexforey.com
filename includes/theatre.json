@@ -24,6 +24,24 @@
 
   "projects": [
     {
+      "title": "The Creation",
+      "date": "April 2024",
+      "role": "Lighting Designer",
+      "id": "the-creation",
+      "description": "",
+      "people": {
+        "Conductor": "Matthew O’Keefe",
+        "Designer": "Constance Comparot",
+        "Composer": "Simone Manfredini",
+        "Dramaturg and Assistant Director": "Giada Prestinari",
+        "Stage Manager": "Fae Hochgemuth",
+        "Casting Director": "Laura Seaborn for HJB Casting"
+      },
+      "paperwork": false,
+      "venue": "St John's Smith Square",
+      "image_credit": "Anya Nikolaeva"
+    },
+    {
       "title": "Hide and Seek",
       "date": "March 2024",
       "role": "Lighting Designer",
