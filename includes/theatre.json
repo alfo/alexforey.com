@@ -1,5 +1,6 @@
 {
   "featured": {
+    "the-creation": 1,
     "the-realness": 1,
     "hide-and-seek": 1,
     "seize-the-cheese": 1,
@@ -28,7 +29,7 @@
       "date": "April 2024",
       "role": "Lighting Designer",
       "id": "the-creation",
-      "description": "",
+      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
       "people": {
         "Conductor": "Matthew O’Keefe",
         "Designer": "Constance Comparot",
