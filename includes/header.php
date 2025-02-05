@@ -37,7 +37,6 @@
   /_/ \_\_\___/_\_\ |_|\___/_| \___|\_, |
                                     |__/
 
-yeah, I spent way too much time on that.
 -->
 
 <html>
@@ -52,7 +51,6 @@ yeah, I spent way too much time on that.
 
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-    <!-- All this fancy stuff for icons etc. -->
     <link rel="apple-touch-icon" sizes="180x180" href="/imgs/apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png?v=2">
     <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon-16x16.png?v=2">

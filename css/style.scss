@@ -8,12 +8,40 @@ $lowlight: #ff6e6e;
 $middlelight-text: #C9C9C9;
 $opacity: 0.4;
 $dark: #1c1c1c;
-$middlelight: lighten($dark, 20%);
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,100,400,700,300italic);
 @font-face {
-  font-family: 'brandon';
-  src: url('/css/brandon.woff') format('woff');
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
 }
 
 @import "unslider.css";
@@ -30,7 +58,8 @@ $middlelight: lighten($dark, 20%);
 .clear {clear: both;}
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "SFUIDisplay-ALX", sans-serif;
+  letter-spacing: 0.7px;
 }
 
 a {
@@ -223,12 +252,6 @@ a {
 
 section {
 
-  &#first, &.dark {
-    background-color: $dark;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23181818' fill-opacity='0.86'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.86'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
-    background-position: center center;
-  }
-
   &#first {
 
     scroll-snap-type: mandatory;
@@ -302,7 +325,40 @@ section {
 }
 
 .nav-container {
-  background: $dark;
+  background: none;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  video {
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $highlight-text;
+  }
 }
 
 nav {
@@ -438,7 +494,7 @@ header {
     position: relative;
 
     &:nth-child(odd) {
-      border-right: 2px solid $middlelight;
+      border-right: 2px solid $highlight;
     }
 
     div {
