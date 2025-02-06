@@ -9,7 +9,7 @@
   <div class="container">
 
     <header class="top-of-page">
-      <h1>Press</h1>
+      <h1><?php echo $title; ?></h1>
     </header>
 
   </div>
@@ -22,14 +22,14 @@
 
         foreach($projects['projects'] as $project) {
 
-          if ($project['press']) {
+          if (isset($project['press'])) {
           ?>
 
-          <h1>
+          <h2>
             <a href="/lighting/<?php echo $project['id']?>">
-              <?php echo $project['title']; ?> (<?php echo explode(' ', $project['date'])[1]; ?>)
+                <?php echo $project['title']; ?> (<?php echo date('Y', strtotime($project['date'])); ?>)
             </a>
-          </h1>
+          </h2>
           <div class="press">
           <?php foreach ($project['press'] as $quote => $pub) { ?>
             <blockquote><?php echo $quote; ?> <small>— <?php echo $pub; ?></small></blockquote>
