@@ -1,9 +1,6 @@
 <?php
 
   date_default_timezone_set("UTC");
-  $age = (date("md", date("U", mktime(0, 0, 0, 7, 9, 1997))) > date("md")
-    ? ((date("Y") - 1997) - 1)
-    : (date("Y") - 1997));
 
   function getProjects($type) {
     $filename = "includes/" . strtolower($type) . ".json";
@@ -41,10 +38,10 @@
 
 <html>
   <head>
-    <title>Alex Forey's Website | <?php echo $title; ?></title>
+    <title>Alex Forey Lighting | <?php echo $title; ?></title>
 
     <meta name="author" content="Alex Forey">
-    <meta name="description" content="The website of a <?php echo $age; ?> year old lighting designer with wide-ranging interests in theatre, technology, photography, art, and literature. See photos of my designs, projects I've created, and find out more about me.">
+    <meta name="description" content="The website of a lighting designer with wide-ranging interests in theatre, technology, photography, art, and literature. See photos of my designs, projects I've created, and find out more about me.">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -67,22 +64,20 @@
 
   <body>
 
-    <section id="first">
+    <div class="nav-container <?php echo $title; ?>">
+      <div class="container">
+        <nav>
+          <ul>
+            <li id="home"><a href="/">Alex Forey</a></li>
+            <li id="work"><a href="/theatre.php">Portfolio</a></li>
+            <li id="credits"><a href="/credits.php">Credits</a></li>
+            <li id="contact"><a href="/contact.php">Contact</a></li>
+            <li id="about"><a href="/about.php">About</a></li>
+            <li id="press"><a href="/press.php">Press</a></li>
+          </ul>
+        </nav>
 
-      <div class="nav-container">
-        <div class="container">
+        <div class="clear"></div>
 
-          <nav>
-            <ul>
-              <li id="home"><a href="/">Alex Forey</a></li>
-              <li><a href="/theatre">Lighting</a></li>
-              <li><a href="/press">Press</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/projects">Projects</a></li>
-            </ul>
-          </nav>
-
-          <div class="clear"></div>
-
-        </div>
       </div>
+    </div>
