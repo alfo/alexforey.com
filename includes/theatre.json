@@ -1,927 +1,1033 @@
 {
-  "featured": {
-    "the-creation": 1,
-    "the-realness": 1,
-    "hide-and-seek": 1,
-    "seize-the-cheese": 1,
-    "the-island": 1,
-    "battersea-bardot": 1,
-    "kitty-in-the-lane": 1,
-    "wca-purgatorio": 1,
-    "saint-hildegard": 1,
-    "wca-paradiso": 3,
-    "lovefool": 1,
-    "wca-oth": 2,
-    "paddy-goes-to-petra": 1,
-    "good-day": 1,
-    "wca-three-sisters": 1,
-    "ghislaine-gabler": 2,
-    "monster": 5,
-    "wca-electra": 2,
-    "libuse": 1,
-    "rhapsody": 1,
-    "babel": 1
-  },
-
-  "projects": [
-    {
-      "title": "Cleopatra's Antony",
-      "date": "October 2024",
-      "role": "Lighting Designer",
-      "id": "cleopatras-antony",
-      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
-      "people": {
-        "Director": "Mo Korede",
-        "Choreographer": "Osian Meilir Jones",
-        "Costume Designer": "Jennifer Gregory",
-        "Lighting Designer": "Adam Bassett (WBD)",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Theatre Peckham, London",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Come Alive - The Greatest Showman Circus Spectacular",
-      "date": "October 2024",
-      "role": "Associate Lighting Designer",
-      "id": "come-alive-london",
-      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
-      "people": {
-        "Director": "Simon Hammerstein",
-        "Choreographer": "Osian Meilir Jones",
-        "Costume Designer": "Jennifer Gregory",
-        "Lighting Designer": "Adam Bassett (WBD)",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Empress Museum, London",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Between the Lines",
-      "date": "May 2024",
-      "role": "Lighting Designer",
-      "id": "between-the-lines",
-      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
-      "people": {
-        "Conductor": "Matthew O’Keefe",
-        "Choreographer": "Osian Meilir Jones",
-        "Costume Designer": "Jennifer Gregory",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "New Diorama Theatre, London",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "The Creation",
-      "date": "April 2024",
-      "role": "Lighting Designer",
-      "id": "the-creation",
-      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
-      "people": {
-        "Conductor": "Matthew O’Keefe",
-        "Choreographer": "Osian Meilir Jones",
-        "Costume Designer": "Jennifer Gregory",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "St John's Smith Square",
-      "image_credit": "Anya Nikolaeva"
-    },
-    {
-      "title": "Hide and Seek",
-      "date": "March 2024",
-      "role": "Lighting Designer",
-      "id": "hide-and-seek",
-      "description": "Hide and Seek is a moving and darkly entertaining play that pits two teenage boys against each other in the face of the contagious prejudice of their small Italian town. Gio, who has never felt accepted by anyone - not by parents, teachers or peers - decides to disappear and hide out in a secluded cave.",
-      "people": {
-        "Director": "Carlotta Brentan",
-        "Designer": "Constance Comparot",
-        "Writer": "Tobia Rossi",
-        "Composer": "Simone Manfredini",
-        "Dramaturg and Assistant Director": "Giada Prestinari",
-        "Stage Manager": "Fae Hochgemuth",
-        "Casting Director": "Laura Seaborn for HJB Casting"
-      },
-      "paperwork": false,
-      "venue": "Park Theatre",
-      "image_credit": "Mariano Gobbi",
-      "press": {
-        "Alex Forey's exquisite lighting design and Simone Manfredini's original music transform the Park 90's stage into a very intimate hideaway": "<a href='https://www.londontheatrereviews.co.uk/post.cfm?p=19494'>London Theatre Reviews</a>",
-        "Alex Forey’s lighting design works wonders in maintaining the claustrophobic atmosphere of the makeshift subterranean dwelling": "<a href='https://www.jacktheladmag.com/theatre-reviews/hide-and-seek'>Jack The Lad</a>",
-        "a highlight is Alex Forey's lighting. The design was cued perfectly to create the dim light of a cave": "<a href='https://www.curtaincallreviews.co.uk/hide-and-seek?fbclid=PAAabMK-FqRHdhYZQA0qwfjjrjNUOcDSA7L--5SFFql6irQPbmAvbXMTP7WEA'>Curtain Call Reviews</a>",
-        "Alex Forey cleverly uses a combination of side lights and the torch on a phone to evoke dinginess": "<a href='https://thespyinthestalls.com/2024/03/hide-and-seek/'>The Spy in the Stalls</a>"
-      }
-    },
-    {
-      "title": "Sleeping Beauty",
-      "date": "November 2023",
-      "role": "Associate Lighting Designer, Programmer",
-      "id": "mercury-sb",
-      "description": "Carabosse tricks her niece into pricking her finger on a spinning wheel needle, cursing her to everlasting sleep. Only true love’s kiss can break the curse and wake the princess. Now it’s up to her friends, Fairy Fizz, Dame Maris Piper and Spud to find her Prince, defeat the evil Carabosse and save Luna! Will the curse be lifted? Will true love conquer all? Join us this Christmas on an unforgettable wintery adventure to find out!",
-      "people": {
-        "Director": "Ryan McBryde",
-        "Writer": "Guy Unsworth",
-        "Designer": "Jasmine Swan",
-        "Set Designer": "Tina Torbey",
-        "Lighting Designer": "Matt Ladkin",
-        "Sound Designer": "Nico Menghini",
-        "Musical Director": "Paul Herbert",
-        "Choreographer": "Rosie Mather",
-        "Associate Director": "Chris Neels",
-        "Deputy Stage Manager": "Emilie Leger",
-        "Casting Directors": "Jenkins McShane CDG",
-        "Assistant Director": "Chani Merrell",
-        "Lighting Supplier": "Christie Lites"
-      },
-      "paperwork": false,
-      "venue": "Mercury Theatre",
-      "image_credit": "Pamela Raith"
-    },
-    {
-      "title": "The Realness",
-      "date": "November 2023",
-      "role": "Lighting Designer",
-      "id": "the-realness",
-      "description": "When some people won’t believe you’ve changed, and others don’t want to let you change, it isn’t easy to make a new start. Jay Johnson is fresh out of prison and determined never to go back, but for all his efforts to stay on track, he finds himself making a detour back in the wrong direction. Finally he’s faced with the hardest choice of his life and only then does he understand what he has to do to change things for real. The Realness has an upbeat score ranging from rap to reggae, gospel to grime.",
-      "people": {
-        "Director": "Maggie Norris",
-        "Book": "Maureen Chadwick & David Watson",
-        "Music & Lyrics": "Kath Gotts",
-        "Set Designer": "Tina Torbey",
-        "Sound Designer": "Julian Starr",
-        "Video Designer": "Mic Pool",
-        "Costume Designer": "Bertie Taylor-Smith",
-        "Musical Director": "Joey Hickman",
-        "Choreographer": "Fi Silverthorn",
-        "Associate Director": "Chris Neels",
-        "Stage Manager": "Laurel Marks",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "The Big House Theatre Company",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Seize the Cheese",
-      "date": "October 2023",
-      "role": "Lighting Designer",
-      "id": "seize-the-cheese",
-      "description": "In this uplifting comedy, loosely inspired by the world-famous cheese-rolling in Gloucestershire, people plummet down a deadly hill in pursuit of a speeding Double Gloucester cheese. Anarchic and hilarious, it’s the “English Book Of Mormon”, according to one critic. With sumptuous songs by Patrick Steed and Mike Stocks, it features gorgeous and unforgettable characters who all have their deeper reasons for risking life and limb for, er, cheese. After all, eventually in life, you have to leap!",
-      "people": {
-        "Director, Book & Lyrics, ": "Mike Stocks",
-        "Music": "Patrick Steed",
-        "Set Designer": "Raffi Philcox",
-        "Choreographer": "Kiren Virdee",
-        "Stage Manager": "George Gough",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "New Wimbledon Theatre Studio",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "The Island",
-      "date": "September 2023",
-      "role": "Lighting Designer",
-      "id": "the-island",
-      "description": "The Island explores the conflict between who we are, and ‘who we ought to be’ in a haunting story about the fragility, and the resilience, of the human spirit.",
-      "people": {
-        "Director": "Jessica Lazar",
-        "Writer": "Juan Carlos Rubio",
-        "Translator": "Tim Gutteridge",
-        "Set Designer": "Sorcha Corcoran",
-        "Sound Designer": "Óðinn Örn Hilmarsson",
-        "Associate Set Designer & Costume Designer": "Olivia Davies",
-        "Stage Manager": "Elisa Pulido",
-        "Production Manager": "James Creighton-Goode",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Cervantes Theatre",
-      "image_credit": "Alex Forey",
-      "press": {
-        "This clinical atmosphere is further brought to ‘light’ with the symmetrical fluorescent tubes. The harsh lighting adds to the atmosphere, emphasising the location, and compelling the pair into introspection": "<a href='https://everything-theatre.co.uk/2023/09/review-the-island-cervantes-theatre/'>Everything Theatre</a>"
-      }
-    },
-    {
-      "title": "Battersea Bardot",
-      "date": "September 2023",
-      "role": "Lighting Designer",
-      "id": "battersea-bardot",
-      "description": "A one-woman musical which explores the life of 1960s London film star Carol White (Cathy Come Home, Poor Cow) and the nightmares that female performers faced - and still face - in the world of entertainment.",
-      "people": {
-        "Director": "Elizabeth Huskisson",
-        "Writer": "Ewen Moore",
-        "Set & Costume Designer": "Emily Munt",
-        "Sound Designer": "Ilia Higgs",
-        "Musical Director": "Gaby Ball",
-        "Stage Manager": "Ryan Mulgrew"
-      },
-      "paperwork": false,
-      "venue": "New Wimbledon Theatre Studio",
-      "image_credit": "Alex Forey",
-      "press": {
-        "A good creative team, especially including lighting by Alex Forey which deserves a mention for its atmospheric and immersive qualities": "<a href='https://saltertonartsreview.com/2023/09/battersea-bardot-new-wimbledon-theatre-london/'>Salterton Arts Review</a>",
-        "Alex Forey’s lighting design also deserves particular praise for simple yet effective design that provides some of the most striking visuals in the show": "<a href='https://lostintheatreland.co.uk/battersea-bardot-review-new-wimbledon-studio/'>Lost in Theatreland</a>",
-        "stylish work by lighting designer Alex Forey": "<a href='https://www.timeandleisure.co.uk/things-to-do/battersea-bardot-review/'>Time and Leisure</a>"
-      }
-    },
-    {
-      "title": "Waiting for a Train at the Bus Stop",
-      "date": "July/August 2023",
-      "role": "Lighting Designer",
-      "id": "wfatatbs",
-      "description": "'17 minutes. That's how long it takes to die by train. I looked it up once'. Chilufya – you can call her Chili – doesn't know whether she is coming or going. Which makes perfect sense since her name literally means 'the lost one' and lost is exactly how she's felt most of her life. Struggling with low self-esteem and a waning sense of self, she finds herself being drawn into a dangerously controlling relationship. Interweaving spoken-word theatre with Zambian oral traditions this dark comedy is a solo show exploring coercive control.",
-      "people": {
-        "Writer and Director": "Mwansa Phiri",
-        "Sound Designer": "",
-        "Video Designer": "Virginie Taylor"
-      },
-      "paperwork": false,
-      "venue": "Streatham Space Project / Summerhall Edinburgh",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Post-Traumatic Growth in Penge",
-      "date": "May/June 2023",
-      "role": "Lighting Designer",
-      "id": "wca-purgatorio",
-      "description": "In the Purgatory of unresolved trauma, Marcelle breaks away from his usual cruxes in a bid to spend the time it takes to truly heal. Upon discovering Paradise in Penge, he realises it isn’t all it seems.",
-      "people": {
-        "Director": "Natasha Harrison",
-        "Writer": "Samuel Evans",
-        "Set & Costume Designer": "Anna Kezia Williams",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Chloe Astleford",
-        "Production Manager": "Paula Rivas",
-        "Set Builder & Flyman": "Fred Nobre",
-        "Dramaturgy Support": "Janka Ščepková",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Eden",
-      "date": "May/June 2023",
-      "role": "Lighting Designer",
-      "id": "wca-paradiso",
-      "description": "The year is 2024 and the world as we know it is in perpetual crisis. Near Denver, Colorado, a radical movement has been building. Fuelled by a desire to finally take back control, a community redefining the rules has emerged. Will they change the world and at what cost?",
-      "people": {
-        "Director": "Shane Dempsey",
-        "Set & Costume Designer": "Anna Kezia Williams",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Chloe Astleford",
-        "Production Manager": "Paula Rivas",
-        "Set Builder & Flyman": "Fred Nobre",
-        "Dramaturgy Support": "Janka Ščepková",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Oh The Horror!",
-      "date": "May/June 2023",
-      "role": "Lighting Designer",
-      "id": "wca-oth",
-      "description": "A bloodthirsty dissection artist, Sue Meetrop, escapes beyond the Realm of Television and into the Realm of Reality. Our heroes, the hosts of a popular podcast, their live advert partner and a listener of the show set off to find Meetrop and place her back within the confines of the screen.",
-      "people": {
-        "Created and Performed by": "innominate",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Chloe Astleford",
-        "Production Manager": "Paula Rivas",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Air Time",
-      "date": "May/June 2023",
-      "role": "Lighting Designer",
-      "id": "wca-airtime",
-      "description": "What do you do when the world has already ended? 2 friends come to the surface for their government mandated 35 minutes of airtime and play a board game from before the collapse, talking about how times have changed.",
-      "people": {
-        "Created and Performed by": "Scratch That",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Chloe Astleford",
-        "Production Manager": "Paula Rivas",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Kitty in the Lane",
-      "date": "May 2023",
-      "role": "Lighting Designer",
-      "id": "kitty-in-the-lane",
-      "description": "Kitty waits alone in her kitchen. Her father is dying in the room next door. Kitty wishes he would just hurry up. Kitty wishes her boyfriend, late to accompany her to a local beauty pageant would hurry up too. Kitty in the Lane makes its London premiere with a fresh production at The Jack Studio Theatre after successful runs of the play in Ireland and the USA.",
-      "people": {
-        "Writer": "Áine Ryan",
-        "Director": "Jack Reardon",
-        "Set Design": "Constance Comparot",
-        "Sound Design": "Florence Hand",
-        "Technical Operator": "Scarlett Bryan"
-      },
-      "press": {
-        "an eye-catching set designed by Constance Comparot which is stunningly brought to life in conjunction with wonderful dynamic lighting that allows this decaying country home to easily morph into vivid vignettes from Kitty’s life. The lighting, designed by Alex Forey, deserves calling out twice. I was excited as each scene progressed just to see how it would shift next; transforming Kitty’s home into a pub then a nightclub, a lonely country road illuminated by a car’s headlights then a misty morning hilltop, all executed flawlessly in cooperation with impeccable, haunting sound design from Florence Hand": "<a href='https://www.londonpubtheatres.com/review-kitty-in-the-lane-by-aine-ryan-at-jack-studio-theatre-2-13-may-2023'>London Pub Theatres</a>",
-        "The mood is greatly aided by some superb lighting design by Alex Forey": "<a href='https://www.londontheatre1.com/reviews/kitty-in-the-lane-at-jack-studio-theatre/'>LondonTheatre1</a>",
-        "Constance Comparot’s set and Alex Forey’s lighting change the atmosphere from stark to mystical and dreamlike effortlessly with Jack Reardon’s assured direction": "<a href='https://fairypoweredproductions.com/kitty-in-the-lane-review/'>Fairy Powered Productions</a>'"
-      },
-      "paperwork": false,
-      "venue": "The Brockley Jack",
-      "image_credit": "Eamonn Shanahan & Jake Bush"
-    },
-    {
-      "title": "Lovefool",
-      "date": "May 2023",
-      "role": "Lighting Designer",
-      "id": "lovefool",
-      "description": "A brutally honest, hilarious and heartbreaking one-woman show navigating the impossibly confusing gender dynamics of modern love. Grace, a young woman hungry for affection and looking for love in all the wrong places, is forced to discover what healthy (self) love might look like.",
-      "people": {
-        "Writer & Director": "Gintare Parulyte",
-        "Sound & Video Design": "David Gaspar",
-        "Dramaturgy": "Liv Morris",
-        "Assistant Director": "Sandra Kilian-Zazulak"
-      },
-      "paperwork": false,
-      "venue": "Coronet Theatre / Théâtre National du Luxembourg",
-      "image_credit": "Alex Brenner"
-    },
-    {
-      "title": "Good Day",
-      "date": "March 2023",
-      "role": "Lighting Designer",
-      "id": "good-day",
-      "description": "Zara lives in a perfect world. No poverty, no war. She’s even been implanted with an electronic chip that will extend her life forever. So, why does she want to end it all?To be allowed to die, Zara must debate her fate with an android therapist and overcome the human drive to survive. ‘Good Day’ is a new dark comedy that explores how we find meaning in our lives and asks whether immortality is really all it’s cracked up to be.",
-      "people": {
-        "Director": "Marlie Haco",
-        "Set & Costume Designer": "Justin Nardella",
-        "Video Designer": "Dan Light",
-        "Composer & Sound Designer": "Akos Lustyik",
-        "Stage Manager": "Ellie Carney",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Network Theatre / Vault Festival",
-      "image_credit": "Jake Bush"
-    },
-    {
-      "title": "Hildegard von Bingen",
-      "date": "February 2023",
-      "role": "Lighting Designer",
-      "id": "saint-hildegard",
-      "description": "As a child, Hildegard Von Bingen began experiencing intense prophetic – and often apocalyptic – visions and communications with God. Suffering through chronic illness, she kept these hidden from those around her until her forties, fearing she would be branded a lunatic or, worse, a witch. This multigenerational female ensemble uses voice and movement in an physical opera to explore the span of a woman’s life, what it means to always live in fear, with wisdom, and if Hildegard ever felt truly free.",
-      "people": {
-        "Creator & Director": "Kristin Winters",
-        "Sound Designer": "Florence Hand",
-        "Composer & Musician": "David Cieri",
-        "Movement Director": "Gabrielle Moleta",
-        "Dramaturg": "Dr Katherine Hipkiss",
-        "Stage Manager": "Beth Cotton",
-        "Lighting Supplier": "White Light"
-      },
-      "press": {
-        "Lighting and sound is expertly mastered by Alex Forey and Florence Hand throughout the performance, in a way that gives light a voice, and gives sound a visual experience.": "<a href='https://www.thereviewshub.com/hildegard-von-bingen-vault-festival-london/'>The Reviews Hub</a>",
-        "Alex Forey’s lighting and Florence Hand’s sound combine to highly atmospheric effect, particularly in characterising Hildegard’s visions, at once something otherworldly yet viscerally terrifying as a seizure too": "<a href='https://oughttobeclowns.com/2023/02/review-hildegard-von-bingen-vault-festival.h…'>There Ought To Be Clowns</a>",
-        "Gorgeous lighting and creative sound. The lighting is absolutely stunning.": "<a href='https://www.broadwayworld.com/westend/article/Review-HILDEGARD-VON-BINGEN-VAULT-Festival-20230224'>Broadway World</a>",
-        "Hildegard Von Bingen is certainly ambitious, with exemplary sound and lighting design (by Florence Hand and Alex Forey).": "<a href='https://loureviews.blog/2023/02/23/vault-review-hildegard-von-bingen/'>LouReviews</a>"
-      },
-      "paperwork": false,
-      "venue": "Vault Festival",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Paddy Goes To Petra",
-      "date": "November 2022",
-      "role": "Lighting Designer",
-      "id": "paddy-goes-to-petra",
-      "description": "Rural Ireland meets the Middle East when Irish farmer Paddy's only son dies unexpectedly, and his lust for life vanishes. A trip to the ancient city of Petra encourages him to feel a fresh wonder for the world, develop new friendships and an exciting love affair...with himself. How much time can he really spend away from his wife, farm and responsibilities back in Ireland, however?",
-      "people": {
-        "Writer and Director": "Áine Ryan",
-        "Designer": "Constance Comparot",
-        "Composer": "Eyal Arad",
-        "Technical Operator": "Scarlett Bryan"
-      },
-      "press": {
-        "Alex Forey sensitively lights all of this, further enhancing the changing moods": "<a href='https://broadwaybaby.com/shows/paddy-goes-to-petra/788500'>Broadway Baby</a>"
-      },
-      "paperwork": false,
-      "venue": "The Brockley Jack",
-      "image_credit": "Steve Gregson"
-    },
-    {
-      "title": "Ghislaine/Gabler",
-      "date": "August 2022",
-      "role": "Lighting Designer",
-      "id": "ghislaine-gabler",
-      "description": "Why does a victim become a predator? In isolation, Ghislaine Maxwell maintains innocence whilst reliving the psychological abuse endured from her father. She unravels, fantasising that she is Hedda Gabler; both charismatic, beautiful and, above all, manipulative monsters in the female form.",
-      "people": {
-        "Writer and Director": "Kristin Winters",
-        "Sound Designer": "George Rigby",
-        "Composer": "Alexey Kochetkov",
-        "Producer": "Sam Dash"
-      },
-      "paperwork": false,
-      "venue": "The Coronet Theatre & Edinburgh Fringe",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Network/Recorder",
-      "date": "May/June 2022",
-      "role": "Lighting Designer",
-      "id": "wca-network",
-      "description": "Inspired by the screenplay ‘Network’ and the life of prescient civil rights activist Marion Stokes, this devised piece of ensemble theatre deals with the all-pervasive prevalence of 24-hour news questioning whose stories are captured and to what end.",
-      "people": {
-        "Director": "Stella Odunlami",
-        "Designer": "Hugo Aguirre",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Jamie Duddy"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Till Death Do We Part",
-      "date": "May/June 2022",
-      "role": "Lighting Designer",
-      "id": "wca-till-death",
-      "description": "",
-      "people": {
-        "Director": "Jodie Leigh Armstrong & Lara van Huyssteen",
-        "Writer": "Carmen Rivas Perez",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Jamie Duddy"
-      },
-      "paperwork": false,
-      "venue": "SnapFuse Theatre / Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Killology",
-      "date": "May/June 2022",
-      "role": "Lighting Designer",
-      "id": "wca-killology",
-      "description": "A controversial new gaming experience is inspiring a generation. In Killology, players are rewarded for torturing victims, scoring points for “creativity”. But Killology isn’t sick. In fact it’s marketed by its millionaire creator as a deeply moral experience.",
-      "people": {
-        "Directed & Performed By": "Tom Ashen, Gregg Martin, Kian O'Connell",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Jamie Duddy"
-      },
-      "paperwork": false,
-      "venue": "KMT Productions / Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Mums",
-      "date": "May/June 2022",
-      "role": "Lighting Designer",
-      "id": "wca-mums",
-      "description": "A poetic and delicate look into the state of grieving, following one family in their attempt to adjust to a new reality.",
-      "people": {
-        "Director": "Karola Kosecka",
-        "Co-Director": "Lavinia Grippa",
-        "Composer": "Arielle Zilkha",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Jamie Duddy"
-      },
-      "paperwork": false,
-      "venue": "Psychonaut Theatre / Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Honey Badger",
-      "date": "May/June 2022",
-      "role": "Lighting Designer",
-      "id": "wca-honey-badger",
-      "description": "Created and performed by Juraj Benko, the piece explores abusive parenthood and its impact on the life of an individual.",
-      "people": {
-        "Created and Performed by": "Juraj Benko",
-        "Composer": "Arielle Zilkha",
-        "Sound & Video": "Antonio Mellado Sanchez",
-        "Stage Manager": "Jamie Duddy"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Yerma",
-      "date": "February 2022",
-      "role": "Lighting Designer",
-      "id": "wca-yerma",
-      "description": "This version of Yerma, the classic written by Federico Garcia Lorca, is relocated to a village in Ghana",
-      "people": {
-        "Director": "Jessica Mensah",
-        "Designer": "Raffi Philcox & Peijia Luo"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Three Sisters",
-      "date": "February 2022",
-      "role": "Lighting Designer",
-      "id": "wca-three-sisters",
-      "description": "A new production highlighting the ways women in Three Sisters were trapped by the patriarchy and exploring how women remain restricted in the same ways today.",
-      "people": {
-        "Director": "Alessandra Davison",
-        "Designer": "Sonya Smullen & Jiayi Zhu"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "The Importance of Being Earnest",
-      "date": "February 2022",
-      "role": "Lighting Designer",
-      "id": "wca-earnest",
-      "description": "Samara Gannon directs a queer-lensed version of Oscar Wilde's The Importance of Being Ernest.",
-      "people": {
-        "Director": "Samara Gannon",
-        "Designer": "Fiona Wagstaff & George Zhou"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Electra",
-      "date": "February 2022",
-      "role": "Lighting Designer",
-      "id": "wca-electra",
-      "description": "Focusing on the psychological isolation and empowerment. This performance if Electra delves into strength of the main character and the fear of her words.",
-      "people": {
-        "Director": "Mo Korede",
-        "Designer": "Ieva Ievina & Eilyn Chung"
-      },
-      "paperwork": false,
-      "venue": "Wimbledon College of Arts & Lyric Hammersmith",
-      "image_credit": "Alex Forey"
-    },
-    {
-      "title": "Julius Caesar",
-      "date": "December 2021",
-      "role": "Lighting Designer",
-      "id": "jc-rada",
-      "description": "When Julius Caesar returns to Rome triumphant from the wars, his republican friends decide his dictatorship must end. But, as a new force led by Mark Antony emerges, Caius Cassius persuades Marcus Brutus that the only way to end the Emperor's reign of power is through assassination. Shakespeare's tense drama of high politics and conspiracy amongst men in power is a classic introduction for young audiences.",
-      "people": {
-        "Director": "Che Walker",
-        "Designer": "Anita Gander",
-        "Sound Designer": "John Leonard"
-      },
-      "paperwork": false,
-      "venue": "Jerwood Vanbrugh Theatre, RADA",
-      "image_credit": "Linda Carter"
-    },
-    {
-      "title": "Son et Lumière",
-      "date": "November 2021",
-      "role": "Lighting Designer",
-      "id": "son-et-lumiere",
-      "description": "RADA's annual light show, this time bigger than ever. With over 110 moving lights, three Hog 4 consoles, and four kilometers of cable, this is a rare opportunity for the third year lighting students to take a break from theatre and create something visually stunning in a total of three days.",
-      "people": {
-        "Production Electrician": "Samuel Blakemore",
-        "Sound Designer": "Wilkie Morrison",
-        "Technical Manager": "Rosa Watson",
-        "Lighting Supplier": "Neg Earth"
-      },
-      "paperwork": false,
-      "venue": "Jerwood Vanbrugh Theatre, RADA",
-      "image_credit": "Alex Forey",
-      "videos": ["ByWNYK_5QJc", "H31s7mlXork"]
-    },
-    {
-      "title": "Stop Kiss",
-      "date": "October 2021",
-      "role": "Lighting Designer",
-      "id": "stop-kiss",
-      "description": "A romantic, tender, and playful story entangled in violence, Stop Kiss weaves between: the reality and brutality of loving the 'wrong person'; the strength in the aftermath of being a woman in the 'wrong place at the wrong time'; and the sweet awkwardness of falling in love.",
-      "people": {
-        "Designer": "Sophie Firth",
-        "Sound Designer": "Daberechi Ukoha-Kalu",
-        "Movement": "Elizabeth Ballinger",
-        "Voice": "Esi Acquaah-Harrison"
-      },
-      "paperwork": false,
-      "venue": "GBS Theatre, RADA",
-      "image_credit": "Linda Carter"
-    },
-    {
-      "title": "Monster",
-      "date": "July 2021",
-      "role": "Lighting Designer",
-      "id": "monster",
-      "description": "Alone in the classroom, a battle of wills takes place. Award winning playwright Duncan Macmillan’s ‘Monster’ is a gripping and often difficult exploration into parenthood and where responsibility and blame lie.",
-      "people": {
-        "Director": "Dadiow Lin",
-        "Designer": "Isabel Walters",
-        "Sound Designer": "Ella Bloomfield",
-        "Movement": "Angela Gasparetto",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": true,
-      "venue": "Gielgud Theatre, RADA",
-      "image_credit": "Alex Forey / Linda Carter"
-    },
-    {
-      "title": "Manifestos",
-      "date": "October 2020",
-      "role": "Lighting Designer",
-      "id": "manifestos",
-      "description": "A season of eight new devised works presented over two days by RADA's MA Lab graduating student body, shown and broadcast live as part of the Bloomsbury Festival. ",
-      "people": {
-        "Artistic Director": "Ian Morgan",
-        "Sound Designer": "Sammy Emmins",
-        "Video Designer": "Roberto Esquenazi"
-      },
-      "paperwork": false,
-      "venue": "RADA Studios",
-      "image_credit": "Susie Su / Alex Forey"
-    },
-    {
-      "title": "Libuše",
-      "date": "March 2019",
-      "role": "Lighting Designer",
-      "id": "libuse",
-      "description": "UCO reimagines Smetana's Bohemian queen and her medieval court in the modern-day city, where soaring skyscrapers promise glamour and wealth at a human cost. Born into a celebrated legal dynasty, Libuše is queen of the corporate world and obliged to assert herself as its leader.",
-      "people": {
-        "Director": "Cecilia Stinton",
-        "Conductor": "Charles Peebles",
-        "Designer": "Holly Muir",
-        "Costume": "Alžbeta Kurdelová",
-        "Choreographer": "Ester Rudhart",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Bloomsbury Theatre",
-      "image_credit": "Katie Edwards"
-    },
-    {
-      "title": "Songs for a New World",
-      "date": "March 2019",
-      "role": "Lighting Designer",
-      "id": "sfanw",
-      "description": "Jason Robert Brown's iconic song cycle Songs For A New World takes a look at people on the brink of life’s biggest decisions, through a stunning blend of musical genres.",
-      "people": {
-        "Director": "Suriyah Rashid",
-        "Musical Director": "Natalie Pound"
-      },
-      "paperwork": false,
-      "venue": "Drayton Arms Theatre",
-      "image_credit": "Wen-yi Lee"
-    },
-    {
-      "title": "Rhapsody",
-      "date": "January 2019",
-      "role": "Lighting Designer",
-      "id": "rhapsody",
-      "description": "A live music showcase of well known and loved songs reimagined and brought to life entirely by UCL Students, Rhapsody 2019 will be a celebration of the power and expression of music.",
-      "people": {
-        "Director": "Björn Franke",
-        "Co-Lighting Designer": "Cameron Pollaers",
-        "Sound Designer": "Jenny Wark",
-        "Lighting Supplier": "CEG Lighting"
-      },
-      "paperwork": false,
-      "venue": "Bloomsbury Theatre",
-      "image_credit": "Natalie Pound"
-    },
-    {
-      "title": "Polyeucte",
-      "date": "March 2018",
-      "role": "Lighting Designer",
-      "id": "polyeucte",
-      "description": "British premiere of Charles Gounod's rarely performed opera Polyeucte, based on the Corneille play ‘Saint Polyeuctus’, it tells a tragic story of Christian martyrdom in defiance of the all-powerful powerful Roman Empire.",
-      "people": {
-        "Director": "Thomas Guthrie",
-        "Conductor": "Charles Peebles",
-        "Designer": "Raphaé Memon",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": false,
-      "venue": "Theatre Royal Stratford East",
-      "image_credit": "Teo Della Torre",
-      "press": {
-        "strikingly lit by Alex Forey": "Yehuda Shapiro, Opera"
-      }
-    },
-    {
-      "title": "Into The Woods",
-      "date": "February 2018",
-      "role": "Co-Lighting Designer",
-      "id": "into-the-woods",
-      "description": "A twisted re-imagining of Grimm's fairytales, exploring the light and dark sides of desire. Find out what happens to Little Red Riding Hood, Cinderella, Jack and others after they get their happily ever after.",
-      "people": {
-        "Director": "Olivia Burgin",
-        "Musical Director": "Alessandra Anderson-Lewis",
-        "Set Designer": "Arya Bhomick",
-        "Sound Designer": "Matthias Olson",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": true,
-      "venue": "Shaw Theatre",
-      "image_credit": "Alex Forey",
-      "videos": ["256867974"]
-    },
-    {
-      "title": "Babel",
-      "date": "July 2017",
-      "role": "Lighting Designer",
-      "id": "babel",
-      "description": "Patrick Neate's exciting text challenges the audience to reflect on the nature of language in the UK today. A kaleidoscope of sound and a cacophony of visual images generated through dance, movement and speech.",
-      "people": {
-        "Director": "Edward Williams",
-        "Set Designer": "Dan Staniforth",
-        "Sound Designer": "Nic Heymann",
-        "Video Designer": "Kit Treadwell",
-        "Lighting Supplier": "White Light"
-      },
-      "paperwork": true,
-      "venue": "Lyric Studio, Hammersmith",
-	    "image_credit": "Alex Forey",
-      "videos": ["247695309"]
-    },
-    {
-      "title": "City of Glass",
-      "date": "April 2017",
-      "role": "Chief of Projection (Lyric)",
-      "id": "city-of-glass",
-      "image_credit": "59 / Jonathan Keenan",
-      "description": "When reclusive crime writer Daniel Quinn receives a mysterious phone call from a man seeking a private detective in the middle of the night, he quickly and unwittingly becomes the protagonist in a real-life thriller of his own.",
-      "system": "d3 4x4pro and Panasonic Laser Projectors, linked to ETC EOS",
-      "people": {
-        "Director": "Leo Warner",
-        "Set Designer": "Jenny Melville",
-        "Video Designer": "Lysander Ashton",
-        "Lighting Designer": "Matt Daw",
-        "Sound Designer": "Gareth Fry",
-        "Composer": "Nick Powell",
-        "Movement Director": "Kim Brandstrup"
-      },
-      "paperwork": false,
-      "venue": "59 Productions / Lyric Hammersmith"
-    },
-    {
-      "title": "The Female Gaze",
-      "date": "March 2017",
-      "role": "Lighting Designer",
-      "id": "the-female-gaze",
-      "image_credit": "<a href='http://www.lilyvetch.com'>Lily Vetch</a>",
-      "description": "A brand new feminist scratch night showcasing stories about sex and desire spanning the sexuality spectrum.",
-      "people": {
-        "Director": "Emily Warren",
-        "Director ": "Annabelle Rich et al.",
-        "Sound Designer": "Nikhil Vyas",
-        "Lighting Supplier": "White Light"
-      },
-      "venue": "Rich Creative, Cockpit Theatre",
-      "paperwork": false
-    },
-
-    {
-      "title": "Quint-Essential",
-      "date": "November 2016",
-      "role": "Associate Lighting Designer, Programmer",
-      "id": "quintessential",
-      "image_credit": "Dave Morgan, Jane Hobson",
-      "description": "Five new contemporary ballets commisionned by New English Ballet Theatre for their annual gala, featuring 100 pixel-mapped pendants",
-      "people": {
-        "Choreographer": "George Williamson",
-        "Choreographer": "Daniela Cardim",
-        "Choreographer": "Marcelino Sambé",
-        "Choreographer": "Kristen Mcnally",
-        "Lighting Designer": "Andrew Ellis",
-        "Set Designer": "Louie Whitemore"
-      },
-      "system": "ETC Gio",
-      "venue": "Peacock Theatre, Sadler's Wells",
-      "paperwork": false
-    },
-
-    {
-      "title": "Grey Matter",
-      "date": "August 2016",
-      "role": "Lighting Designer",
-      "id": "grey-matter-fringe",
-      "image_credit": "Dan Staniforth and Claire Forey",
-      "description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty, changing to a front-on space and repertory lighting rig.",
-      "people": {
-        "Director": "Andrew Broughton",
-        "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Amos Jackson",
-        "Projection": "Tom Kell",
-        "Lighting Supplier": "White Light"
-      },
-      "press": {
-        "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview"
-      },
-      "venue": "C Venues Edinburgh",
-      "videos": ["180773266"],
-      "paperwork": true
-    },
-
-    {
-      "title": "Grey Matter",
-      "date": "February 2016",
-      "role": "Lighting Designer",
-      "id": "grey-matter",
-      "image_credit": "Alex Forey",
-      "description": "A dark psychological drama involving a young offenders' institution devised by the cast and based on a scenario by Adrian Raine played in the round.",
-      "link": "http://newfangled.me/grey-matter/",
-      "people": {
-        "Director": "Andrew Broughton",
-        "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Amos Jackson",
-        "Projection": "Tom Kell",
-        "Special Thanks": "ETC Ltd"
-      },
-      "venue": "Milton Studio, London",
-      "videos": ["158196727"],
-      "paperwork": true
-    },
-
-    {
-      "title": "Henry V",
-      "date": "December 2015",
-      "role": "Lighting Designer",
-      "id": "henry-v",
-      "image_credit": "Fred Hill",
-      "description": "A new adapted version of Henry V shortened to an hour and a half and employing physical theatre to create scale",
-      "link": "http://newfangled.me/henry-v/",
-      "people": {
-        "Director": "Alex Kerr",
-        "Designer": "Katy Mills",
-        "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Amos Jackson",
-        "Lighting Supplier": "White Light"
-      },
-      "venue": "Samuel Pepys Theatre",
-      "paperwork": true,
-      "videos": ["162275017"]
-    },
-
-    {
-      "title": "Hiroshima: Crucible of Light",
-      "date": "September 2015",
-      "role": "Lighting Designer",
-      "id": "hiroshima",
-      "image_credit": "Nicholas Heymann",
-      "description": "A compact and yet complex piece centring around the destruction and human loss following the bombing of Hiroshima.",
-      "people": {
-        "Director": "Edward Williams",
-        "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Amos Jackson",
-        "Projection Designer": "Tom Kell"
-      },
-      "venue": "Samuel Pepys Theatre",
-      "paperwork": true
-    },
-    {
-      "title": "The Piper of Hamelin",
-      "date": "July 2015",
-      "role": "Lighting Designer",
-      "id": "piper-of-hamelin",
-      "image_credit": "<a href='http://konradbartelski.photography'>Konrad Bartelski</a>",
-      "description": "A childrens' opera adaptation of the classic fairytale",
-      "people": {
-        "Director": "Jeremy James Taylor",
-        "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Amos Jackson"
-      },
-      "venue": "The Rose Theatre, Kingston",
-      "paperwork": false
-    },
-    {
-      "title": "City of Angels",
-      "date": "March 2015",
-      "role": "Lighting Designer",
-      "id": "city-of-angels",
-      "image_credit": "Fred Hill",
-      "description": "A complex musical set simultaneously in a writer's study in Hollywood and inside the world of his noir detective screenplay",
-      "link": "https://newfangled.me/city-of-angels",
-      "people": {
-        "Director": "Edward Williams",
-        "Designer": "Mike Leopold",
-        "Lighting Designer": "Alex Forey",
-        "Sound Designer": "Amos Jackson",
-        "Choreographer": "Karolina Brittain",
-        "Animation": "Umbreen Khan"
-      },
-      "venue": "Samuel Pepys Theatre",
-      "paperwork": true
-    }
-  ]
+    "projects": [
+        {
+            "title": "Run Sister Run",
+            "date": "2025-06-30",
+            "date-end": "2025-07-26",
+            "role": "Lighting Designer",
+            "id": "run-sister-run",
+            "people": {
+                "Director": "Marlie Haco",
+                "Designer": "Justin Nardella"
+            },
+            "paperwork": false,
+            "venue": "Arcola Theatre, London"
+        },
+        {
+            "title": "The New Adventures of Peter Pan",
+            "date": "2024-11-26",
+            "date-end": "2025-01-11",
+            "role": "Associate Lighting Designer, Programmer",
+            "id": "new-adventures-of-peter-pan",
+            "description": "Carabosse tricks her niece into pricking her finger on a spinning wheel needle, cursing her to everlasting sleep. Only true love\u2019s kiss can break the curse and wake the princess. Now it\u2019s up to her friends, Fairy Fizz, Dame Maris Piper and Spud to find her Prince, defeat the evil Carabosse and save Luna! Will the curse be lifted? Will true love conquer all? Join us this Christmas on an unforgettable wintery adventure to find out!",
+            "people": {
+                "Director": "Ryan McBryde",
+                "Designer": "Jasmine Swan",
+                "Writer": "David Phipps-Davis",
+                "Lighting Designer": "Matt Ladkin",
+                "Sound Designer": "Wesley Laing",
+                "Musical Director": "Josh Tarrier",
+                "Choreographer": "Rosie Mather",
+                "Deputy Stage Manager": "Emilie Leger",
+                "Assistant Director": "Fiona Munro",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Mercury Theatre, Colchester",
+            "image_credit": "Pamela Raith"
+        },
+        {
+            "title": "Cleopatra's Antony",
+            "date": "2024-10-28",
+            "role": "Lighting Designer",
+            "id": "cleopatras-antony",
+            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "people": {
+                "Director": "Mo Korede",
+                "Designer": "Emilia Mendez",
+                "Lighting Designer": "Alex Forey",
+                "Sound Designer": "Arianna Munoz"
+            },
+            "paperwork": false,
+            "venue": "Theatre Peckham, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Come Alive - The Greatest Showman Circus Spectacular",
+            "date": "2024-10-16",
+            "date-end": "2027-01-01",
+            "role": "Associate Lighting Designer",
+            "id": "come-alive-london",
+            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "people": {
+                "Creative Director": "Simon Hammerstein",
+                "Set Designer": "Ruby Law",
+                "Choreographer": "Jerry Reeve & Lukas McFarlane",
+                "Costume Designer": "Susan Kulkarni and Martina Trottmann",
+                "Lighting Designer": "Adam Bassett (WBD)",
+                "Associate Lighting Designer": "Alex Forey",
+                "Sound Design": "Gareth Tucker",
+                "Music Supervisor": "Greg Arrowsmith",
+                "Music Producer": "Matthew Brind",
+                "Lighting Programmer": "Stanley Olden",
+                "Head of Lighting": "Adam Povey",
+                "Lighting Supplier": "White Light",
+                "Performance Director": "Bryn Harris",
+                "Circus Director": "Tilde Björfors and Mattias Andersson",
+                "Circus Consultant": "Jack Marsh",
+                "Technical Director": "Gary Beaston",
+                "Production Manager": "Oli Bagwell Purefoy",
+                "Associate Set Designer": "Machiko Weston, Yorgos Kefalas and Tea Mulabdic",
+                "General Manager": "Victoria Gagliano",
+                "Creative Producer": "Andrea Moccia"
+            },
+            "paperwork": false,
+            "venue": "Empress Museum, London",
+            "image_credit": "Luke Dyson"
+        },
+        {
+            "title": "Between the Lines",
+            "date": "2024-05-01",
+            "role": "Lighting Designer",
+            "id": "between-the-lines",
+            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "people": {
+                "Conductor": "Matthew O\u2019Keefe",
+                "Choreographer": "Osian Meilir Jones",
+                "Costume Designer": "Jennifer Gregory",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "New Diorama Theatre, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "The Creation",
+            "date": "2024-04-01",
+            "role": "Lighting Designer",
+            "id": "the-creation",
+            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "people": {
+                "Conductor": "Matthew O\u2019Keefe",
+                "Costume Designer": "Jennifer Gregory",
+                "Choreographer": "Osian Meilir Jones",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "St John's Smith Square, London",
+            "image_credit": "Anya Nikolaeva"
+        },
+        {
+            "title": "Hide and Seek",
+            "date": "2024-03-01",
+            "role": "Lighting Designer",
+            "id": "hide-and-seek",
+            "description": "Hide and Seek is a moving and darkly entertaining play that pits two teenage boys against each other in the face of the contagious prejudice of their small Italian town. Gio, who has never felt accepted by anyone - not by parents, teachers or peers - decides to disappear and hide out in a secluded cave.",
+            "people": {
+                "Director": "Carlotta Brentan",
+                "Designer": "Constance Comparot",
+                "Writer": "Tobia Rossi",
+                "Composer": "Simone Manfredini",
+                "Dramaturg and Assistant Director": "Giada Prestinari",
+                "Stage Manager": "Fae Hochgemuth",
+                "Casting Director": "Laura Seaborn for HJB Casting"
+            },
+            "paperwork": false,
+            "venue": "Park Theatre, London",
+            "image_credit": "Mariano Gobbi",
+            "press": {
+                "Alex Forey's exquisite lighting design and Simone Manfredini's original music transform the Park 90's stage into a very intimate hideaway": "<a href='https:\/\/www.londontheatrereviews.co.uk\/post.cfm?p=19494'>London Theatre Reviews<\/a>",
+                "Alex Forey\u2019s lighting design works wonders in maintaining the claustrophobic atmosphere of the makeshift subterranean dwelling": "<a href='https:\/\/www.jacktheladmag.com\/theatre-reviews\/hide-and-seek'>Jack The Lad<\/a>",
+                "a highlight is Alex Forey's lighting. The design was cued perfectly to create the dim light of a cave": "<a href='https:\/\/www.curtaincallreviews.co.uk\/hide-and-seek?fbclid=PAAabMK-FqRHdhYZQA0qwfjjrjNUOcDSA7L--5SFFql6irQPbmAvbXMTP7WEA'>Curtain Call Reviews<\/a>",
+                "Alex Forey cleverly uses a combination of side lights and the torch on a phone to evoke dinginess": "<a href='https:\/\/thespyinthestalls.com\/2024\/03\/hide-and-seek\/'>The Spy in the Stalls<\/a>"
+            }
+        },
+        {
+            "title": "Sleeping Beauty",
+            "date": "2023-11-27",
+            "role": "Associate Lighting Designer, Programmer",
+            "id": "mercury-sb",
+            "description": "Carabosse tricks her niece into pricking her finger on a spinning wheel needle, cursing her to everlasting sleep. Only true love\u2019s kiss can break the curse and wake the princess. Now it\u2019s up to her friends, Fairy Fizz, Dame Maris Piper and Spud to find her Prince, defeat the evil Carabosse and save Luna! Will the curse be lifted? Will true love conquer all? Join us this Christmas on an unforgettable wintery adventure to find out!",
+            "people": {
+                "Director": "Ryan McBryde",
+                "Designer": "Jasmine Swan",
+                "Writer": "Guy Unsworth",
+                "Lighting Designer": "Matt Ladkin",
+                "Sound Designer": "Nico Menghini",
+                "Musical Director": "Paul Herbert",
+                "Choreographer": "Rosie Mather",
+                "Associate Director": "Chris Neels",
+                "Deputy Stage Manager": "Emilie Leger",
+                "Casting Directors": "Jenkins McShane CDG",
+                "Assistant Director": "Chani Merrell",
+                "Lighting Supplier": "Christie Lites"
+            },
+            "paperwork": false,
+            "venue": "Mercury Theatre, Colchester",
+            "image_credit": "Pamela Raith"
+        },
+        {
+            "title": "The Realness",
+            "date": "2023-11-01",
+            "role": "Lighting Designer",
+            "id": "the-realness",
+            "description": "When some people won\u2019t believe you\u2019ve changed, and others don\u2019t want to let you change, it isn\u2019t easy to make a new start. Jay Johnson is fresh out of prison and determined never to go back, but for all his efforts to stay on track, he finds himself making a detour back in the wrong direction. Finally he\u2019s faced with the hardest choice of his life and only then does he understand what he has to do to change things for real. The Realness has an upbeat score ranging from rap to reggae, gospel to grime.",
+            "people": {
+                "Director": "Maggie Norris",
+                "Set Designer": "Tina Torbey",
+                "Book": "Maureen Chadwick & David Watson",
+                "Music & Lyrics": "Kath Gotts",
+                "Sound Designer": "Julian Starr",
+                "Video Designer": "Mic Pool",
+                "Costume Designer": "Bertie Taylor-Smith",
+                "Musical Director": "Joey Hickman",
+                "Choreographer": "Fi Silverthorn",
+                "Associate Director": "Chris Neels",
+                "Stage Manager": "Laurel Marks",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "The Big House, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Seize the Cheese",
+            "date": "2023-10-01",
+            "role": "Lighting Designer",
+            "id": "seize-the-cheese",
+            "description": "In this uplifting comedy, loosely inspired by the world-famous cheese-rolling in Gloucestershire, people plummet down a deadly hill in pursuit of a speeding Double Gloucester cheese. Anarchic and hilarious, it\u2019s the \u201cEnglish Book Of Mormon\u201d, according to one critic. With sumptuous songs by Patrick Steed and Mike Stocks, it features gorgeous and unforgettable characters who all have their deeper reasons for risking life and limb for, er, cheese. After all, eventually in life, you have to leap!",
+            "people": {
+                "Director, Book & Lyrics": "Mike Stocks",
+                "Designer": "Raffi Philcox",
+                "Music": "Patrick Steed",
+                "Choreographer": "Kiren Virdee",
+                "Stage Manager": "George Gough",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "New Wimbledon Theatre, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "The Island",
+            "date": "2023-09-20",
+            "role": "Lighting Designer",
+            "id": "the-island",
+            "description": "The Island explores the conflict between who we are, and \u2018who we ought to be\u2019 in a haunting story about the fragility, and the resilience, of the human spirit.",
+            "people": {
+                "Director": "Jessica Lazar",
+                "Designer": "Sorcha Corcoran",
+                "Writer": "Juan Carlos Rubio",
+                "Translator": "Tim Gutteridge",
+                "Sound Designer": "\u00d3\u00f0inn \u00d6rn Hilmarsson",
+                "Associate Set Designer & Costume Designer": "Olivia Davies",
+                "Stage Manager": "Elisa Pulido",
+                "Production Manager": "James Creighton-Goode",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Cervantes Theatre, London",
+            "image_credit": "Alex Forey",
+            "press": {
+                "This clinical atmosphere is further brought to \u2018light\u2019 with the symmetrical fluorescent tubes. The harsh lighting adds to the atmosphere, emphasising the location, and compelling the pair into introspection": "<a href='https:\/\/everything-theatre.co.uk\/2023\/09\/review-the-island-cervantes-theatre\/'>Everything Theatre<\/a>"
+            }
+        },
+        {
+            "title": "Battersea Bardot",
+            "date": "2023-09-01",
+            "role": "Lighting Designer",
+            "id": "battersea-bardot",
+            "description": "A one-woman musical which explores the life of 1960s London film star Carol White (Cathy Come Home, Poor Cow) and the nightmares that female performers faced - and still face - in the world of entertainment.",
+            "people": {
+                "Director": "Elizabeth Huskisson",
+                "Set & Costume Designer": "Emily Munt",
+                "Writer": "Ewen Moore",
+                "Sound Designer": "Ilia Higgs",
+                "Musical Director": "Gaby Ball",
+                "Stage Manager": "Ryan Mulgrew"
+            },
+            "paperwork": false,
+            "venue": "New Wimbledon Theatre, London",
+            "image_credit": "Alex Forey",
+            "press": {
+                "A good creative team, especially including lighting by Alex Forey which deserves a mention for its atmospheric and immersive qualities": "<a href='https:\/\/saltertonartsreview.com\/2023\/09\/battersea-bardot-new-wimbledon-theatre-london\/'>Salterton Arts Review<\/a>",
+                "Alex Forey\u2019s lighting design also deserves particular praise for simple yet effective design that provides some of the most striking visuals in the show": "<a href='https:\/\/lostintheatreland.co.uk\/battersea-bardot-review-new-wimbledon-studio\/'>Lost in Theatreland<\/a>",
+                "stylish work by lighting designer Alex Forey": "<a href='https:\/\/www.timeandleisure.co.uk\/things-to-do\/battersea-bardot-review\/'>Time and Leisure<\/a>"
+            }
+        },
+        {
+            "title": "Waiting for a Train at the Bus Stop",
+            "date": "2023-08-01",
+            "role": "Lighting Designer",
+            "id": "wfatatbs",
+            "description": "'17 minutes. That's how long it takes to die by train. I looked it up once'. Chilufya \u2013 you can call her Chili \u2013 doesn't know whether she is coming or going. Which makes perfect sense since her name literally means 'the lost one' and lost is exactly how she's felt most of her life. Struggling with low self-esteem and a waning sense of self, she finds herself being drawn into a dangerously controlling relationship. Interweaving spoken-word theatre with Zambian oral traditions this dark comedy is a solo show exploring coercive control.",
+            "people": {
+                "Writer and Director": "Mwansa Phiri",
+                "Video Designer": "Virginie Taylor",
+                "Sound Designer": ""
+            },
+            "paperwork": false,
+            "venue": "Streatham Space Project, London & Summerhall, Edinburgh",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Post-Traumatic Growth in Penge",
+            "date": "2023-06-05",
+            "role": "Lighting Designer",
+            "id": "wca-purgatorio",
+            "description": "In the Purgatory of unresolved trauma, Marcelle breaks away from his usual cruxes in a bid to spend the time it takes to truly heal. Upon discovering Paradise in Penge, he realises it isn\u2019t all it seems.",
+            "people": {
+                "Director": "Natasha Harrison",
+                "Set & Costume Designer": "Anna Kezia Williams",
+                "Writer": "Samuel Evans",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Chloe Astleford",
+                "Production Manager": "Paula Rivas",
+                "Set Builder & Flyman": "Fred Nobre",
+                "Dramaturgy Support": "Janka \u0160\u010depkov\u00e1",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Eden",
+            "date": "2023-06-01",
+            "role": "Lighting Designer",
+            "id": "wca-paradiso",
+            "description": "The year is 2024 and the world as we know it is in perpetual crisis. Near Denver, Colorado, a radical movement has been building. Fuelled by a desire to finally take back control, a community redefining the rules has emerged. Will they change the world and at what cost?",
+            "people": {
+                "Director": "Shane Dempsey",
+                "Set & Costume Designer": "Anna Kezia Williams",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Chloe Astleford",
+                "Production Manager": "Paula Rivas",
+                "Set Builder & Flyman": "Fred Nobre",
+                "Dramaturgy Support": "Janka \u0160\u010depkov\u00e1",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Solar Flora",
+            "date": "2023-05-05",
+            "role": "Lighting Designer",
+            "id": "wca-solarflora",
+            "description": "A bloodthirsty dissection artist, Sue Meetrop, escapes beyond the Realm of Television and into the Realm of Reality. Our heroes, the hosts of a popular podcast, their live advert partner and a listener of the show set off to find Meetrop and place her back within the confines of the screen.",
+            "people": {
+                "Created and Performed by": "innominate",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Chloe Astleford",
+                "Production Manager": "Paula Rivas",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Oh The Horror!",
+            "date": "2023-05-04",
+            "role": "Lighting Designer",
+            "id": "wca-oth",
+            "description": "A bloodthirsty dissection artist, Sue Meetrop, escapes beyond the Realm of Television and into the Realm of Reality. Our heroes, the hosts of a popular podcast, their live advert partner and a listener of the show set off to find Meetrop and place her back within the confines of the screen.",
+            "people": {
+                "Created and Performed by": "innominate",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Chloe Astleford",
+                "Production Manager": "Paula Rivas",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Air Time",
+            "date": "2023-05-04",
+            "role": "Lighting Designer",
+            "id": "wca-airtime",
+            "description": "What do you do when the world has already ended? 2 friends come to the surface for their government mandated 35 minutes of airtime and play a board game from before the collapse, talking about how times have changed.",
+            "people": {
+                "Created and Performed by": "Scratch That",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Chloe Astleford",
+                "Production Manager": "Paula Rivas",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Kitty in the Lane",
+            "date": "2023-05-02",
+            "role": "Lighting Designer",
+            "id": "kitty-in-the-lane",
+            "description": "Kitty waits alone in her kitchen. Her father is dying in the room next door. Kitty wishes he would just hurry up. Kitty wishes her boyfriend, late to accompany her to a local beauty pageant would hurry up too. Kitty in the Lane makes its London premiere with a fresh production at The Jack Studio Theatre after successful runs of the play in Ireland and the USA.",
+            "people": {
+                "Director": "Jack Reardon",
+                "Set Design": "Constance Comparot",
+                "Writer": "\u00c1ine Ryan",
+                "Sound Design": "Florence Hand",
+                "Technical Operator": "Scarlett Bryan"
+            },
+            "press": {
+                "an eye-catching set designed by Constance Comparot which is stunningly brought to life in conjunction with wonderful dynamic lighting that allows this decaying country home to easily morph into vivid vignettes from Kitty\u2019s life. The lighting, designed by Alex Forey, deserves calling out twice. I was excited as each scene progressed just to see how it would shift next; transforming Kitty\u2019s home into a pub then a nightclub, a lonely country road illuminated by a car\u2019s headlights then a misty morning hilltop, all executed flawlessly in cooperation with impeccable, haunting sound design from Florence Hand": "<a href='https:\/\/www.londonpubtheatres.com\/review-kitty-in-the-lane-by-aine-ryan-at-jack-studio-theatre-2-13-may-2023'>London Pub Theatres<\/a>",
+                "The mood is greatly aided by some superb lighting design by Alex Forey": "<a href='https:\/\/www.londontheatre1.com\/reviews\/kitty-in-the-lane-at-jack-studio-theatre\/'>LondonTheatre1<\/a>",
+                "Constance Comparot\u2019s set and Alex Forey\u2019s lighting change the atmosphere from stark to mystical and dreamlike effortlessly with Jack Reardon\u2019s assured direction": "<a href='https:\/\/fairypoweredproductions.com\/kitty-in-the-lane-review\/'>Fairy Powered Productions<\/a>'"
+            },
+            "paperwork": false,
+            "venue": "The Brockley Jack, London",
+            "image_credit": "Eamonn Shanahan & Jake Bush"
+        },
+        {
+            "title": "Lovefool",
+            "date": "2023-05-01",
+            "role": "Lighting Designer",
+            "id": "lovefool",
+            "description": "A brutally honest, hilarious and heartbreaking one-woman show navigating the impossibly confusing gender dynamics of modern love. Grace, a young woman hungry for affection and looking for love in all the wrong places, is forced to discover what healthy (self) love might look like.",
+            "people": {
+                "Writer & Director": "Gintare Parulyte",
+                "Sound & Video Design": "David Gaspar",
+                "Dramaturgy": "Liv Morris",
+                "Assistant Director": "Sandra Kilian-Zazulak"
+            },
+            "paperwork": false,
+            "venue": "Coronet Theatre, London",
+            "image_credit": "Alex Brenner"
+        },
+        {
+            "title": "Our Father",
+            "date": "2023-04-03",
+            "role": "Lighting Designer",
+            "id": "our-father",
+            "people": {
+                "Director": "Mo Korede",
+                "Designer": "Ieva Ievina"
+            },
+            "paperwork": false,
+            "venue": "Barons Court Theatre, London"
+        },
+        {
+            "title": "I'm A Celebrity Get Me Out Of Here",
+            "date": "2023-03-12",
+            "role": "Lighting Designer",
+            "id": "im-a-celebrity",
+            "people": {
+                "Director and Performer": "Jaya Twill",
+                "Designer": "Carmen"
+            },
+            "paperwork": false,
+            "venue": "The Vaults (Vault Festival), London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Good Day",
+            "date": "2023-03-07",
+            "date-end": "2023-03-13",
+            "role": "Lighting Designer",
+            "id": "good-day",
+            "description": "Zara lives in a perfect world. No poverty, no war. She\u2019s even been implanted with an electronic chip that will extend her life forever. So, why does she want to end it all?To be allowed to die, Zara must debate her fate with an android therapist and overcome the human drive to survive. \u2018Good Day\u2019 is a new dark comedy that explores how we find meaning in our lives and asks whether immortality is really all it\u2019s cracked up to be.",
+            "people": {
+                "Director": "Marlie Haco",
+                "Set & Costume Designer": "Justin Nardella",
+                "Video Designer": "Dan Light",
+                "Composer & Sound Designer": "Akos Lustyik",
+                "Stage Manager": "Ellie Carney",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Network Theatre (Vault Festival), London",
+            "image_credit": "Jake Bush"
+        },
+        {
+            "title": "Hildegard von Bingen",
+            "date": "2023-02-21",
+            "date-end": "2023-02-26",
+            "role": "Lighting Designer",
+            "id": "saint-hildegard",
+            "description": "As a child, Hildegard Von Bingen began experiencing intense prophetic \u2013 and often apocalyptic \u2013 visions and communications with God. Suffering through chronic illness, she kept these hidden from those around her until her forties, fearing she would be branded a lunatic or, worse, a witch. This multigenerational female ensemble uses voice and movement in an physical opera to explore the span of a woman\u2019s life, what it means to always live in fear, with wisdom, and if Hildegard ever felt truly free.",
+            "people": {
+                "Creator & Director": "Kristin Winters",
+                "Sound Designer": "Florence Hand",
+                "Composer & Musician": "David Cieri",
+                "Movement Director": "Gabrielle Moleta",
+                "Dramaturg": "Dr Katherine Hipkiss",
+                "Stage Manager": "Beth Cotton",
+                "Lighting Supplier": "White Light"
+            },
+            "press": {
+                "Lighting and sound is expertly mastered by Alex Forey and Florence Hand throughout the performance, in a way that gives light a voice, and gives sound a visual experience.": "<a href='https:\/\/www.thereviewshub.com\/hildegard-von-bingen-vault-festival-london\/'>The Reviews Hub<\/a>",
+                "Alex Forey\u2019s lighting and Florence Hand\u2019s sound combine to highly atmospheric effect, particularly in characterising Hildegard\u2019s visions, at once something otherworldly yet viscerally terrifying as a seizure too": "<a href='https:\/\/oughttobeclowns.com\/2023\/02\/review-hildegard-von-bingen-vault-festival.h\u2026'>There Ought To Be Clowns<\/a>",
+                "Gorgeous lighting and creative sound. The lighting is absolutely stunning.": "<a href='https:\/\/www.broadwayworld.com\/westend\/article\/Review-HILDEGARD-VON-BINGEN-VAULT-Festival-20230224'>Broadway World<\/a>",
+                "Hildegard Von Bingen is certainly ambitious, with exemplary sound and lighting design (by Florence Hand and Alex Forey).": "<a href='https:\/\/loureviews.blog\/2023\/02\/23\/vault-review-hildegard-von-bingen\/'>LouReviews<\/a>"
+            },
+            "paperwork": false,
+            "venue": "The Vaults (Vault Festival), London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Imaginary Natural Beings",
+            "date": "2023-01-12",
+            "role": "Lighting Designer",
+            "id": "imaginary-natural-beings",
+            "people": {
+                "Director": "Issy Snape",
+                "Lighting Designer": "Alex Forey"
+            },
+            "paperwork": false,
+            "venue": "The Vaults (Vault Festival), London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Paddy Goes To Petra",
+            "date": "2022-11-01",
+            "role": "Lighting Designer",
+            "id": "paddy-goes-to-petra",
+            "description": "Rural Ireland meets the Middle East when Irish farmer Paddy's only son dies unexpectedly, and his lust for life vanishes. A trip to the ancient city of Petra encourages him to feel a fresh wonder for the world, develop new friendships and an exciting love affair...with himself. How much time can he really spend away from his wife, farm and responsibilities back in Ireland, however?",
+            "people": {
+                "Writer and Director": "\u00c1ine Ryan",
+                "Designer": "Constance Comparot",
+                "Composer": "Eyal Arad",
+                "Technical Operator": "Scarlett Bryan"
+            },
+            "press": {
+                "Alex Forey sensitively lights all of this, further enhancing the changing moods": "<a href='https:\/\/broadwaybaby.com\/shows\/paddy-goes-to-petra\/788500'>Broadway Baby<\/a>"
+            },
+            "paperwork": false,
+            "venue": "The Brockley Jack, London",
+            "image_credit": "Steve Gregson"
+        },
+        {
+            "title": "Ghislaine\/Gabler",
+            "date": "2022-08-01",
+            "role": "Lighting Designer",
+            "id": "ghislaine-gabler",
+            "description": "Why does a victim become a predator? In isolation, Ghislaine Maxwell maintains innocence whilst reliving the psychological abuse endured from her father. She unravels, fantasising that she is Hedda Gabler; both charismatic, beautiful and, above all, manipulative monsters in the female form.",
+            "people": {
+                "Writer and Director": "Kristin Winters",
+                "Sound Designer": "George Rigby",
+                "Composer": "Alexey Kochetkov",
+                "Producer": "Sam Dash"
+            },
+            "paperwork": false,
+            "venue": "Coronet Theatre, London & Summerhall, Edinburgh",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Network\/Recorder",
+            "date": "2022-06-05",
+            "role": "Lighting Designer",
+            "id": "wca-network",
+            "description": "Inspired by the screenplay \u2018Network\u2019 and the life of prescient civil rights activist Marion Stokes, this devised piece of ensemble theatre deals with the all-pervasive prevalence of 24-hour news questioning whose stories are captured and to what end.",
+            "people": {
+                "Director": "Stella Odunlami",
+                "Designer": "Hugo Aguirre",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Jamie Duddy"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Till Death Do We Part",
+            "date": "2022-06-04",
+            "role": "Lighting Designer",
+            "id": "wca-till-death",
+            "description": "",
+            "people": {
+                "Director": "Jodie Leigh Armstrong & Lara van Huyssteen",
+                "Writer": "Carmen Rivas Perez",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Jamie Duddy"
+            },
+            "paperwork": false,
+            "venue": "SnapFuse Theatre, Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Killology",
+            "date": "2022-06-03",
+            "role": "Lighting Designer",
+            "id": "wca-killology",
+            "description": "A controversial new gaming experience is inspiring a generation. In Killology, players are rewarded for torturing victims, scoring points for \u201ccreativity\u201d. But Killology isn\u2019t sick. In fact it\u2019s marketed by its millionaire creator as a deeply moral experience.",
+            "people": {
+                "Directed & Performed By": "Tom Ashen, Gregg Martin, Kian\u00a0O'Connell",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Jamie Duddy"
+            },
+            "paperwork": false,
+            "venue": "KMT Productions, Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Mums",
+            "date": "2022-06-02",
+            "role": "Lighting Designer",
+            "id": "wca-mums",
+            "description": "A poetic and delicate look into the state of grieving, following one family in their attempt to adjust to a new reality.",
+            "people": {
+                "Director": "Karola Kosecka",
+                "Co-Director": "Lavinia Grippa",
+                "Composer": "Arielle Zilkha",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Jamie Duddy"
+            },
+            "paperwork": false,
+            "venue": "Psychonaut Theatre, Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Honey Badger",
+            "date": "2022-06-01",
+            "role": "Lighting Designer",
+            "id": "wca-honey-badger",
+            "description": "Created and performed by Juraj Benko, the piece explores abusive parenthood and its impact on the life of an individual.",
+            "people": {
+                "Created and Performed by": "Juraj Benko",
+                "Composer": "Arielle Zilkha",
+                "Sound & Video": "Antonio Mellado Sanchez",
+                "Stage Manager": "Jamie Duddy"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts, London",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Yerma",
+            "date": "2022-02-04",
+            "role": "Lighting Designer",
+            "id": "wca-yerma",
+            "description": "This version of Yerma, the classic written by Federico Garcia Lorca, is relocated to a village in Ghana",
+            "people": {
+                "Director": "Jessica Mensah",
+                "Designer": "Raffi Philcox & Peijia Luo"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts & Lyric Hammersmith",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Three Sisters",
+            "date": "2022-02-03",
+            "role": "Lighting Designer",
+            "id": "wca-three-sisters",
+            "description": "A new production highlighting the ways women in Three Sisters were trapped by the patriarchy and exploring how women remain restricted in the same ways today.",
+            "people": {
+                "Director": "Alessandra Davison",
+                "Designer": "Sonya Smullen & Jiayi Zhu"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts & Lyric Hammersmith",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "The Importance of Being Earnest",
+            "date": "2022-02-02",
+            "role": "Lighting Designer",
+            "id": "wca-earnest",
+            "description": "Samara Gannon directs a queer-lensed version of Oscar Wilde's The Importance of Being Ernest.",
+            "people": {
+                "Director": "Samara Gannon",
+                "Designer": "Fiona Wagstaff & George Zhou"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts & Lyric Hammersmith",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Electra",
+            "date": "2022-02-01",
+            "role": "Lighting Designer",
+            "id": "wca-electra",
+            "description": "Focusing on the psychological isolation and empowerment. This performance if Electra delves into strength of the main character and the fear of her words.",
+            "people": {
+                "Director": "Mo Korede",
+                "Designer": "Ieva Ievina & Eilyn Chung"
+            },
+            "paperwork": false,
+            "venue": "Wimbledon College of Arts & Lyric Hammersmith",
+            "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Julius Caesar",
+            "date": "2021-12-01",
+            "role": "Lighting Designer",
+            "id": "jc-rada",
+            "description": "When Julius Caesar returns to Rome triumphant from the wars, his republican friends decide his dictatorship must end. But, as a new force led by Mark Antony emerges, Caius Cassius persuades Marcus Brutus that the only way to end the Emperor's reign of power is through assassination. Shakespeare's tense drama of high politics and conspiracy amongst men in power is a classic introduction for young audiences.",
+            "people": {
+                "Director": "Che Walker",
+                "Designer": "Anita Gander",
+                "Sound Designer": "John Leonard"
+            },
+            "paperwork": false,
+            "venue": "Jerwood Vanbrugh Theatre, RADA",
+            "image_credit": "Linda Carter"
+        },
+        {
+            "title": "Son et Lumi\u00e8re",
+            "date": "2021-11-01",
+            "role": "Lighting Designer",
+            "id": "son-et-lumiere",
+            "description": "RADA's annual light show, this time bigger than ever. With over 110 moving lights, three Hog 4 consoles, and four kilometers of cable, this is a rare opportunity for the third year lighting students to take a break from theatre and create something visually stunning in a total of three days.",
+            "people": {
+                "Production Electrician": "Samuel Blakemore",
+                "Lighting Supplier": "Neg Earth",
+                "Technical Manager": "Rosa Watson",
+                "Sound Designer": "Wilkie Morrison"
+            },
+            "paperwork": false,
+            "venue": "Jerwood Vanbrugh Theatre, RADA",
+            "image_credit": "Alex Forey",
+            "videos": [
+                "ByWNYK_5QJc",
+                "H31s7mlXork"
+            ]
+        },
+        {
+            "title": "Stop Kiss",
+            "date": "2021-10-01",
+            "role": "Lighting Designer",
+            "id": "stop-kiss",
+            "description": "A romantic, tender, and playful story entangled in violence, Stop Kiss weaves between: the reality and brutality of loving the 'wrong person'; the strength in the aftermath of being a woman in the 'wrong place at the wrong time'; and the sweet awkwardness of falling in love.",
+            "people": {
+                "Movement": "Elizabeth Ballinger",
+                "Sound Designer": "Daberechi Ukoha-Kalu",
+                "Designer": "Sophie Firth",
+                "Voice": "Esi Acquaah-Harrison"
+            },
+            "paperwork": false,
+            "venue": "GBS Theatre, RADA",
+            "image_credit": "Linda Carter"
+        },
+        {
+            "title": "Monster",
+            "date": "2021-07-01",
+            "role": "Lighting Designer",
+            "id": "monster",
+            "description": "Alone in the classroom, a battle of wills takes place. Award winning playwright Duncan Macmillan\u2019s \u2018Monster\u2019 is a gripping and often difficult exploration into parenthood and where responsibility and blame lie.",
+            "people": {
+                "Director": "Dadiow Lin",
+                "Designer": "Isabel Walters",
+                "Sound Designer": "Ella Bloomfield",
+                "Movement": "Angela Gasparetto",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": true,
+            "venue": "Gielgud Theatre, RADA",
+            "image_credit": "Alex Forey \/ Linda Carter"
+        },
+        {
+            "title": "Manifestos",
+            "date": "2020-10-01",
+            "role": "Lighting Designer",
+            "id": "manifestos",
+            "description": "A season of eight new devised works presented over two days by RADA's MA Lab graduating student body, shown and broadcast live as part of the Bloomsbury Festival. ",
+            "people": {
+                "Artistic Director": "Ian Morgan",
+                "Video Designer": "Roberto Esquenazi",
+                "Sound Designer": "Sammy Emmins"
+            },
+            "paperwork": false,
+            "venue": "RADA Studios",
+            "image_credit": "Susie Su \/ Alex Forey"
+        },
+        {
+            "title": "Libu\u0161e",
+            "date": "2019-03-02",
+            "role": "Lighting Designer",
+            "id": "libuse",
+            "description": "UCO reimagines Smetana's Bohemian queen and her medieval court in the modern-day city, where soaring skyscrapers promise glamour and wealth at a human cost. Born into a celebrated legal dynasty, Libu\u0161e is queen of the corporate world and obliged to assert herself as its leader.",
+            "people": {
+                "Director": "Cecilia Stinton",
+                "Conductor": "Charles Peebles",
+                "Designer": "Holly Muir",
+                "Costume": "Al\u017ebeta Kurdelov\u00e1",
+                "Choreographer": "Ester Rudhart",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Bloomsbury Theatre, London",
+            "image_credit": "Katie Edwards"
+        },
+        {
+            "title": "Songs for a New World",
+            "date": "2019-03-01",
+            "role": "Lighting Designer",
+            "id": "sfanw",
+            "description": "Jason Robert Brown's iconic song cycle Songs For A New World takes a look at people on the brink of life\u2019s biggest decisions, through a stunning blend of musical genres.",
+            "people": {
+                "Director": "Suriyah Rashid",
+                "Musical Director": "Natalie Pound"
+            },
+            "paperwork": false,
+            "venue": "Drayton Arms Theatre, London",
+            "image_credit": "Wen-yi Lee"
+        },
+        {
+            "title": "Rhapsody",
+            "date": "2019-01-01",
+            "role": "Lighting Designer",
+            "id": "rhapsody",
+            "description": "A live music showcase of well known and loved songs reimagined and brought to life entirely by UCL Students, Rhapsody 2019 will be a celebration of the power and expression of music.",
+            "people": {
+                "Director": "Bj\u00f6rn Franke",
+                "Co-Lighting Designer": "Cameron Pollaers",
+                "Sound Designer": "Jenny Wark",
+                "Lighting Supplier": "CEG Lighting"
+            },
+            "paperwork": false,
+            "venue": "Bloomsbury Theatre, London",
+            "image_credit": "Natalie Pound"
+        },
+        {
+            "title": "Polyeucte",
+            "date": "2018-03-01",
+            "role": "Lighting Designer",
+            "id": "polyeucte",
+            "description": "British premiere of Charles Gounod's rarely performed opera Polyeucte, based on the Corneille play \u2018Saint Polyeuctus\u2019, it tells a tragic story of Christian martyrdom in defiance of the all-powerful powerful Roman Empire.",
+            "people": {
+                "Director": "Thomas Guthrie",
+                "Conductor": "Charles Peebles",
+                "Designer": "Rapha\u00e9 Memon",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Theatre Royal Stratford East",
+            "image_credit": "Teo Della Torre",
+            "press": {
+                "strikingly lit by Alex Forey": "Yehuda Shapiro, Opera"
+            }
+        },
+        {
+            "title": "Into The Woods",
+            "date": "2018-02-01",
+            "role": "Lighting Designer",
+            "id": "into-the-woods",
+            "description": "A twisted re-imagining of Grimm's fairytales, exploring the light and dark sides of desire. Find out what happens to Little Red Riding Hood, Cinderella, Jack and others after they get their happily ever after.",
+            "people": {
+                "Director": "Olivia Burgin",
+                "Set Designer": "Arya Bhomick",
+                "Musical Director": "Alessandra Anderson-Lewis",
+                "Sound Designer": "Matthias Olson",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": true,
+            "venue": "UCLMTS, Shaw Theatre, London",
+            "image_credit": "Alex Forey",
+            "videos": [
+                "256867974"
+            ]
+        },
+        {
+            "title": "RENT",
+            "date": "2017-12-06",
+            "role": "Assistant Lighting Designer",
+            "id": "rent",
+            "description": "A season of eight new devised works presented over two days by RADA's MA Lab graduating student body, shown and broadcast live as part of the Bloomsbury Festival. ",
+            "people": {
+                "Director": "Dan Edge",
+                "Choreographer": "Ada Liebenau",
+                "Costume Designer": "Emma Deshpande",
+                "Lighting Designer": "Alex Hall"
+            },
+            "paperwork": false,
+            "venue": "UCLMTS, RADA Studios"
+        },
+        {
+            "title": "Babel",
+            "date": "2017-07-01",
+            "role": "Lighting Designer",
+            "id": "babel",
+            "description": "Patrick Neate's exciting text challenges the audience to reflect on the nature of language in the UK today. A kaleidoscope of sound and a cacophony of visual images generated through dance, movement and speech.",
+            "people": {
+                "Director": "Edward Williams",
+                "Set Designer": "Dan Staniforth",
+                "Sound Designer": "Nic Heymann",
+                "Video Designer": "Kit Treadwell",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": true,
+            "venue": "Lyric Hammersmith",
+            "image_credit": "Alex Forey",
+            "videos": [
+                "247695309"
+            ]
+        },
+        {
+            "title": "City of Glass",
+            "date": "2017-04-01",
+            "role": "Chief of Projection (Lyric)",
+            "id": "city-of-glass",
+            "image_credit": "59 \/ Jonathan Keenan",
+            "description": "When reclusive crime writer Daniel Quinn receives a mysterious phone call from a man seeking a private detective in the middle of the night, he quickly and unwittingly becomes the protagonist in a real-life thriller of his own.",
+            "system": "d3 4x4pro and Panasonic Laser Projectors, linked to ETC EOS",
+            "people": {
+                "Director": "Leo Warner",
+                "Set Designer": "Jenny Melville",
+                "Video Designer": "Lysander Ashton",
+                "Lighting Designer": "Matt Daw",
+                "Sound Designer": "Gareth Fry",
+                "Composer": "Nick Powell",
+                "Movement Director": "Kim Brandstrup"
+            },
+            "paperwork": false,
+            "venue": "59 Productions, Lyric Hammersmith"
+        },
+        {
+            "title": "The Female Gaze",
+            "date": "2017-03-01",
+            "role": "Lighting Designer",
+            "id": "the-female-gaze",
+            "image_credit": "<a href='http:\/\/www.lilyvetch.com'>Lily Vetch<\/a>",
+            "description": "A brand new feminist scratch night showcasing stories about sex and desire spanning the sexuality spectrum.",
+            "people": {
+                "Director": "Emily Warren",
+                "Director ": "Annabelle Rich et al.",
+                "Sound Designer": "Nikhil Vyas",
+                "Lighting Supplier": "White Light"
+            },
+            "venue": "Rich Creative, Cockpit Theatre, London",
+            "paperwork": false
+        },
+        {
+            "title": "Quint-Essential",
+            "date": "2016-11-01",
+            "role": "Associate Lighting Designer, Programmer",
+            "id": "quintessential",
+            "image_credit": "Dave Morgan, Jane Hobson",
+            "description": "Five new contemporary ballets commisionned by New English Ballet Theatre for their annual gala, featuring 100 pixel-mapped pendants",
+            "people": {
+                "Choreographer": "Kristen Mcnally",
+                "Set Designer": "Louie Whitemore",
+                "Lighting Designer": "Andrew Ellis"
+            },
+            "venue": "Peacock Theatre, London",
+            "paperwork": false
+        },
+        {
+            "title": "Grey Matter",
+            "date": "2016-08-01",
+            "role": "Lighting Designer",
+            "id": "grey-matter-fringe",
+            "image_credit": "Dan Staniforth and Claire Forey",
+            "description": "Edinburgh Fringe transfer of a dark psychological thriller about young offenders and personal liberty, changing to a front-on space and repertory lighting rig.",
+            "people": {
+                "Director": "Andrew Broughton",
+                "Designer": "Dan Staniforth",
+                "Lighting Designer": "Alex Forey",
+                "Sound Designer": "Amos Jackson",
+                "Projection": "Tom Kell",
+                "Lighting Supplier": "White Light"
+            },
+            "press": {
+                "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview"
+            },
+            "venue": "C Venues, Edinburgh",
+            "videos": [
+                "180773266"
+            ],
+            "paperwork": true
+        },
+        {
+            "title": "Grey Matter",
+            "date": "2016-02-01",
+            "role": "Lighting Designer",
+            "id": "grey-matter",
+            "image_credit": "Alex Forey",
+            "description": "A dark psychological drama involving a young offenders' institution devised by the cast and based on a scenario by Adrian Raine played in the round.",
+            "link": "http:\/\/newfangled.me\/grey-matter\/",
+            "people": {
+                "Director": "Andrew Broughton",
+                "Designer": "Dan Staniforth",
+                "Lighting Designer": "Alex Forey",
+                "Sound Designer": "Amos Jackson",
+                "Projection": "Tom Kell",
+                "Special Thanks": "ETC Ltd"
+            },
+            "venue": "Milton Studio, London",
+            "videos": [
+                "158196727"
+            ],
+            "paperwork": true
+        },
+        {
+            "title": "Henry V",
+            "date": "2015-11-01",
+            "role": "Lighting Designer",
+            "id": "henry-v",
+            "image_credit": "Fred Hill",
+            "description": "A new adapted version of Henry V shortened to an hour and a half and employing physical theatre to create scale",
+            "link": "http:\/\/newfangled.me\/henry-v\/",
+            "people": {
+                "Director": "Alex Kerr",
+                "Designer": "Katy Mills",
+                "Lighting Designer": "Alex Forey",
+                "Sound Designer": "Amos Jackson",
+                "Lighting Supplier": "White Light"
+            },
+            "venue": "Samuel Pepys Theatre, London",
+            "paperwork": true,
+            "videos": [
+                "162275017"
+            ]
+        },
+        {
+            "title": "Hiroshima: Crucible of Light",
+            "date": "2015-09-01",
+            "role": "Lighting Designer",
+            "id": "hiroshima",
+            "image_credit": "Nicholas Heymann",
+            "description": "A compact and yet complex piece centring around the destruction and human loss following the bombing of Hiroshima.",
+            "people": {
+                "Director": "Edward Williams",
+                "Designer": "Dan Staniforth",
+                "Lighting Designer": "Alex Forey",
+                "Sound Designer": "Amos Jackson",
+                "Projection Designer": "Tom Kell"
+            },
+            "venue": "Samuel Pepys Theatre, London",
+            "paperwork": true
+        },
+        {
+            "title": "The Piper of Hamelin",
+            "date": "2015-07-01",
+            "role": "Lighting Designer",
+            "id": "piper-of-hamelin",
+            "image_credit": "<a href='http:\/\/konradbartelski.photography'>Konrad Bartelski<\/a>",
+            "description": "A childrens' opera adaptation of the classic fairytale",
+            "people": {
+                "Director": "Jeremy James Taylor",
+                "Designer": "Jeremy James Taylor",
+                "Lighting Designer": "Alex Forey",
+                "Sound Designer": "Amos Jackson"
+            },
+            "venue": "Rose Theatre, Kingston",
+            "paperwork": false
+        },
+        {
+            "title": "City of Angels",
+            "date": "2015-03-01",
+            "role": "Lighting Designer",
+            "id": "city-of-angels",
+            "image_credit": "Fred Hill",
+            "description": "A complex musical set simultaneously in a writer's study in Hollywood and inside the world of his noir detective screenplay",
+            "link": "https:\/\/newfangled.me\/city-of-angels",
+            "people": {
+                "Director": "Edward Williams",
+                "Designer": "Mike Leopold",
+                "Lighting Designer": "Alex Forey",
+                "Sound Designer": "Amos Jackson",
+                "Choreographer": "Karolina Brittain",
+                "Animation": "Umbreen Khan"
+            },
+            "venue": "Samuel Pepys Theatre, London",
+            "paperwork": true
+        }
+    ]
 }
