@@ -25,6 +25,56 @@
 
   "projects": [
     {
+      "title": "Cleopatra's Antony",
+      "date": "October 2024",
+      "role": "Lighting Designer",
+      "id": "cleopatras-antony",
+      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+      "people": {
+        "Director": "Mo Korede",
+        "Choreographer": "Osian Meilir Jones",
+        "Costume Designer": "Jennifer Gregory",
+        "Lighting Designer": "Adam Bassett (WBD)",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "Theatre Peckham, London",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Come Alive - The Greatest Showman Circus Spectacular",
+      "date": "October 2024",
+      "role": "Associate Lighting Designer",
+      "id": "come-alive-london",
+      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+      "people": {
+        "Director": "Simon Hammerstein",
+        "Choreographer": "Osian Meilir Jones",
+        "Costume Designer": "Jennifer Gregory",
+        "Lighting Designer": "Adam Bassett (WBD)",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "Empress Museum, London",
+      "image_credit": "Alex Forey"
+    },
+    {
+      "title": "Between the Lines",
+      "date": "May 2024",
+      "role": "Lighting Designer",
+      "id": "between-the-lines",
+      "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+      "people": {
+        "Conductor": "Matthew O’Keefe",
+        "Choreographer": "Osian Meilir Jones",
+        "Costume Designer": "Jennifer Gregory",
+        "Lighting Supplier": "White Light"
+      },
+      "paperwork": false,
+      "venue": "New Diorama Theatre, London",
+      "image_credit": "Alex Forey"
+    },
+    {
       "title": "The Creation",
       "date": "April 2024",
       "role": "Lighting Designer",
@@ -47,9 +97,9 @@
       "id": "hide-and-seek",
       "description": "Hide and Seek is a moving and darkly entertaining play that pits two teenage boys against each other in the face of the contagious prejudice of their small Italian town. Gio, who has never felt accepted by anyone - not by parents, teachers or peers - decides to disappear and hide out in a secluded cave.",
       "people": {
-        "Director and Translator": "Carlotta Brentan",
-        "Writer": "Tobia Rossi",
+        "Director": "Carlotta Brentan",
         "Designer": "Constance Comparot",
+        "Writer": "Tobia Rossi",
         "Composer": "Simone Manfredini",
         "Dramaturg and Assistant Director": "Giada Prestinari",
         "Stage Manager": "Fae Hochgemuth",
@@ -798,7 +848,7 @@
         "Projection": "Tom Kell",
         "Special Thanks": "ETC Ltd"
       },
-      "venue": "Milton Studio",
+      "venue": "Milton Studio, London",
       "videos": ["158196727"],
       "paperwork": true
     },
