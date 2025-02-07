@@ -71,11 +71,11 @@
         <nav>
           <ul>
             <li id="home"><a href="/">Alex Forey</a></li>
-            <li id="work"><a href="/work.php">Portfolio</a></li>
-            <li id="credits"><a href="/credits.php">Credits</a></li>
-            <li id="contact"><a href="/contact.php">Contact</a></li>
-            <li id="about"><a href="/about.php">About</a></li>
-            <li id="press"><a href="/press.php">Press</a></li>
+            <li id="work"><a href="/work">Portfolio</a></li>
+            <li id="credits"><a href="/credits">Credits</a></li>
+            <li id="contact"><a href="/contact">Contact</a></li>
+            <li id="about"><a href="/about">About</a></li>
+            <li id="press"><a href="/press">Press</a></li>
           </ul>
         </nav>
 
