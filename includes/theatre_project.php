@@ -48,7 +48,7 @@
 
       <p class="description"><?php echo nl2br($project['description']); ?></p>
 
-      <?php if ($project['press']) { ?>
+      <?php if (isset($project['press'])) { ?>
         <div class="press">
         <?php foreach ($project['press'] as $quote => $pub) { ?>
           <blockquote><?php echo $quote; ?> <small>— <?php echo $pub; ?></small></blockquote>
@@ -58,11 +58,11 @@
 
       <p class="photo-credit">Photos by <?php echo $project['image_credit']; ?></p>
 
-      <?php if ($project['paperwork']) { ?>
+      <?php if (isset($project['paperwork']) & $project['paperwork']) { ?>
         <a class="button" id="plots" href="/plots/<?php echo substr($project['date'], -4), '/', $project['id']; ?>.zip">View Plots</a>
       <?php } ?>
 
-      <?php if ($project['link']) { ?>
+      <?php if (isset($project['link']) && $project['link']) { ?>
         <a class="button" id="readmore" href="<?php echo $project['link']; ?>">Read More</a>
       <?php } ?>
 

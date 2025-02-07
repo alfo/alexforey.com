@@ -206,7 +206,7 @@ a {
 }
 .project-list .project .image {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 3/2;
   display: block;
   background-position: center center;
   background-size: cover;
@@ -506,6 +506,8 @@ header h3 {
   font-size: 22px;
   margin: auto;
   min-width: 200px;
+  padding-bottom: 20px;
+  width: 33%;
 }
 .credits p small {
   display: block;
