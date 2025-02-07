@@ -91,6 +91,38 @@
             "image_credit": "Luke Dyson"
         },
         {
+            "title": "Come Alive - The Greatest Showman Immersive Experience",
+            "date": "2024-10-16",
+            "role": "Associate Lighting Designer",
+            "id": "come-alive-london-immersive",
+            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "people": {
+                "Creative Director": "Simon Hammerstein",
+                "Set Designer": "Ruby Law",
+                "Choreographer": "Jerry Reeve & Lukas McFarlane",
+                "Costume Designer": "Susan Kulkarni and Martina Trottmann",
+                "Lighting Designer": "Adam Bassett (WBD)",
+                "Associate Lighting Designer": "Alex Forey",
+                "Sound Design": "Gareth Tucker",
+                "Music Supervisor": "Greg Arrowsmith",
+                "Music Producer": "Matthew Brind",
+                "Lighting Programmer": "Stanley Olden",
+                "Head of Lighting": "Adam Povey",
+                "Lighting Supplier": "White Light",
+                "Performance Director": "Bryn Harris",
+                "Circus Director": "Tilde Björfors and Mattias Andersson",
+                "Circus Consultant": "Jack Marsh",
+                "Technical Director": "Gary Beaston",
+                "Production Manager": "Oli Bagwell Purefoy",
+                "Associate Set Designer": "Machiko Weston, Yorgos Kefalas and Tea Mulabdic",
+                "General Manager": "Victoria Gagliano",
+                "Creative Producer": "Andrea Moccia"
+            },
+            "paperwork": false,
+            "venue": "Empress Museum, London",
+            "image_credit": "Luke Dyson"
+        },
+        {
             "title": "Between the Lines",
             "date": "2024-05-01",
             "role": "Lighting Designer",
@@ -264,7 +296,7 @@
             "title": "Waiting for a Train at the Bus Stop",
             "date": "2023-08-01",
             "role": "Lighting Designer",
-            "id": "wfatatbs",
+            "id": "waiting-for-a-train",
             "description": "'17 minutes. That's how long it takes to die by train. I looked it up once'. Chilufya \u2013 you can call her Chili \u2013 doesn't know whether she is coming or going. Which makes perfect sense since her name literally means 'the lost one' and lost is exactly how she's felt most of her life. Struggling with low self-esteem and a waning sense of self, she finds herself being drawn into a dangerously controlling relationship. Interweaving spoken-word theatre with Zambian oral traditions this dark comedy is a solo show exploring coercive control.",
             "people": {
                 "Writer and Director": "Mwansa Phiri",
@@ -330,8 +362,7 @@
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
-            "venue": "Wimbledon College of Arts, London",
-            "image_credit": "Alex Forey"
+            "venue": "Wimbledon College of Arts, London"
         },
         {
             "title": "Oh The Horror!",
@@ -427,8 +458,7 @@
                 "Designer": "Carmen"
             },
             "paperwork": false,
-            "venue": "The Vaults (Vault Festival), London",
-            "image_credit": "Alex Forey"
+            "venue": "The Vaults (Vault Festival), London"
         },
         {
             "title": "Good Day",

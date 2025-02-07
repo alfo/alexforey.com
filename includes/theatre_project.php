@@ -20,6 +20,8 @@
     </ul>
   </div>
 
+  <div class="unslider-clear"></div>
+
   <div class="container">
 
     <header class="project-title">
