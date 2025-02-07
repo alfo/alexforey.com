@@ -26,7 +26,7 @@
 
       <p class="big">He also works as an Associate Designer for Woodroffe Bassett Design, as a Staff Designer at Peloton Studios London, and as a freelance lighting programmer.</p>
 
-      <p>As well as design, he enjoys exploring new ways of working with </p>
+      <p>In addition to his design work, he explores the integration of new design processes with custom hardware/software solutions that enhance his creative output and streamline his workflow to tackle demanding projects.</p>
 
       <div class="clear"></div>
     </div>
