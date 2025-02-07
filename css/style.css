@@ -73,7 +73,7 @@
 
 .unslider-nav {
   position: relative;
-  bottom: 40px;
+  bottom: 60px;
 }
 @media screen and (max-width: 675px) {
   .unslider-nav {
@@ -166,6 +166,70 @@ a {
   text-decoration: none;
   color: white;
   border-bottom: 1px solid white;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.project-list .project {
+  width: calc(33.333% - 10px);
+  margin-bottom: 20px;
+  position: relative;
+}
+.project-list .project:hover h1, .project-list .project:hover .overlay {
+  opacity: 1;
+}
+.project-list .project a {
+  border-bottom: none;
+}
+.project-list .project .overlay, .project-list .project h1 {
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+.project-list .project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+}
+.project-list .project .image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+.project-list .project h1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 0.9px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 20;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 850px) {
+  .project-list .project {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 675px) {
+  .project-list .project {
+    width: 100%;
+  }
 }
 
 .press-list {

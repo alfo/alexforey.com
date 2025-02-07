@@ -23,6 +23,20 @@
     echo '</div>';
   }
 
+  // Separate projects into current, future, and past
+  foreach ($projects['projects'] as $project) {
+    $projectDate = strtotime($project['date']);
+    $projectDateEnd = isset($project['date-end']) ? strtotime($project['date-end']) : null;
+
+    if ($projectDate > time()) {
+      $futureProjects[] = $project;
+    } elseif ($projectDateEnd && ($projectDateEnd > time())) {
+      $currentProjects[] = $project;
+    } else {
+      $pastProjects[] = $project;
+    }
+  }
+
 ?>
 
   <div class="container">
@@ -38,20 +52,6 @@
     <div class="container">
 
       <?php
-
-        // Separate projects into current, future, and past
-        foreach ($projects['projects'] as $project) {
-          $projectDate = strtotime($project['date']);
-          $projectDateEnd = isset($project['date-end']) ? strtotime($project['date-end']) : null;
-
-          if ($projectDate > time()) {
-            $futureProjects[] = $project;
-          } elseif ($projectDateEnd && ($projectDateEnd > time())) {
-            $currentProjects[] = $project;
-          } else {
-            $pastProjects[] = $project;
-          }
-        }
 
         // Display future projects
         if (!empty($futureProjects)) {

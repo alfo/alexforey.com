@@ -2,6 +2,36 @@
 
   $projects = getProjects($title);
 
+  foreach ($projects['projects'] as $project) {
+    $projectDate = strtotime($project['date']);
+    $projectDateEnd = isset($project['date-end']) ? strtotime($project['date-end']) : null;
+  
+    if ($projectDate > time()) {
+      $futureProjects[] = $project;
+    } elseif ($projectDateEnd && ($projectDateEnd > time())) {
+      if (isset($project['image_credit'])) {
+        $currentProjects[] = $project;
+      }
+    } else {
+      if (isset($project['image_credit'])) {
+        $pastProjects[] = $project;
+      }
+    }
+  }
+
+  function displayProject($project) {
+?>
+  <div class="project">
+    <div class="image">
+      <a href="/work/<?php echo $project['id']; ?>">
+        <div class="image" style="background-image: url(/imgs/portfolio/theatre-min/<?php echo $project['id']; ?>-thumb-min.jpg)"></div>
+        <div class="overlay"></div>
+        <h1><?php echo $project['title']; ?></h1>
+      </a>
+    </div>
+  </div>
+<?php
+}
 ?>
 
 <div class="photo project slider slider-with-caption">
@@ -13,7 +43,7 @@
       <li>
         <div class="image" style="background-image: url(/imgs/portfolio/theatre-min/<?php echo $id, '-', $photo; ?>-min.jpg)"></div>
         <p class="caption">
-          <a href="/lighting/<?php echo $show['id']; ?>"><em><?php echo $show['title']; ?></em>,
+          <a href="/work/<?php echo $show['id']; ?>"><em><?php echo $show['title']; ?></em>,
           <?php echo $show['venue']; ?></a>
         </p>
       </li>
@@ -23,31 +53,18 @@
 
 <div class="unslider-clear"></div>
 
-<section class="projects">
 
-  <div class="container">
+<div class="project-list">
 
-    <?php
+<?php
+foreach($currentProjects as $project) {
+  displayProject($project);
+}
 
-      foreach($projects['projects'] as $project) {
-        if (!isset($show['image_credit'])) {
-          continue;
-        } else {
-        ?>
+foreach($pastProjects as $project) {
+  displayProject($project);
+}
+?>
 
-    <div class="project">
-      <!--<img src="/imgs/portfolio/theatre-min/<?php echo $project['id']; ?>-thumb-min.jpg">-->
-      <div class="info">
-        <h1><?php echo $project['title']; ?></h1>
-      </div>
-    </div>
-
-    <?php
-      }
-    }
-    ?>
-
-    <div class="clear"></div>
-  </div>
-</section>
-   
+  <div class="clear"></div>
+</div>
