@@ -22,9 +22,11 @@
 
       <img class="headshot" src="/imgs/headshot.jpg">
 
-      <p>Alex Forey is a lighting designer working in Theatre, Opera, Dance, TV, and Events. He is a graduate of the Royal Academy of Dramatic Art.</p>
+      <p class="big">Alex Forey is a lighting designer working in Theatre, Opera, Dance, TV, and Events. He is a graduate of the Royal Academy of Dramatic Art.</p>
 
-      <p>He also works as an Associate Designer for Woodroffe Bassett Design, as a Staff Designer at Peloton Studios London, and as a freelance lighting programmer.</p>
+      <p class="big">He also works as an Associate Designer for Woodroffe Bassett Design, as a Staff Designer at Peloton Studios London, and as a freelance lighting programmer.</p>
+
+      <p>As well as design, he enjoys exploring new ways of working with </p>
 
       <div class="clear"></div>
     </div>
