@@ -1,5 +1,123 @@
 @charset "UTF-8";
 @import "unslider.css";
+@import "unslider.css";
+.unslider {
+  position: absolute;
+  top: 0;
+  scroll-snap-align: start;
+  width: 100%;
+  min-height: 100%;
+}
+.unslider .image {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.unslider .caption {
+  text-align: right;
+  position: relative;
+  bottom: 50px;
+  padding-right: 30px;
+}
+.unslider .caption a {
+  color: white;
+  border-bottom: none;
+}
+@media screen and (max-width: 675px) {
+  .unslider .caption {
+    bottom: 0;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+}
+
+.unslider-arrow {
+  border-bottom: none;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  right: -82px;
+  left: auto;
+  margin-top: -16px;
+  overflow: hidden;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -999em;
+  opacity: 0.8;
+  transition: opacity 0.1s;
+}
+.unslider-arrow:hover {
+  opacity: 1;
+}
+.unslider-arrow.prev {
+  left: 18px;
+  right: auto;
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+@media screen and (max-width: 675px) {
+  .unslider-arrow {
+    width: 48px;
+    height: 48px;
+    right: -74px;
+    margin-top: -12px;
+  }
+  .unslider-arrow.prev {
+    left: 26px;
+  }
+}
+
+.unslider-nav {
+  position: relative;
+  bottom: 40px;
+}
+@media screen and (max-width: 675px) {
+  .unslider-nav {
+    bottom: 80px;
+    margin-bottom: -60px;
+  }
+}
+.unslider-nav.contains-slider-with-caption {
+  bottom: 60px;
+}
+@media screen and (max-width: 675px) {
+  .unslider-nav.contains-slider-with-caption {
+    bottom: 33px;
+  }
+}
+
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+.unslider-nav ol li {
+  display: inline-block;
+  float: none;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  padding: 3px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 1.5px solid #fff;
+  cursor: pointer;
+  opacity: 0.4;
+}
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default;
+}
+
+.unslider-clear {
+  margin-top: 100vh;
+}
+
 @font-face {
   font-family: "SFUIDisplay-ALX";
   src: url("/css/sf-ui-display-bold.otf") format("opentype");
@@ -346,43 +464,43 @@ header.big {
   }
 }
 
-section#first .info h1, section#first .info h2, section#first .info h3 {
+.info h1, .info h2, .info h3 {
   text-align: center;
 }
-section#first .info h2.venue {
+.info h2.venue {
   font-size: 32px;
   margin-bottom: 0px;
 }
 @media screen and (max-width: 675px) {
-  section#first .info h2.venue {
+  .info h2.venue {
     font-size: 24px;
   }
 }
-section#first .info h3.role {
+.info h3.role {
   font-size: 24px;
   margin-bottom: 5px;
 }
 @media screen and (max-width: 675px) {
-  section#first .info h3.role {
+  .info h3.role {
     font-size: 20px;
   }
 }
-section#first .info h3.date {
+.info h3.date {
   font-size: 20px;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 675px) {
-  section#first .info h3.date {
+  .info h3.date {
     font-size: 18px;
   }
 }
-section#first .info p.description {
+.info p.description {
   margin-top: 20px;
 }
-section#first .info .video {
+.info .video {
   margin-top: 50px;
 }
-section#first .info a.button {
+.info a.button {
   background: #0c0c0c;
   text-decoration: none;
   border-bottom: none;
@@ -392,18 +510,18 @@ section#first .info a.button {
   margin-top: 10px;
   margin-left: 10px;
 }
-section#first .info a.button:before {
+.info a.button:before {
   padding-right: 10px;
   font-size: 85%;
 }
-section#first .info a.button#plots:before {
+.info a.button#plots:before {
   content: "⬇️";
 }
-section#first .info a.button#readmore:before {
+.info a.button#readmore:before {
   content: "🌍";
 }
 @media screen and (max-width: 675px) {
-  section#first .info a.button#readmore {
+  .info a.button#readmore {
     float: left;
     margin-left: 0;
   }
