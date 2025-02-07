@@ -123,6 +123,10 @@
   }
 }
 
+.no-unslider {
+  height: 50px;
+}
+
 @font-face {
   font-family: "SFUIDisplay-ALX";
   src: url("/css/sf-ui-display-bold.otf") format("opentype");
@@ -239,17 +243,20 @@ a {
 
 .press-list {
   padding-top: 1em;
+  margin: 0 auto;
+  max-width: 800px;
 }
 .press-list h2 {
   text-align: center;
 }
-.press-list .press {
+
+.press {
   display: block;
-  width: 100%;
+  min-width: 100%;
   margin-bottom: 40px;
   margin-top: 20px;
 }
-.press-list .press blockquote {
+.press blockquote {
   max-width: 100%;
   font-style: italic;
   position: relative;
@@ -258,7 +265,7 @@ a {
   padding: 30px 80px 20px 70px;
   line-height: 1.6;
 }
-.press-list .press blockquote:before, .press-list .press blockquote:after {
+.press blockquote:before, .press blockquote:after {
   font-size: 140px;
   font-family: Georgia, serif;
   font-style: normal;
@@ -266,26 +273,26 @@ a {
   line-height: 0;
   position: absolute;
 }
-.press-list .press blockquote:before {
+.press blockquote:before {
   content: "“";
   top: 75px;
   left: 0px;
 }
-.press-list .press blockquote:after {
+.press blockquote:after {
   content: "”";
   right: 0px;
   bottom: 0px;
 }
-.press-list .press blockquote small {
+.press blockquote small {
   display: block;
   margin-top: 20px;
   text-align: right;
 }
 @media screen and (max-width: 675px) {
-  .press-list .press {
+  .press {
     flex-wrap: wrap;
   }
-  .press-list .press blockquote {
+  .press blockquote {
     min-width: 100%;
   }
 }
@@ -573,7 +580,10 @@ header.project-title {
   }
 }
 .project-info p.description {
-  margin-top: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+  color: #C9C9C9;
 }
 .project-info .video {
   margin-top: 50px;

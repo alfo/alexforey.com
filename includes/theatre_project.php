@@ -9,7 +9,7 @@
 
 ?>
 
-
+  <?php if(isset($project['image_credit'])) { ?>}
 
   <div class="photo project slider">
 
@@ -21,6 +21,12 @@
   </div>
 
   <div class="unslider-clear"></div>
+
+  <?php } else { ?>
+
+    <div class="no-unslider"></div>
+
+  <?php } ?>
 
   <div class="container">
 
@@ -49,10 +55,12 @@
       <p class="description"><?php echo nl2br($project['description']); ?></p>
 
       <?php if (isset($project['press'])) { ?>
+        <div class="press-list">
         <div class="press">
         <?php foreach ($project['press'] as $quote => $pub) { ?>
           <blockquote><?php echo $quote; ?> <small>— <?php echo $pub; ?></small></blockquote>
       <?php  } ?>
+        </div>
         </div>
       <?php } ?>
 
@@ -68,7 +76,7 @@
 
       <div class="clear"></div>
 
-      <?php if ($project['videos']) {
+      <?php if (isset($project['videos'])) {
         foreach ($project['videos'] as $video) {
         ?>
         <div class="video fitvid">
