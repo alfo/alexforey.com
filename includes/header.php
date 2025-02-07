@@ -1,9 +1,6 @@
 <?php
 
   date_default_timezone_set("UTC");
-  $age = (date("md", date("U", mktime(0, 0, 0, 7, 9, 1997))) > date("md")
-    ? ((date("Y") - 1997) - 1)
-    : (date("Y") - 1997));
 
   function getProjects($type) {
     $filename = "includes/" . strtolower($type) . ".json";
@@ -22,7 +19,9 @@
       return ($ar['id'] == $id);
     });
 
-    return array_shift(array_values($search));
+    $result = array_values($search);
+    
+    return array_shift($result);
   }
 
 ?>
@@ -37,22 +36,20 @@
   /_/ \_\_\___/_\_\ |_|\___/_| \___|\_, |
                                     |__/
 
-yeah, I spent way too much time on that.
 -->
 
 <html>
   <head>
-    <title>Alex Forey's Website | <?php echo $title; ?></title>
+    <title>Alex Forey Lighting | <?php echo $title; ?></title>
 
     <meta name="author" content="Alex Forey">
-    <meta name="description" content="The website of a <?php echo $age; ?> year old lighting designer with wide-ranging interests in theatre, technology, photography, art, and literature. See photos of my designs, projects I've created, and find out more about me.">
+    <meta name="description" content="The website of a lighting designer with wide-ranging interests in theatre, technology, photography, art, and literature. See photos of my designs, projects I've created, and find out more about me.">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-    <!-- All this fancy stuff for icons etc. -->
     <link rel="apple-touch-icon" sizes="180x180" href="/imgs/apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png?v=2">
     <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon-16x16.png?v=2">
@@ -69,22 +66,20 @@ yeah, I spent way too much time on that.
 
   <body>
 
-    <section id="first">
+    <div class="nav-container <?php echo $title; ?>">
+      <div class="container">
+        <nav>
+          <ul>
+            <li id="home"><a href="/">Alex Forey</a></li>
+            <li id="work"><a href="/work">Portfolio</a></li>
+            <li id="credits"><a href="/credits">Credits</a></li>
+            <li id="contact"><a href="/contact">Contact</a></li>
+            <li id="about"><a href="/about">About</a></li>
+            <li id="press"><a href="/press">Press</a></li>
+          </ul>
+        </nav>
 
-      <div class="nav-container">
-        <div class="container">
+        <div class="clear"></div>
 
-          <nav>
-            <ul>
-              <li id="home"><a href="/">Alex Forey</a></li>
-              <li><a href="/theatre">Lighting</a></li>
-              <li><a href="/press">Press</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/projects">Projects</a></li>
-            </ul>
-          </nav>
-
-          <div class="clear"></div>
-
-        </div>
       </div>
+    </div>

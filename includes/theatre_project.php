@@ -9,7 +9,7 @@
 
 ?>
 
-
+  <?php if(isset($project['image_credit'])) { ?>}
 
   <div class="photo project slider">
 
@@ -20,17 +20,27 @@
     </ul>
   </div>
 
+  <div class="unslider-clear"></div>
+
+  <?php } else { ?>
+
+    <div class="no-unslider"></div>
+
+  <?php } ?>
+
   <div class="container">
 
     <header class="project-title">
       <h1><?php echo $project['title']; ?></h1>
     </header>
 
-    <div class="info">
+    <div class="project-info">
+
+      <?php if ($project['role'] !== "Lighting Designer") echo "<h2 class='role'>", $project['role'], "</h2>"; ?>
 
       <h2 class="venue"><?php echo $project['venue']; ?></h2>
-      <?php if ($project['role'] !== "Lighting Designer") echo "<h3 class='role'>", $project['role'], "</h3> <p class='system'>", $project['system'], "</p>"; ?>
-      <h3 class="date"><?php echo $project['date']; ?></h3>
+      
+      <h3 class="date"><?php echo date("F Y", strtotime($project['date'])); ?></h3>
 
       <div class="credits">
 
@@ -44,27 +54,29 @@
 
       <p class="description"><?php echo nl2br($project['description']); ?></p>
 
-      <?php if ($project['press']) { ?>
+      <?php if (isset($project['press'])) { ?>
+        <div class="press-list">
         <div class="press">
         <?php foreach ($project['press'] as $quote => $pub) { ?>
           <blockquote><?php echo $quote; ?> <small>— <?php echo $pub; ?></small></blockquote>
       <?php  } ?>
         </div>
+        </div>
       <?php } ?>
 
       <p class="photo-credit">Photos by <?php echo $project['image_credit']; ?></p>
 
-      <?php if ($project['paperwork']) { ?>
+      <?php if (isset($project['paperwork']) & $project['paperwork']) { ?>
         <a class="button" id="plots" href="/plots/<?php echo substr($project['date'], -4), '/', $project['id']; ?>.zip">View Plots</a>
       <?php } ?>
 
-      <?php if ($project['link']) { ?>
+      <?php if (isset($project['link']) && $project['link']) { ?>
         <a class="button" id="readmore" href="<?php echo $project['link']; ?>">Read More</a>
       <?php } ?>
 
       <div class="clear"></div>
 
-      <?php if ($project['videos']) {
+      <?php if (isset($project['videos'])) {
         foreach ($project['videos'] as $video) {
         ?>
         <div class="video fitvid">
