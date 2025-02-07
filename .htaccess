@@ -1,4 +1,5 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^work/([^/]*)$ /work.php?id=$1 [L]
+RewriteCond %{REQUEST_URI} !^/work/
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+RewriteRule ^work/([^/]*)$ /work.php?id=$1 [L]
