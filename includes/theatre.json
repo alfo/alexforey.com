@@ -1,8 +1,10 @@
 {
     "featured": {
+        "come-alive-london": 1,
         "between-the-lines": 1,
         "kitty-in-the-lane": 1,
         "wca-purgatorio": 1,
+        "paddy-goes-to-petra": 1,
         "wca-paradiso": 2,
         "saint-hildegard": 1,
         "wca-three-sisters": 1
@@ -28,7 +30,7 @@
             "date-end": "2025-01-11",
             "role": "Associate Lighting Designer, Programmer",
             "id": "new-adventures-of-peter-pan",
-            "description": "Carabosse tricks her niece into pricking her finger on a spinning wheel needle, cursing her to everlasting sleep. Only true love\u2019s kiss can break the curse and wake the princess. Now it\u2019s up to her friends, Fairy Fizz, Dame Maris Piper and Spud to find her Prince, defeat the evil Carabosse and save Luna! Will the curse be lifted? Will true love conquer all? Join us this Christmas on an unforgettable wintery adventure to find out!",
+            "description": "Neverland is in chaos! The dastardly and devilish Captain Hook is back and seeking vengeance… With Peter Pan and the lost children in mortal danger Tinkerbell heads back to Colchester to get help. On arrival she realises many years have passed, and she must now convince Wendy’s granddaughter, to travel to Neverland and help save the infamous Peter Pan from certain death.",
             "people": {
                 "Director": "Ryan McBryde",
                 "Designer": "Jasmine Swan",
@@ -50,7 +52,7 @@
             "date": "2024-10-28",
             "role": "Lighting Designer",
             "id": "cleopatras-antony",
-            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "description": "Cleopatra’s lover Antony has been in Egypt for years now. He’s forgotten the life he once had in Rome and swapped war and politics for love and whine. He is in love with Cleopatra. In love with Egypt; her warmth, her sweet smell and her joy! She is Egypt and Egypt is her. In this retelling, we focus on the many faces of Egypt/Cleopatra and her decolonizing of her lover’s heart and mind as he is split between duty, war and where his loyalties lie.",
             "people": {
                 "Director": "Mo Korede",
                 "Designer": "Emilia Mendez",
@@ -62,12 +64,12 @@
             "image_credit": "Alex Forey"
         },
         {
-            "title": "Come Alive - The Greatest Showman Circus Spectacular",
+            "title": "Come Alive! The Greatest Showman Circus Spectacular",
             "date": "2024-10-16",
             "date-end": "2027-01-01",
             "role": "Associate Lighting Designer",
             "id": "come-alive-london",
-            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "description": "‘Come Alive!’ The Greatest Showman Circus Spectacular is an exciting new theatre production that brings the magic of The Greatest Showman to life. Inspired by the 20th Century Fox film, written by Jenny Bicks, this circus musical features all the iconic songs by Benj Pasek and Justin Paul, including “This Is Me,” “Rewrite the Stars,” and “A Million Dreams.”",
             "people": {
                 "Creative Director": "Simon Hammerstein",
                 "Set Designer": "Ruby Law",
@@ -95,11 +97,11 @@
             "image_credit": "Luke Dyson"
         },
         {
-            "title": "Come Alive - The Greatest Showman Immersive Experience",
+            "title": "Come Alive! The Greatest Showman Immersive Experience",
             "date": "2024-10-16",
             "role": "Associate Lighting Designer",
             "id": "come-alive-london-immersive",
-            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "description": "‘Come Alive!’ The Greatest Showman Circus Spectacular is an exciting new theatre production that brings the magic of The Greatest Showman to life. Inspired by the 20th Century Fox film, written by Jenny Bicks, this circus musical features all the iconic songs by Benj Pasek and Justin Paul, including “This Is Me,” “Rewrite the Stars,” and “A Million Dreams.”",
             "people": {
                 "Creative Director": "Simon Hammerstein",
                 "Set Designer": "Ruby Law",
@@ -107,7 +109,7 @@
                 "Costume Designer": "Susan Kulkarni & Martina Trottmann",
                 "Lighting Designer": "Adam Bassett (WBD)",
                 "Associate Lighting Designer": "Alex Forey",
-                "Sound Design": "Gareth Tucker",
+                "Sound Designer": "Gareth Tucker",
                 "Music Supervisor": "Greg Arrowsmith",
                 "Music Producer": "Matthew Brind",
                 "Lighting Programmer": "Stanley Olden",
@@ -131,11 +133,20 @@
             "date": "2024-05-01",
             "role": "Lighting Designer",
             "id": "between-the-lines",
-            "description": "An original performance of The Creation by Haydn, where music seamlessly intertwines with dance, costume, and lighting, breathing new life into this timeless masterpiece.",
+            "description": "A powerful play with music that examines freedom of expression, the strength of community and the foundations of one of Britain's most celebrated subcultures of rebel music. A rundown council flat in Hackney is the home of Blaze FM, a frantic pirate radio station playing Jungle and Grime to keen listeners. Illegally.",
             "people": {
-                "Conductor": "Matthew O\u2019Keefe",
-                "Choreographer": "Osian Meilir Jones",
-                "Costume Designer": "Jennifer Gregory",
+                "Director": "Maggie Norris",
+                "Set Designer": "Tina Torbey",
+                "Sound Designer": "Jack Baxter",
+                "Video Designer": "Mic Pool",
+                "Costume Designer": "Lambdog1066",
+                "Writer": "James Meteyard",
+                "Writer and Composer": "Jammz",
+                "Musical Director": "Shemzy",
+                "Associate Director": "Chris Neels",
+                "Associate Set Designer": "Pauline McGrath",
+                "Stage Manager": "Stacey Nurse",
+                "Production Electrician": "Tom Shakleton",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
