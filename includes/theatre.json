@@ -1,9 +1,11 @@
 {
     "featured": {
+        "between-the-lines": 1,
         "kitty-in-the-lane": 1,
-        "saint-hildegard": 1,
+        "wca-purgatorio": 1,
         "wca-paradiso": 2,
-        "wca-purgatorio": 1
+        "saint-hildegard": 1,
+        "wca-three-sisters": 1
     },
 
     "projects": [
