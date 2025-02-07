@@ -19,7 +19,9 @@
       return ($ar['id'] == $id);
     });
 
-    return array_shift(array_values($search));
+    $result = array_values($search);
+    
+    return array_shift($result);
   }
 
 ?>
