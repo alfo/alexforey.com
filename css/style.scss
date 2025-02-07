@@ -140,7 +140,11 @@ $dark: #0c0c0c;
 }
 
 .unslider-clear {
-  margin-top: 100vh;
+  height: 100vh;
+  
+  @media screen and (max-width: $break-small) {
+    margin-bottom: -100px;
+  }
 }
 
 @font-face {
@@ -495,7 +499,7 @@ nav {
 header {
   text-align: center;
   margin-top: 30px;
-  color: white;
+  color: $highlight-text;
 
   &.top-of-page {
     margin-top: 30px !important;
@@ -522,10 +526,6 @@ header {
     margin-right: auto;
     margin-top: 30px;
     line-height: 30px;
-  }
-
-  &.big {
-    padding-bottom: 25px;
   }
 
   @media screen and (max-width: $break-large) {
@@ -559,11 +559,6 @@ header {
     font-size: 100%;
   }
 }
-
-.system {
-  text-align: center;
-}
-
 
 .credits {
   display: flex;
@@ -600,28 +595,40 @@ header {
   }
 }
 
-.info {
+header.project-title {
+  margin-top: 0;
+}
+
+.project-info {
+
+  margin-top: 1em;
+
+  @media screen and (max-width: $break-small) {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
 
   h1, h2, h3 {
     text-align: center;
   }
 
-  h2.venue {
-    font-size: 32px;
-    margin-bottom: 0px;
-    @media screen and (max-width: $break-small) { font-size: 24px; }
+  h2.role {
+    font-size: 1.4em;
+    margin-bottom: 0.4em;
+    @media screen and (max-width: $break-small) { font-size: 20px; }
   }
 
-  h3.role {
-    font-size: 24px;
-    margin-bottom: 5px;
-    @media screen and (max-width: $break-small) { font-size: 20px; }
+  h2.venue {
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+    @media screen and (max-width: $break-small) { font-size: 24px; }
   }
 
   h3.date {
     font-size: 20px;
     margin-bottom: 30px;
-
+    color: $middlelight-text;
     @media screen and (max-width: $break-small) { font-size: 18px; }
   }
 

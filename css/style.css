@@ -115,7 +115,12 @@
 }
 
 .unslider-clear {
-  margin-top: 100vh;
+  height: 100vh;
+}
+@media screen and (max-width: 675px) {
+  .unslider-clear {
+    margin-bottom: -100px;
+  }
 }
 
 @font-face {
@@ -454,9 +459,6 @@ header h3 {
   margin-top: 30px;
   line-height: 30px;
 }
-header.big {
-  padding-bottom: 25px;
-}
 @media screen and (max-width: 850px) {
   header {
     padding-left: 20px;
@@ -489,10 +491,6 @@ header.big {
   .photo-credit {
     font-size: 100%;
   }
-}
-
-.system {
-  text-align: center;
 }
 
 .credits {
@@ -528,43 +526,57 @@ header.big {
   }
 }
 
-.info h1, .info h2, .info h3 {
-  text-align: center;
+header.project-title {
+  margin-top: 0;
 }
-.info h2.venue {
-  font-size: 32px;
-  margin-bottom: 0px;
+
+.project-info {
+  margin-top: 1em;
 }
 @media screen and (max-width: 675px) {
-  .info h2.venue {
-    font-size: 24px;
+  .project-info {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
-.info h3.role {
-  font-size: 24px;
-  margin-bottom: 5px;
+.project-info h1, .project-info h2, .project-info h3 {
+  text-align: center;
+}
+.project-info h2.role {
+  font-size: 1.4em;
+  margin-bottom: 0.4em;
 }
 @media screen and (max-width: 675px) {
-  .info h3.role {
+  .project-info h2.role {
     font-size: 20px;
   }
 }
-.info h3.date {
-  font-size: 20px;
-  margin-bottom: 30px;
+.project-info h2.venue {
+  font-size: 1.2em;
+  margin-bottom: 0.4em;
 }
 @media screen and (max-width: 675px) {
-  .info h3.date {
+  .project-info h2.venue {
+    font-size: 24px;
+  }
+}
+.project-info h3.date {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #C9C9C9;
+}
+@media screen and (max-width: 675px) {
+  .project-info h3.date {
     font-size: 18px;
   }
 }
-.info p.description {
+.project-info p.description {
   margin-top: 20px;
 }
-.info .video {
+.project-info .video {
   margin-top: 50px;
 }
-.info a.button {
+.project-info a.button {
   background: #0c0c0c;
   text-decoration: none;
   border-bottom: none;
@@ -574,18 +586,18 @@ header.big {
   margin-top: 10px;
   margin-left: 10px;
 }
-.info a.button:before {
+.project-info a.button:before {
   padding-right: 10px;
   font-size: 85%;
 }
-.info a.button#plots:before {
+.project-info a.button#plots:before {
   content: "⬇️";
 }
-.info a.button#readmore:before {
+.project-info a.button#readmore:before {
   content: "🌍";
 }
 @media screen and (max-width: 675px) {
-  .info a.button#readmore {
+  .project-info a.button#readmore {
     float: left;
     margin-left: 0;
   }

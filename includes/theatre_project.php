@@ -28,11 +28,13 @@
       <h1><?php echo $project['title']; ?></h1>
     </header>
 
-    <div class="info">
+    <div class="project-info">
+
+      <?php if ($project['role'] !== "Lighting Designer") echo "<h2 class='role'>", $project['role'], "</h2>"; ?>
 
       <h2 class="venue"><?php echo $project['venue']; ?></h2>
-      <?php if ($project['role'] !== "Lighting Designer") echo "<h3 class='role'>", $project['role'], "</h3> <p class='system'>", $project['system'], "</p>"; ?>
-      <h3 class="date"><?php echo $project['date']; ?></h3>
+      
+      <h3 class="date"><?php echo date("F Y", strtotime($project['date'])); ?></h3>
 
       <div class="credits">
 
