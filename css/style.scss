@@ -66,6 +66,10 @@ $dark: #0c0c0c;
       border-bottom: none;
     }
 
+    @media screen and (max-width: $break-very-large) {
+      bottom: 70px;
+    }
+
     @media screen and (max-width: $break-small) {
       bottom: 0;
       text-align: center;
@@ -124,17 +128,14 @@ $dark: #0c0c0c;
 }
 
 .unslider-nav {
+
 	position: relative;
-  bottom: 60px;
+  bottom: 50px;
   list-style: none;
 	text-align: center;
 
-  @media screen and (max-width: $break-very-large) {
-    bottom: 100px;
-  }
-
   @media screen and (max-width: $break-small) {
-    bottom: 80px;
+    bottom: 40px;
   }
 
   li {
@@ -161,11 +162,17 @@ $dark: #0c0c0c;
   }
 }
 
+.contains-slider-with-caption .unslider-nav {
+  @media screen and (max-width: $break-small) {
+    bottom: 80px;
+  }
+}
+
 .unslider-clear {
   height: 100vh;
   
   @media screen and (max-width: $break-small) {
-    margin-bottom: -100px;
+    margin-bottom: -40px;
   }
 }
 
