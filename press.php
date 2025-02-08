@@ -26,7 +26,7 @@
           ?>
 
           <h2>
-            <a href="/lighting/<?php echo $project['id']?>">
+            <a href="/work/<?php echo $project['id']?>">
                 <?php echo $project['title']; ?> (<?php echo date('Y', strtotime($project['date'])); ?>)
             </a>
           </h2>
