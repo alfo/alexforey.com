@@ -1,0 +1,140 @@
+@use "variables" as v;
+
+.unslider {
+    position: absolute;
+    top: 0;
+    scroll-snap-align: start;
+    width: 100%;
+    min-height: 100%;
+  
+    .image {
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+    }
+  
+    .caption {
+      text-align: right;
+      position: relative;
+      bottom: 50px;
+      padding-right: 30px;
+  
+      a {
+        color: v.$highlight-text;
+        border-bottom: none;
+      }
+  
+      @media screen and (max-width: v.$break-very-large) {
+        bottom: 70px;
+      }
+  
+      @media screen and (max-width: v.$break-small) {
+        bottom: 0;
+        text-align: center;
+        padding-right: 0;
+        padding-top: 20px;
+      }
+    }
+  }
+  
+  .unslider-arrow {
+  
+    $size: 64px;
+    $small-size: 48px;
+    border-bottom: none;
+  
+    width: $size;
+    height: $size;
+  
+    position: absolute;
+  
+    top: 50%;
+    right: -50px - calc($size / 2);
+    left: auto;
+    margin-top: - calc($size / 4);
+  
+    overflow: hidden;
+  
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -999em;
+  
+    opacity: .8;
+    transition: opacity .1s;
+  
+    &:hover {
+      opacity: 1;
+    }
+  
+    &.prev {
+      left: 50px - calc($size / 2);
+      right: auto;
+      -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+    }
+  
+    @media screen and (max-width: v.$break-small) {
+      width: $small-size;
+      height: $small-size;
+      right: -50px - calc($small-size / 2);
+      margin-top: - calc($small-size / 4);
+  
+      &.prev { left: 50px - calc($small-size / 2); }
+    }
+  
+  }
+  
+  .unslider-nav {
+  
+      position: relative;
+    bottom: 50px;
+    list-style: none;
+      text-align: center;
+  
+    @media screen and (max-width: v.$break-small) {
+      bottom: 40px;
+    }
+  
+    li {
+        display: inline-block;
+        float: none;
+        width: 6px;
+        height: 6px;
+        margin: 0 4px;
+        padding: 3px;
+  
+        background: transparent;
+        border-radius: 5px;
+        overflow: hidden;
+        text-indent: -999em;
+        border: 1.5px solid #fff;
+        cursor: pointer;
+  
+        opacity: .4;
+  
+      &.unslider-active {
+        background: #fff;
+          cursor: default;
+      }
+    }
+  }
+  
+  .contains-slider-with-caption .unslider-nav {
+    @media screen and (max-width: v.$break-small) {
+      bottom: 80px;
+    }
+  }
+  
+  .unslider-clear {
+    height: 100vh;
+    
+    @media screen and (max-width: v.$break-small) {
+      margin-bottom: -40px;
+    }
+  }
+  
+  .no-unslider {
+    height: 50px;
+  }

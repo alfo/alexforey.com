@@ -1,0 +1,29 @@
+@use "variables" as v;
+
+.credits-list {
+
+    text-align: center;
+    padding-top: 1em;
+  
+    .year {
+      color: v.$middlelight-text;
+      margin-bottom: 2em;
+    }
+  
+    .credit {
+  
+      margin-bottom: 3em;
+  
+      h2 { 
+        font-weight: 500;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-bottom: 1em;
+      }
+    
+      p {
+        margin-bottom: 1em;
+      }
+    }
+  
+  }
