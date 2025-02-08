@@ -1,11 +1,6 @@
 <?php
   $title = 'Contact';
   include 'includes/header.php';
-
-  $tz  = new DateTimeZone('Europe/London');
-  $age = DateTime::createFromFormat('d/m/Y', '07/09/1997', $tz)
-       ->diff(new DateTime('now', $tz))
-       ->y;
 ?>
 
   <div class="container">

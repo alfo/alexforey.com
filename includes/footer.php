@@ -8,4 +8,7 @@
     </section>
 
   </body>
+
+  <script data-goatcounter="https://alexlighting.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </html>

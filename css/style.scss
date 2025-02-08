@@ -11,6 +11,36 @@ $dark: #0c0c0c;
 
 @import "unslider.css";
 
+
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-ALX';
+  src: url('/css/sf-ui-display-thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
 .unslider {
   position: absolute;
   top: 0;
@@ -96,24 +126,16 @@ $dark: #0c0c0c;
 .unslider-nav {
 	position: relative;
   bottom: 60px;
+  list-style: none;
+	text-align: center;
+
+  @media screen and (max-width: $break-very-large) {
+    bottom: 100px;
+  }
 
   @media screen and (max-width: $break-small) {
     bottom: 80px;
-    margin-bottom: -60px;
   }
-
-  &.contains-slider-with-caption {
-    bottom: 60px;
-
-    @media screen and (max-width: $break-small) {
-      bottom: 33px;
-    }
-  }
-}
-
-.unslider-nav ol {
-	list-style: none;
-	text-align: center;
 
   li {
   	display: inline-block;
@@ -150,36 +172,6 @@ $dark: #0c0c0c;
 .no-unslider {
   height: 50px;
 }
-
-@font-face {
-  font-family: 'SFUIDisplay-ALX';
-  src: url('/css/sf-ui-display-bold.otf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SFUIDisplay-ALX';
-  src: url('/css/sf-ui-display-medium.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SFUIDisplay-ALX';
-  src: url('/css/sf-ui-display-light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SFUIDisplay-ALX';
-  src: url('/css/sf-ui-display-thin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@import "unslider.css";
 
 * {
 	-webkit-box-sizing: border-box;

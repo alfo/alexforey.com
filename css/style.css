@@ -1,6 +1,29 @@
 @charset "UTF-8";
 @import "unslider.css";
-@import "unslider.css";
+@font-face {
+  font-family: "SFUIDisplay-ALX";
+  src: url("/css/sf-ui-display-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SFUIDisplay-ALX";
+  src: url("/css/sf-ui-display-medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SFUIDisplay-ALX";
+  src: url("/css/sf-ui-display-light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SFUIDisplay-ALX";
+  src: url("/css/sf-ui-display-thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
 .unslider {
   position: absolute;
   top: 0;
@@ -74,27 +97,20 @@
 .unslider-nav {
   position: relative;
   bottom: 60px;
+  list-style: none;
+  text-align: center;
+}
+@media screen and (max-width: 1300px) {
+  .unslider-nav {
+    bottom: 100px;
+  }
 }
 @media screen and (max-width: 675px) {
   .unslider-nav {
     bottom: 80px;
-    margin-bottom: -60px;
   }
 }
-.unslider-nav.contains-slider-with-caption {
-  bottom: 60px;
-}
-@media screen and (max-width: 675px) {
-  .unslider-nav.contains-slider-with-caption {
-    bottom: 33px;
-  }
-}
-
-.unslider-nav ol {
-  list-style: none;
-  text-align: center;
-}
-.unslider-nav ol li {
+.unslider-nav li {
   display: inline-block;
   float: none;
   width: 6px;
@@ -109,7 +125,7 @@
   cursor: pointer;
   opacity: 0.4;
 }
-.unslider-nav ol li.unslider-active {
+.unslider-nav li.unslider-active {
   background: #fff;
   cursor: default;
 }
@@ -127,30 +143,6 @@
   height: 50px;
 }
 
-@font-face {
-  font-family: "SFUIDisplay-ALX";
-  src: url("/css/sf-ui-display-bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "SFUIDisplay-ALX";
-  src: url("/css/sf-ui-display-medium.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "SFUIDisplay-ALX";
-  src: url("/css/sf-ui-display-light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "SFUIDisplay-ALX";
-  src: url("/css/sf-ui-display-thin.otf") format("opentype");
-  font-weight: 100;
-  font-style: normal;
-}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
