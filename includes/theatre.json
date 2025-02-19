@@ -788,7 +788,7 @@
         },
         {
             "title": "Anything Goes",
-            "date": "2019-07-02",
+            "date": "2019-07-03",
             "role": "Assistant Lighting Designer",
             "id": "nymt-anything-goes",
             "description": "Music, dance, laughs, and the age-old tale of Boy Meets Girl - no musical puts it on stage better than ANYTHING GOES. A hilarious shipboard romp, wrapped around one of Cole Porter’s most magical scores, Anything Goes is Delightful, Delicious, and De-Lovely.",
@@ -798,26 +798,41 @@
                 "Lighting Designer": "Aaron J Dootson",
                 "Choreographer": "Lee Proud & Adam Haigh",
                 "Sound Designer": "Luke Swaffield for Autograph",
-                "Musical Director": "Jordan Li-Smith",
-                "Orchestrations": "Charlie Ingles"
+                "Musical Director": "Jordan Li-Smith"
             },
             "paperwork": false,
             "venue": "NYMT, The Other Palace, London"
         },
         {
             "title": "Legend Trippers",
-            "date": "2019-07-01",
+            "date": "2019-07-02",
             "role": "Assistant Lighting Designer",
-            "id": "nymt-anything-goes",
+            "id": "nymt-legend-trippers",
             "description": "Music, dance, laughs, and the age-old tale of Boy Meets Girl - no musical puts it on stage better than ANYTHING GOES. A hilarious shipboard romp, wrapped around one of Cole Porter’s most magical scores, Anything Goes is Delightful, Delicious, and De-Lovely.",
             "people": {
-                "Director": "Alex Sutton",
+                "Director": "Kate Golledge",
                 "Designer": "Diego Pitarch",
                 "Lighting Designer": "Aaron J Dootson",
-                "Choreographer": "Lee Proud & Adam Haigh",
+                "Choreographer": "Darragh O’Leary",
+                "Sound Designer": "Gareth Tucker for Autograph",
+                "Musical Director": "Jordan Li-Smith"
+            },
+            "paperwork": false,
+            "venue": "NYMT, The Other Palace, London"
+        },
+        {
+            "title": "Parade",
+            "date": "2019-07-01",
+            "role": "Assistant Lighting Designer",
+            "id": "nymt-parade",
+            "description": "Music, dance, laughs, and the age-old tale of Boy Meets Girl - no musical puts it on stage better than ANYTHING GOES. A hilarious shipboard romp, wrapped around one of Cole Porter’s most magical scores, Anything Goes is Delightful, Delicious, and De-Lovely.",
+            "people": {
+                "Director": "Hannah Chissick",
+                "Designer": "Diego Pitarch",
+                "Lighting Designer": "Aaron J Dootson",
+                "Choreographer": "Matthew Cole",
                 "Sound Designer": "Luke Swaffield for Autograph",
-                "Musical Director": "Jordan Li-Smith",
-                "Orchestrations": "Charlie Ingles"
+                "Musical Director": "Laurence Stannard"
             },
             "paperwork": false,
             "venue": "NYMT, The Other Palace, London"
