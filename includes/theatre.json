@@ -787,6 +787,60 @@
             "image_credit": "Susie Su \/ Alex Forey"
         },
         {
+            "title": "Anything Goes",
+            "date": "2019-07-02",
+            "role": "Assistant Lighting Designer",
+            "id": "nymt-anything-goes",
+            "description": "Music, dance, laughs, and the age-old tale of Boy Meets Girl - no musical puts it on stage better than ANYTHING GOES. A hilarious shipboard romp, wrapped around one of Cole Porter’s most magical scores, Anything Goes is Delightful, Delicious, and De-Lovely.",
+            "people": {
+                "Director": "Alex Sutton",
+                "Designer": "Diego Pitarch",
+                "Lighting Designer": "Aaron J Dootson",
+                "Choreographer": "Lee Proud & Adam Haigh",
+                "Sound Designer": "Luke Swaffield for Autograph",
+                "Musical Director": "Jordan Li-Smith",
+                "Orchestrations": "Charlie Ingles"
+            },
+            "paperwork": false,
+            "venue": "NYMT, The Other Palace, London"
+        },
+        {
+            "title": "Legend Trippers",
+            "date": "2019-07-01",
+            "role": "Assistant Lighting Designer",
+            "id": "nymt-anything-goes",
+            "description": "Music, dance, laughs, and the age-old tale of Boy Meets Girl - no musical puts it on stage better than ANYTHING GOES. A hilarious shipboard romp, wrapped around one of Cole Porter’s most magical scores, Anything Goes is Delightful, Delicious, and De-Lovely.",
+            "people": {
+                "Director": "Alex Sutton",
+                "Designer": "Diego Pitarch",
+                "Lighting Designer": "Aaron J Dootson",
+                "Choreographer": "Lee Proud & Adam Haigh",
+                "Sound Designer": "Luke Swaffield for Autograph",
+                "Musical Director": "Jordan Li-Smith",
+                "Orchestrations": "Charlie Ingles"
+            },
+            "paperwork": false,
+            "venue": "NYMT, The Other Palace, London"
+        },
+        {
+            "title": "Growl",
+            "date": "2019-05-01",
+            "role": "Associate Lighting Designer",
+            "id": "growl",
+
+            "people": {
+                "Director": "Richard Fitch",
+                "Designer": "Richard Cooper",
+                "Lighting Designer": "Zoe Spurr",
+                "Choreographer": "Chris Cuming",
+                "Book & Lyrics": "Timothy Knapman",
+                "Music & Lyrics": "Laurence Mark Wythe",
+                "Musical Director": "Tamara Saringer"
+            },
+            "paperwork": false,
+            "venue": "NYMT, Curve Theatre, Leicester, Rose Theatre, Kingston"
+        },
+        {
             "title": "Libu\u0161e",
             "date": "2019-03-02",
             "role": "Lighting Designer",
