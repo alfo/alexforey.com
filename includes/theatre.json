@@ -12,6 +12,18 @@
 
     "projects": [
         {
+            "title": "Blaze FM",
+            "date": "2025-07-30",
+            "date-end": "2025-08-28",
+            "role": "Lighting Designer",
+            "id": "blaze-fm",
+            "people": {
+                "Director": "Maggie Norris"
+            },
+            "paperwork": false,
+            "venue": "Pleasance Courtyard, Edinburgh"
+        },
+        {
             "title": "Run Sister Run",
             "date": "2025-06-30",
             "date-end": "2025-07-26",
@@ -316,7 +328,10 @@
             "people": {
                 "Writer and Director": "Mwansa Phiri",
                 "Video Designer": "Virginie Taylor",
-                "Sound Designer": ""
+                "Sound Designer": "Freddie Lewis"
+            },
+            "press": {
+                "Lighting Designer Alex Forey, well utilizes the venue\u2019s generous rigging and strikingly recreates the aforementioned train tracks which give the piece its name": "<a href='https://www.bingefringe.com/2023/08/06/review-waiting-for-a-train-at-the-bus-stop-mwansa-phiri-edfringe-2023-★★★★☆/'>Binge Fringe</a>"
             },
             "paperwork": false,
             "venue": "Streatham Space Project, London & Summerhall, Edinburgh",
@@ -412,6 +427,20 @@
             "paperwork": false,
             "venue": "Wimbledon College of Arts, London",
             "image_credit": "Alex Forey"
+        },
+        {
+            "title": "Face Down in the Dirt",
+            "date": "2023-05-03",
+            "role": "Lighting Designer",
+            "id": "face-down-in-the-dirt",
+            "description": "A young woman, Ren, is discovered in the woods. Buried alive & up to her neck in soil. Two women are under pressure to find out the truth. After all, they have targets to meet & colleagues to impress.",
+            "people": {
+                "Writer & Director": "Lauren Carter",
+                "Producer": "Daniel Bainbridge",
+                "Lighting Designer": "Alex Forey"
+            },
+            "paperwork": false,
+            "venue": "King's Head Theatre, London"
         },
         {
             "title": "Kitty in the Lane",
@@ -737,6 +766,24 @@
                 "ByWNYK_5QJc",
                 "H31s7mlXork"
             ]
+        },
+        {
+            "title": "The Beauty Queen of Leenane",
+            "date": "2021-10-02",
+            "role": "Programmer",
+            "id": "beauty-queen",
+            "description": "In the mountains of Connemara, County Galway, Maureen Folan – a plain, lonely woman, tied to her manipulative and ageing mother, Mag – comes alive at her first and possibly last prospect of a new life. But Mag has other ideas; and her interference sets in motion a train of events that leads inexorably towards the play’s breathtaking conclusion.",
+            "people": {
+                "Director": "Rachel O’Riordan",
+                "Designer": "Good Teeth Theatre",
+                "Lighting Designer": "Kevin Treacy",
+                "Composer & Sound Designer": "Anna Clock",
+                "Fight Director": "Kev McCurdy",
+                "Dialect Coach": "Edda Sharpe",
+                "Casting Director": "Sam Stevenson"
+            },
+            "paperwork": false,
+            "venue": "Lyric Hammersmith"
         },
         {
             "title": "Stop Kiss",
