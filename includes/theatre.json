@@ -25,6 +25,19 @@
             "venue": "Arcola Theatre, London"
         },
         {
+            "title": "Not Saint Hildegard",
+            "date": "2025-03-20",
+            "date-end": "2025-03-22",
+            "role": "Lighting Designer",
+            "id": "not-saint-hildegard",
+            "people": {
+                "Director": "Kristin Winters",
+                "Sound Designer": "Florence Hand"
+            },
+            "paperwork": false,
+            "venue": "Playground Theatre, London"
+        },
+        {
             "title": "The New Adventures of Peter Pan",
             "date": "2024-11-26",
             "date-end": "2025-01-11",
