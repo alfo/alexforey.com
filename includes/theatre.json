@@ -33,10 +33,23 @@
             "id": "run-sister-run",
             "people": {
                 "Director": "Marlie Haco",
-                "Designer": "Justin Nardella"
+                "Designer": "Tomas Palmer"
             },
             "paperwork": false,
             "venue": "Arcola Theatre, London"
+        },
+        {
+            "title": "Not Saint Hildegard",
+            "date": "2025-03-20",
+            "date-end": "2025-03-22",
+            "role": "Lighting Designer",
+            "id": "not-saint-hildegard",
+            "people": {
+                "Director": "Kristin Winters",
+                "Sound Designer": "Florence Hand"
+            },
+            "paperwork": false,
+            "venue": "Playground Theatre, London"
         },
         {
             "title": "The New Adventures of Peter Pan",
@@ -562,6 +575,26 @@
             },
             "paperwork": false,
             "venue": "The Vaults (Vault Festival), London"
+        },
+        {
+            "title": "Arms and the Man",
+            "date": "2022-11-19",
+            "date-end": "2023-01-14",
+            "role": "Lighting Programmer",
+            "id": "arms-and-the-man",
+            "description": "In the midst of a bloody central European war, a chance moonlit encounter throws together an idealistic young woman and a Swiss mercenary with an unexpectedly realistic attitude to soldiering.",
+            "people": {
+                "Director": "Paul Miller",
+                "Designer": "Simon Daw",
+                "Lighting Designer": "Mark Doubleday",
+                "Sound Designer & Composer": "Elizabeth Purnell",
+                "Casting Director": "Christopher Worrall",
+                "Deputy Stage Manager": "Julia Crammer",
+                "Intimacy Director": "Yarit Dor",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Orange Tree Theatre, London"
         },
         {
             "title": "Paddy Goes To Petra",
