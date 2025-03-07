@@ -6,24 +6,20 @@
   <section>
     <div class="video-container">
 
-    
-      <!-- <video id="video" autoplay muted loop playsinline>
-        <source src="video/hevc-2160.mov" type="video/mp4; codecs=hvc1" media="(min-width: 500px)">
-        <!--<source src="video/hevc-1080.mp4" type="video/mp4; codecs=hvc1" media="(min-width: 1400px)">
-        <source src="video/hevc-720.mp4" type="video/mp4; codecs=hvc1" media="(min-width: 1000px)">
-        <source src="video/hevc-540.mp4" type="video/mp4; codecs=hvc1" media="(min-width: 500px)">
-        <source src="video/hevc-540.mp4" type="video/mp4; codecs=hvc1" media="(min-width: 500px)">
-        <source src="video/mp4-540.mp4" type="video/mp4; codecs=avc1" media="(min-width: 500px)">
-        Your browser does not support the video tag.
-      </video> -->
-
-
       <div class="video-overlay">
         <h1>Alex Forey</h1>
         <h2>Lighting Design</h2>
+
+        <div class="play-button">Play Showreel</div>
+      </div>
+
+      <div class="video" videoid="showreel"> 
+        <iframe src="https://player.vimeo.com/video/1058236271?badge=0&amp;autopause=0&amp;autoplay=1&amp;player_id=0&amp;app_id=58479&amp;title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="ALX Showreel 2025"></iframe></div>
       </div>
     </div>
   </section>
+
+  <script src="https://player.vimeo.com/api/player.js"></script>
 
 </body>
 </html>
