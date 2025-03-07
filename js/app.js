@@ -9,6 +9,15 @@ $(document).ready(function(){
 
 	$('.slider-with-caption').parent().addClass('contains-slider-with-caption');
 
+	$('.video-exit').click(function(){
+		$(".video-container").removeClass("playing");
+		$(".video-exit").removeClass("playing");
+		setTimeout(function (){
+			location.reload();
+		}, 1200);
+	});
+
+
 });
 
 var monitor = setInterval(function(){
@@ -23,4 +32,5 @@ var monitor = setInterval(function(){
 
 function playVideo() {
 	$(".video-container").addClass("playing");
+	$(".video-exit").addClass("playing");
 }
