@@ -633,6 +633,19 @@
             "image_credit": "Steve Gregson"
         },
         {
+            "title": "Message in the Clay River",
+            "date": "2022-08-11",
+            "role": "Lighting Designer",
+            "id": "message-in-the-clay-river",
+            "people"   : {
+                "Director": "Mo Korede",
+                "Designer": "Ieva Ievina",
+                "Lighting Designer": "Alex Forey"
+            },
+            "paperwork": false,
+            "venue": "Cockpit Theatre, London"
+        },
+        {
             "title": "Ghislaine\/Gabler",
             "date": "2022-08-01",
             "role": "Lighting Designer",
@@ -869,6 +882,21 @@
             "paperwork": true,
             "venue": "Gielgud Theatre, RADA",
             "image_credit": "Alex Forey \/ Linda Carter"
+        },
+        {
+            "title": "Daisy Pulls It Off",
+            "date": "2021-07-07",
+            "date-end": "2021-07-11",
+            "role": "Lighting Designer",
+            "id": "daisy-pulls-it-off",
+            "description": "It’s 1927 and Daisy Meredith is the first scholarship girl taken from an elementary school to be allowed access to the hallowed halls of Grangewood School for Young Ladies. Enthusiastic and plucky to the last, Daisy finds herself struggling against unspeakable snobs Sybil and Monica and their ghastly schemes to get her expelled.",
+            "people": {
+                "Director": "Jasmine Teo",
+                "Lighting Designer": "Alex Forey",
+                "Lighting Supplier": "Encore"
+            },
+            "paperwork": false,
+            "venue": "Cockpit Theatre, London"
         },
         {
             "title": "Manifestos",
