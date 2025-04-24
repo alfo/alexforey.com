@@ -39,6 +39,20 @@
             "venue": "Arcola Theatre, London"
         },
         {
+            "title": "Positive",
+            "date": "2025-05-12",
+            "date-end": "2025-05-17",
+            "role": "Lighting Designer",
+            "id": "positive",
+            "people": {
+                "Director": "Robert Awosusi",
+                "Set & Costume Designer": "Amanda Ramaswamy",
+                "Sound Designer": "Esther Kehinde Ajayi"
+            },
+            "paperwork": false,
+            "venue": "Southwark Playhouse, London"
+        },
+        {
             "title": "The Da Vinci Code",
             "date": "2025-04-10",
             "date-end": "2025-05-24",
