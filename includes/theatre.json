@@ -26,6 +26,19 @@
             "venue": "Pleasance Courtyard, Edinburgh"
         },
         {
+            "title": "Bairns",
+            "date": "2025-07-31",
+            "date-end": "2025-08-24",
+            "role": "Lighting Designer",
+            "id": "bairns",
+            "people": {
+                "Director": "Dan Bainbridge",
+                "Writer": "Annie Davison"
+            },
+            "paperwork": false,
+            "venue": "Pleasance Courtyard, Edinburgh"
+        },
+        {
             "title": "Run Sister Run",
             "date": "2025-06-30",
             "date-end": "2025-07-26",
