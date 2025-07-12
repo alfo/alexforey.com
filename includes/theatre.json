@@ -1,13 +1,16 @@
 {
     "featured": {
+        "run-sister-run": 1,
         "come-alive-london": 1,
+        "the-da-vinci-code": 1,
         "between-the-lines": 1,
+        "positive": 1,
         "kitty-in-the-lane": 1,
         "wca-purgatorio": 1,
         "paddy-goes-to-petra": 1,
         "wca-paradiso": 2,
-        "saint-hildegard": 1,
-        "wca-three-sisters": 1
+        "the-creation": 1,
+        "saint-hildegard": 1
     },
 
     "projects": [
