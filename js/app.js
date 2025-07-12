@@ -3,6 +3,8 @@ $(document).ready(function(){
 	$('.slider').unslider({
 		infinite: true,
 		autoplay: true,
+		delay: 5000,
+		speed: 1000
 	});
 
 	$(".fitvid").fitVids();
