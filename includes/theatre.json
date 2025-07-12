@@ -52,7 +52,8 @@
                 "Designer": "Tomas Palmer"
             },
             "paperwork": false,
-            "venue": "Arcola Theatre, London"
+            "venue": "Arcola Theatre, London",
+            "image_credit": "Marc Brenner"
         },
         {
             "title": "Positive",
@@ -66,7 +67,8 @@
                 "Sound Designer": "Esther Kehinde Ajayi"
             },
             "paperwork": false,
-            "venue": "Southwark Playhouse, London"
+            "venue": "Southwark Playhouse, London",
+            "image_credit": "Ross Kernahan"
         },
         {
             "title": "The Da Vinci Code",
@@ -83,7 +85,8 @@
                 "Casting Director": "Arthur Carrington"
             },
             "paperwork": false,
-            "venue": "Salisbury Playhouse & Mercury Theatre, Colchester"
+            "venue": "Salisbury Playhouse & Mercury Theatre, Colchester",
+            "image_credit": "Manuel Harlan"
         },
         {
             "title": "Not Saint Hildegard",
