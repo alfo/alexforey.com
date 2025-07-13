@@ -49,11 +49,20 @@
             "id": "run-sister-run",
             "people": {
                 "Director": "Marlie Haco",
-                "Designer": "Tomas Palmer"
+                "Designer": "Tomás Palmer",
+                "Composer & Co-Sound Designer": "Akos Lustyik",
+                "Co-Sound Designer": "Florence Hand",
+                "Casting Director": "Gabrielle Dawes",
+                "Stage Manager": "Ella Kirk",
+                "Lighting Supplier": "White Light"
             },
             "paperwork": false,
             "venue": "Arcola Theatre, London",
-            "image_credit": "Marc Brenner"
+            "image_credit": "Marc Brenner",
+            "press": {
+                "Alex Forey\u2019s sharp, stark lights sweep across the stage like slow waves, with intense LEDs casting a nasty, unnatural glow over the heaps of petals. Glaring white, delirious purple and seasick blue-green give some sequences the quality of distorted memories or feverish dreams, but a warm, gold glow seeps in from time to time, too, hinting at the happiness and stability that often seems to elude the family.": "<a href='https://www.thestage.co.uk/reviews/run-sister-run-review-arcola-theatre'>The Stage<\/a>",
+                "Tomás Palmer\u2019s set design and lighting designed by Alex Forey wonderfully complement the narrative, creating visual cues as the story transports the audience back in time through each segment of the tale.": "<a href='https://everything-theatre.co.uk/2025/07/review-run-sister-run-arcola-theatre/'>Everything Theatre<\/a>"
+            }
         },
         {
             "title": "Positive",
@@ -63,8 +72,13 @@
             "id": "positive",
             "people": {
                 "Director": "Robert Awosusi",
+                "Writer": "Temi Majekodunmi",
                 "Set & Costume Designer": "Amanda Ramaswamy",
-                "Sound Designer": "Esther Kehinde Ajayi"
+                "Sound Designer": "Esther Kehinde Ajayi",
+                "Dramaturg": "malakaï sargeant",
+                "Movement": "Tanaka Bingwa",
+                "Intimacy Tommy": "Ross-Williams",
+                "Stage Manager": "Leonora Nicholson"
             },
             "paperwork": false,
             "venue": "Southwark Playhouse, London",
@@ -82,7 +96,8 @@
                 "Lighting Designer": "Ryan Day",
                 "Composer and Sound Designer": "Alexandra Faye Braithwaite",
                 "Video Designer": "Daniel Denton",
-                "Casting Director": "Arthur Carrington"
+                "Casting Director": "Arthur Carrington",
+                "Lighting Supplier": "Christie Lites"
             },
             "paperwork": false,
             "venue": "Salisbury Playhouse & Mercury Theatre, Colchester",
@@ -96,7 +111,8 @@
             "id": "not-saint-hildegard",
             "people": {
                 "Director": "Kristin Winters",
-                "Sound Designer": "Florence Hand"
+                "Sound Designer": "Florence Hand",
+                "Lighting Supplier": "White Light"
             },
             "paperwork": false,
             "venue": "Playground Theatre, London"
@@ -269,6 +285,29 @@
                 "Alex Forey\u2019s lighting design works wonders in maintaining the claustrophobic atmosphere of the makeshift subterranean dwelling": "<a href='https:\/\/www.jacktheladmag.com\/theatre-reviews\/hide-and-seek'>Jack The Lad<\/a>",
                 "a highlight is Alex Forey's lighting. The design was cued perfectly to create the dim light of a cave": "<a href='https:\/\/www.curtaincallreviews.co.uk\/hide-and-seek?fbclid=PAAabMK-FqRHdhYZQA0qwfjjrjNUOcDSA7L--5SFFql6irQPbmAvbXMTP7WEA'>Curtain Call Reviews<\/a>",
                 "Alex Forey cleverly uses a combination of side lights and the torch on a phone to evoke dinginess": "<a href='https:\/\/thespyinthestalls.com\/2024\/03\/hide-and-seek\/'>The Spy in the Stalls<\/a>"
+            }
+        },
+        {
+            "title": "21 Round for Chistmas",
+            "date": "2023-12-01",
+            "date-end": "2023-12-24",
+            "role": "Lighting Designer",
+            "id": "21-round-for-christmas",
+            "description": "Join Tracy, a day-dreaming, outspoken, list-making, extroverted-introvert in the midst of cooking Christmas Dinner for her family - her extremely large family. Christmas means different things to different people. It’s love, it’s family, it’s corporate exploitation – take your pick. This year, however – for Tracy Sullivan at least – it's absolute chaos!",
+            "people": {
+                "Director": "Toby Hampton",
+                "Writer": "Toby Hampton and Matthew Ballantyne",
+                "Set Designer": "Laurel Marks and Toby Hampton",
+                "Stage Manager": "Summer Keeling",
+                "Sound Designer": "Emily Rose Simons",
+                "Assistant Director": "Ella McCormack",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Park Theatre, London",
+            "press": {
+                "Alex Forey\u2019s lighting design cleverly transports us to past locations in Tracy\u2019s mind while in the here-and-now the set": "<a href='https://thespyinthestalls.com/2023/12/21-round-for-christmas/'>The Spy in the Stalls<\/a>",
+                "The set design by Hampton and Laurel Marks makes excellent use of the Park\u2019s studio space with what appears to be a full working kitchen full of detail [...] its transformation into a disco, a pub and a lock up on the A406 is achieved and enhanced by Alex Forey\u2019s clever lighting design": "<a href='https://2ndfrombottom.wordpress.com/2023/12/12/21-round-for-christmas-theatre-review/'>2nd From Bottom<\/a>"
             }
         },
         {
