@@ -15,6 +15,32 @@
 
     "projects": [
         {
+            "title": "Where Have All Our Women Gone?",
+            "date": "2025-10-28",
+            "date-end": "2025-10-30",
+            "role": "Lighting Designer",
+            "id": "whaowg",
+            "people": {
+                "Director": "Elizabeth Huskisson",
+                "Set & Costume Designer": "Emily Munt"
+            },
+            "venue": "Menier Playhouse, London"
+        },
+        {
+            "title": "The Monkey's Paw",
+            "date": "2025-10-21",
+            "date-end": "2025-11-09",
+            "role": "Lighting Designer",
+            "id": "the-monkeys-paw",
+            "people": {
+                "Director": "Steven Maddocks",
+                "Set Designer": "",
+                "Sound Designer": ""
+            },
+            "paperwork": false,
+            "venue": "Hope Theatre, London"
+        },
+        {
             "title": "Blaze FM",
             "date": "2025-07-30",
             "date-end": "2025-08-24",
@@ -29,7 +55,7 @@
             "venue": "Pleasance Courtyard, Edinburgh"
         },
         {
-            "title": "Bairns",
+            "title": "BAIRNS",
             "date": "2025-07-31",
             "date-end": "2025-08-24",
             "role": "Lighting Designer",
