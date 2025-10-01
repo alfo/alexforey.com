@@ -33,9 +33,12 @@
             "role": "Lighting Designer",
             "id": "the-monkeys-paw",
             "people": {
-                "Director": "Steven Maddocks",
-                "Set Designer": "",
-                "Sound Designer": ""
+                "Director": "Leah Townley",
+                "Set Designer": "Hannah Williams",
+                "Sound Designer": "Peter Michaels",
+                "Prop Maker": "Gisela Mulindwa",
+                "Stage Manager": "Joe Judd",
+                "Producer": "Steven Maddocks"
             },
             "paperwork": false,
             "venue": "Hope Theatre, London"
