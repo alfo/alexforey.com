@@ -15,6 +15,18 @@
 
     "projects": [
         {
+            "title": "The Uncontainable Nausea of Alec Baldwin",
+            "date": "2025-11-06",
+            "date-end": "2025-11-08",
+            "role": "Lighting Designer",
+            "id": "the-uncontainable-nausea-of-alec-baldwin",
+            "people": {
+                "Director": "Tommaso Giacomin",
+                "Lighting Designer": "Alex Forey"
+            },
+            "venue": "Cockpit Theatre, London"
+        },
+        {
             "title": "Where Have All Our Women Gone?",
             "date": "2025-10-28",
             "date-end": "2025-10-30",
@@ -52,6 +64,7 @@
             "people": {
                 "Director": "Maggie Norris",
                 "Set Designer": "Tina Torbey",
+                "Sound Designer": "Tony Gayle",
                 "Video Designer": "Mic Pool"
             },
             "paperwork": false,
