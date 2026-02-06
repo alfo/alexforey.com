@@ -33,10 +33,15 @@
             "role": "Lighting Designer",
             "id": "whaowg",
             "people": {
-                "Director": "Elizabeth Huskisson",
-                "Set & Costume Designer": "Emily Munt"
+                "Director": "Lillian Waddington",
+                "Writer & Performer": "Elizabeth Huskisson",
+                "Set & Costume Designer": "Emily Munt",
+                "Movement Director": "Stephanie Burrell",
+                "Sound Designer": "Ilia Higgs",
+                "Stage Manager": "Ayla Pengelly-Moore"
             },
-            "venue": "Menier Playhouse, London"
+            "venue": "Menier Venues, London",
+            "image_credit": "Alex Forey"
         },
         {
             "title": "The Monkey's Paw",
