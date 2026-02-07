@@ -14,8 +14,23 @@
     },
 
     "projects": [
+                {
+            "title": "Come Alive! The Greatest Showman Circus Spectacular",
+            "date": "2026-05-18",
+            "role": "Associate Lighting Designer",
+            "id": "come-alive-australia",
+            "people": {
+                "Creative Director": "Simon Hammerstein",
+                "Set Designer": "Ruby Law",
+                "Lighting Designer": "Adam Bassett (WBD)",
+                "Associate Lighting Designer": "Alex Forey",
+                "Sound Design": "Gareth Tucker"
+            },
+            "paperwork": false,
+            "venue": "Australia Tour"
+        },
         {
-            "title": "The Last Ship",
+            "title": "The Last Ship: The Musical by Sting",
             "date": "2026-01-16",
             "date-end": "2026-06-21",
             "role": "Associate Lighting Designer",
