@@ -15,6 +15,37 @@
 
     "projects": [
         {
+            "title": "The Last Ship",
+            "date": "2026-01-16",
+            "date-end": "2026-06-21",
+            "role": "Associate Lighting Designer",
+            "id": "the-last-ship",
+            "people": {
+                "Director": "Leo Warner",
+                "Music and Lyrics": "Sting",
+                "Book": "Barney Norris",
+                "Set and Props Designer": "Jenny Melville",
+                "Lighting Designer": "Adam Bassett (WBD)",
+                "Associate Lighting Designer": "Alex Forey",
+                "Sound Designer": "Tom Gibbons",
+                "Video Designer": "Benjamin Pearcy",
+                "Costume Designer": "Loren Elstein",
+                "Choreographer": "Rebecca Howell",
+                "Animation Director": "Matt Taylor",
+                "Musical Supervisor & Orchestrator": "Rob Mathes",
+                "Musical Director & Co-Musical Supervisor": "Richard John",
+                "Wigs, Hair & Makeup Designer": "Campebell Young Associates",
+                "Casting Director": "Jill Green",
+                "Fight Director": "Alex Payne",
+                "Associate Director": "Denni Sayers",
+                "Associate Choreographer": "Aisling Duffy",
+                "Associate Sound Designer": "Joel Price",
+                "Production Manager": "Stuart Tucker"
+            },
+            "paperwork": false,
+            "venue": "International Tour"
+        },
+        {
             "title": "The Uncontainable Nausea of Alec Baldwin",
             "date": "2025-11-06",
             "date-end": "2025-11-08",
