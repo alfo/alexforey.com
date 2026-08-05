@@ -1,63 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <title>Focus Mate</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="apple-itunes-app" content="app-id=">
-    <meta name="title" content="Focus Mate - Voice Control of EOS Lighting Consoles">
+    <meta charset="utf-8">
+    <title>Focus Mate — Voice Control of Lighting Consoles</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0a0a0c">
+
+    <meta name="title" content="Focus Mate — Voice Control of Lighting Consoles">
+    <meta name="description" content="Control your ETC EOS, Hog 4 or grandMA3 console with your voice, from your iPhone or straight from your Apple Watch.">
     <meta name="author" content="Alex Forey">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-itunes-app" content="app-id=1052820959">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Focus Mate — Voice Control of Lighting Consoles">
+    <meta property="og:description" content="Control your ETC EOS, Hog 4 or grandMA3 console with your voice, from your iPhone or straight from your Apple Watch.">
+    <meta property="og:image" content="https://alexforey.com/focus-mate/images/og.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
     <header>
-
       <div class="bg"></div>
 
-      <h1>Focus Mate</h1>
+      <div class="container hero">
 
-      <div class="container">
-        <img class="mockup" src="images/mockup.png">
-
-        <div class="badge">
-          <a href="https://itunes.apple.com/gb/app/focus-mate-voice-control-for/id1052820959?ls=1&mt=8"><img src="images/badge.svg"></a>
+        <div class="hero-top">
+          <img class="app-icon" src="images/icon.png" alt="" width="96" height="96">
+          <h1>Focus Mate 2</h1>
         </div>
 
-        <h2>Voice Control of EOS Lighting Consoles</h2>
+        <div class="hero-row">
+          <div class="devices">
+            <img class="device-phone" src="images/iphone17.png" width="1350" height="2760"
+                 alt="Focus Mate's keypad on an iPhone, its command line reading Group 1 @ Full, sent to a console called Main House.">
+            <img class="device-watch" src="images/watch3.png" width="600" height="960"
+                 alt="Focus Mate on an Apple Watch: the Main House console selected, and a Speak button below it.">
+          </div>
 
-        <p>Ever find yourself without an assistant sitting at the console during focus? Don't want to take your phone or iPad out when up a ladder or on a catwalk? Now you can control your ETC EOS console or Nomad setup with just your voice from your Apple Watch.</p>
+          <div class="hero-copy">
+            <h2>Voice control of EOS, Hog&nbsp;4 and grandMA3 lighting consoles</h2>
 
-        <p>You can dictate full sentences, like you would to an assistant, and Focus Mate will do its best to execute what you ask. A keypad remote is also provided for use when longer commands, that are faster to type than speak, are required.</p>
+            <p class="lede">Ever find yourself without a programmer at the console during focus? Don't want to take your phone out when you're up a ladder or halfway along a catwalk? Focus Mate lets you drive the desk with your voice — from your iPhone, or straight from your Apple&nbsp;Watch.</p>
 
-        <p>Supported voice commands include (with more coming in the near future):
-          <ul>
-            <li><strong>Selectors:</strong> plus, minus, with, without, through, group, address</li>
-            <li><strong>Record Targets:</strong> cue, all palettes, presets</li>
-            <li><strong>Others:</strong> at, sneak, home, by themselves (remdim), alone (remdim), macro, sub</li>
-          </ul>
-        </p>
+            <p class="eyebrow">Version 2 — out now</p>
 
-        <p>Setup is done like any other OSC remote. The console/Nomad must be on the same WiFi network as your iPhone, and running EOS 2.3 or greater. The console must have String RX enabled and a valid OSC RX port (usually somewhere between 8000 and 9999). Then go to the settings of the app, and enter the console's IP address (hit the About key on EOS to find it) and the same port number, and you're good to go.
+            <div class="badge">
+              <a href="https://itunes.apple.com/gb/app/focus-mate-voice-control-for/id1052820959?ls=1&amp;mt=8">
+                <img src="images/badge.svg" alt="Download Focus Mate on the App Store" width="135" height="40">
+              </a>
+            </div>
+          </div>
+        </div>
 
-        <p class="footer">Website &copy; <a href="http://alexforey.com">Alex Forey</a> 2015</p>
       </div>
-
-
     </header>
 
+    <main>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      <section class="container">
+        <h3>New in Version&nbsp;2</h3>
+        <p class="section-lede">Focus Mate has been rebuilt from the ground up with a new iPhone app, new Watch app, and a new OSC engine.</p>
 
-      ga('create', 'UA-28573924-5', 'auto');
-      ga('send', 'pageview');
+        <ul class="cards">
+          <li>
+            <h4>grandMA3 <span class="beta">Beta</span></h4>
+            <p>Now supporting grandMA3 with a new dictionary of commands, bringing Focus Mate to a more diverse range of shows.</p>
+          </li>
+          <li>
+            <h4>Direct Watch control</h4>
+            <p>The Watch app sends OSC straight to the console over Wi-Fi without relaying through your iPhone, improving response times.</p>
+          </li>
+          <li>
+            <h4>Multiple consoles</h4>
+            <p>Save every desk you work on, in the main house, the studio, and the concert hall, and switch between them in a tap. Your list syncs to the Watch automatically.</p>
+          </li>
+          <li>
+            <h4>Improved command parser</h4>
+            <p>A new command parser which understands both individual keystrokes and full command lines like <span class="cmd">Channel 1 Thru 5 Full Please</span>.</p>
+          </li>
+          <li>
+            <h4>TCP</h4>
+            <p>Added support for TCP connections, including automatic version detection. Works by default on port 3037 for Third Party OSC on EOS, allowing it to work even when OSC RX is turned off.</p>
+          </li>
+          <li>
+            <h4>Native app</h4>
+            <p>A native Swift app built for iOS 26+, with improved performance, light and dark modes, and a small footprint.</p>
+          </li>
+        </ul>
+      </section>
 
-    </script>
+      <section class="container feature">
+        <div class="feature-text">
+          <h3>Just say it</h3>
+          <p>You can dictate full sentences, like you would to an assistant, and Focus Mate will do its best to execute what you ask. Say <span class="cmd">group 32 at 50</span> or <span class="cmd">channels 1 through 5 by themselves</span>, and it goes to the desk as if you'd typed it.</p>
+          <p>Anything not recognised is skipped rather than guessed at, so a stray "erm" in the middle of a command won't mean you have to start again.</p>
+        </div>
+        <div class="phone">
+          <img loading="lazy" src="images/screen-voice.png" alt="The voice screen: a large microphone button below the name and address of the connected console." width="552" height="1200">
+        </div>
+      </section>
+
+      <section class="container feature reverse">
+        <div class="feature-text">
+          <h3>Or type it</h3>
+          <p>A keypad remote is also provided for when longer commands are faster to type than to speak. The keys adapt to the console you're using, to keep the experience consistent.</p>
+          <p>Above the keys, the command line mirrors what the desk receives, so you can check a longer command is correct before you hit enter.</p>
+        </div>
+        <div class="phone">
+          <img loading="lazy" src="images/screen-keypad.png" alt="The keypad screen on EOS, showing a command line reading 1 Thru 5 @ above the keys." width="552" height="1200">
+        </div>
+      </section>
+
+      <section class="container feature">
+        <div class="feature-text">
+          <h3>Console adaptability</h3>
+          <p>Pick your console and the layout follows it. On EOS you get <span class="cmd">Rem&nbsp;Dim</span>, <span class="cmd">Sneak</span> and <span class="cmd">Preset</span>; on Hog those keys become <span class="cmd">/</span> and <span class="cmd">Clear</span>; on grandMA3 they become <span class="cmd">Group</span> and <span class="cmd">Fixture</span>, <span class="cmd">Out</span> becomes <span class="cmd">Off</span> and <span class="cmd">Enter</span> becomes <span class="cmd">Please</span>.</p>
+        </div>
+        <div class="phone">
+          <img loading="lazy" src="images/screen-ma3.png" alt="The same keypad on a grandMA3 console, with the keys relabelled to Group, Fixture, Off and Please." width="552" height="1200">
+        </div>
+      </section>
+
+      <section class="container">
+        <h3>What you can say</h3>
+        <p class="section-lede">Supported voice commands include (with more coming in the near future):</p>
+
+        <div class="vocab">
+          <div>
+            <h4>Selectors</h4>
+            <p>plus, and, minus, without, through, group, address</p>
+          </div>
+          <div>
+            <h4>Record targets</h4>
+            <p>cue, colour, focus, beam, intensity, preset, macro, sub</p>
+          </div>
+          <div>
+            <h4>Others</h4>
+            <p>at, full, out, home, sneak, by themselves (rem dim), alone (rem dim), enter</p>
+          </div>
+          <div>
+            <h4>On grandMA3 <span class="beta">Beta</span></h4>
+            <p>channel, fixture, group, thru, at, full, off, highlight, home, preset, cue, sequence, macro, please</p>
+          </div>
+        </div>
+
+        <p class="note">Numbers can be spoken or dictated as digits — "channel fifteen" and "channel one five" both produce the same result.</p>
+      </section>
+
+      <section class="container">
+        <h3>Setup</h3>
+        <p class="section-lede">Setup is done like any other OSC remote. The console must be on the same network as your iPhone or Watch. Then add it in the app's settings: a name, the desk type, its IP address and port, and you're good to go.</p>
+
+        <div class="setup">
+          <div>
+            <h4>ETC EOS &amp; Nomad</h4>
+            <p>For UDP, enable OSC in <span class="cmd">Setup → Device Settings → Network → UDP String &amp; OSC UDP</span> and <span class="cmd">Setup → System Settings → Show Control → OSC → OSC RX</span>. Choose an <span class="cmd">OSC UDP RX Port</span> (usually between 8000 and 9999), and match the settings in the app.</p>
+            <p>For TCP, turn on OSC in <span class="cmd">Setup → Device Settings → Network → TCP OSC &amp; Third Party OSC</span>
+            <p>You can find the console's IP address in <span class="cmd">About</span>.</p>
+          </div>
+          <div>
+            <h4>Hog 4</h4>
+            <p>Enable OSC in the console's network settings and enter its IP address and port.</p>
+          </div>
+          <div>
+            <h4>grandMA3 <span class="beta">Beta</span></h4>
+            <p>Turn on OSC in <span class="cmd">Menu → In &amp; Out → OSC</span>, enable Input, and set both <span class="cmd">Receive</span> and <span class="cmd">Receive Command</span> to Yes. Note the port and the prefix (<span class="cmd">gma3</span>, for example), and match the settings in the app. UDP is preferred with grandMA3.</p>
+            <p>MA3 support is in beta until I have had a chance to test it more thoroughly.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container cta">
+        <img class="app-icon" src="images/icon.png" alt="" width="88" height="88">
+        <h3>Get Focus Mate</h3>
+        <p>On the App Store, for iPhone and Apple&nbsp;Watch.</p>
+        <div class="badge">
+          <a href="https://itunes.apple.com/gb/app/focus-mate-voice-control-for/id1052820959?ls=1&amp;mt=8">
+            <img src="images/badge.svg" alt="Download Focus Mate on the App Store" width="135" height="40">
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Focus Mate and this website &copy; <a href="https://alexforey.com">Alex Forey</a> 2015–2026</p>
+    </footer>
+
+    <script data-goatcounter="https://alexlighting.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
 
   </body>
 
-  </html>
+</html>
