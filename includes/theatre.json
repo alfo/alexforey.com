@@ -16,7 +16,43 @@
     },
 
     "projects": [
-                {
+        {
+            "title": "Blaze FM UK Tour",
+            "date": "2026-09-16",
+            "date-end": "2026-09-24",
+            "role": "Lighting Designer",
+            "id": "blaze-fm-tour",
+            "people": {
+                "Director": "Maggie Norris",
+                "Set Designer": "Tina Torbey",
+                "Sound Designer": "Tony Gayle",
+                "Video Designer": "Mic Pool"
+            },
+            "paperwork": false,
+            "venue": "The Lowry, Bristol Old Vic, Belgrade Theatre"
+        },
+        {
+            "title": "The Pianist",
+            "date": "2026-09-04",
+            "date-end": "2026-09-12",
+            "role": "Lighting Programmer",
+            "id": "the-pianist",
+            "people": {
+                "Adaptor & Director": "Thom Southerland",
+                "Set and Video Designer": "Andrzej Goudling",
+                "Lighting Designer": "Robbie Butler",
+                "Sound Designer": "Gareth Tucker for Autograph Sound",
+                "Costume Designer": "Jonathan Lipman",
+                "Choreographer & Movement Director": "Karen Bruce",
+                "Arrangements, Musical Supervision & Orchestrations": "Simon Lee",
+                "Musical Director": "Malcolm Forbes-Peckham",
+                "Assistant Director": "Josh Whatsize",
+                "Casting Director": "Ginny Schiller CDG"
+            },
+            "paperwork": false,
+            "venue": "Mayflower Theatre, Southampton & Park Theatre, London"
+        },
+        {
             "title": "Come Alive! The Greatest Showman Circus Spectacular",
             "date": "2026-05-18",
             "role": "Associate Lighting Designer",
@@ -54,7 +90,7 @@
         {
             "title": "The Last Ship: The Musical by Sting",
             "date": "2026-01-16",
-            "date-end": "2026-06-21",
+            "date-end": "2026-10-03",
             "role": "Associate Lighting Designer",
             "id": "the-last-ship",
             "people": {
@@ -80,7 +116,7 @@
                 "Production Manager": "Stuart Tucker"
             },
             "paperwork": false,
-            "venue": "International Tour",
+            "venue": "Theatre Royal Drury Lane, London, Metropolitan Opera, New York, & International Tour",
             "image_credit": "Mark Senior & 59 Studios"
         },
         {
