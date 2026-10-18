@@ -230,6 +230,7 @@ footer p a {
 }
 .video-container.playing .video {
   opacity: 1;
+  pointer-events: auto;
   cursor: default;
 }
 .video-container.playing .video-overlay {
@@ -237,7 +238,7 @@ footer p a {
 }
 .video-container .video {
   opacity: 0.01;
-  cursor: pointer;
+  pointer-events: none;
   --video--width: 1920;
   --video--height: 1080;
   position: relative;

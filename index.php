@@ -10,11 +10,11 @@
         <h1>Alex Forey</h1>
         <h2>Lighting Design</h2>
 
-        <div class="play-button">Play Showreel</div>
+        <div class="play-button" role="button" tabindex="0">Play Showreel</div>
       </div>
 
       <div class="video" videoid="showreel"> 
-        <iframe src="https://player.vimeo.com/video/1058236271?badge=0&amp;autopause=0&amp;autoplay=1&amp;player_id=0&amp;app_id=58479&amp;title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="ALX Showreel 2025"></iframe> 
+        <iframe src="https://player.vimeo.com/video/1058236271?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="ALX Showreel 2025"></iframe> 
       </div>
 
     </div>

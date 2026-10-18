@@ -11,28 +11,43 @@ $(document).ready(function(){
 
 	$('.slider-with-caption').parent().addClass('contains-slider-with-caption');
 
-	$('.video-exit').click(function(){
-		$(".video-container").removeClass("playing");
-		$(".video-exit").removeClass("playing");
-		setTimeout(function (){
-			location.reload();
-		}, 1200);
-	});
-
+	initShowreel();
 
 });
 
-var monitor = setInterval(function(){
-	var elem = document.activeElement;
-	
-	if(elem && elem.tagName == 'IFRAME'){
-		playVideo();
-		clearInterval(monitor);
+function initShowreel() {
+	var container = $(".video-container");
+	var iframe = container.find("iframe")[0];
+	if (!iframe || typeof Vimeo === "undefined") return;
+
+	var player = new Vimeo.Player(iframe);
+
+	function show() {
+		container.addClass("playing");
+		$(".video-exit").addClass("playing");
 	}
 
-}, 100);
+	// Starting playback from the click keeps it inside a user gesture, so
+	// the browser allows sound and it never autoplays while hidden.
+	function start() {
+		if (container.hasClass("playing")) return;
+		player.play().then(show).catch(function(){
+			// Browser refused: reveal the player so the viewer can use Vimeo's own controls.
+			show();
+		});
+	}
 
-function playVideo() {
-	$(".video-container").addClass("playing");
-	$(".video-exit").addClass("playing");
+	container.on("click", start);
+	container.find(".play-button").on("keydown", function(e){
+		if (e.key === "Enter" || e.key === " ") { e.preventDefault(); start(); }
+	});
+
+	$(".video-exit").on("click", function(){
+		container.removeClass("playing");
+		$(".video-exit").removeClass("playing");
+		setTimeout(function(){
+			player.pause();
+			player.setCurrentTime(0);
+		}, 1000);
+	});
 }
