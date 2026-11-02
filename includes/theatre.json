@@ -17,6 +17,40 @@
 
     "projects": [
         {
+            "title": "In My Own Little World",
+            "date": "2026-11-16",
+            "date-end": "2026-11-29",
+            "role": "Lighting Designer",
+            "id": "in-my-own-little-world",
+            "people": {
+                "Directed & Performed By": "Jaz Terry",
+                "Stage Manager": "Marcus Collick",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Riverside Studios, London"
+        },
+        {
+            "title": "Nero",
+            "date": "2026-11-02",
+            "date-end": "2026-12-05",
+            "role": "Lighting Programmer",
+            "id": "nero",
+            "people": {
+                "Director": "Lindsay Posner",
+                "Designer": "Georgia Lowe",
+                "Lighting Designer": "Robbie Butler",
+                "Sound Designer": "Tony Gayle",
+                "Book & Lyrics": "Steven Sater",
+                "Music": "Duncan Sheik",
+                "Choreographer": "James Cousins",
+                "Casting Director": "Harry Blumenau",
+                "Lighting Supplier": "White Light"
+            },
+            "paperwork": false,
+            "venue": "Southwark Playhouse, London"
+        },
+        {
             "title": "Blaze FM UK Tour",
             "date": "2026-09-16",
             "date-end": "2026-09-24",
@@ -26,7 +60,8 @@
                 "Director": "Maggie Norris",
                 "Set Designer": "Tina Torbey",
                 "Sound Designer": "Tony Gayle",
-                "Video Designer": "Mic Pool"
+                "Video Designer": "Mic Pool",
+                "Lighting Supplier": "White Light"
             },
             "paperwork": false,
             "venue": "The Lowry, Bristol Old Vic, Belgrade Theatre"
@@ -34,7 +69,7 @@
         {
             "title": "The Pianist",
             "date": "2026-09-04",
-            "date-end": "2026-09-12",
+            "date-end": "2026-11-28",
             "role": "Associate Lighting Designer, Programmer",
             "id": "the-pianist",
             "people": {
@@ -47,9 +82,11 @@
                 "Arrangements, Musical Supervision & Orchestrations": "Simon Lee",
                 "Musical Director": "Malcolm Forbes-Peckham",
                 "Assistant Director": "Josh Whatsize",
-                "Casting Director": "Ginny Schiller CDG"
+                "Casting Director": "Ginny Schiller CDG",
+                "Lighting Supplier": "White Light"
             },
             "paperwork": false,
+            "image_credit": "Rich Southgate",
             "venue": "Mayflower Theatre, Southampton & Park Theatre, London"
         },
         {
