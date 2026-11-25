@@ -24,12 +24,23 @@
             "role": "Lighting Designer",
             "id": "in-my-own-little-world",
             "people": {
-                "Directed & Performed By": "Jaz Terry",
+                "Director, Writer & Performer": "Jaz Terry",
+                "Producer": "No Name Creatives",
+                "Sound Designer": "Ewan Munro",
+                "Choreographer": "Arethajay McEwen",
+                "Costume Designer": "Zah",
+                "Make Up Designer": "Kareem Jarché",
+                "Hair": "Batiseol and Frida Ibrahim-Dikko",
+                "Music": "Ayden Morgan, Jaz Terry, and Massive Daughter",
                 "Stage Manager": "Marcus Collick",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
-            "venue": "Riverside Studios, London"
+            "venue": "Riverside Studios, London",
+            "press": {
+                "The lighting design is absolutely incredible, proving that even in a smaller studio space with a tight budget, sensational work can be achieved. It does exactly what great lighting design should do. It never pulls focus, but wonderfully enhances the on-stage storytelling and defines every shift in mood.": "<a href='https://www.pinkprincetheatre.com/post/review-in-my-own-little-world-riverside-studios'>Pink Prince Theatre<\/a>",
+                "Alex Forey\u2019s lighting design is endlessly impressive, surprisingly complex for a studio production and with seemingly endless moving parts, effective in creating new locations both fun and frightening": "<a href='https://www.allthatdazzles.co.uk/post/review-in-my-own-little-world-riverside-studios'>All That Dazzles<\/a>"
+            }
         },
         {
             "title": "Nero",
