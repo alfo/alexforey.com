@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "site", "runtimeExecutable": "php", "runtimeArgs": ["-S", "localhost:8017", "router.php"], "port": 8017 }
+  ]
+}
