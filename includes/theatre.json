@@ -46,38 +46,6 @@
         "lead": {"id": "grey-matter-fringe", "source": "EdFringeReview"}
     },
 
-    "about": {
-        "image": "headshot",
-        "lead": [
-            "Alex Forey is a lighting designer working in Theatre, Opera, Dance, TV, and Events. He is a graduate of the Royal Academy of Dramatic Art.",
-            "He also works as an Associate Designer for Woodroffe Bassett Design, as a Staff Designer at Peloton Studios London, and as a freelance lighting programmer."
-        ],
-        "body": [
-            "In addition to his design work, he explores the integration of new design processes with custom hardware/software solutions that enhance his creative output and streamline his workflow to tackle demanding projects."
-        ],
-        "facts": {
-            "Based in": "London",
-            "Trained at": "Royal Academy of Dramatic Art",
-            "Associate for": "Woodroffe Bassett Design",
-            "Also works as": "Staff Designer at Peloton Studios London, and freelance lighting programmer"
-        }
-    },
-
-    "contact": {
-        "image": "working",
-        "lead": [
-            "Alex is always interested in collaborating with new companies on upcoming shows. If you are interested in working together, please get in touch."
-        ],
-        "email": {"user": "hello", "domain": "alexforey.com"},
-        "links": {
-            "Instagram": {"name": "@alexforeylighting", "url": "https://instagram.com/alexforeylighting"},
-            "X": {"name": "@alexforey", "url": "https://x.com/alexforey"},
-            "Bluesky": {"name": "@alexforey.bsky.social", "url": "https://bsky.app/profile/alexforey.bsky.social"},
-            "Printables": {"name": "@alfo", "url": "https://www.printables.com/@alfo_468511"},
-            "GitHub": {"name": "alfo", "url": "https://github.com/alfo"}
-        }
-    },
-
     "projects": [
         {
             "title": "In My Own Little World",
