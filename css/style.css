@@ -1443,6 +1443,12 @@ html.page-home footer {
   font-size: 21px;
   line-height: 1.3;
 }
+.credits-list .credit h3 a {
+  padding: 9px 0 2px;
+}
+.credits-list .credit h3:has(a) {
+  margin-bottom: 5px;
+}
 .credits-list .credit .dot {
   position: absolute;
   left: -36px;
@@ -1475,9 +1481,6 @@ html.page-home footer {
 }
 .credits-list .credit .line.award {
   color: #ff6e6e;
-}
-.credits-list .credit .small-link {
-  margin-top: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */

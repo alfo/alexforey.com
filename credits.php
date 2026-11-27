@@ -75,7 +75,11 @@
               <article class="credit" data-tags="<?php echo implode(' ', getRoleTags($project)); ?>" data-year="<?php echo date('Y', strtotime($project['date'])); ?>" data-in>
                 <span class="dot" aria-hidden="true"></span>
                 <div class="credit-head">
-                  <h3><?php echo e($project['title']); ?></h3>
+                  <?php if (hasPhotos($project)) { ?>
+                    <h3><a class="link" href="/work/<?php echo $project['id']; ?>"><?php echo e($project['title']); ?></a></h3>
+                  <?php } else { ?>
+                    <h3><?php echo e($project['title']); ?></h3>
+                  <?php } ?>
                   <?php if ($year == "Now") { ?>
                     <div class="date">Until <?php echo date('j M', strtotime($project['date-end'])); ?></div>
                   <?php } else { ?>
@@ -91,9 +95,6 @@
                 <?php } ?>
                 <?php foreach (getAwards($projects, $project) as $award) { ?>
                   <div class="line award"><?php echo e(getAwardLine($award)); ?></div>
-                <?php } ?>
-                <?php if (hasPhotos($project)) { ?>
-                  <a class="link small-link" href="/work/<?php echo $project['id']; ?>">See the photos</a>
                 <?php } ?>
               </article>
             <?php } ?>
