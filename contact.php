@@ -1,5 +1,6 @@
 <?php
   $title = 'Contact';
+  $description = 'How to get in touch with Alex Forey about lighting your show.';
   include 'includes/header.php';
 ?>
 

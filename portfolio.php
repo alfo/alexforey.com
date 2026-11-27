@@ -1,5 +1,6 @@
 <?php
   $title = 'Portfolio';
+  $description = 'Production photos from the theatre, opera and dance that Alex Forey has lit.';
   include 'includes/header.php';
 
   $projects = getProjects('theatre');

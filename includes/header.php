@@ -7,6 +7,15 @@
     $page = strtolower($title);
   }
 
+  // What a link to this page shows when it is shared. A page can set its own $description and $shareImage.
+  if (!isset($description)) {
+    $description = 'Alex Forey is a lighting designer working in Theatre, Opera, Dance, TV, and Events.';
+  }
+  if (!isset($shareImage)) {
+    $shareImage = '/imgs/home-share.jpg';
+  }
+  $path = rtrim(strtok($_SERVER['REQUEST_URI'], '?'), '/');
+
 ?>
 <!DOCTYPE html>
 
@@ -25,7 +34,19 @@
     <title>Alex Forey Lighting | <?php echo e($title); ?></title>
 
     <meta name="author" content="Alex Forey">
-    <meta name="description" content="Alex Forey is a lighting designer working in Theatre, Opera, Dance, TV, and Events.">
+    <meta name="description" content="<?php echo e($description); ?>">
+
+    <?php // The page that could not be found has no address of its own ?>
+    <?php if (http_response_code() == 200) { ?>
+      <link rel="canonical" href="<?php echo e(getURL($path)); ?>">
+      <meta property="og:url" content="<?php echo e(getURL($path)); ?>">
+    <?php } ?>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Alex Forey Lighting">
+    <meta property="og:title" content="<?php echo e($title == 'Home' ? 'Alex Forey Lighting' : $title); ?>">
+    <meta property="og:description" content="<?php echo e($description); ?>">
+    <meta property="og:image" content="<?php echo e(getURL($shareImage)); ?>">
+    <meta name="twitter:card" content="summary_large_image">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
