@@ -114,9 +114,7 @@
                 <div class="title"><?php echo e($project['title']); ?></div>
               <?php } ?>
               <div class="venue"><?php echo e($project['venue']); ?>, until <?php echo getEndDate($project); ?></div>
-              <?php if ($project['role'] != "Lighting Designer") { ?>
-                <div class="role"><?php echo e(getRole($project)); ?></div>
-              <?php } ?>
+              <div class="role"><?php echo e(getRole($project)); ?></div>
             </div>
           <?php } ?>
         </div>
