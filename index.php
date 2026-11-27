@@ -9,9 +9,9 @@
 
   // The quotes that take turns next to On Stage Now, each with the title of its project
   $quotes = [];
-  foreach ($home['quotes'] as $quote) {
-    $project = getProjectWithID($projects, $quote['id']);
-    $quotes[] = ['text' => $quote['text'], 'source' => $quote['source'], 'show' => $project ? $project['title'] : ''];
+  foreach ($home['press'] as $reference) {
+    $quote = getPressQuote($projects, $reference);
+    if ($quote) $quotes[] = $quote;
   }
 ?>
 
@@ -64,9 +64,9 @@
                   $project = getProjectWithID($projects, $item['id']);
                   if (!$project) continue;
 
-                  // The JSON can give an item its own title and venue
-                  $itemTitle = isset($item['title']) ? $item['title'] : $project['title'];
-                  $itemVenue = isset($item['venue']) ? $item['venue'] : $project['venue'];
+                  // A project with a long title or a list of venues can have a short one for here
+                  $itemTitle = isset($project['title-short']) ? $project['title-short'] : $project['title'];
+                  $itemVenue = isset($project['venue-short']) ? $project['venue-short'] : $project['venue'];
             ?>
               <a class="carousel-item" href="/work/<?php echo $project['id']; ?>"<?php if ($copy) echo ' aria-hidden="true" tabindex="-1"'; ?>>
                 <div class="image">

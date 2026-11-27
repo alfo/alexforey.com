@@ -139,4 +139,24 @@
     return $press;
   }
 
+  // The home page and the top of the Press page point at a quote that a project already has:
+  // "id" is the project and "source" is the publication. "until" is optional, and gives the
+  // last words to print when only the start of the quote is wanted.
+  function getPressQuote($projects, $reference) {
+    $project = getProjectWithID($projects, $reference['id']);
+    if (!$project) return null;
+
+    foreach (getPress($project) as $review) {
+      if ($review['pub'] != $reference['source']) continue;
+
+      $text = $review['quote'];
+      if (isset($reference['until'])) {
+        $end = strpos($text, $reference['until']);
+        if ($end !== false) $text = substr($text, 0, $end + strlen($reference['until']));
+      }
+      return ['text' => $text, 'source' => $review['pub'], 'show' => $project['title']];
+    }
+    return null;
+  }
+
 ?>

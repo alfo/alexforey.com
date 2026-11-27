@@ -4,9 +4,8 @@
 
   $projects = getProjects('theatre');
 
-  // The big quote at the top of the page, which is set in the JSON
-  $lead = isset($projects['press']['lead']) ? $projects['press']['lead'] : null;
-  $leadProject = $lead ? getProjectWithID($projects, $lead['id']) : null;
+  // The big quote at the top of the page. The JSON says which project's quote it is.
+  $lead = isset($projects['press']['lead']) ? getPressQuote($projects, $projects['press']['lead']) : null;
 
 ?>
 
@@ -19,11 +18,7 @@
     <?php if ($lead) { ?>
       <figure class="press-lead" data-in>
         <blockquote class="quote"><?php echo e($lead['text']); ?></blockquote>
-        <?php if ($leadProject) { ?>
-          <figcaption class="quote-source"><?php echo e($lead['source']); ?> on <em><?php echo e($leadProject['title']); ?></em></figcaption>
-        <?php } else { ?>
-          <figcaption class="quote-source"><?php echo e($lead['source']); ?></figcaption>
-        <?php } ?>
+        <figcaption class="quote-source"><?php echo e($lead['source']); ?> on <em><?php echo e($lead['show']); ?></em></figcaption>
       </figure>
     <?php } ?>
 

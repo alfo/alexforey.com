@@ -6,44 +6,44 @@
         "showreel": "1058236271",
         "carousel": [
             [
-                {"id": "the-last-ship", "photo": 1, "title": "The Last Ship", "venue": "Theatre Royal Drury Lane, London"},
+                {"id": "the-last-ship", "photo": 1},
                 {"id": "run-sister-run", "photo": 2},
                 {"id": "come-alive-london", "photo": 1},
-                {"id": "the-pianist", "photo": 3, "venue": "Park Theatre, London"},
+                {"id": "the-pianist", "photo": 3},
                 {"id": "tunab", "photo": 3},
                 {"id": "wca-paradiso", "photo": 8},
-                {"id": "the-last-ship", "photo": 4, "title": "The Last Ship", "venue": "Theatre Royal Drury Lane, London"},
-                {"id": "saint-hildegard", "photo": 7, "venue": "The Vaults, London"},
+                {"id": "the-last-ship", "photo": 4},
+                {"id": "saint-hildegard", "photo": 7},
                 {"id": "between-the-lines", "photo": 3},
                 {"id": "run-sister-run", "photo": 7},
-                {"id": "the-da-vinci-code", "photo": 1, "venue": "Salisbury Playhouse"},
+                {"id": "the-da-vinci-code", "photo": 1},
                 {"id": "the-creation", "photo": 1}
             ],
             [
                 {"id": "come-alive-london", "photo": 3},
                 {"id": "wca-purgatorio", "photo": 1},
-                {"id": "the-pianist", "photo": 5, "venue": "Park Theatre, London"},
+                {"id": "the-pianist", "photo": 5},
                 {"id": "kitty-in-the-lane", "photo": 2},
-                {"id": "the-last-ship", "photo": 10, "title": "The Last Ship", "venue": "Theatre Royal Drury Lane, London"},
+                {"id": "the-last-ship", "photo": 10},
                 {"id": "tunab", "photo": 10},
                 {"id": "paddy-goes-to-petra", "photo": 2},
                 {"id": "whaowg", "photo": 3},
                 {"id": "positive", "photo": 1},
                 {"id": "wca-paradiso", "photo": 1},
                 {"id": "the-realness", "photo": 1},
-                {"id": "the-da-vinci-code", "photo": 3, "venue": "Salisbury Playhouse"}
+                {"id": "the-da-vinci-code", "photo": 3}
             ]
         ],
-        "quotes": [
-            {"text": "Alex Forey’s lighting design is endlessly impressive, surprisingly complex for a studio production", "source": "All That Dazzles", "id": "in-my-own-little-world"},
-            {"text": "Alex Forey’s sharp, stark lights sweep across the stage like slow waves", "source": "The Stage", "id": "run-sister-run"},
-            {"text": "Gorgeous lighting and creative sound. The lighting is absolutely stunning.", "source": "Broadway World", "id": "saint-hildegard"},
-            {"text": "some of the most imaginative and impressive lighting I have seen at the Fringe", "source": "EdFringeReview", "id": "grey-matter-fringe"}
+        "press": [
+            {"id": "in-my-own-little-world", "source": "All That Dazzles", "until": "for a studio production"},
+            {"id": "run-sister-run", "source": "The Stage", "until": "like slow waves"},
+            {"id": "saint-hildegard", "source": "Broadway World"},
+            {"id": "grey-matter-fringe", "source": "EdFringeReview"}
         ]
     },
 
     "press": {
-        "lead": {"text": "some of the most imaginative and impressive lighting I have seen at the Fringe", "source": "EdFringeReview", "id": "grey-matter-fringe"}
+        "lead": {"id": "grey-matter-fringe", "source": "EdFringeReview"}
     },
 
     "about": {
@@ -161,7 +161,8 @@
             },
             "paperwork": false,
             "image_credit": "Rich Southgate",
-            "venue": "Mayflower Studios, Southampton & Park Theatre, London"
+            "venue": "Mayflower Studios, Southampton & Park Theatre, London",
+            "venue-short": "Park Theatre, London"
         },
         {
             "title": "Come Alive! The Greatest Showman Circus Spectacular",
@@ -200,6 +201,7 @@
         },
         {
             "title": "The Last Ship: The Musical by Sting",
+            "title-short": "The Last Ship",
             "date": "2026-01-16",
             "date-end": "2026-10-03",
             "role": "Associate Lighting Designer",
@@ -228,6 +230,7 @@
             },
             "paperwork": false,
             "venue": "Theatre Royal Drury Lane, London, Metropolitan Opera, New York, & International Tour",
+            "venue-short": "Theatre Royal Drury Lane, London",
             "image_credit": "Mark Senior & 59 Studios"
         },
         {
@@ -352,6 +355,7 @@
             },
             "paperwork": false,
             "venue": "Salisbury Playhouse & Mercury Theatre, Colchester",
+            "venue-short": "Salisbury Playhouse",
             "image_credit": "Manuel Harlan"
         },
         {
@@ -902,6 +906,7 @@
             },
             "paperwork": false,
             "venue": "The Vaults (Vault Festival), London",
+            "venue-short": "The Vaults, London",
             "image_credit": "Alex Forey"
         },
         {
