@@ -1,29 +1,178 @@
 @use "variables" as v;
 
-.credits-list {
+// Credits: a timeline of every project with the newest first, and a role filter that stays in view
 
-    text-align: center;
-    padding-top: 1em;
-  
-    .year {
-      color: v.$middlelight-text;
-      margin-bottom: 2em;
+.credits-top {
+  padding-bottom: 20px;
+}
+
+.credits-filter {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: rgba(12, 12, 12, 0.94);
+  padding: 10px 0 12px;
+  border-bottom: 1px solid v.$lowlight-text;
+
+  .roles {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 30px;
+
+    // With the script running, the sliding line stands in for the selected role's own underline
+    &.js .role-button[aria-pressed="true"] {
+      border-bottom-color: transparent;
     }
-  
-    .credit {
-  
-      margin-bottom: 3em;
-  
-      h2 { 
-        font-weight: 500;
-        padding-left: 1em;
-        padding-right: 1em;
-        margin-bottom: 1em;
-      }
-    
-      p {
-        margin-bottom: 1em;
-      }
+
+    .role-underline {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0;
+      height: 2px;
+      background: v.$highlight;
+      pointer-events: none;
+      transition: transform 0.55s v.$ease, width 0.55s v.$ease;
     }
-  
   }
+
+  .role-button {
+    border-bottom: 2px solid transparent;
+    color: v.$middlelight-text;
+    font-size: 17px;
+    min-height: 44px;
+    padding: 8px 0 4px;
+    text-align: left;
+    transition: border-color 0.2s, color 0.2s;
+
+    &:hover, &[aria-pressed="true"] {
+      color: v.$highlight-text;
+    }
+
+    &[aria-pressed="true"] {
+      border-bottom-color: v.$highlight;
+    }
+
+    span {
+      font-size: 14px;
+      color: v.$quiet;
+    }
+  }
+
+  .summary {
+    font-size: 14px;
+    color: v.$quiet;
+    margin-top: 8px;
+  }
+}
+
+.credits-list {
+  padding: 34px 0 80px;
+
+  .year-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 6px 0;
+
+    &[hidden] {
+      display: none;
+    }
+
+    &.now .year {
+      color: v.$highlight;
+    }
+
+    &.now .dot {
+      background: v.$highlight;
+    }
+  }
+
+  .year-head {
+    flex: 0 0 150px;
+    position: sticky;
+    top: 104px;
+    z-index: 1;
+    padding-bottom: 10px;
+
+    // On a phone the year sits above its list instead of beside it, so it scrolls with the page
+    @media screen and (max-width: 560px) {
+      position: static;
+      flex-basis: 100%;
+    }
+
+    .year {
+      font-size: 34px;
+      line-height: 1;
+    }
+
+    .count {
+      font-size: 14px;
+      color: v.$quiet;
+      margin-top: 6px;
+    }
+  }
+
+  .year-credits {
+    flex: 1 1 320px;
+    min-width: 0;
+    border-left: 2px solid v.$highlight;
+    padding: 2px 0 30px 30px;
+    margin-left: 6px;
+  }
+
+  .credit {
+    position: relative;
+    padding-bottom: 26px;
+
+    h3 {
+      font-size: 21px;
+      line-height: 1.3;
+    }
+
+    .dot {
+      position: absolute;
+      left: -36px;
+      top: 8px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: v.$dark;
+      border: 2px solid v.$highlight;
+    }
+
+    .credit-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 2px 20px;
+    }
+
+    .date {
+      font-size: 14px;
+      color: v.$quiet;
+      white-space: nowrap;
+    }
+
+    .line {
+      font-size: 15px;
+      line-height: 1.5;
+      color: v.$middlelight-text;
+
+      &.quiet {
+        color: v.$quiet;
+      }
+
+      // An award or nomination is the one line in red
+      &.award {
+        color: v.$lowlight;
+      }
+    }
+
+    .small-link {
+      margin-top: 2px;
+    }
+  }
+}

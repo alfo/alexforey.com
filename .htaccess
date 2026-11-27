@@ -1,4 +1,6 @@
 RewriteEngine On
+# The list of productions moved from /projects to /portfolio.
+RewriteRule ^projects/?$ /portfolio [R=301,L]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteCond %{REQUEST_URI} !^/work/
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]

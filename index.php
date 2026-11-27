@@ -1,30 +1,142 @@
 <?php
   $title = 'Home';
+  $navInHero = true;
   include 'includes/header.php';
+
+  $projects = getProjects('theatre');
+  $home = $projects['home'];
+  $currentProjects = getCurrentProjects($projects);
+
+  // The soonest to close comes first
+  usort($currentProjects, function($a, $b) {
+    return strcmp($a['date-end'], $b['date-end']);
+  });
+
+  // The quotes that take turns next to On Stage Now, each with the title of its project.
+  // A quote should never run onto a fourth line, so a long one is cut short with "until" in the JSON.
+  $quotes = [];
+  foreach ($home['press'] as $reference) {
+    $quote = getPressQuote($projects, $reference);
+    if ($quote) $quotes[] = $quote;
+  }
 ?>
 
-  <section>
-    <div class="video-container">
+  <section class="hero snap">
+    <?php // A window wider than 1300 gets the larger copy of the photo, when tools/photos.sh has made one. "sizes" tells a narrower window that the photo is small, so that a phone never fetches the larger copy. ?>
+    <?php if (file_exists('imgs/' . $home['image'] . '-l.webp')) { ?>
+      <img class="hero-image" src="<?php echo getImage($home['image']); ?>" srcset="<?php echo getImage($home['image']); ?> 2400w, <?php echo getImage($home['image'] . '-l'); ?> 3840w" sizes="(max-width: 1300px) 800px, 100vw" alt="" width="2400" height="1600" fetchpriority="high">
+    <?php } else { ?>
+      <img class="hero-image" src="<?php echo getImage($home['image']); ?>" alt="" width="2400" height="1600" fetchpriority="high">
+    <?php } ?>
+    <div class="hero-shade" aria-hidden="true"></div>
 
-      <div class="video-overlay">
-        <h1>Alex Forey</h1>
-        <h2>Lighting Design</h2>
-
-        <div class="play-button" role="button" tabindex="0">Play Showreel</div>
-      </div>
-
-      <div class="video" videoid="showreel"> 
-        <iframe src="https://player.vimeo.com/video/1058236271?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="ALX Showreel 2025"></iframe> 
-      </div>
-
+    <div class="video-container" data-video="<?php echo e($home['showreel']); ?>" aria-hidden="true">
+      <div class="video-shade-top"></div>
+      <div class="video-shade-bottom"></div>
+      <div class="video-progress"></div>
     </div>
 
-    <span class="video-exit">×</span>
+<?php include 'includes/nav.php'; ?>
 
-    
+    <div class="video-overlay">
+      <div data-in>
+        <h1 class="underline"><?php echo e($home['title']); ?></h1>
+        <p><?php echo e($home['subtitle']); ?></p>
+      </div>
+    </div>
+
+    <div class="hero-foot">
+      <button class="play-button" type="button" aria-label="Play Showreel" aria-pressed="false" data-in>
+        <span class="ring" aria-hidden="true">
+          <svg class="icon-play" width="13" height="15" viewBox="0 0 20 22"><path d="M1 1 L19 11 L1 21 Z" fill="#ffffff"></path></svg>
+          <svg class="icon-exit" width="16" height="16" viewBox="0 0 20 20"><path d="M2 2 L18 18 M18 2 L2 18" stroke="#ffffff" stroke-width="2" fill="none"></path></svg>
+        </span>
+        <span class="label" aria-hidden="true">Play Showreel</span>
+      </button>
+      <button class="scroll-cue" type="button" aria-label="Scroll to Selected Work"><span></span></button>
+    </div>
   </section>
 
-  <script src="https://player.vimeo.com/api/player.js"></script>
+  <section class="selected-work snap">
 
-</body>
-</html>
+    <div class="selected-work-head" data-in>
+      <h2 class="underline">Selected Work</h2>
+      <a class="link" href="/portfolio">See every production</a>
+    </div>
+
+    <div class="carousels">
+      <?php foreach ($home['carousel'] as $index => $row) { ?>
+        <?php // Each photo takes 8 or 9 seconds to pass, so a row keeps its speed however many photos it has ?>
+        <?php // Every other row runs backwards: it starts at the right of the screen and moves to the right, so the first photo in its list is the first to leave ?>
+        <div class="carousel<?php if ($index % 2) echo ' backwards'; ?>" data-in>
+          <div class="carousel-track" style="animation-duration: <?php echo count($row) * ($index % 2 ? 9 : 8); ?>s">
+            <?php
+              // Every item is printed twice so that the row can loop without a gap
+              for ($copy = 0; $copy < 2; $copy++) {
+                foreach ($row as $item) {
+                  $project = getProjectWithID($projects, $item['id']);
+                  if (!$project) continue;
+
+                  // A project with a long title or a list of venues can have a short one for here
+                  $itemTitle = isset($project['title-short']) ? $project['title-short'] : $project['title'];
+                  $itemVenue = isset($project['venue-short']) ? $project['venue-short'] : $project['venue'];
+            ?>
+              <a class="carousel-item" href="/work/<?php echo $project['id']; ?>"<?php if ($copy) echo ' aria-hidden="true" tabindex="-1"'; ?>>
+                <div class="image">
+                  <img src="<?php echo getPhoto($item['id'], $item['photo'], 'm'); ?>" alt="<?php echo e($itemTitle); ?>, production photo" width="1000" height="667" loading="lazy" decoding="async">
+                  <div class="caption">
+                    <span class="title"><?php echo e($itemTitle); ?></span>
+                    <div class="venue"><?php echo e($itemVenue); ?></div>
+                  </div>
+                </div>
+              </a>
+            <?php
+                }
+              }
+            ?>
+          </div>
+        </div>
+      <?php } ?>
+    </div>
+
+  </section>
+
+  <section class="latest snap">
+
+    <?php if ($currentProjects) { ?>
+      <div class="on-stage" data-in>
+        <h2 class="underline">On Stage Now</h2>
+        <div class="on-stage-list">
+          <?php foreach ($currentProjects as $project) { ?>
+            <div>
+              <?php if (hasPhotos($project)) { ?>
+                <div class="title"><a href="/work/<?php echo $project['id']; ?>"><?php echo e($project['title']); ?></a></div>
+              <?php } else { ?>
+                <div class="title"><?php echo e($project['title']); ?></div>
+              <?php } ?>
+              <div class="venue"><?php echo e($project['venue']); ?>, until <?php echo getEndDate($project); ?></div>
+              <div class="role"><?php echo e(getRole($project)); ?></div>
+            </div>
+          <?php } ?>
+        </div>
+      </div>
+    <?php } ?>
+
+    <?php if ($quotes) { ?>
+      <div class="quotes" data-quotes="<?php echo e(json_encode($quotes)); ?>" data-in>
+        <figure aria-live="polite">
+          <blockquote class="quote"><?php echo e($quotes[0]['text']); ?></blockquote>
+          <figcaption class="quote-source"><span class="source"><?php echo e($quotes[0]['source']); ?></span> on <em class="show"><?php echo e($quotes[0]['show']); ?></em></figcaption>
+        </figure>
+        <div class="quote-dots">
+          <?php foreach ($quotes as $index => $quote) { ?>
+            <button type="button" aria-label="Show the quote from <?php echo e($quote['source']); ?>" aria-pressed="<?php echo $index ? 'false' : 'true'; ?>"><span></span></button>
+          <?php } ?>
+          <a class="link" href="/press">Read all the press</a>
+        </div>
+      </div>
+    <?php } ?>
+
+  </section>
+
+<?php include 'includes/footer.php'; ?>
