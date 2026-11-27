@@ -121,16 +121,16 @@
 
   // The people on a show, split into teams by their jobs, in the order they have in the JSON.
   // The production team puts the show on: production managers, supervisors, programmers,
-  // production electricians, production engineers and suppliers. The show team runs it:
-  // stage management, heads of departments, the numbered crew and operators. Everyone else,
-  // producers included, is the creative team. A short list stays as one team.
+  // production electricians, production engineers, suppliers and the staff of a design studio.
+  // The show team runs it: stage management, heads of departments, the numbered crew and operators.
+  // Everyone else, producers included, is the creative team. A short list stays as one team.
   // A show can put a job in another team with "teams" in the JSON, for a job that is not what it usually is.
   function getTeams($project) {
     $people = isset($project['people']) ? $project['people'] : [];
     if (count($people) <= 12) return $people ? ['Creative Team' => $people] : [];
 
     $show = '/Stage Manager|^(Company Manager|(Deputy )?Head of |Chief Electrician|Dresser|Chaperone)|Wardrobe|\bNo\.? ?\d|\bOperator|\bLX\b|Followspot/';
-    $production = '/^Technical (Director|Manager)|^(Costume|Props) Supervisor|\bProgrammer|\bProduction (?!Design)[A-Z]|\bSupplier/';
+    $production = '/^Technical (Director|Manager)|^(Costume|Props) Supervisor|\bProgrammer|\bProduction (?!Design)[A-Z]|\bSupplier|\bStudio (Associate|Manager)/';
 
     $teams = ['Creative Team' => [], 'Production Team' => [], 'Show Team' => []];
     foreach ($people as $job => $person) {
