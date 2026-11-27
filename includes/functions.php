@@ -127,14 +127,14 @@
     return date('j', $projectDate) . ' to ' . date('j F Y', $projectDateEnd);
   }
 
-  // A project's press as quote, publication and link. The JSON keeps the publication as an HTML link.
+  // A project's press as quote, publication and link. In the JSON each quote sits under the
+  // name of its publication, and the link is optional.
   function getPress($project) {
     $press = [];
     if (!isset($project['press'])) return $press;
 
-    foreach ($project['press'] as $quote => $pub) {
-      $link = preg_match('/href=[\'"]([^\'"]+)[\'"]/', $pub, $match) ? $match[1] : '';
-      $press[] = ['quote' => $quote, 'pub' => trim(strip_tags($pub)), 'link' => $link];
+    foreach ($project['press'] as $pub => $review) {
+      $press[] = ['quote' => $review['quote'], 'pub' => $pub, 'link' => isset($review['link']) ? $review['link'] : ''];
     }
     return $press;
   }
@@ -144,19 +144,14 @@
   // last words to print when only the start of the quote is wanted.
   function getPressQuote($projects, $reference) {
     $project = getProjectWithID($projects, $reference['id']);
-    if (!$project) return null;
+    if (!$project || !isset($project['press'][$reference['source']])) return null;
 
-    foreach (getPress($project) as $review) {
-      if ($review['pub'] != $reference['source']) continue;
-
-      $text = $review['quote'];
-      if (isset($reference['until'])) {
-        $end = strpos($text, $reference['until']);
-        if ($end !== false) $text = substr($text, 0, $end + strlen($reference['until']));
-      }
-      return ['text' => $text, 'source' => $review['pub'], 'show' => $project['title']];
+    $text = $project['press'][$reference['source']]['quote'];
+    if (isset($reference['until'])) {
+      $end = strpos($text, $reference['until']);
+      if ($end !== false) $text = substr($text, 0, $end + strlen($reference['until']));
     }
-    return null;
+    return ['text' => $text, 'source' => $reference['source'], 'show' => $project['title']];
   }
 
 ?>

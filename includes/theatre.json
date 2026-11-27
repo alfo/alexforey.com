@@ -100,8 +100,8 @@
             "paperwork": false,
             "venue": "Riverside Studios, London",
             "press": {
-                "The lighting design is absolutely incredible, proving that even in a smaller studio space with a tight budget, sensational work can be achieved. It does exactly what great lighting design should do. It never pulls focus, but wonderfully enhances the on-stage storytelling and defines every shift in mood.": "<a href='https://www.pinkprincetheatre.com/post/review-in-my-own-little-world-riverside-studios'>Pink Prince Theatre<\/a>",
-                "Alex Forey\u2019s lighting design is endlessly impressive, surprisingly complex for a studio production and with seemingly endless moving parts, effective in creating new locations both fun and frightening": "<a href='https://www.allthatdazzles.co.uk/post/review-in-my-own-little-world-riverside-studios'>All That Dazzles<\/a>"
+                "Pink Prince Theatre": {"quote": "The lighting design is absolutely incredible, proving that even in a smaller studio space with a tight budget, sensational work can be achieved. It does exactly what great lighting design should do. It never pulls focus, but wonderfully enhances the on-stage storytelling and defines every shift in mood.", "link": "https://www.pinkprincetheatre.com/post/review-in-my-own-little-world-riverside-studios"},
+                "All That Dazzles": {"quote": "Alex Forey\u2019s lighting design is endlessly impressive, surprisingly complex for a studio production and with seemingly endless moving parts, effective in creating new locations both fun and frightening", "link": "https://www.allthatdazzles.co.uk/post/review-in-my-own-little-world-riverside-studios"}
             }
         },
         {
@@ -230,7 +230,7 @@
             },
             "paperwork": false,
             "venue": "Theatre Royal Drury Lane, London, Metropolitan Opera, New York, & International Tour",
-            "venue-short": "Theatre Royal Drury Lane, London",
+            "venue-short": "Theatre Royal Drury Lane, & Tour",
             "image_credit": "Mark Senior & 59 Studios"
         },
         {
@@ -314,8 +314,8 @@
             "venue": "Arcola Theatre, London",
             "image_credit": "Marc Brenner",
             "press": {
-                "Alex Forey\u2019s sharp, stark lights sweep across the stage like slow waves, with intense LEDs casting a nasty, unnatural glow over the heaps of petals. Glaring white, delirious purple and seasick blue-green give some sequences the quality of distorted memories or feverish dreams, but a warm, gold glow seeps in from time to time, too, hinting at the happiness and stability that often seems to elude the family.": "<a href='https://www.thestage.co.uk/reviews/run-sister-run-review-arcola-theatre'>The Stage<\/a>",
-                "Tomás Palmer\u2019s set design and lighting designed by Alex Forey wonderfully complement the narrative, creating visual cues as the story transports the audience back in time through each segment of the tale.": "<a href='https://everything-theatre.co.uk/2025/07/review-run-sister-run-arcola-theatre/'>Everything Theatre<\/a>"
+                "The Stage": {"quote": "Alex Forey\u2019s sharp, stark lights sweep across the stage like slow waves, with intense LEDs casting a nasty, unnatural glow over the heaps of petals. Glaring white, delirious purple and seasick blue-green give some sequences the quality of distorted memories or feverish dreams, but a warm, gold glow seeps in from time to time, too, hinting at the happiness and stability that often seems to elude the family.", "link": "https://www.thestage.co.uk/reviews/run-sister-run-review-arcola-theatre"},
+                "Everything Theatre": {"quote": "Tomás Palmer\u2019s set design and lighting designed by Alex Forey wonderfully complement the narrative, creating visual cues as the story transports the audience back in time through each segment of the tale.", "link": "https://everything-theatre.co.uk/2025/07/review-run-sister-run-arcola-theatre/"}
             }
         },
         {
@@ -536,10 +536,10 @@
             "venue": "Park Theatre, London",
             "image_credit": "Mariano Gobbi",
             "press": {
-                "Alex Forey's exquisite lighting design and Simone Manfredini's original music transform the Park 90's stage into a very intimate hideaway": "<a href='https:\/\/www.londontheatrereviews.co.uk\/post.cfm?p=19494'>London Theatre Reviews<\/a>",
-                "Alex Forey\u2019s lighting design works wonders in maintaining the claustrophobic atmosphere of the makeshift subterranean dwelling": "<a href='https:\/\/www.jacktheladmag.com\/theatre-reviews\/hide-and-seek'>Jack The Lad<\/a>",
-                "a highlight is Alex Forey's lighting. The design was cued perfectly to create the dim light of a cave": "<a href='https:\/\/www.curtaincallreviews.co.uk\/hide-and-seek?fbclid=PAAabMK-FqRHdhYZQA0qwfjjrjNUOcDSA7L--5SFFql6irQPbmAvbXMTP7WEA'>Curtain Call Reviews<\/a>",
-                "Alex Forey cleverly uses a combination of side lights and the torch on a phone to evoke dinginess": "<a href='https:\/\/thespyinthestalls.com\/2024\/03\/hide-and-seek\/'>The Spy in the Stalls<\/a>"
+                "London Theatre Reviews": {"quote": "Alex Forey's exquisite lighting design and Simone Manfredini's original music transform the Park 90's stage into a very intimate hideaway", "link": "https://www.londontheatrereviews.co.uk/post.cfm?p=19494"},
+                "Jack The Lad": {"quote": "Alex Forey\u2019s lighting design works wonders in maintaining the claustrophobic atmosphere of the makeshift subterranean dwelling", "link": "https://www.jacktheladmag.com/theatre-reviews/hide-and-seek"},
+                "Curtain Call Reviews": {"quote": "a highlight is Alex Forey's lighting. The design was cued perfectly to create the dim light of a cave", "link": "https://www.curtaincallreviews.co.uk/hide-and-seek?fbclid=PAAabMK-FqRHdhYZQA0qwfjjrjNUOcDSA7L--5SFFql6irQPbmAvbXMTP7WEA"},
+                "The Spy in the Stalls": {"quote": "Alex Forey cleverly uses a combination of side lights and the torch on a phone to evoke dinginess", "link": "https://thespyinthestalls.com/2024/03/hide-and-seek/"}
             }
         },
         {
@@ -561,8 +561,8 @@
             "paperwork": false,
             "venue": "Park Theatre, London",
             "press": {
-                "Alex Forey\u2019s lighting design cleverly transports us to past locations in Tracy\u2019s mind while in the here-and-now the set": "<a href='https://thespyinthestalls.com/2023/12/21-round-for-christmas/'>The Spy in the Stalls<\/a>",
-                "The set design by Hampton and Laurel Marks makes excellent use of the Park\u2019s studio space with what appears to be a full working kitchen full of detail [...] its transformation into a disco, a pub and a lock up on the A406 is achieved and enhanced by Alex Forey\u2019s clever lighting design": "<a href='https://2ndfrombottom.wordpress.com/2023/12/12/21-round-for-christmas-theatre-review/'>2nd From Bottom<\/a>"
+                "The Spy in the Stalls": {"quote": "Alex Forey\u2019s lighting design cleverly transports us to past locations in Tracy\u2019s mind while in the here-and-now the set", "link": "https://thespyinthestalls.com/2023/12/21-round-for-christmas/"},
+                "2nd From Bottom": {"quote": "The set design by Hampton and Laurel Marks makes excellent use of the Park\u2019s studio space with what appears to be a full working kitchen full of detail [...] its transformation into a disco, a pub and a lock up on the A406 is achieved and enhanced by Alex Forey\u2019s clever lighting design", "link": "https://2ndfrombottom.wordpress.com/2023/12/12/21-round-for-christmas-theatre-review/"}
             }
         },
         {
@@ -652,7 +652,7 @@
             "venue": "Cervantes Theatre, London",
             "image_credit": "Alex Forey",
             "press": {
-                "This clinical atmosphere is further brought to \u2018light\u2019 with the symmetrical fluorescent tubes. The harsh lighting adds to the atmosphere, emphasising the location, and compelling the pair into introspection": "<a href='https:\/\/everything-theatre.co.uk\/2023\/09\/review-the-island-cervantes-theatre\/'>Everything Theatre<\/a>"
+                "Everything Theatre": {"quote": "This clinical atmosphere is further brought to \u2018light\u2019 with the symmetrical fluorescent tubes. The harsh lighting adds to the atmosphere, emphasising the location, and compelling the pair into introspection", "link": "https://everything-theatre.co.uk/2023/09/review-the-island-cervantes-theatre/"}
             }
         },
         {
@@ -673,9 +673,9 @@
             "venue": "New Wimbledon Theatre, London",
             "image_credit": "Alex Forey",
             "press": {
-                "A good creative team, especially including lighting by Alex Forey which deserves a mention for its atmospheric and immersive qualities": "<a href='https:\/\/saltertonartsreview.com\/2023\/09\/battersea-bardot-new-wimbledon-theatre-london\/'>Salterton Arts Review<\/a>",
-                "Alex Forey\u2019s lighting design also deserves particular praise for simple yet effective design that provides some of the most striking visuals in the show": "<a href='https:\/\/lostintheatreland.co.uk\/battersea-bardot-review-new-wimbledon-studio\/'>Lost in Theatreland<\/a>",
-                "stylish work by lighting designer Alex Forey": "<a href='https:\/\/www.timeandleisure.co.uk\/things-to-do\/battersea-bardot-review\/'>Time and Leisure<\/a>"
+                "Salterton Arts Review": {"quote": "A good creative team, especially including lighting by Alex Forey which deserves a mention for its atmospheric and immersive qualities", "link": "https://saltertonartsreview.com/2023/09/battersea-bardot-new-wimbledon-theatre-london/"},
+                "Lost in Theatreland": {"quote": "Alex Forey\u2019s lighting design also deserves particular praise for simple yet effective design that provides some of the most striking visuals in the show", "link": "https://lostintheatreland.co.uk/battersea-bardot-review-new-wimbledon-studio/"},
+                "Time and Leisure": {"quote": "stylish work by lighting designer Alex Forey", "link": "https://www.timeandleisure.co.uk/things-to-do/battersea-bardot-review/"}
             }
         },
         {
@@ -690,7 +690,7 @@
                 "Sound Designer": "Freddie Lewis"
             },
             "press": {
-                "Lighting Designer Alex Forey, well utilizes the venue\u2019s generous rigging and strikingly recreates the aforementioned train tracks which give the piece its name": "<a href='https://www.bingefringe.com/2023/08/06/review-waiting-for-a-train-at-the-bus-stop-mwansa-phiri-edfringe-2023-★★★★☆/'>Binge Fringe</a>"
+                "Binge Fringe": {"quote": "Lighting Designer Alex Forey, well utilizes the venue\u2019s generous rigging and strikingly recreates the aforementioned train tracks which give the piece its name", "link": "https://www.bingefringe.com/2023/08/06/review-waiting-for-a-train-at-the-bus-stop-mwansa-phiri-edfringe-2023-\u2605\u2605\u2605\u2605\u2606/"}
             },
             "paperwork": false,
             "venue": "Streatham Space Project, London & Summerhall, Edinburgh",
@@ -815,9 +815,9 @@
                 "Technical Operator": "Scarlett Bryan"
             },
             "press": {
-                "an eye-catching set designed by Constance Comparot which is stunningly brought to life in conjunction with wonderful dynamic lighting that allows this decaying country home to easily morph into vivid vignettes from Kitty\u2019s life. The lighting, designed by Alex Forey, deserves calling out twice. I was excited as each scene progressed just to see how it would shift next; transforming Kitty\u2019s home into a pub then a nightclub, a lonely country road illuminated by a car\u2019s headlights then a misty morning hilltop, all executed flawlessly in cooperation with impeccable, haunting sound design from Florence Hand": "<a href='https:\/\/www.londonpubtheatres.com\/review-kitty-in-the-lane-by-aine-ryan-at-jack-studio-theatre-2-13-may-2023'>London Pub Theatres<\/a>",
-                "The mood is greatly aided by some superb lighting design by Alex Forey": "<a href='https:\/\/www.londontheatre1.com\/reviews\/kitty-in-the-lane-at-jack-studio-theatre\/'>LondonTheatre1<\/a>",
-                "Constance Comparot\u2019s set and Alex Forey\u2019s lighting change the atmosphere from stark to mystical and dreamlike effortlessly with Jack Reardon\u2019s assured direction": "<a href='https:\/\/fairypoweredproductions.com\/kitty-in-the-lane-review\/'>Fairy Powered Productions<\/a>'"
+                "London Pub Theatres": {"quote": "an eye-catching set designed by Constance Comparot which is stunningly brought to life in conjunction with wonderful dynamic lighting that allows this decaying country home to easily morph into vivid vignettes from Kitty\u2019s life. The lighting, designed by Alex Forey, deserves calling out twice. I was excited as each scene progressed just to see how it would shift next; transforming Kitty\u2019s home into a pub then a nightclub, a lonely country road illuminated by a car\u2019s headlights then a misty morning hilltop, all executed flawlessly in cooperation with impeccable, haunting sound design from Florence Hand", "link": "https://www.londonpubtheatres.com/review-kitty-in-the-lane-by-aine-ryan-at-jack-studio-theatre-2-13-may-2023"},
+                "LondonTheatre1": {"quote": "The mood is greatly aided by some superb lighting design by Alex Forey", "link": "https://www.londontheatre1.com/reviews/kitty-in-the-lane-at-jack-studio-theatre/"},
+                "Fairy Powered Productions": {"quote": "Constance Comparot\u2019s set and Alex Forey\u2019s lighting change the atmosphere from stark to mystical and dreamlike effortlessly with Jack Reardon\u2019s assured direction", "link": "https://fairypoweredproductions.com/kitty-in-the-lane-review/"}
             },
             "paperwork": false,
             "venue": "The Brockley Jack, London",
@@ -899,10 +899,10 @@
                 "Lighting Supplier": "White Light"
             },
             "press": {
-                "Lighting and sound is expertly mastered by Alex Forey and Florence Hand throughout the performance, in a way that gives light a voice, and gives sound a visual experience.": "<a href='https:\/\/www.thereviewshub.com\/hildegard-von-bingen-vault-festival-london\/'>The Reviews Hub<\/a>",
-                "Alex Forey\u2019s lighting and Florence Hand\u2019s sound combine to highly atmospheric effect, particularly in characterising Hildegard\u2019s visions, at once something otherworldly yet viscerally terrifying as a seizure too": "<a href='https:\/\/oughttobeclowns.com\/2023\/02\/review-hildegard-von-bingen-vault-festival.h\u2026'>There Ought To Be Clowns<\/a>",
-                "Gorgeous lighting and creative sound. The lighting is absolutely stunning.": "<a href='https:\/\/www.broadwayworld.com\/westend\/article\/Review-HILDEGARD-VON-BINGEN-VAULT-Festival-20230224'>Broadway World<\/a>",
-                "Hildegard Von Bingen is certainly ambitious, with exemplary sound and lighting design (by Florence Hand and Alex Forey).": "<a href='https:\/\/loureviews.blog\/2023\/02\/23\/vault-review-hildegard-von-bingen\/'>LouReviews<\/a>"
+                "The Reviews Hub": {"quote": "Lighting and sound is expertly mastered by Alex Forey and Florence Hand throughout the performance, in a way that gives light a voice, and gives sound a visual experience.", "link": "https://www.thereviewshub.com/hildegard-von-bingen-vault-festival-london/"},
+                "There Ought To Be Clowns": {"quote": "Alex Forey\u2019s lighting and Florence Hand\u2019s sound combine to highly atmospheric effect, particularly in characterising Hildegard\u2019s visions, at once something otherworldly yet viscerally terrifying as a seizure too", "link": "https://oughttobeclowns.com/2023/02/review-hildegard-von-bingen-vault-festival.h\u2026"},
+                "Broadway World": {"quote": "Gorgeous lighting and creative sound. The lighting is absolutely stunning.", "link": "https://www.broadwayworld.com/westend/article/Review-HILDEGARD-VON-BINGEN-VAULT-Festival-20230224"},
+                "LouReviews": {"quote": "Hildegard Von Bingen is certainly ambitious, with exemplary sound and lighting design (by Florence Hand and Alex Forey).", "link": "https://loureviews.blog/2023/02/23/vault-review-hildegard-von-bingen/"}
             },
             "paperwork": false,
             "venue": "The Vaults (Vault Festival), London",
@@ -954,7 +954,7 @@
                 "Technical Operator": "Scarlett Bryan"
             },
             "press": {
-                "Alex Forey sensitively lights all of this, further enhancing the changing moods": "<a href='https:\/\/broadwaybaby.com\/shows\/paddy-goes-to-petra\/788500'>Broadway Baby<\/a>"
+                "Broadway Baby": {"quote": "Alex Forey sensitively lights all of this, further enhancing the changing moods", "link": "https://broadwaybaby.com/shows/paddy-goes-to-petra/788500"}
             },
             "paperwork": false,
             "venue": "The Brockley Jack, London",
@@ -1374,7 +1374,7 @@
             "venue": "Theatre Royal Stratford East",
             "image_credit": "Teo Della Torre",
             "press": {
-                "strikingly lit by Alex Forey": "Yehuda Shapiro, Opera"
+                "Yehuda Shapiro, Opera": {"quote": "strikingly lit by Alex Forey"}
             }
         },
         {
@@ -1499,7 +1499,7 @@
                 "Lighting Supplier": "White Light"
             },
             "press": {
-                "some of the most imaginative and impressive lighting I have seen at the Fringe": "EdFringeReview"
+                "EdFringeReview": {"quote": "some of the most imaginative and impressive lighting I have seen at the Fringe"}
             },
             "venue": "C Venues, Edinburgh",
             "videos": [
