@@ -114,7 +114,8 @@
             "venue": "Riverside Studios, London",
             "press": {
                 "Pink Prince Theatre": {"quote": "The lighting design is absolutely incredible [...] It does exactly what great lighting design should do. It never pulls focus, but wonderfully enhances the on-stage storytelling and defines every shift in mood.", "link": "https://www.pinkprincetheatre.com/post/review-in-my-own-little-world-riverside-studios"},
-                "All That Dazzles": {"quote": "Alex Forey\u2019s lighting design is endlessly impressive [...] with seemingly endless moving parts, effective in creating new locations both fun and frightening", "link": "https://www.allthatdazzles.co.uk/post/review-in-my-own-little-world-riverside-studios"}
+                "All That Dazzles": {"quote": "Alex Forey\u2019s lighting design is endlessly impressive [...] with seemingly endless moving parts, effective in creating new locations both fun and frightening", "link": "https://www.allthatdazzles.co.uk/post/review-in-my-own-little-world-riverside-studios"},
+                "Theatre and Tonic": {"quote": "Alex Forey\u2019s lighting throughout was slick, moving seamlessly between house lights and the bright lights of a bigot\u2019s van", "link": "https://theatreandtonic.co.uk/blog/in-my-own-little-world-riverside-studios-review"}
             }
         },
         {
@@ -261,7 +262,10 @@
                 "Producers": "TG Works & Heather Ralph"
             },
             "venue": "New Diorama Theatre, London",
-            "image_credit": "David Monteith-Hodge"
+            "image_credit": "David Monteith-Hodge",
+            "press": {
+                "All That Dazzles": {"quote": "The piece thrives in its design, with brilliant projection work by James Aldred and lighting by Alex Forey", "link": "https://www.allthatdazzles.co.uk/post/review-the-uncontainable-nausea-of-alec-baldwin-new-diorama-theatre"}
+            }
         },
         {
             "title": "The Last Ship: The Musical by Sting",
@@ -345,7 +349,11 @@
             },
             "paperwork": false,
             "image_credit": "Cam Harle",
-            "venue": "Hope Theatre, London"
+            "venue": "Hope Theatre, London",
+            "press": {
+                "London Pub Theatres": {"quote": "Sound and light too are expertly handled by Peter Michaels and Alex Forey respectively, who together create a cadaverous stage presence where every creak and shadow build tension and unease", "link": "https://londonpubtheatres.com/review-the-monkeys-paw-at-the-hope-theatre-21-oct-8-nov-2025"},
+                "Salterton Arts Review": {"quote": "A simple rearrangement or a flicker of light [...] moves us from the ordinary to the ominous in a heartbeat", "link": "https://saltertonartsreview.com/?p=46284"}
+            }
         },
         {
             "title": "Blaze FM",
@@ -360,7 +368,10 @@
                 "Video Designer": "Mic Pool"
             },
             "paperwork": false,
-            "venue": "Pleasance Courtyard, Edinburgh"
+            "venue": "Pleasance Courtyard, Edinburgh",
+            "press": {
+                "Theatre Weekly": {"quote": "Lighting by Alex Forey and sound design by Tony Gayle further elevate the immersive atmosphere", "link": "https://theatreweekly.com/edinburgh-fringe-review-blaze-fm-at-pleasance-courtyard-pleasance-two/"}
+            }
         },
         {
             "title": "BAIRNS",
@@ -614,7 +625,11 @@
             },
             "paperwork": false,
             "venue": "New Diorama Theatre, London",
-            "image_credit": "Alex Forey"
+            "image_credit": "Alex Forey",
+            "press": {
+                "All That Dazzles": {"quote": "The way in which lighting, set and projection work so beautifully together should serve as a case study for other shows attempting (and often failing) to achieve the same thing", "link": "https://www.allthatdazzles.co.uk/post/review-between-the-lines-new-diorama-theatre"},
+                "FLO London": {"quote": "Tina Tobey\u2019s set design and Mic Pool\u2019s videography come together seamlessly with Alex Forey\u2019s lighting to create a growing sense of claustrophobia as the action reaches its crux", "link": "https://www.flolondon.co.uk/all-posts/between-the-lines-new-diorama-theatre-review"}
+            }
         },
         {
             "title": "The Creation",
@@ -685,7 +700,9 @@
             "venue": "Park Theatre, London",
             "press": {
                 "The Spy in the Stalls": {"quote": "Alex Forey\u2019s lighting design cleverly transports us to past locations in Tracy\u2019s mind while in the here-and-now the set", "link": "https://thespyinthestalls.com/2023/12/21-round-for-christmas/"},
-                "2nd From Bottom": {"quote": "The set design by Hampton and Laurel Marks makes excellent use of the Park\u2019s studio space with what appears to be a full working kitchen full of detail [...] its transformation into a disco, a pub and a lock up on the A406 is achieved and enhanced by Alex Forey\u2019s clever lighting design", "link": "https://2ndfrombottom.wordpress.com/2023/12/12/21-round-for-christmas-theatre-review/"}
+                "2nd From Bottom": {"quote": "The set design by Hampton and Laurel Marks makes excellent use of the Park\u2019s studio space with what appears to be a full working kitchen full of detail [...] its transformation into a disco, a pub and a lock up on the A406 is achieved and enhanced by Alex Forey\u2019s clever lighting design", "link": "https://2ndfrombottom.wordpress.com/2023/12/12/21-round-for-christmas-theatre-review/"},
+                "BroadwayWorld": {"quote": "The emotional contrasts are expertly supported by insightful lighting designer Alex Forey, with the clever use of LED lighting transporting the audience to the depths of significant memories and pivotal past moments", "link": "https://www.broadwayworld.com/westend/article/Review-21-ROUND-FOR-CHRISTMAS-Park-Theatre-20231213"},
+                "All That Dazzles": {"quote": "Alex Forey and Emily Rose Simons, behind the lighting and sound respectively, seem at first to have little to do but prove to be essential to the tonal and comedic shifts", "link": "https://www.allthatdazzles.co.uk/post/review-21-round-for-christmas-park-theatre"}
             }
         },
         {
@@ -753,7 +770,10 @@
             },
             "paperwork": false,
             "venue": "New Wimbledon Theatre, London",
-            "image_credit": "Alex Forey"
+            "image_credit": "Alex Forey",
+            "press": {
+                "London Theatre Reviews": {"quote": "Forey does wonders with such a small playing-space, drawing our eyes where they\u2019re needed and making the stage feel far bigger than it is", "link": "https://www.londontheatrereviews.co.uk/post.cfm?p=17930"}
+            }
         },
         {
             "title": "The Island",
@@ -942,7 +962,9 @@
             "press": {
                 "London Pub Theatres": {"quote": "an eye-catching set designed by Constance Comparot which is stunningly brought to life in conjunction with wonderful dynamic lighting that allows this decaying country home to easily morph into vivid vignettes from Kitty\u2019s life. The lighting, designed by Alex Forey, deserves calling out twice. I was excited as each scene progressed just to see how it would shift next; transforming Kitty\u2019s home into a pub then a nightclub, a lonely country road illuminated by a car\u2019s headlights then a misty morning hilltop, all executed flawlessly in cooperation with impeccable, haunting sound design from Florence Hand", "link": "https://www.londonpubtheatres.com/review-kitty-in-the-lane-by-aine-ryan-at-jack-studio-theatre-2-13-may-2023"},
                 "LondonTheatre1": {"quote": "The mood is greatly aided by some superb lighting design by Alex Forey", "link": "https://www.londontheatre1.com/reviews/kitty-in-the-lane-at-jack-studio-theatre/"},
-                "Fairy Powered Productions": {"quote": "Constance Comparot\u2019s set and Alex Forey\u2019s lighting change the atmosphere from stark to mystical and dreamlike effortlessly with Jack Reardon\u2019s assured direction", "link": "https://fairypoweredproductions.com/kitty-in-the-lane-review/"}
+                "Fairy Powered Productions": {"quote": "Constance Comparot\u2019s set and Alex Forey\u2019s lighting change the atmosphere from stark to mystical and dreamlike effortlessly with Jack Reardon\u2019s assured direction", "link": "https://fairypoweredproductions.com/kitty-in-the-lane-review/"},
+                "British Theatre Guide": {"quote": "a powerfully effective lighting design from Alex Forey that adds to the atmosphere", "link": "https://www.britishtheatreguide.info/reviews/kitty-in-the-la-jack-studio-the-21950"},
+                "The Blog of Theatre Things": {"quote": "powerfully atmospheric from the start, with Alex Forey\u2019s lighting design creating a strong sense of foreboding", "link": "https://theblogoftheatrethings.com/2023/05/06/review-kitty-in-the-lane-at-jack-studio-theatre/"}
             },
             "paperwork": false,
             "venue": "The Brockley Jack, London",
@@ -963,7 +985,10 @@
             },
             "paperwork": false,
             "venue": "Coronet Theatre, London",
-            "image_credit": "Alex Brenner"
+            "image_credit": "Alex Brenner",
+            "press": {
+                "FringeReview": {"quote": "Lit in London by Alex Forey with some beautiful, batty and disco effects", "link": "https://fringereview.co.uk/review/fringereview-uk/2023/lovefool/"}
+            }
         },
         {
             "title": "Our Father",
@@ -1471,7 +1496,10 @@
             },
             "paperwork": false,
             "venue": "Bloomsbury Theatre, London",
-            "image_credit": "Katie Edwards"
+            "image_credit": "Katie Edwards",
+            "press": {
+                "George Hall, Opera": {"quote": "the brightness and colour of Holly Muir\u2019s designs, skilfully lit by Alex Forey", "link": "https://ucopera.co.uk/reviews/libuse-1"}
+            }
         },
         {
             "title": "Songs for a New World",
@@ -1519,7 +1547,8 @@
             "venue": "Theatre Royal Stratford East",
             "image_credit": "Teo Della Torre",
             "press": {
-                "Yehuda Shapiro, Opera": {"quote": "strikingly lit by Alex Forey"}
+                "Yehuda Shapiro, Opera": {"quote": "strikingly lit by Alex Forey"},
+                "Mark Ronan": {"quote": "helped by Rapha\u00e9 Memon\u2019s fine minimalist designs and well lit by Alex Forey", "link": "https://www.markronan.com/2018/03/polyeucte-uc-opera-theatre-royal-stratford-east-march-2018/"}
             }
         },
         {
