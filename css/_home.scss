@@ -3,16 +3,13 @@
 // Home: the hero with the showreel, the two carousels, On Stage Now and the press quotes
 
 html.page-home {
-  scroll-snap-type: y proximity;
+  // The page always comes to rest on a section. "proximity" was tried first, but it does nothing
+  // on an iPhone, and on a desktop a fast scroll could be pulled back to where it started.
+  scroll-snap-type: y mandatory;
 
-  // A phone only snaps when it has to: "proximity" does nothing on an iPhone.
-  // The footer is a place to stop too, so the page can still be scrolled to its end.
-  @media (hover: none) and (pointer: coarse) {
-    scroll-snap-type: y mandatory;
-
-    footer {
-      scroll-snap-align: end;
-    }
+  // The footer is a place to stop too, so the page can still be scrolled to its end
+  footer {
+    scroll-snap-align: end;
   }
 
   @media (prefers-reduced-motion: reduce) {

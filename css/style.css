@@ -225,15 +225,10 @@ footer a {
 }
 
 html.page-home {
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
-@media (hover: none) and (pointer: coarse) {
-  html.page-home {
-    scroll-snap-type: y mandatory;
-  }
-  html.page-home footer {
-    scroll-snap-align: end;
-  }
+html.page-home footer {
+  scroll-snap-align: end;
 }
 @media (prefers-reduced-motion: reduce) {
   html.page-home {
