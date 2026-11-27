@@ -673,6 +673,11 @@ html.page-home footer {
 .latest .quotes {
   align-self: center;
 }
+@media screen and (max-width: 990px) {
+  .latest .quotes {
+    order: -1;
+  }
+}
 .latest .quotes figure {
   min-height: 200px;
   display: flex;
