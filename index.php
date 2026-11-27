@@ -7,6 +7,11 @@
   $home = $projects['home'];
   $currentProjects = getCurrentProjects($projects);
 
+  // The soonest to close comes first
+  usort($currentProjects, function($a, $b) {
+    return strcmp($a['date-end'], $b['date-end']);
+  });
+
   // The quotes that take turns next to On Stage Now, each with the title of its project
   $quotes = [];
   foreach ($home['press'] as $reference) {
