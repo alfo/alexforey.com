@@ -23,14 +23,15 @@ function findAll(selector, parent) {
 function initFadeIn() {
 	if (reducedMotion || !window.IntersectionObserver || !document.body.animate) return;
 
-	var count = 0;
-	var timer = null;
+	var lastStart = 0;
 
 	function fadeIn(element) {
-		// Things that arrive together come in one after another
-		var delay = Math.min(count++, 8) * 70;
-		clearTimeout(timer);
-		timer = setTimeout(function(){ count = 0; }, 120);
+		// Things that arrive together come in one after another, and nothing waits longer than half a second.
+		// Each one starts after the one before it, so that the last to arrive in a fast scroll is not the first to show.
+		var now = performance.now();
+		var start = Math.min(Math.max(now, lastStart + 70), now + 560);
+		var delay = start - now;
+		lastStart = start;
 
 		element.style.opacity = "";
 		element.animate([
