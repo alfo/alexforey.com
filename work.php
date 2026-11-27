@@ -76,6 +76,7 @@
               <img src="<?php echo getPhoto($project['id'], $photo, 's'); ?>" alt="" width="132" height="88" loading="lazy">
             </button>
           <?php } ?>
+          <span class="thumbnail-underline" aria-hidden="true"></span>
         </div>
       <?php } ?>
 
