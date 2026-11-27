@@ -80,6 +80,10 @@
         </div>
       <?php } ?>
 
+      <?php if (!empty($project['image_credit'])) { ?>
+        <p class="photo-credit container">Photos by <?php echo e($project['image_credit']); ?></p>
+      <?php } ?>
+
     </section>
   <?php } ?>
 
@@ -118,10 +122,6 @@
               </div>
             <?php } ?>
           </dl>
-        <?php } ?>
-
-        <?php if (!empty($project['image_credit'])) { ?>
-          <p class="photo-credit">Photos by <?php echo e($project['image_credit']); ?></p>
         <?php } ?>
 
         <?php if (!empty($project['paperwork']) || !empty($project['link'])) { ?>
