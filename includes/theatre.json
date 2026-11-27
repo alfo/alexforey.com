@@ -1,19 +1,81 @@
 {
-    "featured": {
-        "the-last-ship": 1,
-        "run-sister-run": 2,
-        "the-pianist": 1,
-        "tunab": 4,
-        "come-alive-london": 1,
-        "the-da-vinci-code": 1,
-        "between-the-lines": 1,
-        "positive": 1,
-        "kitty-in-the-lane": 1,
-        "wca-purgatorio": 1,
-        "paddy-goes-to-petra": 1,
-        "wca-paradiso": 2,
-        "the-creation": 1,
-        "saint-hildegard": 1
+    "home": {
+        "title": "Alex Forey",
+        "subtitle": "Lighting Design",
+        "image": "home",
+        "showreel": "1058236271",
+        "carousel": [
+            [
+                {"id": "the-last-ship", "photo": 1, "title": "The Last Ship", "venue": "Theatre Royal Drury Lane, London"},
+                {"id": "run-sister-run", "photo": 2},
+                {"id": "come-alive-london", "photo": 1},
+                {"id": "the-pianist", "photo": 3, "venue": "Park Theatre, London"},
+                {"id": "tunab", "photo": 3},
+                {"id": "wca-paradiso", "photo": 8},
+                {"id": "the-last-ship", "photo": 4, "title": "The Last Ship", "venue": "Theatre Royal Drury Lane, London"},
+                {"id": "saint-hildegard", "photo": 7, "venue": "The Vaults, London"},
+                {"id": "between-the-lines", "photo": 3},
+                {"id": "run-sister-run", "photo": 7},
+                {"id": "the-da-vinci-code", "photo": 1, "venue": "Salisbury Playhouse"},
+                {"id": "the-creation", "photo": 1}
+            ],
+            [
+                {"id": "come-alive-london", "photo": 3},
+                {"id": "wca-purgatorio", "photo": 1},
+                {"id": "the-pianist", "photo": 5, "venue": "Park Theatre, London"},
+                {"id": "kitty-in-the-lane", "photo": 2},
+                {"id": "the-last-ship", "photo": 10, "title": "The Last Ship", "venue": "Theatre Royal Drury Lane, London"},
+                {"id": "tunab", "photo": 10},
+                {"id": "paddy-goes-to-petra", "photo": 2},
+                {"id": "whaowg", "photo": 3},
+                {"id": "positive", "photo": 1},
+                {"id": "wca-paradiso", "photo": 1},
+                {"id": "the-realness", "photo": 1},
+                {"id": "the-da-vinci-code", "photo": 3, "venue": "Salisbury Playhouse"}
+            ]
+        ],
+        "quotes": [
+            {"text": "Alex Forey’s lighting design is endlessly impressive, surprisingly complex for a studio production", "source": "All That Dazzles", "id": "in-my-own-little-world"},
+            {"text": "Alex Forey’s sharp, stark lights sweep across the stage like slow waves", "source": "The Stage", "id": "run-sister-run"},
+            {"text": "Gorgeous lighting and creative sound. The lighting is absolutely stunning.", "source": "Broadway World", "id": "saint-hildegard"},
+            {"text": "some of the most imaginative and impressive lighting I have seen at the Fringe", "source": "EdFringeReview", "id": "grey-matter-fringe"}
+        ]
+    },
+
+    "press": {
+        "lead": {"text": "some of the most imaginative and impressive lighting I have seen at the Fringe", "source": "EdFringeReview", "id": "grey-matter-fringe"}
+    },
+
+    "about": {
+        "image": "headshot",
+        "lead": [
+            "Alex Forey is a lighting designer working in Theatre, Opera, Dance, TV, and Events. He is a graduate of the Royal Academy of Dramatic Art.",
+            "He also works as an Associate Designer for Woodroffe Bassett Design, as a Staff Designer at Peloton Studios London, and as a freelance lighting programmer."
+        ],
+        "body": [
+            "In addition to his design work, he explores the integration of new design processes with custom hardware/software solutions that enhance his creative output and streamline his workflow to tackle demanding projects."
+        ],
+        "facts": {
+            "Based in": "London",
+            "Trained at": "Royal Academy of Dramatic Art",
+            "Associate for": "Woodroffe Bassett Design",
+            "Also works as": "Staff Designer at Peloton Studios London, and freelance lighting programmer"
+        }
+    },
+
+    "contact": {
+        "image": "working",
+        "lead": [
+            "Alex is always interested in collaborating with new companies on upcoming shows. If you are interested in working together, please get in touch."
+        ],
+        "email": {"user": "hello", "domain": "alexforey.com"},
+        "links": {
+            "Instagram": {"name": "@alexforeylighting", "url": "https://instagram.com/alexforeylighting"},
+            "X": {"name": "@alexforey", "url": "https://x.com/alexforey"},
+            "Bluesky": {"name": "@alexforey.bsky.social", "url": "https://bsky.app/profile/alexforey.bsky.social"},
+            "Printables": {"name": "@alfo", "url": "https://www.printables.com/@alfo_468511"},
+            "GitHub": {"name": "alfo", "url": "https://github.com/alfo"}
+        }
     },
 
     "projects": [

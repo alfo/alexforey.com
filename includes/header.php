@@ -1,31 +1,13 @@
 <?php
 
-  date_default_timezone_set("UTC");
+  include_once 'includes/functions.php';
 
-  function getProjects($type) {
-    $filename = "includes/" . strtolower($type) . ".json";
-
-    $file = fopen($filename, "r");
-    $json = fread($file, filesize($filename));
-    fclose($file);
-
-    return json_decode($json, true);
-  }
-
-  function getProjectWithID($projects, $id) {
-
-
-    $search = array_filter($projects['projects'], function($ar) use($id) {
-      return ($ar['id'] == $id);
-    });
-
-    $result = array_values($search);
-    
-    return array_shift($result);
+  // $page picks the nav link to underline. A project's page sets it to portfolio.
+  if (!isset($page)) {
+    $page = strtolower($title);
   }
 
 ?>
-
 <!DOCTYPE html>
 
 <!--
@@ -38,9 +20,9 @@
 
 -->
 
-<html>
+<html lang="en" class="page-<?php echo e($page); ?>">
   <head>
-    <title>Alex Forey Lighting | <?php echo $title; ?></title>
+    <title>Alex Forey Lighting | <?php echo e($title); ?></title>
 
     <meta name="author" content="Alex Forey">
     <meta name="description" content="Alex Forey is a lighting designer working in Theatre, Opera, Dance, TV, and Events.">
@@ -48,7 +30,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="preload" href="/css/sf-ui-display-light.otf" as="font" type="font/otf" crossorigin>
+    <link rel="stylesheet" type="text/css" href="/css/style.css?v=<?php echo filemtime('css/style.css'); ?>">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/imgs/apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png?v=2">
@@ -59,27 +42,10 @@
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#000000">
 
-    <script src="/js/libs.js"></script>
-    <script src="/js/app.js"></script>
+    <script defer src="/js/app.js?v=<?php echo filemtime('js/app.js'); ?>"></script>
 
   </head>
 
   <body>
 
-    <div class="nav-container <?php echo $title; ?>">
-      <div class="container">
-        <nav>
-          <ul>
-            <li id="home"><a href="/">Alex Forey</a></li>
-            <li id="work"><a href="/work">Portfolio</a></li>
-            <li id="credits"><a href="/credits">Credits</a></li>
-            <li id="contact"><a href="/contact">Contact</a></li>
-            <li id="about"><a href="/about">About</a></li>
-            <li id="press"><a href="/press">Press</a></li>
-          </ul>
-        </nav>
-
-        <div class="clear"></div>
-
-      </div>
-    </div>
+<?php if (empty($navInHero)) include 'includes/nav.php'; ?>
