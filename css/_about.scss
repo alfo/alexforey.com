@@ -62,14 +62,15 @@
 }
 
 .facts {
-  display: flex;
-  flex-wrap: wrap;
+  // auto-fill keeps the empty columns, so a last row that is short still lines up with the one above.
+  // At 210px there is never room for a fourth column, so six places make two full rows.
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 28px 48px;
   padding: 34px 0 72px;
   border-top: 1px solid v.$lowlight-text;
 
   > div {
-    flex: 1 1 190px;
     min-width: 0;
   }
 
