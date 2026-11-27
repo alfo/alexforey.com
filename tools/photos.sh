@@ -11,7 +11,9 @@
 # (<id>-<n>.jpg). A photo that has no original there is read from the older
 # shrunk copy in imgs/portfolio/theatre-min (<id>-<n>-min.jpg) instead.
 #
-# It writes three WebP sizes to imgs/portfolio/web:
+# It writes four WebP sizes to imgs/portfolio/web:
+#   <id>-<n>-l.webp   2400 wide, for the photo viewer on a large display
+#                     (only made when the source is wider than 1800)
 #   <id>-<n>.webp     1800 wide, for the photo viewer on a show page
 #   <id>-<n>-m.webp   1000 wide, for the carousels and the Portfolio grid
 #   <id>-<n>-s.webp   300 wide, for the thumbnail strip
@@ -96,7 +98,10 @@ list() {
   names | while read -r name; do
     wanted "$name" || continue
     src=$(source_for "$name")
-    job "$src" "$out/$name.webp" 1800 78
+    job "$src" "$out/$name.webp" 1800 84
+    if [ "$(vipsheader -f width "$src")" -gt 1800 ]; then
+      job "$src" "$out/$name-l.webp" 2400 84
+    fi
     job "$src" "$out/$name-m.webp" 1000 74
     job "$src" "$out/$name-s.webp" 300 70
   done
@@ -128,6 +133,7 @@ if [ -z "$only" ]; then
   for f in "$out"/*.webp; do
     [ -f "$f" ] || continue
     name=$(basename "$f" .webp)
+    name=${name%-l}
     name=${name%-m}
     name=${name%-s}
     [ -n "$(source_for "$name")" ] || { rm "$f"; echo "removed $f"; }

@@ -317,12 +317,20 @@ function initPhotoViewer() {
 
 	var photos = JSON.parse(viewer.getAttribute("data-photos"));
 	var image = viewer.querySelector("img");
+
+	// The usual copy of a photo is 1800 wide. A photo is 3:2, so when the viewer is tall enough
+	// to show it with more pixels than that, the larger copies are used instead. The first photo
+	// is in the page with both copies, and the browser makes the same choice for that one.
+	if (image.offsetHeight * 1.5 * (window.devicePixelRatio || 1) > 1800) {
+		photos = JSON.parse(viewer.getAttribute("data-large-photos"));
+	}
 	var count = viewer.querySelector(".photo-count");
 	var thumbnails = findAll(".thumbnail");
 	var current = 0;
 
 	function showPhoto(index) {
 		current = (index + photos.length) % photos.length;
+		image.removeAttribute("srcset");
 		image.src = photos[current];
 		if (count) count.textContent = (current + 1) + " / " + photos.length;
 

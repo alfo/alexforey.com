@@ -55,12 +55,17 @@
     return '/imgs/' . $name . '.jpg';
   }
 
-  // A production photo. $photo is a number or "thumb"; $size is "" (large), "m" or "s".
+  // A production photo. $photo is a number or "thumb"; $size is "" (the photo viewer), "l" (the
+  // photo viewer on a large display), "m" or "s".
   // Falls back to the old JPEG until tools/photos.sh has been run for a new photo.
   function getPhoto($id, $photo, $size = '') {
     $web = 'imgs/portfolio/web/' . $id . '-' . $photo . ($size ? '-' . $size : '') . '.webp';
     if (file_exists($web)) {
       return '/' . $web;
+    }
+    // A photo whose source is small has no "l" copy
+    if ($size == 'l') {
+      return getPhoto($id, $photo);
     }
     return '/imgs/portfolio/theatre-min/' . $id . '-' . $photo . '-min.jpg';
   }

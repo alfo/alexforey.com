@@ -28,9 +28,12 @@
     $photos[] = 'thumb';
   }
 
+  // The photo viewer has two copies of each photo, and js/app.js picks the one that suits the screen
+  $viewerPhotos = [];
   $largePhotos = [];
   foreach ($photos as $photo) {
-    $largePhotos[] = getPhoto($project['id'], $photo);
+    $viewerPhotos[] = getPhoto($project['id'], $photo);
+    $largePhotos[] = getPhoto($project['id'], $photo, 'l');
   }
 
   $press = getPress($project);
@@ -50,8 +53,8 @@
   <?php if ($photos) { ?>
     <section aria-label="Production photos">
 
-      <div class="photo-viewer" data-photos="<?php echo e(json_encode($largePhotos)); ?>">
-        <img src="<?php echo $largePhotos[0]; ?>" alt="<?php echo e($project['title']); ?>, production photo" width="1800" height="1200">
+      <div class="photo-viewer" data-photos="<?php echo e(json_encode($viewerPhotos)); ?>" data-large-photos="<?php echo e(json_encode($largePhotos)); ?>">
+        <img src="<?php echo $viewerPhotos[0]; ?>" srcset="<?php echo $viewerPhotos[0]; ?> 1800w, <?php echo $largePhotos[0]; ?> 2400w" sizes="(max-width: 850px) 100vw, min(84vw, 1140px)" alt="<?php echo e($project['title']); ?>, production photo" width="1800" height="1200">
         <?php if (count($photos) > 1) { ?>
           <button class="arrow prev" type="button" aria-label="Previous photo" data-step="-1"><span class="ring"><svg width="14" height="14" viewBox="0 0 20 20"><path d="M13 2 L5 10 L13 18" stroke="#ffffff" stroke-width="2" fill="none"></path></svg></span></button>
           <button class="arrow next" type="button" aria-label="Next photo" data-step="1"><span class="ring"><svg width="14" height="14" viewBox="0 0 20 20"><path d="M7 2 L15 10 L7 18" stroke="#ffffff" stroke-width="2" fill="none"></path></svg></span></button>
