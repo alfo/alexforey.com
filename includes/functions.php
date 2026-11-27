@@ -119,22 +119,27 @@
     return '';
   }
 
-  // The people on a show, split into teams without changing their order in the JSON.
-  // The lighting team is the run of programmers, electricians and suppliers. Everyone before it
-  // is the creative team and everyone after it is the show team. A short list stays as one team.
+  // The people on a show, split into teams by their jobs, in the order they have in the JSON.
+  // The production team puts the show on: production managers, supervisors, programmers,
+  // production electricians, production engineers and suppliers. The show team runs it:
+  // stage management, heads of departments, the numbered crew and operators. Everyone else,
+  // producers included, is the creative team. A short list stays as one team.
   function getTeams($project) {
     $people = isset($project['people']) ? $project['people'] : [];
     if (count($people) <= 12) return $people ? ['Creative Team' => $people] : [];
 
-    $teams = ['Creative Team' => [], 'Lighting Team' => [], 'Show Team' => []];
-    $team = 'Creative Team';
+    $show = '/Stage Manager|^(Company Manager|Head of |Chief Electrician|Dresser|Chaperone)|Wardrobe|\bNo\.? ?\d|\bOperator/';
+    $production = '/^Technical (Director|Manager)|^(Costume|Props) Supervisor|\bProgrammer|\bProduction (?!Design)[A-Z]|\bSupplier/';
+
+    $teams = ['Creative Team' => [], 'Production Team' => [], 'Show Team' => []];
     foreach ($people as $job => $person) {
-      if (preg_match('/^(Lighting (Programmer|Supplier)|Head of Lighting|(Lead )?Production Electricians?)\b/', $job)) {
-        $team = 'Lighting Team';
-      } elseif ($team == 'Lighting Team') {
-        $team = 'Show Team';
+      if (preg_match($show, $job)) {
+        $teams['Show Team'][$job] = $person;
+      } elseif (preg_match($production, $job)) {
+        $teams['Production Team'][$job] = $person;
+      } else {
+        $teams['Creative Team'][$job] = $person;
       }
-      $teams[$team][$job] = $person;
     }
     return array_filter($teams);
   }
