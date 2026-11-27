@@ -1009,6 +1009,12 @@ html.page-home footer {
   object-fit: cover;
 }
 
+.photo-credit {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #C9C9C9;
+}
+
 .thumbnails.js .thumbnail.current {
   border-bottom-color: transparent;
 }
@@ -1100,13 +1106,8 @@ html.page-home footer {
 .project-info .credits dl + h2 {
   margin-top: 40px;
 }
-.project-info .credits .photo-credit {
-  margin-top: 28px;
-  font-size: 15px;
-  color: #C9C9C9;
-}
 .project-info .credits .project-links {
-  margin-top: 6px;
+  margin-top: 28px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

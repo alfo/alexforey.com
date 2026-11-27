@@ -323,6 +323,13 @@ $neighbour-dim-edge: 0.41;
   }
 }
 
+// The photographer's name goes straight under the photos, where it is never far down a long page
+.photo-credit {
+  margin-top: 12px;
+  font-size: 14px;
+  color: v.$middlelight-text;
+}
+
 // With the script running, a sliding line stands in for the current thumbnail's own underline,
 // like the line under the role filter on the Credits page
 .thumbnails {
@@ -432,14 +439,8 @@ $neighbour-dim-edge: 0.41;
       margin-top: 40px;
     }
 
-    .photo-credit {
-      margin-top: 28px;
-      font-size: 15px;
-      color: v.$middlelight-text;
-    }
-
     .project-links {
-      margin-top: 6px;
+      margin-top: 28px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
