@@ -98,13 +98,16 @@
             "people": {
                 "Director, Writer & Performer": "Jaz Terry",
                 "Producer": "No Name Creatives",
+                "Set Designer": "Valentina Turner",
                 "Sound Designer": "Ewan Munro",
                 "Choreographer": "Arethajay McEwen",
                 "Costume Designer": "Zah",
                 "Make Up Designer": "Kareem Jarché",
                 "Hair": "Batiseol and Frida Ibrahim-Dikko",
                 "Music": "Ayden Morgan, Jaz Terry, and Massive Daughter",
+                "Filmography": "Cole Dennis, Billy Luke Nevers, and Lizzy-Rose Esin-Kelly",
                 "Stage Manager": "Marcus Collick",
+                "Production Electrician": "Ollie Partridge",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
@@ -128,8 +131,22 @@
                 "Book & Lyrics": "Steven Sater",
                 "Music": "Duncan Sheik",
                 "Choreographer": "James Cousins",
+                "Associate Choreographer": "Georges Hanns",
+                "Music Supervisor, Vocal Arranger & Co-Orchestrator": "Phil Bateman",
+                "Musical Director & Co-Orchestrator": "Ben McQuigg",
+                "Linbury Associate Designer": "Georgios Fytas",
+                "Associate Director": "George Jibson",
+                "Costume Supervisor": "Maybelle Laye",
+                "Props Supervisor": "Props by Eve",
+                "Wigs, Hair & Make-up Designer": "Dominique Hamilton",
                 "Casting Director": "Harry Blumenau",
-                "Lighting Supplier": "White Light"
+                "Lighting Supplier": "White Light",
+                "Produced by": "SeenSee Company & Park Myung Sung",
+                "General Management": "Lambert Jackson",
+                "Production Manager": "Jonny Dickie",
+                "Company Stage Manager": "Christine Jennifer Felkins",
+                "Deputy Stage Manager": "Vicky Zenetzi",
+                "Assistant Stage Manager": "Abbie Darrell"
             },
             "paperwork": false,
             "venue": "Southwark Playhouse, London"
@@ -142,10 +159,20 @@
             "id": "blaze-fm-tour",
             "people": {
                 "Director": "Maggie Norris",
+                "Writer": "James Meteyard",
+                "Writer & Grime MC": "Jammz",
                 "Set Designer": "Tina Torbey",
                 "Sound Designer": "Tony Gayle",
                 "Video Designer": "Mic Pool",
-                "Lighting Supplier": "White Light"
+                "Costume Designer": "Lambdog1066",
+                "Musical Supervisor & Musical Director": "Shemzy",
+                "Additional Sounds": "Jack Baxter",
+                "Lighting Supplier": "White Light",
+                "Production Manager": "William Deady",
+                "Producer": "Emily Obasohan",
+                "Produced by": "The Big House",
+                "Company Stage Manager": "Roshan Conn",
+                "Assistant Stage Manager": "Elson Syla"
             },
             "paperwork": false,
             "venue": "The Lowry, Bristol Old Vic, Belgrade Theatre"
@@ -158,16 +185,26 @@
             "id": "the-pianist",
             "people": {
                 "Adaptor & Director": "Thom Southerland",
-                "Set and Video Designer": "Andrzej Goudling",
+                "Set and Video Designer": "Andrzej Goulding",
                 "Lighting Designer": "Robbie Butler",
+                "Associate Lighting Designer": "Alex Forey",
                 "Sound Designer": "Gareth Tucker for Autograph Sound",
                 "Costume Designer": "Jonathan Lipman",
                 "Choreographer & Movement Director": "Karen Bruce",
                 "Arrangements, Musical Supervision & Orchestrations": "Simon Lee",
                 "Musical Director": "Malcolm Forbes-Peckham",
                 "Assistant Director": "Josh Whatsize",
-                "Casting Director": "Ginny Schiller CDG",
-                "Lighting Supplier": "White Light"
+                "Casting Directors": "Ginny Schiller CDG & Ben Armstrong",
+                "Lighting Programmer": "Alex Forey",
+                "Production Electrician": "Charlie Hickey & Scott Carter",
+                "Lighting Supplier": "White Light",
+                "Executive Producing & General Management": "DEM Productions",
+                "Company Stage Manager": "Simon Batho",
+                "Deputy Stage Manager": "Jasmin Davies",
+                "Assistant Stage Manager & Book Cover": "Antonia Howlett",
+                "Sound No. 1": "Angus Wu",
+                "Sound No. 2": "Theo Foley",
+                "Head of Wardrobe": "Grace Douetil"
             },
             "paperwork": false,
             "image_credit": "Rich Southgate",
@@ -181,10 +218,24 @@
             "id": "come-alive-australia",
             "people": {
                 "Creative Director": "Simon Hammerstein",
-                "Set Designer": "Ruby Law",
+                "Music Producer": "Matthew Brind",
+                "Choreographer": "Jerry Reeve & Lukas McFarlane",
+                "Circus Choreographer": "Tilde Björfors & Mattias Andersson",
                 "Lighting Designer": "Adam Bassett (WBD)",
                 "Associate Lighting Designer": "Alex Forey",
                 "Sound Design": "Gareth Tucker",
+                "Set Designer": "Ruby Law",
+                "Costume Designer": "Susan Kulkarni",
+                "Art Director": "Mika Handley",
+                "Co-Music Supervisor": "Greg Arrowsmith",
+                "Circus Consultant": "Craig Dagostino",
+                "Music Producer & Mixer": "Andrei Basirov",
+                "Associate Orchestrator": "Jack Hopkins",
+                "Associate Director": "Dayle Hodge",
+                "Assistant Choreographer": "Emma-Louise Stansall",
+                "Australian Associate Lighting Designer": "Matthew Tunchon",
+                "Australian Associate Sound Designer": "Andrew Poppleton (JPJ)",
+                "Lighting Programmer": "Rob Cuddon",
                 "Lighting Supplier": "Chameleon Touring"
             },
             "paperwork": false,
@@ -197,7 +248,7 @@
             "role": "Lighting Designer",
             "id": "tunab",
             "people": {
-                "Director": "Tommaso Giacomin",
+                "Writer & Director": "Tommaso Giacomin",
                 "Lighting Designer": "Alex Forey",
                 "Video & Sound Designer": "James Aldred",
                 "Video Editor": "Chris Lincé",
@@ -205,7 +256,7 @@
                 "Assistant Director": "Lara Robinson",
                 "Company Manager": "Manuela Pierri",
                 "Consultant Dramaturg": "Simona Gonella",
-                "Producer": "Heather Ralph"
+                "Producers": "TG Works & Heather Ralph"
             },
             "venue": "New Diorama Theatre, London",
             "image_credit": "David Monteith-Hodge"
@@ -221,6 +272,7 @@
                 "Director": "Leo Warner",
                 "Music and Lyrics": "Sting",
                 "Book": "Barney Norris",
+                "Based on a book by": "Lorne Campbell",
                 "Set and Props Designer": "Jenny Melville",
                 "Lighting Designer": "Adam Bassett (WBD)",
                 "Associate Lighting Designer": "Alex Forey",
@@ -232,18 +284,25 @@
                 "Musical Supervisor & Orchestrator": "Rob Mathes",
                 "Musical Director & Co-Musical Supervisor": "Richard John",
                 "Wigs, Hair & Makeup Designer": "Campebell Young Associates",
+                "Illusion Design": "Chris Fisher",
                 "Casting Director": "Jill Green",
                 "Fight Director": "Alex Payne",
                 "Associate Director": "Denni Sayers",
                 "Associate Choreographer": "Aisling Duffy",
                 "Associate Sound Designer": "Joel Price",
+                "Costume Supervisor": "Caroline Stevens",
+                "WHAM Designer": "Helen Keane",
                 "Lighting Programmer": "Stanley Olden",
                 "Lead Production Electrician": "Dom Cook (Going Dark)",
                 "Production Electricians": "Matt Dean, Adam Squire",
                 "Lighting Supplier (Europe)": "Neg Earth",
                 "Lighting Supplier (USA)": "Christie Lites",
                 "Lighting Supplier (Australia)": "Chameleon Touring",
-                "Production Manager": "Stuart Tucker"
+                "Production Manager": "Stuart Tucker",
+                "Associate Production Manager": "James MacGregor",
+                "Executive Producer": "Karl Sydow",
+                "General Management": "Short Street Productions",
+                "Associate General Manager": "Imogen Sutherland"
             },
             "paperwork": false,
             "venue": "Theatre Royal Drury Lane, London, Metropolitan Opera, New York, & International Tour",
@@ -279,7 +338,8 @@
                 "Sound Designer": "Peter Michaels",
                 "Prop Maker": "Gisela Mulindwa",
                 "Stage Manager": "Joe Judd",
-                "Producer": "Steven Maddocks"
+                "Producer": "Steven Maddocks",
+                "Produced by": "Infinite Space Theatre"
             },
             "paperwork": false,
             "image_credit": "Cam Harle",
@@ -321,11 +381,13 @@
             "id": "run-sister-run",
             "people": {
                 "Director": "Marlie Haco",
-                "Designer": "Tomás Palmer",
-                "Composer & Co-Sound Designer": "Akos Lustyik",
+                "Writer": "Chloë Moss",
+                "Set & Costume Designer": "Tomás Palmer",
+                "Composer & Co-Sound Designer": "Ákos Lustyik",
                 "Co-Sound Designer": "Florence Hand",
                 "Casting Director": "Gabrielle Dawes",
                 "Stage Manager": "Ella Kirk",
+                "Producer": "Toby Mather",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
@@ -349,8 +411,9 @@
                 "Sound Designer": "Esther Kehinde Ajayi",
                 "Dramaturg": "malakaï sargeant",
                 "Movement": "Tanaka Bingwa",
-                "Intimacy Tommy": "Ross-Williams",
-                "Stage Manager": "Leonora Nicholson"
+                "Intimacy Director": "Tommy Ross-Williams",
+                "Stage Manager": "Leonora Nicholson",
+                "Producer": "Mwansa Phiri (Visual Sauce)"
             },
             "paperwork": false,
             "venue": "Southwark Playhouse, London",
@@ -363,6 +426,7 @@
             "role": "Associate Lighting Designer, Programmer",
             "id": "the-da-vinci-code",
             "people": {
+                "Adapted by": "Rachel Wagstaff & Duncan Abel",
                 "Director": "Chelsea Walker",
                 "Designer": "Alys Whitehead",
                 "Lighting Designer": "Ryan Day",
@@ -441,11 +505,13 @@
                 "Set Designer": "Ruby Law",
                 "Choreographer": "Jerry Reeve & Lukas McFarlane",
                 "Costume Designer": "Susan Kulkarni & Martina Trottmann",
+                "Art Director": "Mika Handley",
                 "Lighting Designer": "Adam Bassett (WBD)",
                 "Associate Lighting Designer": "Alex Forey",
                 "Sound Design": "Gareth Tucker",
                 "Music Supervisor": "Greg Arrowsmith",
                 "Music Producer": "Matthew Brind",
+                "Casting": "Pearson Casting",
                 "Lighting Programmer": "Stanley Olden",
                 "Head of Lighting": "Adam Povey",
                 "Lighting Supplier": "White Light",
@@ -473,11 +539,13 @@
                 "Set Designer": "Ruby Law",
                 "Choreographer": "Jerry Reeve & Lukas McFarlane",
                 "Costume Designer": "Susan Kulkarni & Martina Trottmann",
+                "Art Director": "Mika Handley",
                 "Lighting Designer": "Adam Bassett (WBD)",
                 "Associate Lighting Designer": "Alex Forey",
                 "Sound Designer": "Gareth Tucker",
                 "Music Supervisor": "Greg Arrowsmith",
                 "Music Producer": "Matthew Brind",
+                "Casting": "Pearson Casting",
                 "Lighting Programmer": "Stanley Olden",
                 "Head of Lighting": "Adam Povey",
                 "Lighting Supplier": "White Light",
@@ -513,7 +581,8 @@
                 "Associate Set Designer": "Pauline McGrath",
                 "Stage Manager": "Stacey Nurse",
                 "Production Electrician": "Tom Shakleton",
-                "Lighting Supplier": "White Light"
+                "Lighting Supplier": "White Light",
+                "Produced by": "The Big House & New Diorama Theatre"
             },
             "paperwork": false,
             "venue": "New Diorama Theatre, London",
@@ -542,13 +611,18 @@
             "id": "hide-and-seek",
             "description": "Hide and Seek is a moving and darkly entertaining play that pits two teenage boys against each other in the face of the contagious prejudice of their small Italian town. Gio, who has never felt accepted by anyone - not by parents, teachers or peers - decides to disappear and hide out in a secluded cave.",
             "people": {
-                "Director": "Carlotta Brentan",
+                "Translator & Director": "Carlotta Brentan",
                 "Designer": "Constance Comparot",
                 "Writer": "Tobia Rossi",
                 "Composer": "Simone Manfredini",
+                "Fight Director": "Michael O'Donnell",
+                "Stylist": "Alessandro Milzoni",
                 "Dramaturg and Assistant Director": "Giada Prestinari",
                 "Stage Manager": "Fae Hochgemuth",
-                "Casting Director": "Laura Seaborn for HJB Casting"
+                "Casting Director": "Laura Seaborn for HJB Casting",
+                "Producer & General Manager": "Zava Productions",
+                "Associate Producer": "Lorenzo Mannelli",
+                "Co-producer": "Kairos Italy Theatre"
             },
             "paperwork": false,
             "venue": "Park Theatre, London",
@@ -574,6 +648,8 @@
                 "Stage Manager": "Summer Keeling",
                 "Sound Designer": "Emily Rose Simons",
                 "Assistant Director": "Ella McCormack",
+                "Production Manager": "Laurel Marks",
+                "Creative Producer": "Tanya Truman",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
@@ -626,7 +702,8 @@
                 "Choreographer": "Fi Silverthorn",
                 "Associate Director": "Chris Neels",
                 "Stage Manager": "Laurel Marks",
-                "Lighting Supplier": "White Light"
+                "Lighting Supplier": "White Light",
+                "Producer": "Sarah Stallwood-Hall"
             },
             "paperwork": false,
             "venue": "The Big House, London",
@@ -831,7 +908,8 @@
                 "Set Design": "Constance Comparot",
                 "Writer": "\u00c1ine Ryan",
                 "Sound Design": "Florence Hand",
-                "Technical Operator": "Scarlett Bryan"
+                "Technical Operator": "Scarlett Bryan",
+                "Producers": "Studio Perform Theatre & Xinyou Zhang"
             },
             "press": {
                 "London Pub Theatres": {"quote": "an eye-catching set designed by Constance Comparot which is stunningly brought to life in conjunction with wonderful dynamic lighting that allows this decaying country home to easily morph into vivid vignettes from Kitty\u2019s life. The lighting, designed by Alex Forey, deserves calling out twice. I was excited as each scene progressed just to see how it would shift next; transforming Kitty\u2019s home into a pub then a nightclub, a lonely country road illuminated by a car\u2019s headlights then a misty morning hilltop, all executed flawlessly in cooperation with impeccable, haunting sound design from Florence Hand", "link": "https://www.londonpubtheatres.com/review-kitty-in-the-lane-by-aine-ryan-at-jack-studio-theatre-2-13-may-2023"},
@@ -852,7 +930,8 @@
                 "Writer & Director": "Gintare Parulyte",
                 "Sound & Video Design": "David Gaspar",
                 "Dramaturgy": "Liv Morris",
-                "Assistant Director": "Sandra Kilian-Zazulak"
+                "Assistant Directors": "Sandra Kilian-Zazulak & Elena Vozarikova",
+                "Produced by": "Théâtre National du Luxembourg"
             },
             "paperwork": false,
             "venue": "Coronet Theatre, London",
@@ -891,10 +970,12 @@
             "description": "Zara lives in a perfect world. No poverty, no war. She\u2019s even been implanted with an electronic chip that will extend her life forever. So, why does she want to end it all?To be allowed to die, Zara must debate her fate with an android therapist and overcome the human drive to survive. \u2018Good Day\u2019 is a new dark comedy that explores how we find meaning in our lives and asks whether immortality is really all it\u2019s cracked up to be.",
             "people": {
                 "Director": "Marlie Haco",
+                "Writers": "Daniel Bainbridge & Cam Scriven",
                 "Set & Costume Designer": "Justin Nardella",
                 "Video Designer": "Dan Light",
-                "Composer & Sound Designer": "Akos Lustyik",
+                "Composer & Sound Designer": "Ákos Lustyik",
                 "Stage Manager": "Ellie Carney",
+                "Producer": "Double Telling",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
@@ -935,6 +1016,8 @@
             "id": "imaginary-natural-beings",
             "people": {
                 "Director": "Issy Snape",
+                "Writer": "Mojola Akinyemi",
+                "Set Designer": "Tara Kelly",
                 "Lighting Designer": "Alex Forey"
             },
             "paperwork": false,
@@ -980,14 +1063,15 @@
             "image_credit": "Steve Gregson"
         },
         {
-            "title": "Message in the Clay River",
-            "date": "2022-08-11",
+            "title": "Message in a Clay River",
+            "date": "2022-08-07",
             "role": "Lighting Designer",
             "id": "message-in-the-clay-river",
             "people"   : {
                 "Director": "Mo Korede",
                 "Designer": "Ieva Ievina",
-                "Lighting Designer": "Alex Forey"
+                "Lighting Designer": "Alex Forey",
+                "Producer": "Imagiphoria Studios"
             },
             "paperwork": false,
             "venue": "Cockpit Theatre, London"
@@ -1005,7 +1089,7 @@
                 "Producer": "Sam Dash"
             },
             "paperwork": false,
-            "venue": "Coronet Theatre, London & Summerhall, Edinburgh",
+            "venue": "Coronet Theatre, London & Greenside @ Riddles Court, Edinburgh",
             "image_credit": "Alex Forey"
         },
         {
@@ -1138,7 +1222,7 @@
             "description": "Focusing on the psychological isolation and empowerment. This performance if Electra delves into strength of the main character and the fear of her words.",
             "people": {
                 "Director": "Mo Korede",
-                "Designer": "Ieva Ievina & Eilyn Chung"
+                "Designer": "Ieva Ievina & Eilyn Cheung"
             },
             "paperwork": false,
             "venue": "Wimbledon College of Arts & Lyric Hammersmith",
@@ -1151,7 +1235,7 @@
             "id": "jc-rada",
             "description": "When Julius Caesar returns to Rome triumphant from the wars, his republican friends decide his dictatorship must end. But, as a new force led by Mark Antony emerges, Caius Cassius persuades Marcus Brutus that the only way to end the Emperor's reign of power is through assassination. Shakespeare's tense drama of high politics and conspiracy amongst men in power is a classic introduction for young audiences.",
             "people": {
-                "Director": "Che Walker",
+                "Director": "Ché Walker",
                 "Designer": "Anita Gander",
                 "Sound Designer": "John Leonard"
             },
@@ -1187,12 +1271,14 @@
             "description": "In the mountains of Connemara, County Galway, Maureen Folan – a plain, lonely woman, tied to her manipulative and ageing mother, Mag – comes alive at her first and possibly last prospect of a new life. But Mag has other ideas; and her interference sets in motion a train of events that leads inexorably towards the play’s breathtaking conclusion.",
             "people": {
                 "Director": "Rachel O’Riordan",
+                "Writer": "Martin McDonagh",
                 "Designer": "Good Teeth Theatre",
                 "Lighting Designer": "Kevin Treacy",
                 "Composer & Sound Designer": "Anna Clock",
                 "Fight Director": "Kev McCurdy",
                 "Dialect Coach": "Edda Sharpe",
-                "Casting Director": "Sam Stevenson"
+                "Casting Director": "Sam Stevenson",
+                "Co-produced with": "Chichester Festival Theatre"
             },
             "paperwork": false,
             "venue": "Lyric Hammersmith"
@@ -1204,6 +1290,8 @@
             "id": "stop-kiss",
             "description": "A romantic, tender, and playful story entangled in violence, Stop Kiss weaves between: the reality and brutality of loving the 'wrong person'; the strength in the aftermath of being a woman in the 'wrong place at the wrong time'; and the sweet awkwardness of falling in love.",
             "people": {
+                "Director": "Stella Kammel",
+                "Writer": "Diana Son",
                 "Movement": "Elizabeth Ballinger",
                 "Sound Designer": "Daberechi Ukoha-Kalu",
                 "Designer": "Sophie Firth",
@@ -1240,6 +1328,7 @@
             "people": {
                 "Director": "Jasmine Teo",
                 "Lighting Designer": "Alex Forey",
+                "Producer": "The Bridge TTC",
                 "Lighting Supplier": "Encore"
             },
             "paperwork": false,
@@ -1272,7 +1361,9 @@
                 "Lighting Designer": "Aaron J Dootson",
                 "Choreographer": "Lee Proud & Adam Haigh",
                 "Sound Designer": "Luke Swaffield for Autograph",
-                "Musical Director": "Jordan Li-Smith"
+                "Musical Director": "Jordan Li-Smith",
+                "Orchestrations": "Charlie Ingles",
+                "Producer": "Jeremy Walker for NYMT"
             },
             "paperwork": false,
             "venue": "NYMT, The Other Palace, London"
@@ -1285,11 +1376,15 @@
             "description": "Music, dance, laughs, and the age-old tale of Boy Meets Girl - no musical puts it on stage better than ANYTHING GOES. A hilarious shipboard romp, wrapped around one of Cole Porter’s most magical scores, Anything Goes is Delightful, Delicious, and De-Lovely.",
             "people": {
                 "Director": "Kate Golledge",
+                "Book & Lyrics": "Scott Gilmour",
+                "Music": "Claire McKenzie",
                 "Designer": "Diego Pitarch",
                 "Lighting Designer": "Aaron J Dootson",
                 "Choreographer": "Darragh O’Leary",
                 "Sound Designer": "Gareth Tucker for Autograph",
-                "Musical Director": "Jordan Li-Smith"
+                "Musical Director": "Jordan Li-Smith",
+                "Musical Supervisor": "Laura Bangay",
+                "Producer": "Jeremy Walker for NYMT"
             },
             "paperwork": false,
             "venue": "NYMT, The Other Palace, London"
@@ -1331,7 +1426,7 @@
         },
         {
             "title": "Libu\u0161e",
-            "date": "2019-03-02",
+            "date": "2019-03-18",
             "role": "Lighting Designer",
             "id": "libuse",
             "description": "UCO reimagines Smetana's Bohemian queen and her medieval court in the modern-day city, where soaring skyscrapers promise glamour and wealth at a human cost. Born into a celebrated legal dynasty, Libu\u0161e is queen of the corporate world and obliged to assert herself as its leader.",
@@ -1341,6 +1436,8 @@
                 "Designer": "Holly Muir",
                 "Costume": "Al\u017ebeta Kurdelov\u00e1",
                 "Choreographer": "Ester Rudhart",
+                "Producer": "Lizzie Thomas",
+                "Assistant Producer": "Helen Xinwei Chen",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
@@ -1406,7 +1503,9 @@
                 "Director": "Olivia Burgin",
                 "Set Designer": "Arya Bhomick",
                 "Musical Director": "Alessandra Anderson-Lewis",
+                "Choreographer": "Dale Sewell",
                 "Sound Designer": "Matthias Olson",
+                "Producer": "Vojta Smekal",
                 "Lighting Supplier": "White Light"
             },
             "paperwork": true,
@@ -1461,12 +1560,28 @@
             "system": "d3 4x4pro and Panasonic Laser Projectors, linked to ETC EOS",
             "people": {
                 "Director": "Leo Warner",
+                "Adapted by": "Duncan Macmillan",
                 "Set Designer": "Jenny Melville",
                 "Video Designer": "Lysander Ashton",
                 "Lighting Designer": "Matt Daw",
                 "Sound Designer": "Gareth Fry",
                 "Composer": "Nick Powell",
-                "Movement Director": "Kim Brandstrup"
+                "Movement Director": "Kim Brandstrup",
+                "Costume Designer": "Molly Einchcomb",
+                "Casting Director": "Julia Horan CDG",
+                "Assistant Director": "Piers Black-Hawkins",
+                "Associate Video Designer": "Raphael Pimlott",
+                "D3 Programmer": "Rowan Pitts",
+                "Associate Lighting Designer": "Leo Woolcock",
+                "Lighting Programmer": "Chris Hirst",
+                "Company Stage Manager": "Nick Hill",
+                "Stage Manager": "Nic Donithorn",
+                "Deputy Stage Manager": "Edward Salt",
+                "Assistant Stage Manager": "Damien Stanton",
+                "Chaperone (London)": "Joy Farrukh",
+                "Chaperone (Manchester)": "Suzanne Eyre",
+                "Production Manager": "James Roxburgh",
+                "Producers": "Anna Jameson & Vicky Graham"
             },
             "paperwork": false,
             "venue": "59 Productions, Lyric Hammersmith"
@@ -1495,9 +1610,10 @@
             "image_credit": "Dave Morgan, Jane Hobson",
             "description": "Five new contemporary ballets commisionned by New English Ballet Theatre for their annual gala, featuring 100 pixel-mapped pendants",
             "people": {
-                "Choreographer": "Kristen Mcnally",
+                "Choreographers": "Kristen McNally, Marcelino Sambé, George Williamson, Valentino Zucchetti & Daniela Cardim",
                 "Set Designer": "Louie Whitemore",
-                "Lighting Designer": "Andrew Ellis"
+                "Lighting Designer": "Andrew Ellis",
+                "Production & Stage Manager": "Marius Arnold-Clarke"
             },
             "venue": "Peacock Theatre, London",
             "paperwork": false
