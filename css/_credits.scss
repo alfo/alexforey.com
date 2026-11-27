@@ -129,6 +129,16 @@
     h3 {
       font-size: 21px;
       line-height: 1.3;
+
+      // The space above the title is part of the link, so that it is easier to tap
+      a {
+        padding: 9px 0 2px;
+      }
+
+      // A title with an underline needs a little room before the line below it
+      &:has(a) {
+        margin-bottom: 5px;
+      }
     }
 
     .dot {
@@ -169,10 +179,6 @@
       &.award {
         color: v.$lowlight;
       }
-    }
-
-    .small-link {
-      margin-top: 2px;
     }
   }
 }
