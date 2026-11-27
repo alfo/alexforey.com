@@ -16,7 +16,12 @@
 ?>
 
   <section class="hero snap">
-    <img class="hero-image" src="<?php echo getImage($home['image']); ?>" alt="" width="2400" height="1600" fetchpriority="high">
+    <?php // A window wider than 1300 gets the larger copy of the photo, when tools/photos.sh has made one. "sizes" tells a narrower window that the photo is small, so that a phone never fetches the larger copy. ?>
+    <?php if (file_exists('imgs/' . $home['image'] . '-l.webp')) { ?>
+      <img class="hero-image" src="<?php echo getImage($home['image']); ?>" srcset="<?php echo getImage($home['image']); ?> 2400w, <?php echo getImage($home['image'] . '-l'); ?> 3840w" sizes="(max-width: 1300px) 800px, 100vw" alt="" width="2400" height="1600" fetchpriority="high">
+    <?php } else { ?>
+      <img class="hero-image" src="<?php echo getImage($home['image']); ?>" alt="" width="2400" height="1600" fetchpriority="high">
+    <?php } ?>
     <div class="hero-shade" aria-hidden="true"></div>
 
     <div class="video-container" data-video="<?php echo e($home['showreel']); ?>" aria-hidden="true">

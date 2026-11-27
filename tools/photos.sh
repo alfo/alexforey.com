@@ -19,7 +19,8 @@
 # camera data. Nothing is ever made larger than its source.
 #
 # It also makes WebP copies of the home, headshot and contact photos, and
-# removes web photos whose source has gone.
+# removes web photos whose source has gone. The home photo fills the screen,
+# so it gets a second copy 3840 wide (home-l.webp) for large displays.
 #
 # It needs vips: brew install vips
 
@@ -100,7 +101,8 @@ list() {
     job "$src" "$out/$name-s.webp" 300 70
   done
   if [ -z "$only" ]; then
-    job imgs/home.jpg imgs/home.webp 2400 76
+    job imgs/home.jpg imgs/home.webp 2400 84
+    job imgs/home.jpg imgs/home-l.webp 3840 84
     job imgs/headshot.jpg imgs/headshot.webp 900 80
     job imgs/working.jpg imgs/working.webp 1200 80
   fi
