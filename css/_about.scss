@@ -1,6 +1,7 @@
 @use "variables" as v;
 
-// About and Contact share one layout: a photo next to the words, then a row of facts
+// About and Contact share one layout: a photo next to the words, then a row of facts.
+// About ends with the awards.
 
 .about-me, .contact-me {
   display: flex;
@@ -89,5 +90,107 @@
 
   dd a {
     padding-bottom: 2px;
+  }
+}
+
+// On About the awards come straight after the facts, so the facts give up some of their space below
+.facts:has(+ .awards) {
+  padding-bottom: 48px;
+}
+
+// Each award is a year in thin red figures with the award next to it. A win has a solid red label.
+.awards {
+  padding: 44px 0 80px;
+  border-top: 1px solid v.$lowlight-text;
+
+  h2 {
+    display: inline-block;
+    font-size: 26px;
+    padding-bottom: 4px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 56px;
+    margin-top: 14px;
+    list-style: none;
+
+    @media screen and (max-width: v.$break-large) {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  .award {
+    display: flex;
+    gap: 24px;
+    min-width: 0;
+    padding: 26px 0;
+    border-bottom: 1px solid v.$lowlight-text;
+
+    @media screen and (max-width: v.$break-small) {
+      gap: 18px;
+    }
+  }
+
+  .year {
+    flex: none;
+    width: 84px;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 1;
+    color: v.$highlight;
+
+    @media screen and (max-width: v.$break-small) {
+      width: 62px;
+      font-size: 25px;
+      line-height: 1.3;
+    }
+  }
+
+  .about {
+    min-width: 0;
+  }
+
+  .result {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: v.$middlelight-text;
+    padding: 3px 8px;
+    border: 1px solid v.$faint;
+  }
+
+  .won .result {
+    color: v.$highlight-text;
+    background: v.$highlight;
+    border-color: v.$highlight;
+  }
+
+  .name {
+    margin-top: 10px;
+    font-size: 21px;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+
+  .category {
+    margin-top: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: v.$middlelight-text;
+  }
+
+  .show {
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: v.$middlelight-text;
+  }
+
+  .note {
+    font-size: 14px;
+    line-height: 1.5;
+    color: v.$quiet;
   }
 }

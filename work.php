@@ -84,6 +84,9 @@
       <?php } ?>
       <h2 class="venue"><?php echo e($project['venue']); ?></h2>
       <h3 class="date"><?php echo getDates($project); ?></h3>
+      <?php foreach (getAwards($projects, $project) as $award) { ?>
+        <div class="award"><?php echo e(getAwardLine($award)); ?></div>
+      <?php } ?>
     </header>
 
     <?php if (!empty($project['description'])) { ?>

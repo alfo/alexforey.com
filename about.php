@@ -1,6 +1,8 @@
 <?php
   $title = 'About';
   include 'includes/header.php';
+
+  $projects = getProjects('theatre');
 ?>
 
   <div class="container">
@@ -42,6 +44,40 @@
         <dd>Woodroffe Bassett Design</dd>
       </div>
     </dl>
+
+    <?php if ($projects['awards']) { ?>
+      <section class="awards">
+        <h2 class="underline underline-thin" data-in>Awards</h2>
+
+        <ul>
+          <?php foreach ($projects['awards'] as $award) { ?>
+            <?php
+              // An award for a show takes its year from the show
+              $project = isset($award['id']) ? getProjectWithID($projects, $award['id']) : null;
+              $year = isset($award['year']) ? $award['year'] : date('Y', strtotime($project['date']));
+            ?>
+            <li class="award<?php if (!empty($award['won'])) echo ' won'; ?>" data-in>
+              <div class="year"><?php echo $year; ?></div>
+              <div class="about">
+                <div class="result"><?php echo empty($award['won']) ? 'Nominee' : 'Winner'; ?></div>
+                <div class="name"><?php echo e($award['award']); ?></div>
+                <?php if (isset($award['category'])) { ?>
+                  <div class="category"><?php echo e($award['category']); ?></div>
+                <?php } ?>
+                <?php if ($project && hasPhotos($project)) { ?>
+                  <div class="show">For <a class="link" href="/work/<?php echo $project['id']; ?>"><em><?php echo e($project['title']); ?></em></a></div>
+                <?php } elseif ($project) { ?>
+                  <div class="show">For <em><?php echo e($project['title']); ?></em></div>
+                <?php } ?>
+                <?php if (isset($award['note'])) { ?>
+                  <div class="note"><?php echo e($award['note']); ?></div>
+                <?php } ?>
+              </div>
+            </li>
+          <?php } ?>
+        </ul>
+      </section>
+    <?php } ?>
 
   </div>
 

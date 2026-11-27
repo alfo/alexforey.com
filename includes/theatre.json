@@ -80,6 +80,13 @@
         "lead": {"id": "in-my-own-little-world", "source": "Pink Prince Theatre", "until": "absolutely incredible"}
     },
 
+    "awards": [
+        {"award": "Fringe Theatre Awards", "category": "Lighting", "id": "in-my-own-little-world"},
+        {"award": "London Pub Theatre Awards", "category": "Outstanding Production Values (Design)", "id": "kitty-in-the-lane", "note": "Shared with the creative team"},
+        {"award": "OFFIE Award", "category": "IDEA Design (Lighting)", "id": "saint-hildegard"},
+        {"award": "Vectorworks Design Entertainment Scholarship", "year": 2021, "won": true}
+    ],
+
     "projects": [
         {
             "title": "In My Own Little World",

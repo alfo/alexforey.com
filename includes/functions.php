@@ -113,6 +113,21 @@
     return '';
   }
 
+  // The awards and nominations are a list of their own in the JSON, newest first. "id" is the project
+  // an award was for, "year" is for one that was not for a project, and "won" marks a win.
+  function getAwards($projects, $project) {
+    return array_values(array_filter($projects['awards'], function($award) use($project) {
+      return isset($award['id']) && $award['id'] == $project['id'];
+    }));
+  }
+
+  // "OFFIE Award nominee, IDEA Design (Lighting)"
+  function getAwardLine($award) {
+    $line = $award['award'] . (empty($award['won']) ? ' nominee' : ' winner');
+    if (isset($award['category'])) $line .= ', ' . $award['category'];
+    return $line;
+  }
+
   // "29 November", with the year when it is not this year
   function getEndDate($project) {
     $projectDateEnd = strtotime($project['date-end']);

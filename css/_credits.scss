@@ -164,6 +164,11 @@
       &.quiet {
         color: v.$quiet;
       }
+
+      // An award or nomination is the one line in red
+      &.award {
+        color: v.$lowlight;
+      }
     }
 
     .small-link {

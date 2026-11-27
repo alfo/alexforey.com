@@ -88,6 +88,9 @@
                 <?php if (getDirector($project)) { ?>
                   <div class="line quiet">Directed by <?php echo e(getDirector($project)); ?></div>
                 <?php } ?>
+                <?php foreach (getAwards($projects, $project) as $award) { ?>
+                  <div class="line award"><?php echo e(getAwardLine($award)); ?></div>
+                <?php } ?>
                 <?php if (hasPhotos($project)) { ?>
                   <a class="link small-link" href="/work/<?php echo $project['id']; ?>">See the photos</a>
                 <?php } ?>
