@@ -102,9 +102,13 @@
     return $tags;
   }
 
+  // A show with no Director is credited to its "Writer & Director", Creative Director and so on
   function getDirector($project) {
     foreach ($project['people'] as $title => $person) {
       if (preg_match('/^(Co-)?Director/', $title)) return $person;
+    }
+    foreach ($project['people'] as $title => $person) {
+      if (preg_match('/^((Writer|Adaptor|Creator) (and|&)|Creative|Artistic) Director$/', $title)) return $person;
     }
     return '';
   }
