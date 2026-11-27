@@ -119,6 +119,20 @@
     return '';
   }
 
+  // The address of a video's player. A number is a Vimeo video, anything else is a YouTube one.
+  function getVideoURL($video) {
+    if (ctype_digit((string) $video)) {
+      return 'https://player.vimeo.com/video/' . $video . '?title=0&byline=0&portrait=0&dnt=1';
+    }
+    return 'https://www.youtube-nocookie.com/embed/' . rawurlencode($video);
+  }
+
+  // The still picture of a video, for the photo viewer. Only YouTube has one at an address I can work out.
+  function getVideoPoster($video, $size = 'maxresdefault') {
+    if (ctype_digit((string) $video)) return null;
+    return 'https://i.ytimg.com/vi/' . rawurlencode($video) . '/' . $size . '.jpg';
+  }
+
   // The people on a show, split into teams by their jobs, in the order they have in the JSON.
   // The production team puts the show on: production managers, supervisors, programmers,
   // production electricians, production engineers, suppliers and the staff of a design studio.

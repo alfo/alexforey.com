@@ -908,6 +908,29 @@ html.page-home footer {
     aspect-ratio: 3/2;
   }
 }
+.photo-viewer .main-video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.photo-viewer .main-video iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.photo-viewer.on-video .main-video {
+  visibility: visible;
+  opacity: 1;
+}
+.photo-viewer.on-video .photo-count {
+  display: none;
+}
 .photo-viewer .arrow {
   position: absolute;
   top: 50%;
@@ -1007,6 +1030,20 @@ html.page-home footer {
   width: 132px;
   height: 88px;
   object-fit: cover;
+}
+.thumbnails .thumbnail.video {
+  position: relative;
+}
+.thumbnails .thumbnail.video::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 44px;
+  transform: translate(-35%, -50%);
+  border-style: solid;
+  border-width: 11px 0 11px 18px;
+  border-color: transparent transparent transparent #fff;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.7));
 }
 
 .photo-credit {
