@@ -37,10 +37,24 @@
   // The photo viewer has two copies of each photo, and js/app.js picks the one that suits the screen
   $viewerPhotos = [];
   $largePhotos = [];
+  $thumbnails = [];
   foreach ($photos as $photo) {
     $viewerPhotos[] = getPhoto($project['id'], $photo);
     $largePhotos[] = getPhoto($project['id'], $photo, 'l');
+    $thumbnails[] = getPhoto($project['id'], $photo, 's');
   }
+
+  // A show that is mainly video has its first video as the first thing in the photo viewer.
+  // The viewer treats the video's still picture as a photo, and the player sits on top of it.
+  $videos = isset($project['videos']) ? $project['videos'] : [];
+  $mainVideo = null;
+  if (!empty($project['mainly_video']) && $videos && getVideoPoster($videos[0])) {
+    $mainVideo = array_shift($videos);
+    array_unshift($viewerPhotos, getVideoPoster($mainVideo));
+    array_unshift($largePhotos, getVideoPoster($mainVideo));
+    array_unshift($thumbnails, getVideoPoster($mainVideo, 'mqdefault'));
+  }
+  $slideCount = count($viewerPhotos);
 
   $press = getPress($project);
   $teams = getTeams($project);
@@ -57,23 +71,29 @@
   }
 ?>
 
-  <?php if ($photos) { ?>
+  <?php if ($slideCount) { ?>
     <section aria-label="Production photos">
 
-      <div class="photo-viewer" data-photos="<?php echo e(json_encode($viewerPhotos)); ?>" data-large-photos="<?php echo e(json_encode($largePhotos)); ?>">
-        <img src="<?php echo $viewerPhotos[0]; ?>" srcset="<?php echo $viewerPhotos[0]; ?> 1800w, <?php echo $largePhotos[0]; ?> 2400w" sizes="(max-width: 850px) 100vw, min(84vw, 1140px)" alt="<?php echo e($project['title']); ?>, production photo" width="1800" height="1200">
-        <?php if (count($photos) > 1) { ?>
+      <div class="photo-viewer<?php if ($mainVideo) echo ' on-video'; ?>" data-photos="<?php echo e(json_encode($viewerPhotos)); ?>" data-large-photos="<?php echo e(json_encode($largePhotos)); ?>">
+        <?php if ($mainVideo) { ?>
+          <img src="<?php echo e($viewerPhotos[0]); ?>" alt="<?php echo e($project['title']); ?>, video" width="1280" height="720">
+          <div class="main-video"><iframe src="<?php echo e(getVideoURL($mainVideo)); ?>" title="Video of <?php echo e($project['title']); ?>" allow="fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <?php } else { ?>
+          <img src="<?php echo $viewerPhotos[0]; ?>" srcset="<?php echo $viewerPhotos[0]; ?> 1800w, <?php echo $largePhotos[0]; ?> 2400w" sizes="(max-width: 850px) 100vw, min(84vw, 1140px)" alt="<?php echo e($project['title']); ?>, production photo" width="1800" height="1200">
+        <?php } ?>
+        <?php if ($slideCount > 1) { ?>
           <button class="arrow prev" type="button" aria-label="Previous photo" data-step="-1"><span class="ring"><svg width="14" height="14" viewBox="0 0 20 20"><path d="M13 2 L5 10 L13 18" stroke="#ffffff" stroke-width="2" fill="none"></path></svg></span></button>
           <button class="arrow next" type="button" aria-label="Next photo" data-step="1"><span class="ring"><svg width="14" height="14" viewBox="0 0 20 20"><path d="M7 2 L15 10 L7 18" stroke="#ffffff" stroke-width="2" fill="none"></path></svg></span></button>
-          <div class="photo-count">1 / <?php echo count($photos); ?></div>
+          <div class="photo-count">1 / <?php echo $slideCount; ?></div>
         <?php } ?>
       </div>
 
-      <?php if (count($photos) > 1) { ?>
+      <?php if ($slideCount > 1) { ?>
         <div class="thumbnails">
-          <?php foreach ($photos as $index => $photo) { ?>
-            <button class="thumbnail<?php if ($index == 0) echo ' current'; ?>" type="button" aria-label="Photo <?php echo $index + 1; ?> of <?php echo count($photos); ?>" aria-pressed="<?php echo $index ? 'false' : 'true'; ?>">
-              <img src="<?php echo getPhoto($project['id'], $photo, 's'); ?>" alt="" width="132" height="88" loading="lazy">
+          <?php foreach ($thumbnails as $index => $thumbnail) { ?>
+            <?php $isVideo = $mainVideo && $index == 0; ?>
+            <button class="thumbnail<?php if ($index == 0) echo ' current'; ?><?php if ($isVideo) echo ' video'; ?>" type="button" aria-label="<?php echo $isVideo ? 'Video' : 'Photo ' . ($index + 1) . ' of ' . $slideCount; ?>" aria-pressed="<?php echo $index ? 'false' : 'true'; ?>">
+              <img src="<?php echo e($thumbnail); ?>" alt="" width="132" height="88" loading="lazy">
             </button>
           <?php } ?>
           <span class="thumbnail-underline" aria-hidden="true"></span>
@@ -156,19 +176,11 @@
 
     </div>
 
-    <?php if (!empty($project['videos'])) { ?>
+    <?php if ($videos) { ?>
       <section class="videos" aria-label="Video" data-in>
         <h2 class="underline underline-thin">Video</h2>
-        <?php
-          foreach ($project['videos'] as $video) {
-            // A number is a Vimeo video, anything else is a YouTube one
-            if (ctype_digit((string) $video)) {
-              $videoURL = 'https://player.vimeo.com/video/' . $video . '?title=0&byline=0&portrait=0&dnt=1';
-            } else {
-              $videoURL = 'https://www.youtube-nocookie.com/embed/' . rawurlencode($video);
-            }
-        ?>
-          <div class="video"><iframe src="<?php echo e($videoURL); ?>" title="Video of <?php echo e($project['title']); ?>" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+        <?php foreach ($videos as $video) { ?>
+          <div class="video"><iframe src="<?php echo e(getVideoURL($video)); ?>" title="Video of <?php echo e($project['title']); ?>" loading="lazy" allow="fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         <?php } ?>
       </section>
     <?php } ?>

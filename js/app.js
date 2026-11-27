@@ -379,6 +379,25 @@ function initPhotoViewer() {
 	var currentSet = null;
 	var sets = document.createElement("div");
 
+	// A show that is mainly video has a player, which belongs to the first picture
+	var video = viewer.querySelector(".main-video");
+	var videoFrame = video && video.querySelector("iframe");
+	var videoTimer = null;
+
+	// The player is over its picture while that is the current one. It comes back once the
+	// pictures have stopped moving, and loading it again when it goes stops it playing.
+	function showVideo(wait) {
+		if (!video) return;
+
+		clearTimeout(videoTimer);
+		if (current != 0) {
+			if (viewer.classList.contains("on-video")) videoFrame.src = videoFrame.src;
+			viewer.classList.remove("on-video");
+			return;
+		}
+		videoTimer = setTimeout(function(){ viewer.classList.add("on-video"); }, wait);
+	}
+
 	// The red line under the current thumbnail slides over from the last one
 	function moveUnderline(animate) {
 		var thumbnail = thumbnails[current];
@@ -457,6 +476,13 @@ function initPhotoViewer() {
 		});
 
 		if (set == currentSet) viewer.classList.add("sets");
+
+		// The player takes the place and size of its picture
+		if (set == currentSet && video && current == 0) {
+			["left", "top", "width", "height"].forEach(function(side){
+				video.style[side] = set.photos[1].box.style[side];
+			});
+		}
 	}
 
 	// The photos slide along as one strip. The old set fades away on top of the new one,
@@ -473,6 +499,7 @@ function initPhotoViewer() {
 		currentSet = makeSet(current, photo);
 		sets.insertBefore(currentSet, oldSet);
 		arrange(currentSet);
+		showVideo(animated ? 700 : 0);
 
 		if (!animated) {
 			sets.removeChild(oldSet);
@@ -503,6 +530,7 @@ function initPhotoViewer() {
 		if (index == current) return;
 		current = index;
 		source = photos[current];
+		if (current != 0) showVideo(0);
 
 		// The photos change places once the new one has arrived, unless another has been asked for since
 		var loader = new Image();
