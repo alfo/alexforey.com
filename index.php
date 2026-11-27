@@ -12,7 +12,8 @@
     return strcmp($a['date-end'], $b['date-end']);
   });
 
-  // The quotes that take turns next to On Stage Now, each with the title of its project
+  // The quotes that take turns next to On Stage Now, each with the title of its project.
+  // A quote should never run onto a fourth line, so a long one is cut short with "until" in the JSON.
   $quotes = [];
   foreach ($home['press'] as $reference) {
     $quote = getPressQuote($projects, $reference);

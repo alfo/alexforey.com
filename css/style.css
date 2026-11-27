@@ -671,6 +671,11 @@ html.page-home footer {
 .latest .quotes blockquote {
   font-size: clamp(20px, 2.1vw, 27px);
   line-height: 1.45;
+}
+.latest .quotes blockquote span {
+  display: inline-block;
+}
+.latest .quotes.swapping blockquote {
   transition: opacity 0.5s ease;
 }
 .latest .quotes figcaption {

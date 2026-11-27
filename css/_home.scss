@@ -490,6 +490,15 @@ html.page-home {
     blockquote {
       font-size: clamp(20px, 2.1vw, 27px);
       line-height: 1.45;
+
+      // Each word is a block of its own so that it can move and blur as it comes in
+      span {
+        display: inline-block;
+      }
+    }
+
+    // The old quote fades out, but the new one does not fade in: its words come in one by one
+    &.swapping blockquote {
       transition: opacity 0.5s ease;
     }
 

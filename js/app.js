@@ -266,8 +266,27 @@ function initQuotes() {
 	var paused = false;
 	var timer = null;
 
+	// The words of a new quote drift into focus one after another, like everything marked data-in
+	function showWords() {
+		text.textContent = "";
+		quotes[current].text.split(" ").forEach(function(word, index){
+			var span = document.createElement("span");
+			span.textContent = word;
+			if (index) text.appendChild(document.createTextNode(" "));
+			text.appendChild(span);
+			span.animate([
+				{ opacity: 0, transform: "translateY(10px)", filter: "blur(10px)" },
+				{ opacity: 1, transform: "translateY(0)", filter: "blur(0)" }
+			], { duration: 650, delay: index * 45, easing: easing, fill: "backwards" });
+		});
+	}
+
 	function update() {
-		text.textContent = quotes[current].text;
+		if (reducedMotion || !text.animate) {
+			text.textContent = quotes[current].text;
+		} else {
+			showWords();
+		}
 		source.textContent = quotes[current].source;
 		show.textContent = quotes[current].show;
 		dots.forEach(function(dot, index){
@@ -285,7 +304,7 @@ function initQuotes() {
 			return;
 		}
 
-		// Fade out, swap the words, fade back in
+		// Fade out, swap the words, bring the new ones in
 		container.classList.add("swapping");
 		timer = setTimeout(function(){
 			update();
