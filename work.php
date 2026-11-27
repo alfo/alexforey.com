@@ -20,6 +20,12 @@
 
   $title = $project['title'];
   $page = 'portfolio';
+
+  // "Alex Forey was the Lighting Designer on Kitty in the Lane at Jack Studio Theatre, London."
+  $description = 'Alex Forey ' . (isCurrent($project) ? 'is' : 'was') . ' the ' . getRole($project) . ' on ' . $project['title'] . ' at ' . $project['venue'] . '.';
+  if (file_exists('imgs/portfolio/web/' . $project['id'] . '-thumb-share.jpg')) {
+    $shareImage = '/imgs/portfolio/web/' . $project['id'] . '-thumb-share.jpg';
+  }
   include 'includes/header.php';
 
   // The numbered photos in order, then the photo from the Portfolio page

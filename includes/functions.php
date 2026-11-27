@@ -48,6 +48,11 @@
   }
 
   // A site photo such as the headshot: the WebP copy when tools/photos.sh has made one
+  // The full address of a page or a file, for the sitemap and for links that get shared
+  function getURL($path = '') {
+    return 'https://alex.lighting' . $path;
+  }
+
   function getImage($name) {
     if (file_exists('imgs/' . $name . '.webp')) {
       return '/imgs/' . $name . '.webp';

@@ -1,5 +1,6 @@
 <?php
   $title = 'Press';
+  $description = "What the critics have said about Alex Forey's lighting design.";
   include 'includes/header.php';
 
   $projects = getProjects('theatre');

@@ -1,5 +1,6 @@
 <?php
   $title = 'Credits';
+  $description = 'Every production Alex Forey has worked on as a lighting designer, associate lighting designer and programmer.';
   include 'includes/header.php';
 
   $projects = getProjects('theatre');

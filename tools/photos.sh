@@ -17,6 +17,9 @@
 #   <id>-<n>.webp     1800 wide, for the photo viewer on a show page
 #   <id>-<n>-m.webp   1000 wide, for the carousels and the Portfolio grid
 #   <id>-<n>-s.webp   300 wide, for the thumbnail strip
+# The photo from the Portfolio page also gets a JPEG 1200 wide
+# (<id>-thumb-share.jpg), which is the picture a link to the show's page
+# shows when it is shared. The home photo has one too (imgs/home-share.jpg).
 # Photos are turned the right way up, converted to sRGB and stripped of
 # camera data. Nothing is ever made larger than its source.
 #
@@ -31,8 +34,14 @@ set -e
 # One photo at one size. The pipeline below calls this once per file.
 if [ "$1" = "--one" ]; then
   # source, output, width, quality
-  tmp="$3.tmp.webp"
-  vips thumbnail "$2" "$tmp[Q=$5,effort=5,smart_subsample,strip]" "$4" --size down --export-profile srgb
+  case "$3" in
+    *.jpg)
+      tmp="$3.tmp.jpg"
+      vips thumbnail "$2" "$tmp[Q=$5,optimize_coding,strip]" "$4" --size down --export-profile srgb ;;
+    *)
+      tmp="$3.tmp.webp"
+      vips thumbnail "$2" "$tmp[Q=$5,effort=5,smart_subsample,strip]" "$4" --size down --export-profile srgb ;;
+  esac
   mv "$tmp" "$3"
   echo "made $3"
   exit 0
@@ -53,7 +62,7 @@ while [ $# -gt 0 ]; do
     --force) force=1 ;;
     --dry-run) dry=1 ;;
     --jobs) shift; jobs="$1" ;;
-    -h|--help) sed -n '2,24p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+    -h|--help) sed -n '2,30p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
     -*) echo "Unknown option: $1" >&2; exit 1 ;;
     *) only="$only $1" ;;
   esac
@@ -104,10 +113,12 @@ list() {
     fi
     job "$src" "$out/$name-m.webp" 1000 74
     job "$src" "$out/$name-s.webp" 300 70
+    case "$name" in *-thumb) job "$src" "$out/$name-share.jpg" 1200 82 ;; esac
   done
   if [ -z "$only" ]; then
     job imgs/home.jpg imgs/home.webp 2400 84
     job imgs/home.jpg imgs/home-l.webp 3840 84
+    job imgs/home.jpg imgs/home-share.jpg 1200 82
     job imgs/headshot.jpg imgs/headshot.webp 900 80
     job imgs/working.jpg imgs/working.webp 1200 80
   fi
@@ -130,9 +141,11 @@ fi
 
 # Remove web photos whose source photo has gone.
 if [ -z "$only" ]; then
-  for f in "$out"/*.webp; do
+  for f in "$out"/*.webp "$out"/*-share.jpg; do
     [ -f "$f" ] || continue
-    name=$(basename "$f" .webp)
+    name=$(basename "$f")
+    name=${name%.webp}
+    name=${name%-share.jpg}
     name=${name%-l}
     name=${name%-m}
     name=${name%-s}

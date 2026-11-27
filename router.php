@@ -13,11 +13,12 @@
     require __DIR__ . '/work.php';
   } elseif ($path === '/projects') {
     header('Location: /portfolio', true, 301);
+  } elseif ($path === '/sitemap.xml') {
+    require __DIR__ . '/sitemap.php';
   } elseif ($path === '') {
     require __DIR__ . '/index.php';
   } elseif (preg_match('#^/[a-z]+$#', $path) && is_file(__DIR__ . $path . '.php')) {
     require __DIR__ . $path . '.php';
   } else {
-    http_response_code(404);
-    echo 'Not found';
+    require __DIR__ . '/404.php';
   }
