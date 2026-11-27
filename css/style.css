@@ -1307,6 +1307,31 @@ html.page-home footer {
   color: #9a9a9a;
 }
 
+.not-found {
+  padding-bottom: 110px;
+}
+.not-found p {
+  max-width: 560px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #C9C9C9;
+}
+.not-found .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 32px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.not-found .actions a {
+  border-bottom: 2px solid #f52323;
+  padding: 12px 0 4px;
+  transition: border-color 0.2s;
+}
+.not-found .actions a:hover {
+  border-bottom-color: white;
+}
+
 .credits-top {
   padding-bottom: 20px;
 }

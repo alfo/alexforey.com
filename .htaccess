@@ -1,7 +1,11 @@
 RewriteEngine On
 # The list of productions moved from /projects to /portfolio.
 RewriteRule ^projects/?$ /portfolio [R=301,L]
+RewriteRule ^sitemap\.xml$ /sitemap.php [L]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteCond %{REQUEST_URI} !^/work/
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
 RewriteRule ^work/([^/]*)$ /work.php?id=$1 [L]
+
+# An address with nothing at it gets the Page Not Found page.
+ErrorDocument 404 /404.php

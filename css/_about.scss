@@ -194,3 +194,33 @@
     color: v.$quiet;
   }
 }
+
+// The page for an address with nothing at it
+.not-found {
+  padding-bottom: 110px;
+
+  p {
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: v.$middlelight-text;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 32px;
+    font-size: 18px;
+    margin-top: 20px;
+
+    a {
+      border-bottom: 2px solid v.$highlight;
+      padding: 12px 0 4px;
+      transition: border-color 0.2s;
+
+      &:hover {
+        border-bottom-color: v.$highlight-text;
+      }
+    }
+  }
+}
