@@ -211,6 +211,15 @@
       outline-offset: -2px;
     }
 
+    // A strip that fits on the screen sits in the middle. The margins go when it has to scroll.
+    &:first-child {
+      margin-left: auto;
+    }
+
+    &:last-child {
+      margin-right: auto;
+    }
+
     img {
       width: 132px;
       height: 88px;

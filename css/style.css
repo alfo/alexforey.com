@@ -884,6 +884,12 @@ html.page-home {
 .thumbnails .thumbnail:focus-visible {
   outline-offset: -2px;
 }
+.thumbnails .thumbnail:first-child {
+  margin-left: auto;
+}
+.thumbnails .thumbnail:last-child {
+  margin-right: auto;
+}
 .thumbnails .thumbnail img {
   width: 132px;
   height: 88px;
@@ -1302,7 +1308,7 @@ html.page-home {
 }
 .credits-list .credit .dot {
   position: absolute;
-  left: -38px;
+  left: -36px;
   top: 8px;
   width: 10px;
   height: 10px;
