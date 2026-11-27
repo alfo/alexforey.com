@@ -114,6 +114,8 @@ function initShowreel() {
 	var timers = [];
 	var ready = false;
 	var playing = false;
+	var started = false;
+	var fromLink = false;
 
 	function send(message) {
 		if (iframe && iframe.contentWindow) iframe.contentWindow.postMessage(JSON.stringify(message), vimeo);
@@ -141,6 +143,7 @@ function initShowreel() {
 
 	function show() {
 		playing = true;
+		started = false;
 
 		// Starting playback from the click keeps it inside a user gesture, so
 		// the browser allows sound. A phone is strict about this.
@@ -216,6 +219,24 @@ function initShowreel() {
 		if (e.key == "Escape" && playing) hide();
 	});
 
+	// The showreel link on the About page opens this page with the showreel already playing
+	if (location.hash == "#showreel") {
+		fromLink = true;
+		history.replaceState(null, "", location.pathname);
+		show();
+	}
+
+	// A browser may refuse to start a video with sound when nobody has clicked on this page.
+	// The showreel then plays silently, and the first tap anywhere turns the sound on.
+	function playSilently() {
+		if (!playing || started) return;
+		send({ method: "setMuted", value: true });
+		send({ method: "play" });
+		document.addEventListener("pointerdown", function(){
+			if (playing) unmute();
+		}, { once: true });
+	}
+
 	window.addEventListener("message", function(e){
 		if (e.origin !== vimeo || !iframe || e.source !== iframe.contentWindow) return;
 
@@ -235,9 +256,14 @@ function initShowreel() {
 			ready = true;
 			listen();
 			if (playing) unmute();
+			if (fromLink) {
+				fromLink = false;
+				setTimeout(playSilently, 2500);
+			}
 		} else if (!playing) {
 			return;
 		} else if ((name == "timeupdate" || name == "playProgress") && data.data && data.data.percent != null) {
+			started = true;
 			progress.style.transform = "scaleX(" + Math.max(0, Math.min(1, data.data.percent)) + ")";
 		} else if (name == "ended" || name == "finish") {
 			hide();

@@ -19,6 +19,7 @@
                 {"id": "whaowg", "photo": "thumb"},
                 {"id": "kitty-in-the-lane", "photo": 2},
                 {"id": "the-realness", "photo": 4},
+                {"id": "good-day", "photo": 1},
                 {"id": "the-island", "photo": "thumb"},
                 {"id": "wca-killology", "photo": 1},
                 {"id": "polyeucte", "photo": "thumb"},
@@ -423,7 +424,7 @@
         {
             "title": "Come Alive! The Greatest Showman Circus Spectacular",
             "date": "2024-10-16",
-            "date-end": "2027-01-01",
+            "date-end": "2027-08-29",
             "role": "Associate Lighting Designer",
             "id": "come-alive-london",
             "description": "‘Come Alive!’ The Greatest Showman Circus Spectacular is an exciting new theatre production that brings the magic of The Greatest Showman to life. Inspired by the 20th Century Fox film, written by Jenny Bicks, this circus musical features all the iconic songs by Benj Pasek and Justin Paul, including “This Is Me,” “Rewrite the Stars,” and “A Million Dreams.”",
@@ -568,6 +569,7 @@
                 "Lighting Supplier": "White Light"
             },
             "paperwork": false,
+            "image_credit": "Alex Forey",
             "venue": "Park Theatre, London",
             "press": {
                 "The Spy in the Stalls": {"quote": "Alex Forey\u2019s lighting design cleverly transports us to past locations in Tracy\u2019s mind while in the here-and-now the set", "link": "https://thespyinthestalls.com/2023/12/21-round-for-christmas/"},
