@@ -1,3 +1,5 @@
+@use "sass:list";
+@use "sass:math";
 @use "variables" as v;
 
 // Portfolio: every project with photos
@@ -94,11 +96,104 @@
   }
 }
 
+// A photo beside the current one is drawn as four copies, each more out of focus than the last.
+// The first is how blurred it is where it meets the current photo, and the last is how blurred
+// it is at the edge of the page. Each copy fades in over the one before it, so the blur grows
+// in small steps and never shows a sharp photo through a blurred one.
+$neighbour-blurs: 0.25px, 2.25px, 3.25px, 4.75px;
+
+// How dark a neighbour is halfway to the edge of the page, and at the edge
+$neighbour-dim-middle: 0.12;
+$neighbour-dim-edge: 0.41;
+
+// The blur and the darkness of a neighbour both grow in "$direction"
+@mixin beside($side, $direction) {
+  &.#{$side} {
+    @for $i from 2 through 4 {
+      $from: calc(var(--beside) * #{math.div($i - 2, 3)});
+      $to: calc(var(--beside) * #{math.div($i - 1, 3)});
+
+      img:nth-child(#{$i}) {
+        -webkit-mask-image: linear-gradient(to $direction, transparent $from, #000 $to);
+        mask-image: linear-gradient(to $direction, transparent $from, #000 $to);
+      }
+    }
+
+    &::after {
+      background: linear-gradient(to $direction, transparent, rgba(0, 0, 0, $neighbour-dim-middle) calc(var(--beside) * 0.45), rgba(0, 0, 0, $neighbour-dim-edge) var(--beside));
+    }
+  }
+}
+
 // A project's page: the photo viewer, the details, the creative team and the press
 
 .photo-viewer {
   position: relative;
   background: #000;
+  overflow: hidden;
+
+  // With the script running, the photo is drawn as part of a set instead:
+  // the photo with the ones before and after it on either side
+  &.sets > img {
+    visibility: hidden;
+  }
+
+  .photo-sets, .photo-set {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-set > img, .neighbour {
+    position: absolute;
+    max-width: none;
+  }
+
+  // The space beside a photo shows the photos on either side of it. Each one matches the photo
+  // where they meet, and gets darker and further out of focus towards the edge of the page.
+  // "--beside" is how much room there is beside the photo.
+  .neighbour {
+    overflow: hidden;
+    cursor: pointer;
+
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      max-width: none;
+    }
+
+    // The copies are a little larger than the box, so that their soft edges are out of sight
+    @for $i from 1 through 4 {
+      img:nth-child(#{$i}) {
+        filter: blur(list.nth($neighbour-blurs, $i));
+        transform: scale(1.04);
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    @include beside(prev, left);
+    @include beside(next, right);
+  }
+
+  // On a phone a photo fills the viewer, so there is nothing beside it
+  @media screen and (max-width: v.$break-large) {
+    .neighbour {
+      display: none;
+    }
+  }
 
   > img {
     width: 100%;
@@ -212,11 +307,11 @@
     }
 
     // A strip that fits on the screen sits in the middle. The margins go when it has to scroll.
-    &:first-child {
+    &:first-of-type {
       margin-left: auto;
     }
 
-    &:last-child {
+    &:last-of-type {
       margin-right: auto;
     }
 
@@ -225,6 +320,25 @@
       height: 88px;
       object-fit: cover;
     }
+  }
+}
+
+// With the script running, a sliding line stands in for the current thumbnail's own underline,
+// like the line under the role filter on the Credits page
+.thumbnails {
+  &.js .thumbnail.current {
+    border-bottom-color: transparent;
+  }
+
+  .thumbnail-underline {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 2px;
+    background: v.$highlight;
+    pointer-events: none;
+    transition: transform 0.55s v.$ease, width 0.55s v.$ease;
   }
 }
 
@@ -313,6 +427,11 @@
       line-height: 1.4;
     }
 
+    // Each team after the first starts a little way below the one before it
+    dl + h2 {
+      margin-top: 40px;
+    }
+
     .photo-credit {
       margin-top: 28px;
       font-size: 15px;
@@ -357,6 +476,31 @@
         color: v.$middlelight-text;
         padding: 10px 0 2px;
       }
+    }
+  }
+}
+
+// A show with a long list of people: the teams take the full width, each one in columns
+// that read from left to right, and the press goes underneath in columns of its own
+.project-info.long {
+  .credits, .project-press {
+    flex-basis: 100%;
+  }
+
+  .credits dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 14px 48px;
+  }
+
+  .project-press .press {
+    display: block;
+    columns: 2 380px;
+    column-gap: 64px;
+
+    figure {
+      break-inside: avoid;
+      padding-bottom: 30px;
     }
   }
 }

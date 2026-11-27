@@ -371,18 +371,152 @@ function initPhotoViewer() {
 	}
 	var count = viewer.querySelector(".photo-count");
 	var thumbnails = findAll(".thumbnail");
+	var underline = document.querySelector(".thumbnail-underline");
 	var current = 0;
+	var turn = 0;
+	var animated = !reducedMotion && !!image.animate;
+	var gap = 8;
+	var currentSet = null;
+	var sets = document.createElement("div");
 
-	function showPhoto(index) {
-		current = (index + photos.length) % photos.length;
-		image.removeAttribute("srcset");
-		image.src = photos[current];
+	// The red line under the current thumbnail slides over from the last one
+	function moveUnderline(animate) {
+		var thumbnail = thumbnails[current];
+		if (!underline || !thumbnail) return;
+
+		underline.style.transition = animate && !reducedMotion ? "" : "none";
+		underline.style.width = thumbnail.offsetWidth + "px";
+		underline.style.transform = "translate(" + thumbnail.offsetLeft + "px," + (thumbnail.offsetTop + thumbnail.offsetHeight - 2) + "px)";
+	}
+
+	// A set is a photo with the photos before and after it on either side.
+	// "photo" is the photo itself when it has already been loaded.
+	// A neighbour is a box with four copies of its photo, each more out of focus than the last.
+	// The more blurred copies show towards the edge of the page.
+	function makeSet(index, photo) {
+		var set = document.createElement("div");
+		set.className = "photo-set";
+
+		set.photos = [-1, 0, 1].map(function(step){
+			var img = step == 0 && photo ? photo : new Image();
+			var box = img;
+
+			img.alt = step == 0 ? image.alt : "";
+			img.draggable = false;
+			img.addEventListener("load", function(){ arrange(set); });
+			if (!img.src) img.src = photos[(index + step + photos.length) % photos.length];
+
+			if (step != 0) {
+				box = document.createElement("div");
+				box.className = "neighbour " + (step < 0 ? "prev" : "next");
+				box.addEventListener("click", function(){ showPhoto(current + step, step); });
+				box.appendChild(img);
+
+				[1, 2, 3].forEach(function(){
+					var copy = new Image();
+					copy.alt = "";
+					copy.draggable = false;
+					copy.src = img.src;
+					box.appendChild(copy);
+				});
+			}
+			set.appendChild(box);
+			return { img: img, box: box };
+		});
+		return set;
+	}
+
+	// Each photo is as large as the viewer allows, and its neighbours sit against its sides
+	function arrange(set) {
+		var width = viewer.clientWidth;
+		var height = viewer.clientHeight;
+		var sizes = set.photos.map(function(photo){
+			var img = photo.img;
+			if (!img.naturalWidth) return null;
+			var photoWidth = Math.min(width, height * img.naturalWidth / img.naturalHeight);
+			return { width: photoWidth, height: photoWidth * img.naturalHeight / img.naturalWidth };
+		});
+		if (!sizes[1]) return;
+
+		var left = (width - sizes[1].width) / 2;
+		set.photoWidth = sizes[1].width;
+
+		// A neighbour is darkest and most blurred where it meets the edge of the page
+		set.style.setProperty("--beside", Math.max(60, left) + "px");
+
+		set.photos.forEach(function(photo, i){
+			var size = sizes[i];
+			var box = photo.box;
+			box.style.visibility = size ? "" : "hidden";
+			if (!size) return;
+
+			box.style.width = size.width + "px";
+			box.style.height = size.height + "px";
+			box.style.top = ((height - size.height) / 2) + "px";
+			box.style.left = (i == 0 ? left - gap - size.width : i == 1 ? left : left + sizes[1].width + gap) + "px";
+		});
+
+		if (set == currentSet) viewer.classList.add("sets");
+	}
+
+	// The photos slide along as one strip. The old set fades away on top of the new one,
+	// so a photo that is in both stays where it is.
+	function swapPhoto(photo, direction) {
+		var oldSet = currentSet;
+		var distance;
+
+		findAll(".photo-set", sets).forEach(function(set){
+			if (set != oldSet) sets.removeChild(set);
+		});
+		oldSet.getAnimations().forEach(function(animation){ animation.cancel(); });
+
+		currentSet = makeSet(current, photo);
+		sets.insertBefore(currentSet, oldSet);
+		arrange(currentSet);
+
+		if (!animated) {
+			sets.removeChild(oldSet);
+			return;
+		}
+
+		distance = direction * ((oldSet.photoWidth || 0) / 2 + gap + (currentSet.photoWidth || 0) / 2);
+
+		currentSet.animate([
+			{ transform: "translateX(" + distance + "px)" },
+			{ transform: "translateX(0)" }
+		], { duration: 700, easing: easing });
+
+		oldSet.animate([
+			{ opacity: 1, transform: "translateX(0)" },
+			{ opacity: 0, transform: "translateX(" + (-distance) + "px)" }
+		], { duration: 700, easing: easing, fill: "forwards" }).onfinish = function(){
+			if (oldSet.parentNode) sets.removeChild(oldSet);
+		};
+	}
+
+	// "direction" is 1 when the new photo comes after the old one, and -1 when it comes before
+	function showPhoto(index, direction) {
+		var source;
+		var thisTurn = ++turn;
+
+		index = (index + photos.length) % photos.length;
+		if (index == current) return;
+		current = index;
+		source = photos[current];
+
+		// The photos change places once the new one has arrived, unless another has been asked for since
+		var loader = new Image();
+		loader.onload = loader.onerror = function(){
+			if (thisTurn == turn) swapPhoto(loader, direction);
+		};
+		loader.src = source;
 		if (count) count.textContent = (current + 1) + " / " + photos.length;
 
 		thumbnails.forEach(function(thumbnail, i){
 			thumbnail.classList.toggle("current", i == current);
 			thumbnail.setAttribute("aria-pressed", i == current ? "true" : "false");
 		});
+		moveUnderline(true);
 
 		// Keep the current thumbnail in the middle of the strip
 		var thumbnail = thumbnails[current];
@@ -391,25 +525,41 @@ function initPhotoViewer() {
 			strip.scrollTo({ left: thumbnail.offsetLeft - (strip.clientWidth - thumbnail.offsetWidth) / 2, behavior: reducedMotion ? "auto" : "smooth" });
 		}
 
-		// Have the next photo ready
-		var next = new Image();
-		next.src = photos[(current + 1) % photos.length];
 	}
 
 	findAll(".arrow", viewer).forEach(function(arrow){
 		arrow.addEventListener("click", function(){
-			showPhoto(current + parseInt(arrow.getAttribute("data-step")));
+			var step = parseInt(arrow.getAttribute("data-step"));
+			showPhoto(current + step, step);
 		});
 	});
 
 	thumbnails.forEach(function(thumbnail, index){
-		thumbnail.addEventListener("click", function(){ showPhoto(index); });
+		thumbnail.addEventListener("click", function(){ showPhoto(index, index > current ? 1 : -1); });
 	});
+
+	if (photos.length > 1) {
+		sets.className = "photo-sets";
+		viewer.insertBefore(sets, image.nextSibling);
+
+		currentSet = makeSet(0);
+		sets.appendChild(currentSet);
+		arrange(currentSet);
+		window.addEventListener("resize", function(){ arrange(currentSet); });
+		window.addEventListener("load", function(){ arrange(currentSet); });
+	}
+
+	if (underline && thumbnails.length) {
+		underline.parentNode.classList.add("js");
+		moveUnderline(false);
+		window.addEventListener("resize", function(){ moveUnderline(false); });
+		window.addEventListener("load", function(){ moveUnderline(false); });
+	}
 
 	document.addEventListener("keydown", function(e){
 		if (e.metaKey || e.ctrlKey || e.altKey) return;
-		if (e.key == "ArrowLeft") showPhoto(current - 1);
-		if (e.key == "ArrowRight") showPhoto(current + 1);
+		if (e.key == "ArrowLeft") showPhoto(current - 1, -1);
+		if (e.key == "ArrowRight") showPhoto(current + 1, 1);
 	});
 
 	// Swipe on a phone
@@ -423,7 +573,7 @@ function initPhotoViewer() {
 		if (startX == null) return;
 		var distance = e.changedTouches[0].clientX - startX;
 		startX = null;
-		if (Math.abs(distance) > 40) showPhoto(current + (distance < 0 ? 1 : -1));
+		if (Math.abs(distance) > 40) showPhoto(current + (distance < 0 ? 1 : -1), distance < 0 ? 1 : -1);
 	}, { passive: true });
 }
 

@@ -42,9 +42,10 @@
     return array_values(array_filter($projects['projects'], 'isCurrent'));
   }
 
-  // Makes text from the JSON safe to print inside HTML
+  // Makes text from the JSON safe to print inside HTML.
+  // An "&" stays on the same line as the word after it.
   function e($text) {
-    return htmlspecialchars((string) $text, ENT_QUOTES, 'UTF-8');
+    return str_replace('&amp; ', '&amp;&nbsp;', htmlspecialchars((string) $text, ENT_QUOTES, 'UTF-8'));
   }
 
   // A site photo such as the headshot: the WebP copy when tools/photos.sh has made one
@@ -116,6 +117,26 @@
       if (preg_match('/^((Writer|Adaptor|Creator) (and|&)|Creative|Artistic) Director$/', $title)) return $person;
     }
     return '';
+  }
+
+  // The people on a show, split into teams without changing their order in the JSON.
+  // The lighting team is the run of programmers, electricians and suppliers. Everyone before it
+  // is the creative team and everyone after it is the show team. A short list stays as one team.
+  function getTeams($project) {
+    $people = isset($project['people']) ? $project['people'] : [];
+    if (count($people) <= 12) return $people ? ['Creative Team' => $people] : [];
+
+    $teams = ['Creative Team' => [], 'Lighting Team' => [], 'Show Team' => []];
+    $team = 'Creative Team';
+    foreach ($people as $job => $person) {
+      if (preg_match('/^(Lighting (Programmer|Supplier)|Head of Lighting|(Lead )?Production Electricians?)\b/', $job)) {
+        $team = 'Lighting Team';
+      } elseif ($team == 'Lighting Team') {
+        $team = 'Show Team';
+      }
+      $teams[$team][$job] = $person;
+    }
+    return array_filter($teams);
   }
 
   // The awards and nominations are a list of their own in the JSON, newest first. "id" is the project

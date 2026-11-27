@@ -43,6 +43,7 @@
   }
 
   $press = getPress($project);
+  $teams = getTeams($project);
 
   // The projects either side of this one on the Portfolio page
   $projectsWithPhotos = getProjectsWithPhotos($projects);
@@ -75,6 +76,7 @@
               <img src="<?php echo getPhoto($project['id'], $photo, 's'); ?>" alt="" width="132" height="88" loading="lazy">
             </button>
           <?php } ?>
+          <span class="thumbnail-underline" aria-hidden="true"></span>
         </div>
       <?php } ?>
 
@@ -103,13 +105,13 @@
       </div>
     <?php } ?>
 
-    <div class="project-info">
+    <div class="project-info<?php if (count($teams) > 1) echo ' long'; ?>">
 
       <section class="credits" aria-label="Creative team" data-in>
-        <?php if (!empty($project['people'])) { ?>
-          <h2 class="underline underline-thin">Creative Team</h2>
+        <?php foreach ($teams as $team => $people) { ?>
+          <h2 class="underline underline-thin"><?php echo $team; ?></h2>
           <dl>
-            <?php foreach ($project['people'] as $job => $person) { ?>
+            <?php foreach ($people as $job => $person) { ?>
               <div>
                 <dt><?php echo e($job); ?></dt>
                 <dd><?php echo e($person); ?></dd>
