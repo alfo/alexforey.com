@@ -10,7 +10,7 @@
 
     <header class="top-of-page portfolio-top">
       <h1 class="underline"><?php echo $title; ?></h1>
-      <p class="intro" data-in>These are the <?php echo count($projectsWithPhotos); ?> productions I have photos of, with the newest first. Every production I have worked on is on the <a class="link" href="/credits">Credits page</a>.</p>
+      <p class="intro" data-in>You can find photos of some of the productions I have worked on here, to see an exhaustive list, visit the <a class="link" href="/credits">Credits page</a>.</p>
     </header>
 
     <main class="project-list">
