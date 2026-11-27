@@ -65,8 +65,10 @@
 
     <div class="carousels">
       <?php foreach ($home['carousel'] as $index => $row) { ?>
-        <div class="carousel" data-in>
-          <div class="carousel-track" style="animation-duration: <?php echo $index % 2 ? '104s' : '90s'; ?>; animation-direction: <?php echo $index % 2 ? 'reverse' : 'normal'; ?>">
+        <?php // Each photo takes 8 or 9 seconds to pass, so a row keeps its speed however many photos it has ?>
+        <?php // Every other row runs backwards: it starts at the right of the screen and moves to the right, so the first photo in its list is the first to leave ?>
+        <div class="carousel<?php if ($index % 2) echo ' backwards'; ?>" data-in>
+          <div class="carousel-track" style="animation-duration: <?php echo count($row) * ($index % 2 ? 9 : 8); ?>s">
             <?php
               // Every item is printed twice so that the row can loop without a gap
               for ($copy = 0; $copy < 2; $copy++) {

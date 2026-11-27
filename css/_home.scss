@@ -337,6 +337,21 @@ html.page-home {
     }
   }
 
+  // A backwards row is laid out from the right, so its first photo sits at the right edge of the screen
+  .carousel.backwards {
+    direction: rtl;
+
+    .carousel-track {
+      animation-name: carousel-scroll-backwards;
+    }
+
+    .carousel-item {
+      direction: ltr;
+      padding-right: 0;
+      padding-left: 14px;
+    }
+  }
+
   .carousel-track {
     display: flex;
     width: max-content;
@@ -413,6 +428,10 @@ html.page-home {
 
 @keyframes carousel-scroll {
   to { transform: translateX(-50%); }
+}
+
+@keyframes carousel-scroll-backwards {
+  to { transform: translateX(50%); }
 }
 
 .latest {

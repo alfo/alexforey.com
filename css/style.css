@@ -536,6 +536,17 @@ html.page-home footer {
     overflow-x: auto;
   }
 }
+.selected-work .carousel.backwards {
+  direction: rtl;
+}
+.selected-work .carousel.backwards .carousel-track {
+  animation-name: carousel-scroll-backwards;
+}
+.selected-work .carousel.backwards .carousel-item {
+  direction: ltr;
+  padding-right: 0;
+  padding-left: 14px;
+}
 .selected-work .carousel-track {
   display: flex;
   width: max-content;
@@ -604,6 +615,11 @@ html.page-home footer {
 @keyframes carousel-scroll {
   to {
     transform: translateX(-50%);
+  }
+}
+@keyframes carousel-scroll-backwards {
+  to {
+    transform: translateX(50%);
   }
 }
 .latest {
