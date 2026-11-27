@@ -481,6 +481,11 @@ html.page-home {
   .quotes {
     align-self: center;
 
+    // Below this width the two halves no longer fit side by side, and the quotes go first
+    @media screen and (max-width: 990px) {
+      order: -1;
+    }
+
     figure {
       min-height: 200px;
       display: flex;
