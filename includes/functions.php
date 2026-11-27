@@ -42,9 +42,10 @@
     return array_values(array_filter($projects['projects'], 'isCurrent'));
   }
 
-  // Makes text from the JSON safe to print inside HTML
+  // Makes text from the JSON safe to print inside HTML.
+  // An "&" stays on the same line as the word after it.
   function e($text) {
-    return htmlspecialchars((string) $text, ENT_QUOTES, 'UTF-8');
+    return str_replace('&amp; ', '&amp;&nbsp;', htmlspecialchars((string) $text, ENT_QUOTES, 'UTF-8'));
   }
 
   // A site photo such as the headshot: the WebP copy when tools/photos.sh has made one
