@@ -16,6 +16,16 @@ body {
   letter-spacing: 0.7px;
   background: v.$dark;
   color: v.$highlight-text;
+
+  // The page is at least as tall as the window, so that the footer of a short page sits at the bottom of it
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  > * {
+    flex: none;
+  }
 }
 
 a {
@@ -46,6 +56,7 @@ button {
 .container {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   max-width: 1000px;
   padding: 0 v.$side;
 }
@@ -53,6 +64,7 @@ button {
 .container-wide {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   max-width: 1500px;
   padding: 0 v.$side;
 }
@@ -202,6 +214,7 @@ button {
 }
 
 footer {
+  margin-top: auto;
   padding: 28px 20px 36px;
   text-align: center;
   font-size: 15px;
