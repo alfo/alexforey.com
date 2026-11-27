@@ -236,6 +236,7 @@
                 "Australian Associate Lighting Designer": "Matthew Tunchon",
                 "Australian Associate Sound Designer": "Andrew Poppleton (JPJ)",
                 "Lighting Programmer": "Rob Cuddon",
+                "Production Electrician": "Alex Celi",
                 "Lighting Supplier": "Chameleon Touring"
             },
             "paperwork": false,
@@ -514,6 +515,15 @@
                 "Casting": "Pearson Casting",
                 "Lighting Programmer": "Stanley Olden",
                 "Head of Lighting": "Adam Povey",
+                "Deputy Head of Lighting": "Ollie Partridge",
+                "Lead Production Electrician": "Adam Squire & Dan Harvey",
+                "Studio Associate": "Hannah Clancy",
+                "Studio Manager": "Miriam Bull",
+                "LX No. 1": "Tom Robson",
+                "LX No. 2": "Chloe French",
+                "LX No. 3": "Victoria Sutton",
+                "Stage LX": "Laura Beecham",
+                "Followspot": "Chelsea Clarke & Cameron Tarplett",
                 "Lighting Supplier": "White Light",
                 "Performance Director": "Bryn Harris",
                 "Circus Director": "Tilde Björfors & Mattias Andersson",
@@ -523,6 +533,10 @@
                 "Associate Set Designer": "Machiko Weston, Yorgos Kefalas & Tea Mulabdic",
                 "General Manager": "Victoria Gagliano",
                 "Creative Producer": "Andrea Moccia"
+            },
+            "teams": {
+                "Head of Lighting": "Production Team",
+                "Deputy Head of Lighting": "Production Team"
             },
             "paperwork": false,
             "venue": "Empress Museum, London",
@@ -548,6 +562,15 @@
                 "Casting": "Pearson Casting",
                 "Lighting Programmer": "Stanley Olden",
                 "Head of Lighting": "Adam Povey",
+                "Deputy Head of Lighting": "Ollie Partridge",
+                "Lead Production Electrician": "Adam Squire & Dan Harvey",
+                "Studio Associate": "Hannah Clancy",
+                "Studio Manager": "Miriam Bull",
+                "LX No. 1": "Tom Robson",
+                "LX No. 2": "Chloe French",
+                "LX No. 3": "Victoria Sutton",
+                "Stage LX": "Laura Beecham",
+                "Followspot": "Chelsea Clarke & Cameron Tarplett",
                 "Lighting Supplier": "White Light",
                 "Performance Director": "Bryn Harris",
                 "Circus Director": "Tilde Björfors and Mattias Andersson",
@@ -557,6 +580,10 @@
                 "Associate Set Designer": "Machiko Weston, Yorgos Kefalas and Tea Mulabdic",
                 "General Manager": "Victoria Gagliano",
                 "Creative Producer": "Andrea Moccia"
+            },
+            "teams": {
+                "Head of Lighting": "Production Team",
+                "Deputy Head of Lighting": "Production Team"
             },
             "paperwork": false,
             "venue": "Empress Museum, London",
