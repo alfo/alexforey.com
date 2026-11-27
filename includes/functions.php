@@ -119,6 +119,26 @@
     return '';
   }
 
+  // The people on a show, split into teams without changing their order in the JSON.
+  // The lighting team is the run of programmers, electricians and suppliers. Everyone before it
+  // is the creative team and everyone after it is the show team. A short list stays as one team.
+  function getTeams($project) {
+    $people = isset($project['people']) ? $project['people'] : [];
+    if (count($people) <= 12) return $people ? ['Creative Team' => $people] : [];
+
+    $teams = ['Creative Team' => [], 'Lighting Team' => [], 'Show Team' => []];
+    $team = 'Creative Team';
+    foreach ($people as $job => $person) {
+      if (preg_match('/^(Lighting (Programmer|Supplier)|Head of Lighting|(Lead )?Production Electricians?)\b/', $job)) {
+        $team = 'Lighting Team';
+      } elseif ($team == 'Lighting Team') {
+        $team = 'Show Team';
+      }
+      $teams[$team][$job] = $person;
+    }
+    return array_filter($teams);
+  }
+
   // The awards and nominations are a list of their own in the JSON, newest first. "id" is the project
   // an award was for, "year" is for one that was not for a project, and "won" marks a win.
   function getAwards($projects, $project) {

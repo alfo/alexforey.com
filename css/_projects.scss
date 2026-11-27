@@ -313,6 +313,11 @@
       line-height: 1.4;
     }
 
+    // Each team after the first starts a little way below the one before it
+    dl + h2 {
+      margin-top: 40px;
+    }
+
     .photo-credit {
       margin-top: 28px;
       font-size: 15px;
@@ -357,6 +362,31 @@
         color: v.$middlelight-text;
         padding: 10px 0 2px;
       }
+    }
+  }
+}
+
+// A show with a long list of people: the teams take the full width, each one in columns
+// that read from left to right, and the press goes underneath in columns of its own
+.project-info.long {
+  .credits, .project-press {
+    flex-basis: 100%;
+  }
+
+  .credits dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 14px 48px;
+  }
+
+  .project-press .press {
+    display: block;
+    columns: 2 380px;
+    column-gap: 64px;
+
+    figure {
+      break-inside: avoid;
+      padding-bottom: 30px;
     }
   }
 }

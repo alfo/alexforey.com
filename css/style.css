@@ -997,6 +997,9 @@ html.page-home footer {
   font-size: 18px;
   line-height: 1.4;
 }
+.project-info .credits dl + h2 {
+  margin-top: 40px;
+}
 .project-info .credits .photo-credit {
   margin-top: 28px;
   font-size: 15px;
@@ -1034,6 +1037,24 @@ html.page-home footer {
   font-size: 15px;
   color: #C9C9C9;
   padding: 10px 0 2px;
+}
+
+.project-info.long .credits, .project-info.long .project-press {
+  flex-basis: 100%;
+}
+.project-info.long .credits dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 14px 48px;
+}
+.project-info.long .project-press .press {
+  display: block;
+  columns: 2 380px;
+  column-gap: 64px;
+}
+.project-info.long .project-press .press figure {
+  break-inside: avoid;
+  padding-bottom: 30px;
 }
 
 .videos {
