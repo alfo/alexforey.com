@@ -290,6 +290,12 @@ html.page-home {
   min-height: 820px;
   min-height: min(100svh, 820px);
 
+  // On a phone the carousels are much shorter than the screen, so they sit straight under the hero
+  @media screen and (max-width: v.$break-small) {
+    min-height: 0;
+    padding: 32px 0 8px;
+  }
+
   .selected-work-head {
     display: flex;
     flex-wrap: wrap;
@@ -297,6 +303,12 @@ html.page-home {
     justify-content: space-between;
     gap: 12px 32px;
     padding: 0 v.$side 28px;
+
+    // On a phone the link has to be a little smaller to stay on the heading's line
+    @media screen and (max-width: v.$break-small) {
+      gap: 12px;
+      padding-bottom: 22px;
+    }
 
     h2 {
       font-size: clamp(28px, 3.4vw, 40px);
@@ -307,6 +319,10 @@ html.page-home {
       font-size: 16px;
       border-bottom-color: v.$highlight-text;
       padding: 12px 0 2px;
+
+      @media screen and (max-width: v.$break-small) {
+        font-size: 14px;
+      }
     }
   }
 
@@ -406,6 +422,8 @@ html.page-home {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 72px;
+  max-width: v.$break-very-large;
+  margin: 0 auto;
   padding: 64px v.$side 72px;
 
   > div {

@@ -51,6 +51,9 @@ button {
 }
 
 .container-wide {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
   padding: 0 v.$side;
 }
 
