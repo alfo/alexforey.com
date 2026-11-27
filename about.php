@@ -23,7 +23,7 @@
 
         <div class="actions">
           <a href="/credits">See my credits</a>
-          <a href="https://vimeo.com/1058236271" target="_blank" rel="noopener">Watch my showreel</a>
+          <a href="/#showreel">Watch my showreel</a>
           <a href="/contact">Get in touch</a>
         </div>
       </div>
