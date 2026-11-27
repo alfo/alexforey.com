@@ -69,15 +69,15 @@
             ]
         ],
         "press": [
-            {"id": "in-my-own-little-world", "source": "All That Dazzles", "until": "for a studio production"},
+            {"id": "in-my-own-little-world", "source": "All That Dazzles", "until": "endlessly impressive"},
             {"id": "run-sister-run", "source": "The Stage", "until": "like slow waves"},
             {"id": "saint-hildegard", "source": "Broadway World"},
-            {"id": "grey-matter-fringe", "source": "EdFringeReview"}
+            {"id": "kitty-in-the-lane", "source": "LondonTheatre1"}
         ]
     },
 
     "press": {
-        "lead": {"id": "grey-matter-fringe", "source": "EdFringeReview"}
+        "lead": {"id": "in-my-own-little-world", "source": "Pink Prince Theatre", "until": "absolutely incredible"}
     },
 
     "projects": [
@@ -102,8 +102,8 @@
             "paperwork": false,
             "venue": "Riverside Studios, London",
             "press": {
-                "Pink Prince Theatre": {"quote": "The lighting design is absolutely incredible, proving that even in a smaller studio space with a tight budget, sensational work can be achieved. It does exactly what great lighting design should do. It never pulls focus, but wonderfully enhances the on-stage storytelling and defines every shift in mood.", "link": "https://www.pinkprincetheatre.com/post/review-in-my-own-little-world-riverside-studios"},
-                "All That Dazzles": {"quote": "Alex Forey\u2019s lighting design is endlessly impressive, surprisingly complex for a studio production and with seemingly endless moving parts, effective in creating new locations both fun and frightening", "link": "https://www.allthatdazzles.co.uk/post/review-in-my-own-little-world-riverside-studios"}
+                "Pink Prince Theatre": {"quote": "The lighting design is absolutely incredible [...] It does exactly what great lighting design should do. It never pulls focus, but wonderfully enhances the on-stage storytelling and defines every shift in mood.", "link": "https://www.pinkprincetheatre.com/post/review-in-my-own-little-world-riverside-studios"},
+                "All That Dazzles": {"quote": "Alex Forey\u2019s lighting design is endlessly impressive [...] with seemingly endless moving parts, effective in creating new locations both fun and frightening", "link": "https://www.allthatdazzles.co.uk/post/review-in-my-own-little-world-riverside-studios"}
             }
         },
         {
@@ -1499,9 +1499,6 @@
                 "Sound Designer": "Amos Jackson",
                 "Projection": "Tom Kell",
                 "Lighting Supplier": "White Light"
-            },
-            "press": {
-                "EdFringeReview": {"quote": "some of the most imaginative and impressive lighting I have seen at the Fringe"}
             },
             "venue": "C Venues, Edinburgh",
             "videos": [
